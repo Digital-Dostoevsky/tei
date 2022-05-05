@@ -9,19 +9,63 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title/>
-        <author/>
-      </titleStmt>
-      <editionStmt>
-        <edition/>
-        <respStmt>
-          <resp/>
-          <persName/>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt/>
-      <sourceDesc/>
-    </fileDesc>
+        <title>Преступление и наказание</title>
+        <author>Fedor Dostoevskii</author>
+						<respStmt>
+						<resp>Tagged by</resp>
+					<name xml:id="AG">Anastasiya Gordiychuk</name>
+          <name xml:id="KB">Katherine Bowers</name>
+          </respStmt>
+          <principal>Kate Holland</principal>
+<funder>Social Sciences and Humanities Research Council of Canada</funder>
+</titleStmt>
+      <publicationStmt>
+        <publisher>Digital Dostoevsky</publisher>
+					<pubPlace>Toronto, Ontario</pubPlace>
+					<address>
+					<addrLine>Department of Slavic Languages and Literatures</addrLine>
+				<addrLine>University of Toronto</addrLine></address>
+				<date>2022</date>
+            </publicationStmt>
+      </sourceDesc>
+      <biblStruct>
+<monogr>
+<author>Dostoevskii, Fedor Mikhailovich</author>
+<title type="main">Prestuplenie i Nakazanie</title>
+<title type="subordinate">Roman v shesti chastiakh s epilogom</title>
+<imprint>
+<pubPlace>St. Petersburg</pubPlace>
+<publisher>tip. F. Stellovskogo</publisher>
+<date>1866</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblFull>
+  <titleStmt>
+<title>Polnoe sobranie sochinenii. Tom 6.</title>
+<author><name>Fedor Mikhailovich Dostoevskii</name></author>
+<editor><name>G.M. Fridlender</name></editor>
+</titleStmt>
+
+<publicationStmt>
+<publisher>Nauka</publisher>
+<pubPlace>Leningrad</pubPlace>
+<date>1973</date>
+</publicationStmt>
+					  </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+<langUsage>
+	<language ident="ru">Russian</language>
+</langUsage>
+<creation>First version written<date when="1846">1846</date> in <name type="city">St. Petersburg</name>.
+</creation>
+			</profileDesc>
+			<revisionDesc>
+        <change when="2022-05-05" who="#KB">[markup]:added back tag template to document</change>
+				<change when="2022-05-05" who="#AG">[markup]:edited TEI statement</change>
+        </revisionDesc>
   </teiHeader>
   <text>
     <body>
