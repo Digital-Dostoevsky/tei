@@ -9,18 +9,50 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title/>
-        <author/>
-      </titleStmt>
-      <editionStmt>
-        <edition/>
+        <title>Идиот</title>
+         <author>Fedor Dostoevskii</author>
         <respStmt>
-          <resp/>
-          <persName/>
+          <resp>Tagged by</resp>
+					<name xml:id="DI">Dmytro Ishchenko</name>
         </respStmt>
-      </editionStmt>
-      <publicationStmt/>
-      <sourceDesc/>
+        <principal>Kate Holland</principal>
+<funder>Social Sciences and Humanities Research Council of Canada</funder>
+      </titleStmt>
+      <publicationStmt>
+					<publisher>Digital Dostoevsky</publisher>
+					<pubPlace>Toronto, Ontario</pubPlace>
+					<address>
+					<addrLine>Department of Slavic Languages and Literatures</addrLine>
+				<addrLine>University of Toronto</addrLine></address>
+				<date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+   					 <biblStruct>
+   <monogr>
+   <author>Dostoevskii, Fedor Mikhailovich</author>
+   <title type="main">Idiot</title>
+   <title type="subordinate">Peterburgskaia poema</title>
+   <imprint>
+   <pubPlace>St. Petersburg</pubPlace>
+   <publisher>tip. F. Stellovskogo</publisher>
+   <date>1866</date>
+   </imprint>
+   </monogr>
+   					 </biblStruct>
+   					 <biblFull>
+   						 <titleStmt>
+   <title>Idiot, Novel Tom 8.</title>
+   <author><name>Fedor Mikhailovich Dostoevskii</name></author>
+   <editor><name>G.M. Fridlender</name></editor>
+   						 </titleStmt>
+   <publicationStmt>
+   <publisher>Nauka</publisher>
+   <pubPlace>Leningrad</pubPlace>
+   <date>1973</date>
+   </publicationStmt>
+   					  </biblFull>
+            </sourceDesc>
+
     </fileDesc>
   </teiHeader>
   <text>
