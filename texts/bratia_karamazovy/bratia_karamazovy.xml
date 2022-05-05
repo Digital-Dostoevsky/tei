@@ -10,19 +10,62 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title/>
-        <author/>
-      </titleStmt>
-      <editionStmt>
-        <edition/>
+      <title>Братья Карамазовы</title>
+        <author>Fedor Dostoevskii</author>
         <respStmt>
-          <resp/>
-          <persName/>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt/>
-      <sourceDesc/>
-    </fileDesc>
+          <resp>Tagged by</resp>
+				<name xml:id="KB">Katherine Bowers</name>
+        <name xml:id="NI">Nadezhda Ivanova</name>
+</respStmt>
+<principal>Kate Holland</principal>
+
+<funder>Social Sciences and Humanities Research Council of Canada</funder>
+         </titleStmt>
+         <publicationStmt>
+					<publisher>Digital Dostoevsky</publisher>
+					<pubPlace>Toronto, Ontario</pubPlace>
+					<address>
+					<addrLine>Department of Slavic Languages and Literatures</addrLine>
+				<addrLine>University of Toronto</addrLine></address>
+				<date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+					 <biblStruct>
+<monogr>
+<author>Dostoevskii, Fedor Mikhailovich</author>
+<title type="main">Brat’ia Karamazovy</title>
+<imprint>
+<pubPlace></pubPlace>
+<publisher></publisher>
+<date>1880</date>
+</imprint>
+</monogr>
+					 </biblStruct>
+					 <biblFull>
+						 <titleStmt>
+<title>Polnoe sobranie sochinenii. Tom 14-15.</title>
+<author><name>Fedor Mikhailovich Dostoevskii</name></author>
+<editor><name>G.M. Fridlender</name></editor>
+						 </titleStmt>
+<publicationStmt>
+<publisher>Nauka</publisher>
+<pubPlace>Leningrad</pubPlace>
+<date>1976</date>
+</publicationStmt>
+					  </biblFull>
+         </sourceDesc>
+      </fileDesc>
+			<profileDesc>
+<langUsage>
+	<language ident="ru">Russian</language>
+</langUsage>
+<creation>First version written<date when=""></date> in <name type=""></name>.
+</creation>
+			</profileDesc>
+			<revisionDesc>
+				<change when="2022-05-05" who="#NI">[markup]:filled in the TEI header</change>
+        <change when="2022-05-05" who="#KB">[markup]:added back tag template to document</change>
+			</revisionDesc>
   </teiHeader>
   <text>
     <front>
