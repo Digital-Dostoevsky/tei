@@ -9,19 +9,61 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title/>
-        <author/>
-      </titleStmt>
-      <editionStmt>
-        <edition/>
+        <title>Подросток</title>
+        <author>Fedor Dostoevskii</author>
         <respStmt>
-          <resp/>
-          <persName/>
+						<resp>Tagged by</resp>
+					<name xml:id="VS">Veronika Sizova</name>
+          <name xml:id="KB">Katherine Bowers</name>
         </respStmt>
-      </editionStmt>
-      <publicationStmt/>
-      <sourceDesc/>
-    </fileDesc>
+    <principal>Kate Holland</principal>
+    <funder>Social Sciences and Humanities Research Council of Canada</funder>
+             </titleStmt>
+      <publicationStmt>
+        <publisher>Digital Dostoevsky</publisher>
+					<pubPlace>Toronto, Ontario</pubPlace>
+					<address>
+					<addrLine>Department of Slavic Languages and Literatures</addrLine>
+				<addrLine>University of Toronto</addrLine></address>
+				<date>2022</date>
+      </publicationStmt>
+      <sourceDesc>
+   					 <biblStruct>
+   <monogr>
+   <author>Dostoevskii, Fedor Mikhailovich</author>
+   <title type="main">Podrostok</title>
+   <imprint>
+<pubPlace/>
+<publisher/>
+<date/>
+</imprint>
+</monogr>
+</biblStruct>
+          <biblFull>
+            <titleStmt>
+<title>Polnoe sobranie sochinenii. Tom 13.</title>
+<author><name>Fedor Mikhailovich Dostoevskii</name></author>
+<editor><name>G.M. Fridlender</name></editor>
+            </titleStmt>
+            <publicationStmt>
+<publisher>Nauka</publisher>
+<pubPlace>Leningrad</pubPlace>
+<date>1975</date>
+</publicationStmt>
+					  </biblFull>
+         </sourceDesc>
+      </fileDesc>
+			<profileDesc>
+<langUsage>
+	<language ident="ru">Russian</language>
+</langUsage>
+<creation>First version written<date/> in <name type="city">St. Petersburg</name>.
+</creation>
+			</profileDesc>
+			<revisionDesc>
+        <change when="2022-05-05" who="#KB">[markup]:added back tag template to document</change>
+				<change when="2022-05-05" who="#VS">[markup]:filled in TEI header</change>
+        	</revisionDesc>
   </teiHeader>
   <text>
     <body>
