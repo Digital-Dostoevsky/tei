@@ -4237,6 +4237,27 @@
         </div2>
       </div1>
     </body>
+    <back>
+				<div type="editorial">
+          <listPerson type="fictional">
+
+          </listPerson>
+          <listPerson type="fictionalnonDostoevsky">
+
+          </listPerson>
+          <lisPerson type="historical">
+
+          </listPerson>
+          <listPerson type="other">
+
+          </listPerson>
+          <listObject>
+
+          </listObject>
+          <listPlace>
+
+          </listPlace>
+        </div>
+    </back>
   </text>
 </TEI>
-
