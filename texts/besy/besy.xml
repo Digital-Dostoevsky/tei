@@ -61,8 +61,8 @@
         <creation/>
       </profileDesc>
       <revisionDesc>
-        <change when="2022-05-05" who="#ES">[markup]:filled in TEI header</change>
         <change when="2022-05-05" who="#KB">[markup]:added back tag template to document</change>
+        <change when="2022-05-05" who="#ES">[markup]:filled in TEI header</change>
       </revisionDesc>
   </teiHeader>
   <text>
