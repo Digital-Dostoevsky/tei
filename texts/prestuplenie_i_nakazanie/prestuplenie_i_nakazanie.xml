@@ -66,6 +66,7 @@
         <change when="2022-05-05" who="#KB">[markup]:added back tag template to document</change>
 				<change when="2022-05-05" who="#AG">[markup]:edited TEI statement</change>
         			<change when="2022-05-06" who="#AG">[markup]:started tagging elements in chapter 1 </change>
+			  <change when="2022-05-09" who="#AG">[markup]:finished tagging elements in chapter 1 and started tagging elements in chapter 2 </change>
         </revisionDesc>
   </teiHeader>
   <text>
