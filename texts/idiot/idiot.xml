@@ -67,6 +67,7 @@
         <change when="2022-06-05" who="#DI">[markup]:began editing the tags in body</change>
         <change when="2022-09-05" who="#DI">[markup]:continued working on the tags in body, introduced rogozhin and myshkin</change>
         <change when="2022-10-05" who="#DI">[markup]:continued working on the tags, introduced Nastasya</change>
+			  <change when="2022-11-05" who="#KH">[markup]: added tag for Karamazin</change>
       </revisionDesc>
   </teiHeader>
   <text>
