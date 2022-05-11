@@ -67,7 +67,8 @@
 				<change when="2022-05-05" who="#AG">[markup]:edited TEI statement</change>
         			<change when="2022-05-06" who="#AG">[markup]:started tagging elements in chapter 1 </change>
 			  <change when="2022-05-09" who="#AG">[markup]:finished tagging elements in chapter 1 and started tagging elements in chapter 2 </change>
-			  <change when="2022-05-09" who="#AG">[markup]:continued tagging elements in chapter 2 and added </change>
+			  <change when="2022-05-10" who="#AG">[markup]:continued tagging elements in chapter 2 and added information at the bottom of the text </change>
+			  <change when="2022-05-11" who="#AG">[markup]:finished tagging elements in chapter 2 and added information at the bottom of the text </change>
         </revisionDesc>
   </teiHeader>
   <text>
