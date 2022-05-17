@@ -64,7 +64,7 @@
 </creation>
 			</profileDesc>
 			<revisionDesc>
-			  <change when="2022-05-05" who="#SW">[markup]:created TEI files and auto-tagged speech and named entities with empty tags</change>
+			  <change when="2022-05-05" who="#SW">[markup]:created TEI files, added structural mark up, and auto-tagged speech and named entities with empty tags </change>
         <change when="2022-05-05" who="#KB">[markup]:added back tag template to document</change>
 				<change when="2022-05-05" who="#AG">[markup]:edited TEI statement</change>
         			<change when="2022-05-06" who="#AG">[markup]:started tagging elements in chapter 1 </change>
