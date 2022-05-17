@@ -15,9 +15,11 @@
 						<resp>Tagged by</resp>
 					<name xml:id="VS">Veronika Sizova</name>
           <name xml:id="KB">Katherine Bowers</name>
+          <name xml:id="SW">Simon Wiles</name>
         </respStmt>
     <principal>Kate Holland</principal>
     <funder>Social Sciences and Humanities Research Council of Canada</funder>
+    <editor>Simon Wiles</editor>
              </titleStmt>
       <publicationStmt>
         <publisher>Digital Dostoevsky</publisher>
@@ -61,6 +63,7 @@
 </creation>
 			</profileDesc>
 			<revisionDesc>
+			  <change when="2022-05-05" who="#SW">Created TEI files, added structural mark up, and auto-tagged speech and named entities with empty tags</change>
         <change when="2022-05-05" who="#KB">[markup]:added back tag template to document</change>
 				<change when="2022-05-05" who="#VS">[markup]:filled in TEI header</change>
 			  <change when="2022-06-05" who="#VS">[markup]:filled in some of the tags in chapter 1</change>
