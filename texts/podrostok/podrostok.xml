@@ -74,7 +74,7 @@
 			  <change when="2022-13-05" who="#VS">[markup]: finished marking chapter 1, finished tagging sections I-II of Chapter 2.</change>
 			  <change when="2022-16-05" who="#VS">[markup]: finished tagging section III of Chapter 2</change>
 			  <change when="2022-17-05" who="#VS">[markup]: changed "personGrp ref" to "persName ref" in the body, replaced type="nickname" with type="diminutive", finished tagging chapter 2 and section I of Chapter 3.</change> 
-			  <change when="2022-18-05" who="#VS">[markup]:
+			  <change when="2022-18-05" who="#VS">[markup]: finished tagging section II of Chapter 3.</change> 
         	</revisionDesc>
   </teiHeader>
   <text>
@@ -306,34 +306,34 @@
             <l rhyme="a">Надолго с милыми прощаюсь</rhyme>,</l>
             <l rhyme="b">И в <placeName>Крым</placeName> на почтовых несусь</rhyme>.</l>
             <p>(Уцелели-таки в моей памяти!) Я решил, что <q>«провалился»</said>; если кому чего не надо, так именно этого.</p>
-            <p><said aloud="false" direct="true" who="#amd" toWhom="#amd">«Ничего</said>, — решил я, — <said aloud="" direct="" who="" toWhom="">первую карту непременно проигрывают; даже примета хорошая»</said>.</p>
+              <p><said aloud="false" direct="true" who="#amd" toWhom="#amd">«Ничего</said>, — решил я, — <said aloud="false" direct="true" who="#amd" toWhom="#amd">первую карту непременно проигрывают; даже примета хорошая»</said>.</p>
             <p>Мне решительно было весело.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Ах, опоздал; у вас? Вы приобрели?</said> — вдруг раздался подле меня голос господина в синем пальто, видного собой и хорошо одетого. Он опоздал.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я опоздал. Ах, как жаль! За сколько? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Два рубля пять копеек. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Ах, как жаль! а вы бы не уступили? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Выйдемте</said>, — шепнул я ему, замирая.</p>
+              <p>— <said aloud="true" direct="true" who="#gospo" toWhom="#amd">Ах, опоздал; у вас? Вы приобрели?</said> — вдруг раздался подле меня голос <persName ref="#gospo">господина</persName> в синем пальто, видного собой и хорошо одетого. Он опоздал.</p>
+              <p>— <said aloud="true" direct="true" who="#gospo" toWhom="#amd">Я опоздал. Ах, как жаль! За сколько? </said></p>
+              <p>— <said aloud="true" direct="true" who="#amd" toWhom="#gospo">Два рубля пять копеек. </said></p>
+              <p>— <said aloud="true" direct="true" who="#gospo" toWhom="#amd">Ах, как жаль! а вы бы не уступили? </said></p>
+              <p>— <said aloud="true" direct="true" who="#amd" toWhom="#gospo">Выйдемте</said>, — шепнул я ему, замирая.</p>
             <p>Мы вышли на лестницу.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я уступлю вам за десять рублей</said>, — сказал я, чувствуя холод в спине.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Десять рублей! Помилуйте, что вы! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Как хотите. </said></p>
+              <p>— <said aloud="true" direct="true" who="#amd" toWhom="#gospo">Я уступлю вам за десять рублей</said>, — сказал я, чувствуя холод в спине.</p>
+              <p>— <said aloud="true" direct="true" who="#gospo" toWhom="#amd">Десять рублей! Помилуйте, что вы! </said></p>
+              <p>— <said aloud="true" direct="true" who="#amd" toWhom="#gospo">Как хотите. </said></p>
             <p>Он смотрел на меня во все глаза; я был одет хорошо, совсем не похож был на жида или перекупщика.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Помилосердуйте, да ведь это — дрянной старый альбом, кому он нужен? Футляр в сущности ведь ничего не стоит, ведь вы же не продадите никому? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Вы же покупаете. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да ведь я по особому случаю, я только вчера узнал: ведь этакий я только один и есть! Помилуйте, что вы! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я бы должен был спросить двадцать пять рублей; но так как тут все-таки риск, что вы отступитесь, то я спросил только десять для верности. Не спущу ни копейки. </said></p>
+              <p>— <said aloud="true" direct="true" who="#gospo" toWhom="#amd">Помилосердуйте, да ведь это — дрянной старый альбом, кому он нужен? Футляр в сущности ведь ничего не стоит, ведь вы же не продадите никому? </said></p>
+              <p>— <said aloud="true" direct="true" who="#amd" toWhom="#gospo">Вы же покупаете. </said></p>
+              <p>— <said aloud="true" direct="true" who="#gospo" toWhom="#amd">Да ведь я по особому случаю, я только вчера узнал: ведь этакий я только один и есть! Помилуйте, что вы! </said></p>
+              <p>— <said aloud="true" direct="true" who="#amd" toWhom="#gospo">Я бы должен был спросить двадцать пять рублей; но так как тут все-таки риск, что вы отступитесь, то я спросил только десять для верности. Не спущу ни копейки. </said></p>
             <p>Я повернулся и пошел.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да возьмите четыре рубля</said>, — нагнал он меня уже на дворе, — <said aloud="" direct="" who="" toWhom="">ну, пять. </said></p>
+              <p>— <said aloud="true" direct="true" who="#gospo" toWhom="#amd">Да возьмите четыре рубля</said>, — нагнал он меня уже на дворе, — <said aloud="" direct="" who="" toWhom="">ну, пять. </said></p>
             <p>Я молчал и шагал.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Нате, берите!</said> — Он вынул десять рублей, я отдал альбом.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А согласитесь, что это нечестно! Два рубля и десять — а? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Почему нечестно? Рынок! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Какой тут рынок? (Он сердился.) </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Где спрос, там и рынок; не спроси вы</said>, —	за сорок копеек не продал бы.</p>
+              <p>— <said aloud="true" direct="true" who="#gospo" toWhom="#amd">Нате, берите!</said> — Он вынул десять рублей, я отдал альбом.</p>
+              <p>— <said aloud="true" direct="true" who="#gospo" toWhom="#amd">А согласитесь, что это нечестно! Два рубля и десять — а? </said></p>
+              <p>— <said aloud="true" direct="true" who="#amd" toWhom="#gospo">Почему нечестно? Рынок! </said></p>
+              <p>— <said aloud="true" direct="true" who="#gospo" toWhom="#amd">Какой тут рынок? (Он сердился.) </said></p>
+              <p>— <said aloud="true" direct="true" who="#amd" toWhom="#gospo">Где спрос, там и рынок; не спроси вы</said>, —	за сорок копеек не продал бы.</p>
             <p>Я хоть не заливался хохотом и был серьезен, но хохотал внутри, — хохотал не то	что от восторга, а сам не знаю отчего, немного задыхался.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Слушайте</said>, — пробормотал я совершенно неудержимо, но дружески и ужасно любя его, — <said aloud="" direct="" who="" toWhom="">слушайте: когда <persName>Джемс Ротшильд</persName>, покойник, парижский, вот что тысячу семьсот миллионов франков оставил (он кивнул головой), еще в молодости, когда случайно узнал, за несколько часов раньше всех, об убийстве <persName>герцога Беррийского</persName>, то тотчас поскорее дал знать кому следует и одной только этой штукой, в один миг, нажил несколько миллионов</said>, — <said aloud="" direct="" who="" toWhom="">вот как люди делают! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Так вы <persName>Ротшильд</persName>, что ли?</said> — крикнул он мне с негодованием, как дураку.</p>
-            <p>Я быстро вышел из дому. Один шаг — и семь рублей девяносто пять копеек нажил! Шаг был бессмысленный, детская игра, я согласен, но он все-таки совпадал с моею мыслью и не мог не взволновать меня чрезвычайно глубоко... Впрочем, нечего чувства описывать. Десятирублевая была в жилетном кармане, я просунул два пальца пощупать — и так и шел не вынимая руки. Отойдя шагов сто по улице, я вынул ее посмотреть, посмотрел и хотел поцеловать. У подъезда дома вдруг прогремела карета; швейцар отворил двери, и из дому вышла садиться в карету дама, пышная, молодая, красивая, богатая, в шелку и бархате, с двухаршинным хвостом. Вдруг хорошенький маленький портфельчик выскочил у ней из руки и упал на землю; она села; лакей нагнулся поднять вещицу, но я быстро подскочил, поднял и вручил даме, приподняв шляпу. (Шляпа — цилиндр, я был одет, как молодой человек, недурно.) Дама сдержанно, но с приятнейшей улыбкой проговорила мне: <said aloud="" direct="" who="" toWhom="">«Merci, мсье»</said>. Карета загремела. Я поцеловал десятирублевую.</p>
+              <p>— <said aloud="true" direct="true" who="#amd" toWhom="#gospo">Слушайте</said>, — пробормотал я совершенно неудержимо, но дружески и ужасно любя его, — <said aloud="true" direct="true" who="#amd" toWhom="#gospo">слушайте: когда <persName ref="#roth"><forename>Джемс</forename><surname>Ротшильд</surname></persName>, покойник, парижский, вот что тысячу семьсот миллионов франков оставил (он кивнул головой), еще в молодости, когда случайно узнал, за несколько часов раньше всех, об убийстве <persName ref="#roth"><roleName>герцога Беррийского</roleName></persName>, то тотчас поскорее дал знать кому следует и одной только этой штукой, в один миг, нажил несколько миллионов, — вот как люди делают! </said></p>
+              <p>— <said aloud="true" direct="true" who="" toWhom="#amd">Так вы <persName ref="#roth"><surname>Ротшильд</surname></persName>, что ли?</said> — крикнул он мне с негодованием, как дураку.</p>
+              <p>Я быстро вышел из дому. Один шаг — и семь рублей девяносто пять копеек нажил! Шаг был бессмысленный, детская игра, я согласен, но он все-таки совпадал с моею мыслью и не мог не взволновать меня чрезвычайно глубоко... Впрочем, нечего чувства описывать. Десятирублевая была в жилетном кармане, я просунул два пальца пощупать — и так и шел не вынимая руки. Отойдя шагов сто по улице, я вынул ее посмотреть, посмотрел и хотел поцеловать. У подъезда дома вдруг прогремела карета; швейцар отворил двери, и из дому вышла садиться в карету <persName ref="#dama">Дама</persName>, пышная, молодая, красивая, богатая, в шелку и бархате, с двухаршинным хвостом. Вдруг хорошенький маленький портфельчик выскочил у ней из руки и упал на землю; она села; лакей нагнулся поднять вещицу, но я быстро подскочил, поднял и вручил <persName ref="#dama">даме</persName>, приподняв шляпу. (Шляпа — цилиндр, я был одет, как молодой человек, недурно.) <persName ref="#dama">Дама</persName> сдержанно, но с приятнейшей улыбкой проговорила мне: <said aloud="true" direct="true" who="#dama" toWhom="#amd"> <foreign xml:lang="fr">«Merci, мсье»</foreign></said>. Карета загремела. Я поцеловал десятирублевую.</p>
           </div3>
           <div3 type="section" n="3">
             <head>III</head>
@@ -4414,6 +4414,12 @@
           <persName>господин судебный пристав</persName>
           <persName>судебный пристав</persName> 
 </person> 
+<person xml:id="dama" sex="female">             
+          <persName>Дама</persName>  
+</person>   
+<person xml:id="#gospo" sex="male">             
+          <persName>господин</persName>
+</person>           
 <person xml:id="lack" sex="male">  
           <persName>лакей<persName>
 </person>
@@ -4442,6 +4448,15 @@
             <persName>Христофор Колумб</persName>
             <persName>Колумб</persName> 
 </person>  
+<person xml:id="roth" sex="male">
+            <persName>Джеймс Ротшильд</persName>          
+            <persName>Джемс Ротшильд</persName>
+            <persName>Ротшильд</persName> 
+</person>
+<person xml:id="gerber" sex="male">
+            <persName>Герцог Беррийский Шарль (Карл) Фердинанд</persName>
+            <persName>Герцог Беррийский</persName>
+            </person>
           </listPerson>
           <listPerson type="other">
 <personGrp xml:id="vse">
