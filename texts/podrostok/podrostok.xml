@@ -74,7 +74,8 @@
 			  <change when="2022-13-05" who="#VS">[markup]: finished marking chapter 1, finished tagging sections I-II of Chapter 2.</change>
 			  <change when="2022-16-05" who="#VS">[markup]: finished tagging section III of Chapter 2</change>
 			  <change when="2022-17-05" who="#VS">[markup]: changed "personGrp ref" to "persName ref" in the body, replaced type="nickname" with type="diminutive", finished tagging chapter 2 and section I of Chapter 3.</change> 
-			  <change when="2022-18-05" who="#VS">[markup]: finished tagging section II of Chapter 3.</change> 
+			  <change when="2022-18-05" who="#VS">[markup]: finished tagging section II of Chapter 3.</change>
+			  <change when="2022-19-05" who="#VS">[markup]: finished tagging section of Chapter 3.</change>
         	</revisionDesc>
   </teiHeader>
   <text>
@@ -337,21 +338,21 @@
           </div3>
           <div3 type="section" n="3">
             <head>III</head>
-            <p>Мне в этот же день надо было видеть <persName>Ефима Зверева</persName>, одного из прежних товарищей по гимназии, бросившего гимназию и поступившего в <placeName>Петербурге</placeName> в одно специальное высшее училище. Сам он не стоит описания, и, собственно, в дружеских отношениях я с ним не был; но в <placeName>Петербурге</placeName> его отыскал; он мог (по разным обстоятельствам, о которых говорить тоже не стоит) тотчас же сообщить мне адрес одного <persName>Крафта</persName>, чрезвычайно нужного мне человека, только что тот вернется из <placeName>Вильно</placeName>. <persName>Зверев</persName> ждал его именно сегодня или завтра, о чем третьего дня дал мне знать. Идти надо было на <placeName>Петербургскую сторону</placeName>, но усталости я не чувствовал.</p>
-            <p><persName>Зверева</persName> (ему тоже было лет девятнадцать) я застал на дворе дома его тетки, у которой он временно проживал. Он только что пообедал и ходил по двору на ходулях; тотчас же сообщил мне, что <persName>Крафт</persName> приехал еще вчера и остановился на прежней квартире, тут же на <placeName>Петербургской</placeName>, и что он сам желает как можно скорее меня видеть, чтобы немедленно сообщить нечто нужное.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Куда-то едет опять</said>, — прибавил <persName>Ефим</persName>.</p>
-            <p>Так как видеть <persName>Крафта</persName> в настоящих обстоятельствах для меня было капитально важно, то я и попросил <persName>Ефима</persName> тотчас же свести меня к нему на квартиру, которая, оказалось, была в двух шагах, где-то в переулке. Но <persName>Зверев</persName> объявил, что час тому уж его встретил и что он прошел к <persName>Дергачеву</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да пойдем к <persName>Дергачеву</persName>, что ты всё отнекиваешься; трусишь? Действительно, <persName>Крафт</persName> мог засидеться у <persName>Дергачева</persName>, и тогда где же мне его ждать? К <persName>Дергачеву</persName> я не трусил, но идти не хотел, несмотря на то что <persName>Ефим</persName> тащил меня туда уже третий раз. И при этом <said aloud="" direct="" who="" toWhom="">«трусишь»</said> всегда произносил с прескверной улыбкой на мой счет. Тут была не трусость, объявляю заранее, а если я боялся, то совсем другого. На этот раз пойти решился; это тоже было в двух шагах. Дорогой я спросил <persName>Ефима</persName>, всё ли еще он держит намерение бежать в <placeName>Америку</placeName>? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Может, и подожду еще</said>, — ответил он с легким смехом. Я его не так любил, даже не любил вовсе. Он был очень бел волосами, с полным, слишком белым лицом, даже неприлично белым, до детскости, а ростом даже выше меня, но принять его можно было не иначе как за семнадцати летнего. Говорить с ним было не о чем.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да что ж там? неужто всегда толпа?</said> — справился я для основательности.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да чего ты всё трусишь?</said> — опять засмеялся он.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Убирайся к черту</said>, — рассердился я.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Вовсе не толпа. Приходят только знакомые, и уж все свои, - будь покоен. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да черт ли мне за дело, свои или не свои! Я вот разве там свой? Почему они во мне могут быть уверены? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я тебя привел, и довольно. О тебе даже слышали. <persName>Крафт</persName> тоже может о тебе заявить. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Слушай, будет там <persName>Васин</persName>? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Не знаю. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Если будет, как только войдем, толкни меня и укажи <persName>Васина</persName>; только что войдем, слышишь? </said></p>
+            <p>Мне в этот же день надо было видеть <persName ref="#efz"><forename>Ефима</forename><surname>Зверева</surname></persName>, одного из прежних товарищей по гимназии, бросившего гимназию и поступившего в <placeName ref="#spb">Петербурге</placeName> в одно специальное высшее училище. Сам он не стоит описания, и, собственно, в дружеских отношениях я с ним не был; но в <placeName ref="#spb">Петербурге</placeName> его отыскал; он мог (по разным обстоятельствам, о которых говорить тоже не стоит) тотчас же сообщить мне адрес одного <persName ref="#kra"><surname> Крафта</surname></persName>, чрезвычайно нужного мне человека, только что тот вернется из <placeName ref="#viln">Вильно</placeName>. <persName ref="#efz"><surname>Зверев</surname></persName> ждал его именно сегодня или завтра, о чем третьего дня дал мне знать. Идти надо было на <placeName ref="#psto">Петербургскую сторону</placeName>, но усталости я не чувствовал.</p>
+            <p><persName ref="#efz"><surname>Зверева</surname></persName> (ему тоже было лет девятнадцать) я застал на дворе дома его тетки, у которой он временно проживал. Он только что пообедал и ходил по двору на ходулях; тотчас же сообщил мне, что <said aloud="true" direct="false" who="#efz" toWhom="#amd"><persName ref="#kra"><surname>Крафт</surname></persName> приехал еще вчера и остановился на прежней квартире, тут же на <placeName ref="#psto">Петербургской</placeName>, и что он сам желает как можно скорее меня видеть, чтобы немедленно сообщить нечто нужное</said>.</p>
+            <p>— <said aloud="true" direct="true" who="#efz" toWhom="#amd">Куда-то едет опять</said>, — прибавил <persName ref="#efz"><forename>Ефим</forename></persName>.</p>
+            <p>Так как видеть <persName ref="#kra"><surname> Крафта</surname></persName> в настоящих обстоятельствах для меня было капитально важно, то я и попросил <persName ref="#efz"><forename>Ефима</forename></persName> тотчас же свести меня к нему на квартиру, которая, оказалось, была в двух шагах, где-то в переулке. Но <persName ref="#efz"><surname>Зверев</surname></persName> объявил, что  <said aloud="true" direct="false" who="#efz" toWhom="#amd">час тому уж его встретил и что он прошел к <persName ref="#derg"><surname>Дергачеву</surname></persName></said>.</p>
+            <p>— <said aloud="true" direct="true" who="#efz" toWhom="#amd">Да пойдем к <persName ref="#derg"><surname>Дергачеву</surname></persName>, что ты всё отнекиваешься; трусишь? Действительно, <persName ref="#kra"><surname>Крафт</surname></persName> мог засидеться у <persName ref="#derg"><surname>Дергачева</surname></persName>, и тогда где же мне его ждать? К <persName ref="#derg"><surname>Дергачеву</surname></persName> я не трусил, но идти не хотел, несмотря на то что <persName>Ефим</persName> тащил меня туда уже третий раз. И при этом <q>«трусишь»</q> всегда произносил с прескверной улыбкой на мой счет. Тут была не трусость, объявляю заранее, а если я боялся, то совсем другого. На этот раз пойти решился; это тоже было в двух шагах. Дорогой я спросил <persName>Ефима</persName>, всё ли еще он держит намерение бежать в <placeName>Америку</placeName>? </said></p>
+            <p>— <said aloud="true" direct="true" who="#efz" toWhom="#amd">Может, и подожду еще</said>, — ответил он с легким смехом. Я его не так любил, даже не любил вовсе. Он был очень бел волосами, с полным, слишком белым лицом, даже неприлично белым, до детскости, а ростом даже выше меня, но принять его можно было не иначе как за семнадцати летнего. Говорить с ним было не о чем.</p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#efz">Да что ж там? неужто всегда толпа?</said> — справился я для основательности.</p>
+            <p>— <said aloud="true" direct="true" who="#efz" toWhom="#amd">Да чего ты всё трусишь?</said> — опять засмеялся он.</p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#efz">Убирайся к черту</said>, — рассердился я.</p>
+            <p>— <said aloud="true" direct="true" who="#efz" toWhom="#amd">Вовсе не толпа. Приходят только знакомые, и уж все свои, - будь покоен. </said></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#efz">Да черт ли мне за дело, свои или не свои! Я вот разве там свой? Почему они во мне могут быть уверены? </said></p>
+            <p>— <said aloud="true" direct="true" who="#efz" toWhom="#amd">Я тебя привел, и довольно. О тебе даже слышали. <persName>Крафт</persName> тоже может о тебе заявить. </said></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#efz">Слушай, будет там <persName>Васин</persName>? </said></p>
+            <p>— <said aloud="true" direct="true" who="#efz" toWhom="#amd">Не знаю. </said></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#efz">Если будет, как только войдем, толкни меня и укажи <persName>Васина</persName>; только что войдем, слышишь? </said></p>
             <p>Об <persName>Васине</persName> я уже довольно слышал и давно интересовался.</p>
             <p><persName>Дергачев</persName> жил в маленьком флигеле, на дворе деревянного дома одной купчихи, но зато флигель занимал весь. Всего было чистых три комнаты. <persName>Во</persName> всех четырех окнах были спущены шторы. Это был техник и имел в <placeName>Петербурге</placeName> занятие; я слышал мельком, что ему выходило одно выгодное частное место в губернии и что он уже отправляется.</p>
             <p>Только что мы вошли в крошечную прихожую, как послышались голоса; кажется, горячо спорили и кто-то кричал: <said aloud="" direct="" who="" toWhom="">«Quae medicamenta non sanant — ferrum sanat, quae ferrum non sanat — ignis sanat!»</said></p>
@@ -4330,7 +4331,7 @@
 <person xml:id="fan" sex="female">
               <persName>Фанариотова</persName>
 </person>
-<personGrp xml:id="grpfan”>
+<personGrp xml:id="grpfan">
               <persName>Фанариотовы</persName>
 </personGrp>
 <person xml:id="sd" sex="female">
@@ -4410,18 +4411,27 @@
           <persName>г-жа Лебрехт</persName>
           <persName>госпожа Лебрехт</persName>
  </person>   
-<person xml:id="#sudp" sex="male">             
+<person xml:id="#efz" sex="male">                 
+          <persName>Ефим Зверев</persName>
+          <persName>Ефим</persName>
+          <persName>Зверев</persName>
+</person>
+ <person xml:id="#derg" sex="male"> 
+          <persName>Дергачев</persName>
+</person>
+            
+<person xml:id="sudp" sex="male">             
           <persName>господин судебный пристав</persName>
           <persName>судебный пристав</persName> 
 </person> 
 <person xml:id="dama" sex="female">             
           <persName>Дама</persName>  
 </person>   
-<person xml:id="#gospo" sex="male">             
+<person xml:id="gospo" sex="male">             
           <persName>господин</persName>
 </person>           
 <person xml:id="lack" sex="male">  
-          <persName>лакей<persName>
+          <persName>лакей</persName>
 </person>
           </listPerson>
           <listPerson type="fictionalnonDostoevsky">
@@ -4527,7 +4537,12 @@
 </place>          
 <place type="country” xml:id="amer">
               <placeName>Америка</placeName>
-</place>         
+</place> 
+<place type="city" xml:id="viln">  
+              <placeName>Вильно</placeName> 
+</place>
+            
+            
           </listPlace>
         </div>
     </back>
