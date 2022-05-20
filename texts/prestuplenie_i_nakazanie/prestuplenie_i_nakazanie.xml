@@ -73,9 +73,11 @@
 			  <change when="2022-05-11" who="#AG">[markup]:continued tagging elements in chapter 2 </change>
 			  <change when="2022-05-12" who="#AG">[markup]:finished tagging elements in chapter 2 </change>
 			  <change when="2022-05-13" who="#AG">[markup]:started tagging elements in chapter 3 </change>
-			  <change when="2022-05-13" who="#AG">[markup]:finished tagging elements in chapter 3 </change>
-			  <change when="2022-05-13" who="#AG">[markup]:started tagging elements in chapter 4 </change>
-			  <change when="2022-05-13" who="#AG">[markup]:finished tagging elements in chapter 4 </change>
+			  <change when="2022-05-16" who="#AG">[markup]:finished tagging elements in chapter 3 </change>
+			  <change when="2022-05-17" who="#AG">[markup]:started tagging elements in chapter 4 </change>
+			  <change when="2022-05-18" who="#AG">[markup]:finished tagging elements in chapter 4 </change>
+			  <change when="2022-05-19" who="#AG">[markup]:finished tagging elements in chapter 5 </change>
+			  <change when="2022-05-20" who="#AG">[markup]:finished tagging elements in chapter 6 </change>
         </revisionDesc>
   </teiHeader>
   <text>
@@ -496,25 +498,25 @@
             <p>— <said aloud="true" direct="true" who="#gost1" toWhom="#gost2">Ну? </said></p>
             <p>— <said aloud="true" direct="true" who="#gost2" toWhom="#gost1">Значит, она не на замке, а на запоре, на крючке то есть! Слышите, как запор брякает? </said></p>
             <p>— <said aloud="true" direct="true" who="#gost1" toWhom="#gost2">Ну? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да как же вы не понимаете? Значит, кто-нибудь из них дома. Если бы все ушли, так снаружи бы ключом заперли, а не на запор изнутри. А тут</said>, — слышите, как запор брякает? А чтобы затвориться на запор изнутри, надо быть дома, понимаете? Стало быть, дома сидят, да не отпирают!</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Ба! Да и в самом деле!</said> — закричал удивившийся <persName>Кох</persName>. — <said aloud="" direct="" who="" toWhom="">Так что ж они там!</said> — И он неистово начал дергать дверь.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Стойте!</said> — закричал опять молодой человек, — <said aloud="" direct="" who="" toWhom="">не дергайте! Тут что-нибудь да не так... вы ведь звонили, дергали — не отпирают; значит, или они обе в обмороке, или... </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Что? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А вот что: пойдемте-ка за дворником; пусть он их сам разбудит. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Дело!</said> — Оба двинулись вниз.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Стойте! Останьтесь-ка вы здесь, а я сбегаю вниз за дворником. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Зачем оставаться? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А мало ли что?.. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Пожалуй... </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я ведь в судебные следователи готовлюсь! Тут очевидно, оч-че-в-видно что-то не так!</said> — горячо вскричал молодой человек и бегом пустился вниз по лестнице.</p>
-            <p><persName>Кох</persName> остался, пошевелил еще раз тихонько звонком, и тот звякнул один удар; потом тихо, как бы размышляя и осматривая, стал шевелить ручку двери, притягивая и опуская ее, чтоб убедиться еще раз, что она на одном запоре. Потом пыхтя нагнулся и стал смотреть в замочную скважину; но в ней изнутри торчал ключ и, стало быть, ничего не могло быть видно.</p>
-            <p><persName>Раскольников</persName> стоял и сжимал топор. Он был точно в бреду. Он готовился даже драться с ними, когда они войдут. Когда стучались и сговаривались, ему несколько раз вдруг приходила мысль кончить всё разом и крикнуть им из-за дверей. Порой хотелось ему начать ругаться с ними, дразнить их, покамест не отперли. <said aloud="" direct="" who="" toWhom="">«Поскорей бы уж»</said>! — мелькнуло в его голове.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Однако он, черт... </said></p>
-            <p>Время проходило, минута, другая — никто не шел. <persName>Кох</persName> стал шевелиться.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Однако черт!..</said> — закричал он вдруг и в нетерпении, бросив свой караул, отправился тоже вниз, торопясь и стуча по лестнице сапогами. Шаги стихли.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Господи, что же делать! </said></p>
-            <p><persName>Раскольников</persName> снял запор, приотворил дверь — ничего не слышно, и вдруг, совершенно уже не думая, вышел, притворил как мог плотнее дверь за собой и пустился вниз.</p>
-            <p>Он уже сошел три лестницы, как вдруг послышался сильный шум ниже, — куда деваться! Никуда-то нельзя было спрятаться. Он побежал было назад, опять в квартиру.</p>
+            <p>— <said aloud="true" direct="true" who="#gost2" toWhom="#gost1">Да как же вы не понимаете? Значит, кто-нибудь из них дома. Если бы все ушли, так снаружи бы ключом заперли, а не на запор изнутри. А тут, — слышите, как запор брякает? А чтобы затвориться на запор изнутри, надо быть дома, понимаете? Стало быть, дома сидят, да не отпирают!</said></p>
+            <p>— <said aloud="true" direct="true" who="#gost1" toWhom="#gost2">Ба! Да и в самом деле!</said> — закричал удивившийся <persName ref="#gost1">Кох</persName>. — <said aloud="true" direct="true" who="#gost1" toWhom="#gost2">Так что ж они там!</said> — И он неистово начал дергать дверь.</p>
+            <p>— <said aloud="true" direct="true" who="#gost2" toWhom="#gost1">Стойте!</said> — закричал опять <persName ref="#gost2">молодой человек</persName>, — <said aloud="true" direct="true" who="#gost2" toWhom="#gost1">не дергайте! Тут что-нибудь да не так... вы ведь звонили, дергали — не отпирают; значит, или они обе в обмороке, или... </said></p>
+            <p>— <said aloud="true" direct="true" who="#gost1" toWhom="#goat2">Что? </said></p>
+            <p>— <said aloud="true" direct="true" who="#gost2" toWhom="#gost1">А вот что: пойдемте-ка за дворником; пусть он их сам разбудит. </said></p>
+            <p>— <said aloud="true" direct="true" who="#gost1" toWhom="#gost1">Дело!</said> — Оба двинулись вниз.</p>
+            <p>— <said aloud="true" direct="true" who="#gost2" toWhom="#gost1">Стойте! Останьтесь-ка вы здесь, а я сбегаю вниз за дворником. </said></p>
+            <p>— <said aloud="true" direct="true" who="#gost1" toWhom="#gost2">Зачем оставаться? </said></p>
+            <p>— <said aloud="true" direct="true" who="#gost2" toWhom="#gost1">А мало ли что?.. </said></p>
+            <p>— <said aloud="true" direct="true" who="#gost1" toWhom="#gost2">Пожалуй... </said></p>
+            <p>— <said aloud="true" direct="true" who="#gost2" toWhom="#gost1">Я ведь в судебные следователи готовлюсь! Тут очевидно, оч-че-в-видно что-то не так!</said> — горячо вскричал <persName ref="#gost2">молодой человек</persName> и бегом пустился вниз по <placeName ref="#leststar">лестнице</placeName>.</p>
+            <p><persName ref="#gost1">Кох</persName> остался, пошевелил еще раз тихонько звонком, и тот звякнул один удар; потом тихо, как бы размышляя и осматривая, стал шевелить ручку двери, притягивая и опуская ее, чтоб убедиться еще раз, что она на одном запоре. Потом пыхтя нагнулся и стал смотреть в замочную скважину; но в ней изнутри торчал ключ и, стало быть, ничего не могло быть видно.</p>
+            <p><persName ref="#ras"><surname>Раскольников</surname></persName> стоял и сжимал топор. Он был точно в бреду. Он готовился даже драться с ними, когда они войдут. Когда стучались и сговаривались, ему несколько раз вдруг приходила мысль кончить всё разом и крикнуть им из-за дверей. Порой хотелось ему начать ругаться с ними, дразнить их, покамест не отперли. <said aloud="false" direct="true" who="#ras">«Поскорей бы уж»</said>! — мелькнуло в его голове.</p>
+            <p>— <said aloud="true" direct="true" who="#gost1">Однако он, черт... </said></p>
+            <p>Время проходило, минута, другая — никто не шел. <persName ref="#gost1">Кох</persName> стал шевелиться.</p>
+            <p>— <said aloud="true" direct="true" who="#gost1">Однако черт!..</said> — закричал он вдруг и в нетерпении, бросив свой караул, отправился тоже вниз, торопясь и стуча по <placeName ref="#leststar">лестнице</placeName> сапогами. Шаги стихли.</p>
+            <p>— <said aloud="false" direct="true" who="#ras">Господи, что же делать! </said></p>
+            <p><persName ref="#ras"><surname>Раскольников</surname></persName> снял запор, приотворил дверь — ничего не слышно, и вдруг, совершенно уже не думая, вышел, притворил как мог плотнее дверь за собой и пустился вниз.</p>
+            <p>Он уже сошел три <placeName ref="#leststar">лестницы</placeName>, как вдруг послышался сильный шум ниже, — <said aloud="false" direct="false" who="#ras">куда деваться! Никуда-то нельзя было спрятаться.</said> Он побежал было назад, опять в <placeName ref="#starkv">квартиру</placeName>.</p>
             <p>— <said aloud="" direct="" who="" toWhom="">Эй, леший, черт! Держи! </said></p>
             <p>С криком вырвался кто-то внизу из какой-то квартиры и не то что побежал, а точно упал вниз, по лестнице, крича во всю глотку:</p>
             <p>— <said aloud="" direct="" who="" toWhom=""><persName>Митька</persName>! <persName>Митька</persName>! <persName>Митька</persName>! <persName>Митька</persName>! <persName>Митька</persName>! Шут те дери-и-и! </said></p>
