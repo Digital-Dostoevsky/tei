@@ -3936,13 +3936,41 @@
             <person xm:id="gos" sex="male"> <persName>городовой</persName></person>
             <person xm:id="unc" sex="female"><persName>девушка которой Раскольников хотел помочь</persName></person>
               <person xm:id="raz" sex="male"> <persName>Дмитрий Прокофьевич Разумихин</persName></person>
-            
+            <person xm:id="lizi" sex="female"><persName> Лизавета Ивановна </persName></person>
+            <person xm:id="mesch" sex="male"> <persName>мещанин</persName></person>
+            <person xm:id="zhme" sex="female"> <persName>жена мещанина</persName></person>
+            <person xm:id="rasp" sex="male"> <persName>отец Раскольникова</persName></person>
+              <person xm:id="rasbab" sex="female"><persName>бабушка Раскольникова</persName></person>
+            <person xm:id="myk" sex="male"> <persName>Миколка</persName></person>
+            <person xm:id="gost1" sex="male"> <persName>Незваный гость</persName></person>
+            <person xm:id="gost2" sex="male"> <persName>подошедший</persName></person>
+            <person xm:id="stud" sex="male"> <persName>студент</persName></person>
+            <person xm:id="offi" sex="male"><persName>молодой офицер</persName></person>
+            <person xm:id="dvor" sex="male"><persName>дворник</persName></person>
+              <person xm:id="pis" sex="male"><persName>писец</persName></person>
+             <person xm:id="of1" sex="male"><persName>офицер</persName></person>
+            <person xm:id="cheb" sex="male"> <persName><surname>Чебаров</surname></persName></person>
+              <person xm:id="hoz" sex="female"> <persName>Госпожа Зарницына</persName></person>
+            <personGrp xml:id="svi"><persName>господа Свидригайловы</persName></personGrp>
+            <personGrp xml:id="deti"><persName>дети Мармеладовых</persName></personGrp>
+            <personGrp xml:id="mar"><persName>Мармеладовы</persName></personGrp>
+            <person xm:id="lui" sex="female">  <persName>Луиза Ивановна</persName></person>
+            <person xm:id="son" sex="female"><persName> Софья Семеновна Мармеладова </persName></person>
+            <person xm:id="uknv" sex="male"> <persName>кто-то со стороны из вошедших </persName></person>
+            <person xm:id="piv" sex="male"> <persName>Письмоводитель</persName>
+          
           <listPerson type="fictionalnonDostoevsky">
             <person xm:id="zgor" sex="male">
               <persName>царе Горохе</persName></person>
 
           </listPerson>
           <listPerson type="historical">
+           
+            <person xml:id="asp" sex="male"><persName>Александр Сергеевич Пушкин</persName></person>
+            <person xml:id="ist" sex="male"><persName>Иван Сергеевич Тургенев</persName></person>
+            <person xml:id="kirv" sex="male"> <persName>Кир Персидский</persName></person>
+            <person xml:id="authl" sex="male"><persName>Льюис</persName></person>
+            
 
           </listPerson>
           <listPerson type="other">
@@ -3952,7 +3980,8 @@
 
           </listPerson>
           <listObject>
-
+            
+            <object xml:id="shkaf"><objectIdentifier><objectName>шкаф </obkectIdentifier></objectName>
           </listObject>
           <listPlace>
             <place type="fictional" xml:id="raskv"><placeName>каморка</placeName></place>
@@ -3995,6 +4024,10 @@
                 <place type="park" xml:id="marsp"><placeName>Марсово поле</placeName></place>
                 <place type="park" xml:id="mihs"> <placeName>Михайловский сад</placeName>
                   <place type="square" xml:id="sen"><placeName>Сенная</placeName></place>
+                  <place type="fictional" xml:id="raskab"> <placeName>кабак</placeName></place>
+                  <place type="fictional" xml:id="klad"> <placeName>кладбище</placeName></place>
+                  <place type="fictional" xml:id="con"> <placeName>контора</placeName></place>
+                  <place type="fictional" xml:id="rasgor"><placeName>городок в котором жил Раскольников в детстве</placeName> 
                   
                 
           </listPlace>
