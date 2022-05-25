@@ -3964,21 +3964,11 @@
             <place type="lane" xml:id="smp"><placeName>С—м переулке</placeName></place>
             <place type="bridge" xml:id="knm"><placeName>К—ну мосту</placeName></place>
             <place type="fictional" xml:id="hozk"><placeName>хозяйкиной кухни</placeName></place>
-            <place type="river" xml:id="nev">
-              <placeName>Нева</placeName></place>
-              <place type="country" xml:id="eng">
-                <placeName>Англия</placeName></place>
-            
-            <place type="city" xml:id="har"> 
-                            <placeName>Харьков</placeName>
-            </place>
-           
-            <place type="continent" xml:id="afri">
-                            <placeName>Африка</placeName>
-            </place>
-         
-            <place type="fictional" xml:id="starkv"><placeName>квартира Алены Ивановны</placeName>
-            </place>
+            <place type="river" xml:id="nev"><placeName>Нева</placeName></place>
+              <place type="country" xml:id="eng"><placeName>Англия</placeName></place>
+            <place type="city" xml:id="har"> <placeName>Харьков</placeName> </place>
+            <place type="continent" xml:id="afri"><placeName>Африка</placeName></place>
+            <place type="fictional" xml:id="starkv"><placeName>квартира Алены Ивановны</placeName></place>
             <place type="street" xml:id="petul"><placeName>петербургских улицах и переулках</placeName></place>
               <place type="street" xml:id="uli"> <placeName>улице</placeName></place>
             <place type="river" xml:id="kan"> <placeName>канаву</placeName></place>
@@ -3991,10 +3981,7 @@
                   <place type="fictional" xml:id="bar"> <placeName>распивочная</placeName></place>
             <place type="bridge" xml:id="egb"> <placeName>Египетский мост</placeName></place>
               <place type="fictional" xml:id="kozdom"> <placeName>дом Козеля</placeName></place>
-            
-            <place type="city" xml:id="spb">
-              <placeName>Санкт Петербург</placeName>
-            </place>
+            <place type="city" xml:id="spb"><placeName>Санкт Петербург</placeName></place>
             <place type="gubernia" xml:id="rgub"><placeName>Р—й губернии</placeName></place>
             <place type="island" xml:id="vaso"> <placeName>Васильевскому острову</placeName></place>
             <place type="street" xml:id="vupr">  <placeName>В—й проспект</placeName></place>
@@ -4008,17 +3995,11 @@
                 <place type="fictional" xml:id="hozkv> <placeName>квартира Зарницыной</placeName></place>
                 <place type="fictional" xml:id="stark> <placeName>кухня Алены Ивановны</placeName></place>
                 <place type="gubernia" xml:id="ngub"><placeName>Н—й губернии</placeName></place>
-                <place type="garden" xml:id="yussad">
-                  <placeName>Юсупов сад</placeName>
-                </place>
-                <place type="park" xml:id="lsad">
-                  <placeName>Летний сад</placeName>
-                </place>
+                <place type="garden" xml:id="yussad"><placeName>Юсупов сад</placeName></place>
+                <place type="park" xml:id="lsad"><placeName>Летний сад</placeName></place>
                 <place type="park" xml:id="marsp"><placeName>Марсово поле</placeName></place>
                 <place type="park" xml:id="mihs"> <placeName>Михайловский сад</placeName>
-                  <place type="square" xml:id="sen">
-                    <placeName>Сенная</placeName>
-                  </place>
+                  <place type="square" xml:id="sen"><placeName>Сенная</placeName></place>
                   
                 
           </listPlace>
