@@ -85,6 +85,7 @@
 			  <change when="2022-05-24" who="#NI">[markup]:tagged chapter 3 sections 1 and 2</change>
 			  <change when="2022-05-25" who="#NI">[markup]:fixed tags in header and body, tagged chapter 3 section 3</change>
 			  <change when="2022-05-26" who="#NI">[markup]:tagged chapter 3 sections 4 and 5</change>
+			  <change when="2022-05-27" who="#NI">[markup]:tagged chapter 3 section 6, started section 7</change>
 			  
 			</revisionDesc>
   </teiHeader>
@@ -298,7 +299,7 @@
                 <p>— <said aloud="true" direct="true" who="#bkw1" toWhom="#zos">Божия, батюшка, божия, <persName ref="#bkc1"><forename>Алексея</forename></persName> человека божия! </said></p>
                 <p>— <said aloud="true" direct="true" who="#zos" toWhom="#bkw1">Святой-то какой! Помяну, <persName ref="#bkw1">мать</persName>, помяну и печаль твою на молитве вспомяну и <persName ref="#bkm1">супруга</persName> твоего за здравие помяну. Только его тебе грех оставлять. Ступай к мужу и береги его. Увидит оттуда твой мальчик, что бросила ты его отца, и заплачет по вас; зачем же ты блаженство-то его нарушаешь? Ведь жив он, жив, ибо жива душа вовеки; и нет его в доме, а он невидимо подле вас. Как же он в дом придет, коль ты говоришь, что возненавидела дом свой? К кому ж он придет, коль вас вместе, отца с матерью, не найдет? Вот он снится теперь тебе, и ты мучаешься, а тогда он тебе кроткие сны пошлет. Ступай к мужу, мать, сего же дня ступай.</said></p>
                 <p>— <said aloud="true" direct="true" who="#bkw1" toWhom="#zos">Пойду, родной, по твоему слову пойду. Сердце ты мое разобрал. <persName ref="#bkm1"><forename>Никитушка</forename></persName>, ты мой <persName ref="#bkm1"><forename>Никитушка</forename></persName>, ждешь ты меня, голубчик, ждешь!</said> — начала было причитывать <persName ref="#bkw1">баба</persName>, но <persName ref="#zos"><roleName>старец</roleName></persName> уже обратился к одной старенькой <persName ref="#bkw2">старушонке</persName>, одетой не по-страннически, а по-городски. По глазам ее видно было, что у нее какое-то дело и что пришла она нечто сообщить. Назвалась она <persName ref="#bkw2"><roleName>унтер-офицерскою</roleName> <roleName>вдовой</roleName></persName>, не издалека, всего из нашего же <placeName ref="#skt">города</placeName>. Сыночек у ней <persName ref="#bkc2"><forename>Васенька</forename></persName>, где-то в комиссариате служил, да в <placeName ref="#sib">Сибирь</placeName> поехал, в <placeName ref="#irk">Иркутск</placeName>. Два раза оттуда писал, а тут вот уже год писать перестал. Справлялась она о нем, да, по правде, не знает, где и справиться-то.</p>
-                  <p>— <said aloud="true" direct="true" who="#bkw2" toWhom="#zos">Только и говорит мне намедни <persName ref="#sib"><forename>Степанида</forename> <addName type="patronymic">Ильинишна</addName> <surname>Бедрягина</surname></persName>, купчиха она, богатая: возьми ты, говорит, <persName ref="#bkw2"><addName type="patronymic">Прохоровна</addName></persName>, и запиши ты, говорит, сыночка своего в поминанье, снеси в церковь, да и помяни за упокой. Душа-то его, говорит, затоскует, он и напишет письмо. <said aloud="true" direct="false" who="#sib" toWhom="#bkw2">«И это</said>, — говорит <persName ref="#sib"><forename>Степанида</forename> <addName type="patronymic">Ильинишна</addName></persName>, — <said aloud="true" direct="false" who="#sib" toWhom="#bkw2">как есть верно, многократно испытано»</said>. Да только я сумлеваюсь... Свет ты наш, правда оно аль неправда, и хорошо ли так будет? </said></p>
+                  <p>— <said aloud="true" direct="true" who="#bkw2" toWhom="#zos">Только и говорит мне намедни <persName ref="#stb"><forename>Степанида</forename> <addName type="patronymic">Ильинишна</addName> <surname>Бедрягина</surname></persName>, купчиха она, богатая: возьми ты, говорит, <persName ref="#bkw2"><addName type="patronymic">Прохоровна</addName></persName>, и запиши ты, говорит, сыночка своего в поминанье, снеси в церковь, да и помяни за упокой. Душа-то его, говорит, затоскует, он и напишет письмо. <said aloud="true" direct="false" who="#stb" toWhom="#bkw2">«И это</said>, — говорит <persName ref="#stb"><forename>Степанида</forename> <addName type="patronymic">Ильинишна</addName></persName>, — <said aloud="true" direct="false" who="#stb" toWhom="#bkw2">как есть верно, многократно испытано»</said>. Да только я сумлеваюсь... Свет ты наш, правда оно аль неправда, и хорошо ли так будет? </said></p>
                   <p>— <said aloud="true" direct="true" who="#zos" toWhom="#bkw2">И не думай о сем. Стыдно это и спрашивать. Да и как это возможно, чтобы живую душу да еще родная мать за упокой поминала! Это великий грех, колдовству подобно, только по незнанию твоему лишь прощается. А ты лучше помоли царицу небесную, скорую заступницу и помощницу, о здоровье его, да чтоб и тебя простила за неправильное размышление твое. И вот что я тебе еще скажу, <persName ref="#bkw2"><addName type="patronymic">Прохоровна</addName></persName>: или сам он к тебе вскоре обратно прибудет, сынок твой, или наверно письмо пришлет. Так ты и знай. Ступай и отселе покойна будь. Жив твой сынок, говорю тебе. </said></p>
             <p>— <said aloud="true" direct="true" who="#bkw2" toWhom="#zos">Милый ты наш, награди тебя <persName ref="#god">бог</persName>, благодетель ты наш, молебщик ты за всех нас и за грехи наши... </said></p>
             <p>А <persName ref="#zos"><roleName>старец</roleName></persName> уже заметил в толпе два горящие, стремящиеся к нему взгляда изнуренной, на вид чахоточной, хотя и молодой еще <persName ref="#bkw3">крестьянки</persName>. Она глядела молча, глаза просили о чем-то, но она как бы боялась приблизиться.</p>
@@ -5677,9 +5678,9 @@
             <person xml:id="ifk" sex="male">
               <persName>Иван Федорович Карамазов</persName>
             </person>
-            <person xml:id="kar">
-              <personGrp>Карамазовы</personGrp>
-            </person>
+            <personGrp xml:id="kar">
+              <persName>Карамазовы</persName>
+            </personGrp>
             <person xml:id="aas" sex="female">
               <persName>Агафена Александровна Светлова (Грушенька)</persName>
             </person>
@@ -5695,9 +5696,9 @@
             <person xml:id="mfm" sex="female">
               <persName>Мавра Фоминишна Миусова</persName>
             </person>
-            <person xml:id="mius">
-              <personGrp>Миусовы</personGrp>
-            </person>
+            <personGrp xml:id="mius">
+              <persName>Миусовы</persName>
+            </personGrp>
             <person xml:id="si" sex="female">
               <persName>Софья Ивановна (жена Федора Карамазова)</persName>
             </person>
@@ -5728,9 +5729,9 @@
             <person xml:id="bklh" sex="female">
               <persName>Лиза Хохлакова</persName>
             </person>
-            <person xml:id="hoh">
-              <personGrp>Хохлаковы</personGrp>
-            </person>
+            <personGrp xml:id="hoh">
+              <persName>Хохлаковы</persName>
+            </personGrp>
             <person xml:id="kiv" sex="female">
               <persName>Катерина Ивановна Верховцева</persName>
             </person>
@@ -5783,7 +5784,7 @@
             <person xml:id="bkc2" sex="male">
               <persName>сын-солдат (Васенька)</persName>
             </person>
-            <person xml:id="sib" sex="female">
+            <person xml:id="stb" sex="female">
               <persName>Степанида Ильинишна Бедрягина</persName>
             </person>
             <person xml:id="bkw3" sex="female">
@@ -5802,12 +5803,12 @@
             <person xml:id="pais" sex="male">
               <persName>отец Паисий</persName>
             </person>
-            <person xml:id="localmonks" sex="male">
-              <personGrp>монахи Скотопригоньевска</personGrp>
-            </person>
-            <person xml:id="localstar" sex="male">
-              <personGrp>старцы Скотопригоньевска</personGrp>
-            </person>
+            <personGrp xml:id="localmonks" sex="male">
+              <persName>монахи Скотопригоньевска</persName>
+            </personGrp>
+            <personGrp xml:id="localstar" sex="male">
+              <persName>старцы Скотопригоньевска</persName>
+            </personGrp>
             <person xml:id="localmonk1" sex="male">
               <persName>монашек (проводник к старцу)</persName>
             </person>
@@ -5897,12 +5898,12 @@
             <person xml:id="isir" sex="male">
               <persName>Исаак Сирин</persName>
             </person>
-             <person xml:id="monks">
-               <personGrp>монахи</personGrp>
-             </person>
-            <person xml:id="star" sex="male">
-              <personGrp>старцы</personGrp>
-            </person>
+             <personGrp xml:id="monks">
+               <persName>монахи</persName>
+             </personGrp>
+            <personGrp xml:id="star" sex="male">
+              <persName>старцы</persName>
+            </personGrp>
             
             
 
@@ -5917,9 +5918,9 @@
 				  <person xml:id="diak">
 				    <persName>диакон в легенде</persName>
 				  </person>
-				    <person xml:id="demons">
-				      <personGrp>черти</personGrp>
-				    </person>
+				    <personGrp xml:id="demons">
+				      <persName>черти</persName>
+				    </personGrp>
 				    <person xml:id="legstar1">
 				      <persName>старец в легенде</persName>
 				    </person>
@@ -6060,7 +6061,7 @@
             </place>
 				    </listPlace>
             
-				    <listPlace type="historical entity">
+				    <listPlace type="histentity">
             <place xml:id="romа">
               <placeName>Римская империя</placeName>
             </place>
