@@ -89,9 +89,10 @@
 			  <change when="2022-05-27" who="#NI">[markup]:tagged chapter 3 section 6, started section 7</change>
 			  <change when="2022-06-24" who="#NI">[markup]:tagged chapter 3 section 7, started section 8</change>
 			  <change when="2022-06-27" who="#NI">[markup]:tagged chapter 3 section 8. Marked "маркизы де Сады" as persGrp; "Наафонил" tagged with rs to placeName (Афон); #legzos (legendary Zosima) introduced for Fyodor's story about Zosima which is not true; tagged "Направник" as historical persName but it is a wordplay on a character's surname. Started tagging section 9.</change>
-			  <change when="2022-06-28" who="#BB">[markup]tagged part of part 2, chapter 1 (book 4), section 1. Added some new characters.</change>
+			  <change when="2022-06-28" who="#BB">[markup]tagged a part of part 2, chapter 1 (book 4), section 1. Added some new characters.</change>
 			  <change when="2022-06-27" who="#NI">[markup]:tagged chapter 3 section 8. Fyodor's peculiar way of addressing people: marked "маркизы де Сады" as persGrp; "Наафонил" tagged with rs to placeName (Афон); #legzos (legendary Zosima) introduced for Fyodor's story about Zosima which is not true; tagged "Направник" as historical persName but it is a wordplay on a character's surname. Started tagging section 9.</change>
 			  <change when="2022-06-28" who="#NI">[markup]:tagged chapter 3 section 9. Tagged the narrator as #bknar, fictional readers of the novel he addresses as #bkread; added fictional locations to back matter.</change>
+			  <change when="2022-06-28" who="#BB">[markup]:tagged more of part, chapter 1, section 1.</change>
 			  </revisionDesc>
   </teiHeader>
   <text>
