@@ -95,6 +95,7 @@
 			  <change when="2022-06-28" who="#BB">[markup]:tagged more of part, chapter 1, section 1.</change>
 			  <change when="2022-06-29" who="#NI">[markup]:tagged part 1 chapter 3 section 10 and 11. Introduced tags for some of Katerina Ivanovna's relatives. Introduced the #zoskl tag for Zosima's келья as placeName, went back and tagged its instances in previous chapters. Finished tagging part 1.</change>
 			  <change when="2022-06-30" who="#BB">{markup]:tagged part 3, chapter 7, section 1. Created tags for a couple new characters (monks) and places.</change>
+			  <change when="2022-07-02" who="#BB">[markup]:tagged part 3, chapter 7, section 1. Introduced #ferkl tag for Ferapont's cell as placeName. Added Satan as a character in the "other" section of backmatter.</change>
 			  </revisionDesc>
   </teiHeader>
   <text>
