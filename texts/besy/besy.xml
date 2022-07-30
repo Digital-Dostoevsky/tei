@@ -92,6 +92,7 @@
         <change when="2022-07-26" who="#ES">[markup]:continued tagging Part 1</change>
         <change when="2022-07-27" who="#ES">[markup]:continued tagging Part 1</change>
         <change when="2022-07-28" who="#ES">[markup]:continued tagging Part 1</change>
+        <change when="2022-07-30" who="#ES">[markup]:continued tagging Part 1</change>
       </revisionDesc>
   </teiHeader>
   <text>
@@ -679,7 +680,7 @@
             <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#stv">Ну да как же? Мамаша, правда, сначала узнала через <persName ref="#alfr"><forename>Алену</forename> <addName type="patronymic">Фроловну</addName></persName>, мою няню; ей ваша <persName ref="#nstsia"><forename>Настасья</forename></persName> прибежала сказать. Ведь вы говорили же <persName ref="#nstsia"><forename>Настасье</forename></persName>? Она говорит, что вы ей сами говорили. </said></p>
             <p>— <said aloud="true" direct="true" who="#stv" toWhom="#lnt">Я... я говорил однажды...</said> — пролепетал <persName ref="#stv"><forename>Степан</forename> <addName type="patronymic">Трофимович</addName></persName>, весь покраснев, — <said aloud="true" direct="true" who="#stv" toWhom="#lnt">но... я лишь намекнул... <foreign xml:lang="fr">j’étais si nerveux et malade et puis</foreign>...</said></p>
             <p>Она захохотала.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А конфидента под рукой не случилось, а <persName ref="#nstsia"><forename>Настасья</forename></persName> подвернулась, — ну и довольно! А у той целый город кумушек! Ну да полноте, ведь это всё равно; ну пусть знают, даже лучше. Скорее же приходите, мы обедаем рано... Да, забыла,</said> — уселась она опять, — <said aloud="true" direct="true" who="#lnt" toWhom="#stv">слушайте, что такое <persName ref="#ipsh"><surname>Шатов</surname></persName>? </said></p>
+            <p>— <said aloud="true" direct="true" who="#svl" toWhom="#stv">А конфидента под рукой не случилось, а <persName ref="#nstsia"><forename>Настасья</forename></persName> подвернулась, — ну и довольно! А у той целый город кумушек! Ну да полноте, ведь это всё равно; ну пусть знают, даже лучше. Скорее же приходите, мы обедаем рано... Да, забыла,</said> — уселась она опять, — <said aloud="true" direct="true" who="#lnt" toWhom="#stv">слушайте, что такое <persName ref="#ipsh"><surname>Шатов</surname></persName>? </said></p>
             <p>— <said aloud="true" direct="true" who="#stv" toWhom="#lnt"><persName ref="#ipsh"><surname>Шатов</surname></persName>? Это брат <persName ref="#dpsh"><forename>Дарьи</forename> <addName type="patronymic">Павловны</addName></persName>... </said></p>
             <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#stv">Знаю, что брат, какой вы, право!</said> — перебила она в нетерпении.</p>
             <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#stv">Я хочу знать, что он такое, какой человек? </said></p>
@@ -763,47 +764,47 @@
             <p>— <said aloud="true" direct="true" who="#ank" toWhom="#alg">Но всё не затем, всё со страхом и не для того. Не для того, чтобы страх убить. Кто убьет себя только для того, чтобы страх убить, тот тотчас <persName ref="#god">бог</persName> станет. </said></p>
             <p>— <said aloud="true" direct="true" who="#alg" toWhom="#ank">Не успеет, может быть</said>, — заметил я.</p>
             <p>— <said aloud="true" direct="true" who="#ank" toWhom="#alg">Это всё равно</said>, — ответил он тихо, с покойною гордостью, чуть не с презрением. — <said aloud="true" direct="true" who="#ank" toWhom="#alg">Мне жаль, что вы как будто смеетесь</said>, — прибавил он через полминуты. </p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А мне странно, что вы давеча были так раздражительны, а теперь так спокойны, хотя и горячо говорите. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Давеча? Давеча было смешно</said>, — ответил он с улыбкой, — <said aloud="" direct="" who="" toWhom="">я не люблю бранить и никогда не смеюсь</said>, — <said aloud="" direct="" who="" toWhom="">прибавил он грустно. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да, невесело вы проводите ваши ночи за чаем.</said> — Я встал и взял фуражку.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Вы думаете?</said> — улыбнулся он с некоторым удивлением. — <said aloud="" direct="" who="" toWhom="">Почему же? Нет, я... я не знаю</said>, — <said aloud="" direct="" who="" toWhom="">смешался он вдруг</said>, — <said aloud="" direct="" who="" toWhom="">не знаю, как у других, и я так чувствую, что не могу, как всякий. Всякий думает и потом сейчас о другом думает. Я не могу о другом, я всю жизнь об одном. Меня бог всю жизнь мучил</said>, — <said aloud="" direct="" who="" toWhom="">заключил оп вдруг с удивительною экспансивностью. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А скажите, если позволите, почему вы не так правильно по-русски говорите? Неужели за границей в пять лет разучились? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Разве я неправильно? Не знаю. Нет, не потому, что за границей. Я так всю жизнь говорил... мне всё равно. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Еще вопрос более деликатный: я совершенно вам верю, что вы не склонны встречаться с людьми и мало с людьми говорите. Почему вы со мной теперь разговорились? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">С вами? Вы давеча хорошо сидели и вы... впрочем, всё равно... вы на моего брата очень похожи, много, чрезвычайно</said>, — проговорил он покраснев, — <said aloud="" direct="" who="" toWhom="">он семь лет умер; старший, очень, очень много. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Должно быть, имел большое влияние на ваш образ мыслей. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Н-нет, он мало говорил; он ничего не говорил. Я вашу записку отдам. </said></p>
-            <p>Он проводил меня с фонарем до ворот, чтобы запереть за мной. <said aloud="" direct="" who="" toWhom="">«Разумеется, помешанный»</said>, — решил я про себя. В воротах произошла новая встреча.</p>
+            <p>— <said aloud="true" direct="true" who="#alg" toWhom="#ank">А мне странно, что вы давеча были так раздражительны, а теперь так спокойны, хотя и горячо говорите. </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#alg">Давеча? Давеча было смешно</said>, — ответил он с улыбкой, — <said aloud="true" direct="true" who="#ank" toWhom="#alg">я не люблю бранить и никогда не смеюсь</said>, — прибавил он грустно. </p>
+            <p>— <said aloud="true" direct="true" who="#alg" toWhom="#ank">Да, невесело вы проводите ваши ночи за чаем.</said> — Я встал и взял фуражку.</p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#alg">Вы думаете?</said> — улыбнулся он с некоторым удивлением. — <said aloud="true" direct="true" who="#ank" toWhom="#alg">Почему же? Нет, я... я не знаю</said>, — смешался он вдруг, — <said aloud="true" direct="true" who="#ank" toWhom="#alg">не знаю, как у других, и я так чувствую, что не могу, как всякий. Всякий думает и потом сейчас о другом думает. Я не могу о другом, я всю жизнь об одном. Меня <persName ref="#god">бог</persName> всю жизнь мучил</said>, — заключил оп вдруг с удивительною экспансивностью. </p>
+            <p>— <said aloud="true" direct="true" who="#alg" toWhom="#ank">А скажите, если позволите, почему вы не так правильно по-русски говорите? Неужели за границей в пять лет разучились? </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#alg">Разве я неправильно? Не знаю. Нет, не потому, что за границей. Я так всю жизнь говорил... мне всё равно. </said></p>
+            <p>— <said aloud="true" direct="true" who="#alg" toWhom="#ank">Еще вопрос более деликатный: я совершенно вам верю, что вы не склонны встречаться с людьми и мало с людьми говорите. Почему вы со мной теперь разговорились? </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#alg">С вами? Вы давеча хорошо сидели и вы... впрочем, всё равно... вы на моего брата очень похожи, много, чрезвычайно</said>, — проговорил он покраснев, — <said aloud="true" direct="true" who="#ank" toWhom="#alg">он семь лет умер; старший, очень, очень много. </said></p>
+            <p>— <said aloud="true" direct="true" who="#alg" toWhom="#ank">Должно быть, имел большое влияние на ваш образ мыслей. </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#alg">Н-нет, он мало говорил; он ничего не говорил. Я вашу записку отдам. </said></p>
+            <p>Он проводил меня с фонарем до ворот, чтобы запереть за мной. <said aloud="false" direct="true" who="#alg" toWhom="#alg">«Разумеется, помешанный»</said>, — решил я про себя. В воротах произошла новая встреча.</p>
           </div3>
           <div3 type="section" n="9">
             <head>IX</head>
             <p>Только что я занес ногу за высокий порог калитки, вдруг чья-то сильная рука схватила меня за грудь.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Кто сей?</said> — взревел чей-то голос, — <said aloud="" direct="" who="" toWhom="">друг или недруг? Кайся! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Это наш, наш!</said> — завизжал подле голосок <persName>Липутина</persName>, — <said aloud="" direct="" who="" toWhom="">это <persName>господин Г—в</persName>, классического воспитания и в связях с самым высшим обществом молодой человек. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Люблю, коли с обществом, кла-сси-чес... значит, о-бра-зо-о-ваннейший... отставной капитан <persName>Игнат Лебядкин</persName>, к услугам мира и друзей... если верны, если верны, подлецы! Капитан <persName>Лебядкин</persName>, вершков десяти росту, толстый, мясистый, курчавый, красный и чрезвычайно пьяный, едва стоял предо мной и с трудом выговаривал слова. Я, впрочем, его и прежде видал издали. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А, и этот!</said> — взревел он опять, заметив <persName>Кириллова</persName>, который всё еще не уходил с своим фонарем; он поднял было кулак, но тотчас опустил его.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Прощаю за ученость! <persName>Игнат Лебядкин</persName> — образо-о-ваннейший... </said></p>
-            <p>Любви пылающей граната</p>
-            <p>Лопнула в груди <persName>Игната</persName>.</p>
-            <p>И вновь заплакал горькой мукой</p>
-            <p>По <placeName>Севастополю</placeName> безрукий.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Хоть в <placeName>Севастополе</placeName> не был и даже не безрукий, но каковы же рифмы!</said> — лез он ко мне с своею пьяною рожей.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Им некогда, некогда, они домой пойдут</said>, — уговаривал <persName>Липутин</persName>, — <said aloud="" direct="" who="" toWhom="">они завтра <persName>Лизавете Николаевне</persName> перескажут. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom=""><persName>Лизавете</persName>!..</said> — завопил он опять, — <said aloud="" direct="" who="" toWhom="">стой-нейди! Варьянт: </said></p>
-            <p>И порхает звезда на коне</p>
-            <p>В хороводе других амазонок;</p>
-            <p>Улыбается с лошади мне</p>
-            <p>Ари-сто-кратический ребенок.</p>
-            <p><said aloud="" direct="" who="" toWhom="">«Звезде-амазонке»</said>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да ведь это же гимн! Это гимн, если ты не осел! Бездельники не понимают! Стой!</said> — уцепился он за мое пальто, хотя я рвался изо всех сил в калитку. — <said aloud="" direct="" who="" toWhom="">Передай, что я рыцарь чести, а <persName>Дашка</persName>... Дашку я двумя пальцами... крепостная раба и не смеет... </said></p>
-            <p>Тут он упал, потому что я с силой вырвался у него из рук и побежал по улице. <persName>Липутин</persName> увязался за мной.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Его <persName>Алексей Нилыч</persName> подымут. Знаете ли, что я сейчас от него узнал?</said> — болтал он впопыхах. — <said aloud="" direct="" who="" toWhom="">Стишки-то слышали? Ну, вот он эти самые стихи к <said aloud="" direct="" who="" toWhom="">«Звезде-амазонке»</said> запечатал и завтра посылает к <persName>Лизавете Николаевне</persName> за своею полною подписью. Каков! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Бьюсь об заклад, что вы его сами подговорили. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Проиграете!</said> — захохотал <persName>Липутин</persName>. — <said aloud="" direct="" who="" toWhom="">Влюблен, влюблен как кошка, а знаете ли, что началось ведь с ненависти. Он до того сперва возненавидел <persName>Лизавету Николаевну</persName> за то, что она ездит верхом, что чуть не ругал ее вслух на улице; да и ругал же! Еще третьего дня выругал, когда она проезжала</said>, — <said aloud="" direct="" who="" toWhom="">к счастью, не расслышала, и вдруг сегодня стихи! Знаете ли, что он хочет рискнуть предложение? Серьезно, серьезно! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я вам удивляюсь, <persName>Липутин</persName>, везде-то вы вот, где только этакая дрянь заведется, везде-то вы тут руководите!</said> — проговорил я в ярости.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Однако же вы далеко заходите, <persName>господин Г—в</persName>; не сердчишко ли у нас екнуло, испугавшись соперника</said>, — а?</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Что-о-о?</said> — закричал я, останавливаясь.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А вот же вам в наказание и ничего не скажу дальше! А ведь как бы вам хотелось услышать? Уж одно то, что этот дуралей теперь не простой капитан, а помещик <placeName>нашей губернии</placeName>, да еще довольно значительный, потому что <persName>Николай Всеволодович</persName> ему всё свое поместье, бывшие свои двести душ на днях продали, и вот же вам бог, не лгу! сейчас узнал, но зато из наивернейшего источника. Ну, а теперь дощупывайтесь-ка сами; больше ничего не скажу; до свиданья-с! </said></p>
+            <p>— <said aloud="true" direct="true" who="#itl" toWhom="#alg">Кто сей?</said> — взревел чей-то голос, — <said aloud="true" direct="true" who="#itl" toWhom="#alg">друг или недруг? Кайся! </said></p>
+            <p>— <said aloud="true" direct="true" who="#svl" toWhom="#itl">Это наш, наш!</said> — завизжал подле голосок <persName ref="#svl"><surname>Липутина</surname></persName>, — <said aloud="true" direct="true" who="#svl" toWhom="#itl">это <persName ref="#alg"><roleName>господин</roleName> <surname>Г—в</surname></persName>, классического воспитания и в связях с самым высшим обществом молодой человек. </said></p>
+            <p>— <said aloud="true" direct="true" who="#itl" toWhom="#alg #svl">Люблю, коли с обществом, кла-сси-чес... значит, о-бра-зо-о-ваннейший... отставной <persName ref="#itl"><roleName>капитан</roleName> <forename>Игнат</forename> <surname>Лебядкин</surname></persName>, к услугам мира и друзей... если верны, если верны, подлецы!</said> <persName ref="#itl"><roleName>Капитан</roleName> <surname>Лебядкин</surname></persName>, вершков десяти росту, толстый, мясистый, курчавый, красный и чрезвычайно пьяный, едва стоял предо мной и с трудом выговаривал слова. Я, впрочем, его и прежде видал издали. </p>
+            <p>— <said aloud="true" direct="true" who="#itl" toWhom="#ank">А, и этот!</said> — взревел он опять, заметив <persName ref="#ank"><surname>Кириллова</surname></persName>, который всё еще не уходил с своим фонарем; он поднял было кулак, но тотчас опустил его.</p>
+            <p>— <said aloud="true" direct="true" who="#itl" toWhom="#ank">Прощаю за ученость! <persName ref="#itl"><forename>Игнат</forename> <surname>Лебядкин</surname></persName> — образо-о-ваннейший... <lb />
+            <lb />Любви пылающей граната
+            <lb />Лопнула в груди <persName>Игната</persName>.
+            <lb />И вновь заплакал горькой мукой
+            <lb />По <placeName ref="#svsl">Севастополю</placeName> безрукий.</said></p>
+            <p>— <said aloud="true" direct="true" who="#itl" toWhom="#alg">Хоть в <placeName ref="#svsl">Севастополе</placeName> не был и даже не безрукий, но каковы же рифмы!</said> — лез он ко мне с своею пьяною рожей.</p>
+            <p>— <said aloud="true" direct="true" who="#svl" toWhom="#itl">Им некогда, некогда, они домой пойдут</said>, — уговаривал <persName ref="#svl"><surname>Липутин</surname></persName>, — <said aloud="true" direct="true" who="#svl" toWhom="#itl">они завтра <persName ref="#lnt"><forename>Лизавете</forename> <addName type="patronymic">Николаевне</addName></persName> перескажут. </said></p>
+            <p>— <said aloud="true" direct="true" who="#itl"><persName ref="#lnt"><forename>Лизавете</forename></persName>!..</said> — завопил он опять, — <said aloud="true" direct="true" who="#itl">стой-нейди! Варьянт: 
+            <lb />И порхает звезда на коне
+            <lb />В хороводе других амазонок;
+            <lb />Улыбается с лошади мне
+            <lb />Ари-сто-кратический ребенок.
+            <lb /><q>«Звезде-амазонке»</q>.</said></p>
+            <p>— <said aloud="true" direct="true" who="#itl" toWhom="#alg">Да ведь это же гимн! Это гимн, если ты не осел! Бездельники не понимают! Стой!</said> — уцепился он за мое пальто, хотя я рвался изо всех сил в калитку. — <said aloud="true" direct="true" who="#itl" toWhom="#alg">Передай, что я рыцарь чести, а <persName ref="#dpsh"><addName type="diminutive">Дашка</addName></persName>... Дашку я двумя пальцами... крепостная раба и не смеет... </said></p>
+            <p>Тут он упал, потому что я с силой вырвался у него из рук и побежал по улице. <persName ref="#svl"><surname>Липутин</surname></persName> увязался за мной.</p>
+            <p>— <said aloud="true" direct="true" who="#svl" toWhom="#alg">Его <persName ref="#ank"><forename>Алексей</forename> <addName type="patronymic">Нилыч</addName></persName> подымут. Знаете ли, что я сейчас от него узнал?</said> — болтал он впопыхах. — <said aloud="true" direct="true" who="#svl" toWhom="#alg">Стишки-то слышали? Ну, вот он эти самые стихи к <q>«Звезде-амазонке»</q> запечатал и завтра посылает к <persName ref="#lnt"><forename>Лизавете</forename> <addName type="patronymic">Николаевне</addName></persName> за своею полною подписью. Каков! </said></p>
+            <p>— <said aloud="true" direct="true" who="#alg" toWhom="#svl">Бьюсь об заклад, что вы его сами подговорили. </said></p>
+            <p>— <said aloud="true" direct="true" who="#svl" toWhom="#alg">Проиграете!</said> — захохотал <persName ref="#svl"><surname>Липутин</surname></persName>. — <said aloud="true" direct="true" who="#svl" toWhom="#alg">Влюблен, влюблен как кошка, а знаете ли, что началось ведь с ненависти. Он до того сперва возненавидел <persName ref="#lnt"><forename>Лизавету</forename> <addName type="patronymic">Николаевну</addName></persName> за то, что она ездит верхом, что чуть не ругал ее вслух на улице; да и ругал же! Еще третьего дня выругал, когда она проезжала</said>, — <said aloud="true" direct="true" who="#svl" toWhom="#alg">к счастью, не расслышала, и вдруг сегодня стихи! Знаете ли, что он хочет рискнуть предложение? Серьезно, серьезно! </said></p>
+            <p>— <said aloud="true" direct="true" who="#alg" toWhom="#svl">Я вам удивляюсь, <persName ref="#svl"><surname>Липутин</surname></persName>, везде-то вы вот, где только этакая дрянь заведется, везде-то вы тут руководите!</said> — проговорил я в ярости.</p>
+            <p>— <said aloud="true" direct="true" who="#svl" toWhom="#alg">Однако же вы далеко заходите, <persName ref="#alg"><roleName>господин</roleName> <surname>Г—в</surname></persName>; не сердчишко ли у нас екнуло, испугавшись соперника, — а?</said></p>
+            <p>— <said aloud="true" direct="true" who="#alg" toWhom="#svl">Что-о-о?</said> — закричал я, останавливаясь.</p>
+            <p>— <said aloud="true" direct="true" who="#svl" toWhom="#alg">А вот же вам в наказание и ничего не скажу дальше! А ведь как бы вам хотелось услышать? Уж одно то, что этот дуралей теперь не простой капитан, а помещик <placeName ref="#bgub">нашей губернии</placeName>, да еще довольно значительный, потому что <persName ref="#nvs"><forename>Николай</forename> <addName type="patronymic">Всеволодович</addName></persName> ему всё свое поместье, бывшие свои двести душ на днях продали, и вот же вам бог, не лгу! сейчас узнал, но зато из наивернейшего источника. Ну, а теперь дощупывайтесь-ка сами; больше ничего не скажу; до свиданья-с! </said></p>
           </div3>
           <div3 type="section" n="10">
             <head>X</head>
@@ -5652,6 +5653,10 @@
             <place type="country" xml:id="amer">
               <placeName>Америка</placeName>
             </place>
+            <place type="city" xml:id="svsl">
+              <placeName>Севастополь</placeName>
+            </place>
+            
             
           </listPlace>
         </div>
