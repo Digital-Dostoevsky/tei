@@ -95,6 +95,7 @@
         <change when="2022-07-30" who="#ES">[markup]:continued tagging Part 1</change>
         <change when="2022-08-01" who="#ES">[markup]:continued tagging Part 1</change>
         <change when="2022-08-03" who="#ES">[markup]:continued tagging Part 1</change>
+        <change when="2022-08-04" who="#ES">[markup]:continued tagging Part 1</change>
       </revisionDesc>
   </teiHeader>
   <text>
@@ -849,31 +850,31 @@
             <p>— <said aloud="true" direct="true" who="#pid" toWhom="#lnt">А который профессор? </said></p>
             <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#pid">А профессора вовсе и нет, мамá. </said></p>
             <p>— <said aloud="true" direct="true" who="#pid" toWhom="#lnt">Нет, есть, ты сама говорила, что будет профессор; верно, вот этот</said>, — она брезгливо указала на <persName ref="#ipsh"><surname>Шатова</surname></persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Вовсе никогда я вам не говорила, что будет профессор. Господин <persName>Г—в</persName> служит, а господин <persName>Шатов</persName> — бывший студент.</said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Студент, профессор, всё одно из университета. Тебе только бы спорить. А швейцарский был в усах и с бородкой. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Это мамá сына <persName>Степана Трофимовича</persName> всё профессором называет</said>, — сказала <persName>Лиза</persName> и увела <persName>Шатова</persName> на другой конец залы на диван.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Когда у ней ноги распухнут, она всегда такая, вы понимаете, больная</said>, — шепнула она <persName>Шатову</persName>, продолжая рассматривать его всё с тем же чрезвычайным любопытством и особенно его вихор на голове.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Вы военный?</said> — обратилась ко мне старуха, с которою меня так безжалостно бросила <persName>Лиза</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Нет-с, я служу... </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Господин <persName>Г—в</persName> большой друг <persName>Степана Трофимовича</persName></said>, — отозвалась тотчас же <persName>Лиза</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Служите у <persName>Степана Трофимовича</persName>? Да ведь и он профессор? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Ах, мамá, вам, верно, и ночью снятся профессора</said>, — с досадой крикнула <persName>Лиза</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Слишком довольно и наяву. А ты вечно чтобы матери противоречить. Вы здесь, когда <persName>Николай Всеволодович</persName> приезжал, были, четыре года назад? </said></p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#pid">Вовсе никогда я вам не говорила, что будет профессор. <persName ref="#alg"><roleName>Господин</roleName> <surname>Г—в</surname></persName> служит, а <persName ref="#ipsh"><roleName>господин</roleName> <surname>Шатов</surname></persName> — бывший студент.</said></p>
+            <p>— <said aloud="true" direct="true" who="#pid" toWhom="#lnt">Студент, профессор, всё одно из университета. Тебе только бы спорить. А швейцарский был в усах и с бородкой. </said></p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#pid">Это <persName ref="#pid"><roleName>мамá</roleName></persName> <persName ref="#psv"><roleName>сына</roleName> <persName ref="#stv"><forename>Степана</forename> <addName type="patronymic">Трофимовича</addName></persName></persName> всё профессором называет</said>, — сказала <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName> и увела <persName ref="#ipsh"><surname>Шатова</surname></persName> на другой конец залы на диван.</p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">Когда у ней ноги распухнут, она всегда такая, вы понимаете, больная</said>, — шепнула она <persName ref="#ipsh"><surname>Шатову</surname></persName>, продолжая рассматривать его всё с тем же чрезвычайным любопытством и особенно его вихор на голове.</p>
+            <p>— <said aloud="true" direct="true" who="#pid" toWhom="#alg">Вы военный?</said> — обратилась ко мне старуха, с которою меня так безжалостно бросила <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#alg" toWhom="#pid">Нет-с, я служу... </said></p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#pid"><persName><roleName>Господин</roleName> <surname>Г—в</surname></persName> большой друг <persName ref="#stv"><forename>Степана</forename> <addName type="patronymic">Трофимовича</addName></persName></said>, — отозвалась тотчас же <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#pid" toWhom="#alg">Служите у <persName ref="#stv"><forename>Степана</forename> <addName type="patronymic">Трофимовича</addName></persName>? Да ведь и он профессор? </said></p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#pid">Ах, <persName ref="#pid"><roleName>мамá</roleName></persName>, вам, верно, и ночью снятся профессора</said>, — с досадой крикнула <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#pid" toWhom="#lnt #alg">Слишком довольно и наяву. А ты вечно чтобы матери противоречить. Вы здесь, когда <persName ref="#nvs"><forename>Николай</forename> <addName type="patronymic">Всеволодович</addName></persName> приезжал, были, четыре года назад? </said></p>
             <p>Я отвечал, что был.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А англичанин тут был какой-нибудь вместе с вами? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Нет, не был. </said></p>
-            <p><persName>Лиза</persName> засмеялась.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А, видишь, что и не было совсем англичанина, стало быть, враки. И <persName>Варвара Петровна</persName> и <persName>Степан Трофимович</persName> оба врут. Да и все врут. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Это тетя и вчера <persName>Степан Трофимович</persName> нашли будто бы сходство у <persName>Николая Всеволодовича</persName> с <persName>принцем Гарри</persName>, у <persName>Шекспира</persName> в <said aloud="" direct="" who="" toWhom="">«Генрихе IV»</said>, и мамá на это говорит, что не было англичанина</said>, — объяснила нам <persName>Лиза</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Коли <persName>Гарри</persName> не было, так и англичанина не было. Один <persName>Николай Всеволодович</persName> куролесил.</said> — Уверяю вас, что это мамá нарочно, — <said aloud="" direct="" who="" toWhom="">нашла нужным объяснить <persName>Шатову</persName> <persName>Лиза</persName></said>, — <said aloud="" direct="" who="" toWhom="">она очень хорошо про <persName>Шекспира</persName> знает. Я ей сама первый акт <said aloud="" direct="" who="" toWhom="">«Отелло»</said> читала; но она теперь очень страдает. Мамá, слышите, двенадцать часов бьет, вам лекарство принимать пора. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Доктор приехал</said>, — появилась в дверях горничная.</p>
-            <p>Старуха привстала и начала звать собачку: <said aloud="" direct="" who="" toWhom="">«<persName>Земирка</persName>, <persName>Земирка</persName>, пойдем хоть ты со мной»</said>. Скверная, старая, маленькая собачонка <persName>Земирка</persName> не слушалась и залезла под диван, где сидела <persName>Лиза</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Не хочешь? Так и я тебя не хочу. Прощайте, батюшка, не знаю вашего имени-отчества</said>, — обратилась она ко мне.</p>
-            <p>— <said aloud="" direct="" who="" toWhom=""><persName>Антон Лаврентьевич</persName>... </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Ну всё равно, у меня в одно ухо вошло, в другое вышло. Нe провожайте меня, <persName>Маврикий Николаевич</persName>, я только Земирку знала. Слава богу, еще и сама хожу, а завтра гулять поеду. </said></p>
+            <p>— <said aloud="true" direct="true" who="#pid" toWhom="#alg">А англичанин тут был какой-нибудь вместе с вами? </said></p>
+            <p>— <said aloud="true" direct="true" who="#alg" toWhom="#pid">Нет, не был. </said></p>
+            <p><persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName> засмеялась.</p>
+            <p>— <said aloud="true" direct="true" who="#pid" toWhom="#lnt">А, видишь, что и не было совсем англичанина, стало быть, враки. И <persName ref="#vps"><forename>Варвара</forename> <addName type="patronymic">Петровна</addName></persName> и <persName ref="#stv"><forename>Степан</forename> <addName type="patronymic">Трофимович</addName></persName> оба врут. Да и все врут. </said></p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#alg #ipsh">Это тетя и вчера <persName ref="#stv"><forename>Степан</forename> <addName type="patronymic">Трофимович</addName></persName> нашли будто бы сходство у <persName ref="#nvs"><forename>Николая</forename> <addName type="patronymic">Всеволодовича</addName></persName> с <persName ref="#pring">принцем Гарри</persName>, у <persName ref="#shkspr"><surname>Шекспира</surname></persName> в <q>«Генрихе IV»</q>, и мамá на это говорит, что не было англичанина</said>, — объяснила нам <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#pid" toWhom="#alg #ipsh">Коли <persName ref="#pring">Гарри</persName> не было, так и англичанина не было. Один <persName ref="#nvs"><forename>Николай</forename> <addName type="patronymic">Всеволодович</addName></persName> куролесил.</said> — <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">Уверяю вас, что это <persName ref="#pid"><roleName>мамá</roleName></persName> нарочно, </said>— нашла нужным объяснить <persName ref="#ipsh"><surname>Шатову</surname></persName> <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName>, — <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">она очень хорошо про <persName ref="#shkspr"><surname>Шекспира</surname></persName> знает. Я ей сама первый акт <q>«Отелло»</q> читала; но она теперь очень страдает.</said> <said aloud="true" direct="true" who="#lnt" toWhom="#pid"><persName ref="#pid"><roleName>Мамá</roleName></persName>, слышите, двенадцать часов бьет, вам лекарство принимать пора. </said></p>
+            <p>— Доктор приехал, — появилась в дверях горничная.</p>
+            <p>Старуха привстала и начала звать собачку: <said aloud="true" direct="true" who="#pid">«Земирка, Земирка, пойдем хоть ты со мной»</said>. Скверная, старая, маленькая собачонка Земирка не слушалась и залезла под диван, где сидела <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#pid" toWhom="#alg">Не хочешь? Так и я тебя не хочу. Прощайте, батюшка, не знаю вашего имени-отчества</said>, — обратилась она ко мне.</p>
+            <p>— <said aloud="true" direct="true" who="#alg" toWhom="#pid"><persName ref="#alg"><forename>Антон</forename> <addName type="patronymic">Лаврентьевич</addName></persName>... </said></p>
+            <p>— <said aloud="true" direct="true" who="#pid">Ну всё равно, у меня в одно ухо вошло, в другое вышло. Нe провожайте меня, <persName ref="#mnd"><forename>Маврикий</forename> <addName type="patronymic">Николаевич</addName></persName>, я только Земирку знала. Слава богу, еще и сама хожу, а завтра гулять поеду. </said></p>
             <p>Она сердито вышла из залы.</p>
-            <p>— <said aloud="" direct="" who="" toWhom=""><persName>Антон Лаврентьевич</persName>, вы тем временем поговорите с <persName>Маврикием Николаевичем</persName>, уверяю вас, что вы оба выиграете, если поближе познакомитесь</said>, — сказала <persName>Лиза</persName> и дружески усмехнулась <persName>Маврикию Николаевичу</persName>, который так весь и просиял от ее взгляда.</p>
-            <p>Я, нечего делать, остался говорить с <persName>Маврикием Николаевичем</persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#alg"><persName ref="#alg"><forename>Антон</forename> <addName type="patronymic">Лаврентьевич</addName></persName>, вы тем временем поговорите с <persName ref="#mnd"><forename>Маврикием</forename> <addName type="patronymic">Николаевичем</addName></persName>, уверяю вас, что вы оба выиграете, если поближе познакомитесь</said>, — сказала <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName> и дружески усмехнулась <persName ref="#mnd"><forename>Маврикию</forename> <addName type="patronymic">Николаевичу</addName></persName>, который так весь и просиял от ее взгляда.</p>
+            <p>Я, нечего делать, остался говорить с <persName ref="#mnd"><forename>Маврикием</forename> <addName type="patronymic">Николаевичем</addName></persName>.</p>
           </div3>
           <div3 type="section" n="2">
             <head>II</head>
@@ -5433,6 +5434,9 @@
             </person>
             <person xml:id="npk" sex="female">
               <persName>Настасья Петровна Коробочка</persName>
+            </person>
+            <person xml:id="pring" sex="male">
+              <persName>Принц Гарри</persName>
             </person>
             
           </listPerson>
