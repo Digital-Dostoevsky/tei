@@ -96,6 +96,7 @@
         <change when="2022-08-01" who="#ES">[markup]:continued tagging Part 1</change>
         <change when="2022-08-03" who="#ES">[markup]:continued tagging Part 1</change>
         <change when="2022-08-04" who="#ES">[markup]:continued tagging Part 1</change>
+        <change when="2022-08-05" who="#ES">[markup]:continued tagging Part 1</change>
       </revisionDesc>
   </teiHeader>
   <text>
@@ -899,56 +900,56 @@
             <p><persName ref="#ipsh"><surname>Шатов</surname></persName> мгновенным, едва скользнувшим взглядом посмотрел на нее, но тотчас же опустил глаза.</p>
             <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">Мне и <persName ref="#nvs"><forename>Николай</forename> <addName type="patronymic">Всеволодович</addName></persName> о вас тоже много говорил... </said></p>
             <p><persName ref="#ipsh"><surname>Шатов</surname></persName> вдруг покраснел.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Впрочем, вот газеты</said>, — торопливо схватила <persName>Лиза</persName> со стула приготовленную и перевязанную пачку газет, — <said aloud="" direct="" who="" toWhom="">я здесь попробовала на выбор отметить факты, подбор сделать и нумера поставила... вы увидите. </said></p>
-            <p><persName>Шатов</persName> взял сверток.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Возьмите домой, посмотрите, вы ведь где живете? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">В <placeName>Богоявленской улице</placeName>, в доме <persName>Филиппова</persName>.	</said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я знаю. Там тоже, говорят, кажется какой-то капитан живет подле вас, господин <persName>Лебядкин</persName>?</said> — всё по-прежнему торопилась <persName>Лиза</persName>.</p>
-            <p><persName>Шатов</persName> с пачкой в руке, на отлете, как взял, так и просидел целую минуту без ответа, смотря в землю.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">На эти дела вы бы выбрали другого, а я вам вовсе не годен буду</said>, — проговорил он наконец, как-то ужасно странно понизив голос, почти шепотом.</p>
-            <p><persName>Лиза</persName> вспыхнула.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Про какие дела вы говорите? <persName>Маврикий Николаевич</persName>!</said> — крикнула она, — <said aloud="" direct="" who="" toWhom="">пожалуйте сюда давешнее письмо. </said></p>
-            <p>Я тоже за <persName>Маврикием Николаевичем</persName> подошел к столу.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Посмотрите это</said>, — обратилась она вдруг ко мне, в большом волнении развертывая письмо. — <said aloud="" direct="" who="" toWhom="">Видали ли вы когда что-нибудь похожее? Пожалуйста, прочтите вслух; мне надо, чтоб и господин <persName>Шатов</persName> слышал. </said></p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">Впрочем, вот газеты</said>, — торопливо схватила <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName> со стула приготовленную и перевязанную пачку газет, — <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">я здесь попробовала на выбор отметить факты, подбор сделать и нумера поставила... вы увидите. </said></p>
+            <p><persName ref="#ipsh"><surname>Шатов</surname></persName> взял сверток.</p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">Возьмите домой, посмотрите, вы ведь где живете? </said></p>
+            <p>— <said aloud="true" direct="true" who="#ipsh" toWhom="#lnt">В <placeName ref="#byavu">Богоявленской улице</placeName>, в доме Филиппова.	</said></p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">Я знаю. Там тоже, говорят, кажется какой-то капитан живет подле вас, <persName ref="#itl"><roleName>господин</roleName> <surname>Лебядкин</surname></persName>?</said> — всё по-прежнему торопилась <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName>.</p>
+            <p><persName ref="#ipsh"><surname>Шатов</surname></persName> с пачкой в руке, на отлете, как взял, так и просидел целую минуту без ответа, смотря в землю .</p>
+            <p>— <said aloud="true" direct="true" who="#ipsh" toWhom="#lnt">На эти дела вы бы выбрали другого, а я вам вовсе не годен буду</said>, — проговорил он наконец, как-то ужасно странно понизив голос, почти шепотом.</p>
+            <p><persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName> вспыхнула.</p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh #mnd">Про какие дела вы говорите? <persName ref="#mnd"><forename>Маврикий</forename> <addName type="patronymic">Николаевич</addName></persName>!</said> — крикнула она, — <said aloud="true" direct="true" who="#lnt" toWhom="#mnd">пожалуйте сюда давешнее письмо. </said></p>
+            <p>Я тоже за <persName ref="#mnd"><forename>Маврикием</forename> <addName type="patronymic">Николаевичем</addName></persName> подошел к столу.</p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#alg">Посмотрите это</said>, — обратилась она вдруг ко мне, в большом волнении развертывая письмо. — <said aloud="true" direct="true" who="#lnt" toWhom="#alg">Видали ли вы когда что-нибудь похожее? Пожалуйста, прочтите вслух; мне надо, чтоб и господин <persName ref="#ipsh"><surname>Шатов</surname></persName> слышал. </said></p>
             <p>С немалым изумлением прочел я вслух следующее послание:</p>
-            <p><said aloud="" direct="" who="" toWhom="">«Совершенству девицы <persName>Тушиной</persName>. </said></p>
-            <p>Милостивая государыня,</p>
-            <p><persName>Елизавета Николаевна</persName>!</p>
-            <p>О, как мила она,</p>
-            <p><persName>Елизавета Тушина</persName>,</p>
-            <p>Когда с родственником на дамском седле летает,</p>
-            <p>А локон ее с ветрами играет,</p>
-            <p>Или когда с матерью в церкви падает ниц,</p>
-            <p>И зрится румянец благоговейных лиц!</p>
-            <p>Тогда брачных и законных наслаждений желаю</p>
-            <p>И вслед ей, вместе с матерью, слезу посылаю.</p>
-            <p>Составил неученый за спором.</p>
-            <p>Милостивая государыня!</p>
-            <p>Всех более жалею себя, что в <placeName>Севастополе</placeName> не лишился руки для славы, не быв там вовсе, а служил всю кампанию по сдаче подлого провианта, считая низостью. Вы богиня в древности, а я ничто и догадался о беспредельности. Смотрите как на стихи, но не более, ибо стихи все-таки вздор и оправдывают то, что в прозе считается дерзостью. Может ли солнце рассердиться на инфузорию, если та сочинит ему из капли воды, где их множество, если в микроскоп? Даже самый клуб человеколюбия к крупным скотам в <placeName>Петербурге</placeName> при высшем обществе, сострадая по праву собаке и лошади, презирает краткую инфузорию, не упоминая о ней вовсе, потому что не доросла. Не дорос и я. Мысль о браке показалась бы уморительною; но скоро буду иметь бывшие двести душ чрез человеконенавистника, которого презирайте. Могу многое сообщить и вызываюсь по документам даже в <placeName>Сибирь</placeName>. Не презирайте предложения. Письмо от инфузории разуметь в стихах.</p>
-            <p>Капитан <persName>Лебядкин</persName>, покорнейший друг и имеет досуг»</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Это писал человек в пьяном виде и негодяй!</said> — вскричал я в негодовании. — <said aloud="" direct="" who="" toWhom="">Я его знаю!</said> — Это письмо я получила вчера, — <said aloud="" direct="" who="" toWhom="">покраснев и торопясь стала объяснять нам <persName>Лиза</persName></said>, — <said aloud="" direct="" who="" toWhom="">я тотчас же и сама поняла, что от какого-нибудь глупца, и до сих пор еще не показала maman, чтобы не расстроить ее еще более. Но если он будет опять продолжать, то я не знаю, как сделать. <persName>Маврикий Николаевич</persName> хочет сходить запретить ему. Так как я на вас смотрела как на сотрудника</said>, — <said aloud="" direct="" who="" toWhom="">обратилась она к <persName>Шатову</persName></said>, — <said aloud="" direct="" who="" toWhom="">и так как вы там живете, то я и хотела вас расспросить, чтобы судить, чего еще от него ожидать можно. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Пьяный человек и негодяй</said>, — пробормотал как бы нехотя <persName>Шатов</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Что ж, он всё такой глупый? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">И, нет, он не глупый совсем, когда не пьяный. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я знал одного генерала, который писал точь-в-точь такие стихи</said>, — заметил я смеясь.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Даже и по этому письму видно, что себе на уме</said>, — неожиданно ввернул молчаливый <persName>Маврикий Николаевич</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Он, говорят, с какой-то сестрой?</said> — спросила <persName>Лиза</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да, с сестрой. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Он, говорят, ее тиранит, правда это? </said></p>
-            <p><persName>Шатов</persName> опять поглядел на <persName>Лизу</persName>, насупился и, проворчав: <said aloud="" direct="" who="" toWhom="">«Какое мне дело!»</said> — подвинулся к дверям.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Ах, постойте</said>, — тревожно вскричала <persName>Лиза</persName>, — <said aloud="" direct="" who="" toWhom="">куда же вы? Нам так много еще остается переговорить... </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">О чем же говорить? Я завтра дам знать... </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да о самом главном, о типографии! Поверьте же, что я не в шутку, а серьезно хочу дело делать</said>, — уверяла <persName>Лиза</persName> всё в возрастающей тревоге. — <said aloud="" direct="" who="" toWhom="">Если решим издавать, то где же печатать? Ведь это самый важный вопрос, потому что в <placeName>Москву</placeName> мы для этого не поедем, а в здешней типографии невозможно для такого издания. Я давно решилась завести свою типографию, на ваше хоть имя, и мамá, я знаю, позволит, если только на ваше имя... </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Почему же вы знаете, что я могу быть типографщиком?</said> — угрюмо спросил <persName>Шатов</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да мне еще <persName>Петр Степанович</persName> в <placeName>Швейцарии</placeName> именно на вас указал, что вы можете вести типографию и знакомы с делом. Даже записку хотел от себя к вам дать, да я забыла. <persName>Шатов</persName>, как припоминаю теперь, изменился в лице. Он постоял еще несколько секунд и вдруг вышел из комнаты. </said></p>
-            <p><persName>Лиза</persName> рассердилась.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Он всегда так выходит?</said> — повернулась она ко мне.</p>
-            <p>Я пожал было плечами, но <persName>Шатов</persName> вдруг воротился, прямо подошел к столу и положил взятый им сверток газет:</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я не буду сотрудником, не имею времени... </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Почему же, почему же? Вы, кажется, рассердились?</said> — огорченным и умоляющим голосом спрашивала <persName>Лиза</persName>. Звук ее голоса как будто поразил его; несколько мгновений он пристально в нее всматривался, точно желая проникнуть в самую ее душу.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Всё равно</said>, — пробормотал он тихо, — <said aloud="" direct="" who="" toWhom="">я не хочу... </said></p>
-            <p>И ушел совсем. <persName>Лиза</persName> была совершенно поражена, даже как-то совсем и не в меру; так показалось мне.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Удивительно странный человек!</said> — громко заметил <persName>Маврикий Николаевич</persName>.</p>
+            <p><said aloud="true" direct="true" who="#alg"><writing type="letter" who="#itl" toWhom="#lnt">«Совершенству девицы <persName ref="#lnt"><surname>Тушиной</surname></persName>.
+            <lb />Милостивая государыня,
+              <lb /><persName ref="#lnt"><forename>Елизавета</forename> <addName type="patronymic">Николаевна</addName></persName>!
+            <lb />О, как мила она,
+              <lb /><persName ref="#lnt"><forename>Елизавета</forename> <addName type="patronymic">Тушина</addName></persName>,
+            <lb />Когда с родственником на дамском седле летает,
+            <lb />А локон ее с ветрами играет,
+            <lb />Или когда с матерью в церкви падает ниц,
+            <lb />И зрится румянец благоговейных лиц!
+            <lb />Тогда брачных и законных наслаждений желаю
+            <lb />И вслед ей, вместе с матерью, слезу посылаю.
+            <lb />Составил неученый за спором.
+            <lb />Милостивая государыня!
+            <lb />Всех более жалею себя, что в <placeName ref="#svsl">Севастополе</placeName> не лишился руки для славы, не быв там вовсе, а служил всю кампанию по сдаче подлого провианта, считая низостью. Вы богиня в древности, а я ничто и догадался о беспредельности. Смотрите как на стихи, но не более, ибо стихи все-таки вздор и оправдывают то, что в прозе считается дерзостью. Может ли солнце рассердиться на инфузорию, если та сочинит ему из капли воды, где их множество, если в микроскоп? Даже самый клуб человеколюбия к крупным скотам в <placeName ref="#spb">Петербурге</placeName> при высшем обществе, сострадая по праву собаке и лошади, презирает краткую инфузорию, не упоминая о ней вовсе, потому что не доросла. Не дорос и я. Мысль о браке показалась бы уморительною; но скоро буду иметь бывшие двести душ чрез человеконенавистника, которого презирайте. Могу многое сообщить и вызываюсь по документам даже в <placeName ref="#sib">Сибирь</placeName>. Не презирайте предложения. Письмо от инфузории разуметь в стихах.
+              <lb /><persName ref="#itl"><roleName>Капитан</roleName> <surname>Лебядкин</surname></persName>, покорнейший друг и имеет досуг»</writing></said></p>
+            <p>— <said aloud="true" direct="true" who="#alg" toWhom="#lnt">Это писал человек в пьяном виде и негодяй!</said> — вскричал я в негодовании. — <said aloud="true" direct="true" who="#alg" toWhom="#lnt">Я его знаю!</said> — <said aloud="true" direct="true" who="#lnt" toWhom="#alg #ipsh">Это письмо я получила вчера,</said> — покраснев и торопясь стала объяснять нам <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName>, — <said aloud="true" direct="true" who="#lnt" toWhom="#alg #ipsh">я тотчас же и сама поняла, что от какого-нибудь глупца, и до сих пор еще не показала <persName ref="#pid" xml:lang="fr"><roleName>maman</roleName></persName>, чтобы не расстроить ее еще более. Но если он будет опять продолжать, то я не знаю, как сделать. <persName ref="#mnd"><forename>Маврикий</forename> <addName type="patronymic">Николаевич</addName></persName> хочет сходить запретить ему. Так как я на вас смотрела как на сотрудника</said>, — обратилась она к <persName ref="#ipsh"><surname>Шатову</surname></persName>, — <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">и так как вы там живете, то я и хотела вас расспросить, чтобы судить, чего еще от него ожидать можно. </said></p>
+            <p>— <said aloud="true" direct="true" who="#ipsh" toWhom="#lnt">Пьяный человек и негодяй</said>, — пробормотал как бы нехотя <persName ref="#ipsh"><surname>Шатов</surname></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">Что ж, он всё такой глупый? </said></p>
+            <p>— <said aloud="true" direct="true" who="#ipsh" toWhom="#lnt">И, нет, он не глупый совсем, когда не пьяный. </said></p>
+            <p>— <said aloud="true" direct="true" who="#alg" toWhom="#lnt">Я знал одного генерала, который писал точь-в-точь такие стихи</said>, — заметил я смеясь.</p>
+            <p>— <said aloud="true" direct="true" who="#mnd" toWhom="#lnt">Даже и по этому письму видно, что себе на уме</said>, — неожиданно ввернул молчаливый <persName ref="#mnd"><forename>Маврикий</forename> <addName type="patronymic">Николаевич</addName></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">Он, говорят, с какой-то сестрой?</said> — спросила <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#ipsh" toWhom="#lnt">Да, с сестрой. </said></p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">Он, говорят, ее тиранит, правда это? </said></p>
+            <p><persName ref="#ipsh"><surname>Шатов</surname></persName> опять поглядел на <persName ref="#lnt"><addName type="diminutive">Лизу</addName></persName>, насупился и, проворчав: <said aloud="true" direct="true" who="#ipsh" toWhom="#lnt">«Какое мне дело!»</said> — подвинулся к дверям.</p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">Ах, постойте</said>, — тревожно вскричала <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName>, — <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">куда же вы? Нам так много еще остается переговорить... </said></p>
+            <p>— <said aloud="true" direct="true" who="#ipsh" toWhom="#lnt">О чем же говорить? Я завтра дам знать... </said></p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">Да о самом главном, о типографии! Поверьте же, что я не в шутку, а серьезно хочу дело делать</said>, — уверяла <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName> всё в возрастающей тревоге. — <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">Если решим издавать, то где же печатать? Ведь это самый важный вопрос, потому что в <placeName ref="#msk">Москву</placeName> мы для этого не поедем, а в здешней типографии невозможно для такого издания. Я давно решилась завести свою типографию, на ваше хоть имя, и <persName ref="#pid"><roleName>мамá</roleName></persName>, я знаю, позволит, если только на ваше имя... </said></p>
+            <p>— <said aloud="true" direct="true" who="#ipsh" toWhom="#lnt">Почему же вы знаете, что я могу быть типографщиком?</said> — угрюмо спросил <persName ref="#ipsh"><surname>Шатов</surname></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">Да мне еще <persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName> в <placeName ref="#shv">Швейцарии</placeName> именно на вас указал, что вы можете вести типографию и знакомы с делом. Даже записку хотел от себя к вам дать, да я забыла.</said> <persName ref="#ipsh"><surname>Шатов</surname></persName>, как припоминаю теперь, изменился в лице. Он постоял еще несколько секунд и вдруг вышел из комнаты.</p>
+            <p><persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName> рассердилась.</p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#alg">Он всегда так выходит?</said> — повернулась она ко мне.</p>
+            <p>Я пожал было плечами, но <persName ref="#ipsh"><surname>Шатов</surname></persName> вдруг воротился, прямо подошел к столу и положил взятый им сверток газет:</p>
+            <p>— <said aloud="true" direct="true" who="#ipsh" toWhom="#lnt">Я не буду сотрудником, не имею времени... </said></p>
+            <p>— <said aloud="true" direct="true" who="#lnt" toWhom="#ipsh">Почему же, почему же? Вы, кажется, рассердились?</said> — огорченным и умоляющим голосом спрашивала <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName>. Звук ее голоса как будто поразил его; несколько мгновений он пристально в нее всматривался, точно желая проникнуть в самую ее душу.</p>
+            <p>— <said aloud="true" direct="true" who="#ipsh" toWhom="#lnt">Всё равно</said>, — пробормотал он тихо, — <said aloud="true" direct="true" who="#ipsh" toWhom="#lnt">я не хочу... </said></p>
+            <p>И ушел совсем. <persName ref="#lnt"><addName type="diminutive">Лиза</addName></persName> была совершенно поражена, даже как-то совсем и не в меру; так показалось мне.</p>
+            <p>— <said aloud="true" direct="true" who="#mnd" toWhom="#lnt">Удивительно странный человек!</said> — громко заметил <persName ref="#mnd"><forename>Маврикий</forename> <addName type="patronymic">Николаевич</addName></persName>.</p>
           </div3>
           <div3 type="section" n="3">
             <head>III</head>
@@ -5666,6 +5667,13 @@
             <place type="city" xml:id="svsl">
               <placeName>Севастополь</placeName>
             </place>
+            <place type="street" xml:id="byavu">
+              <placeName>Богоявленская улица</placeName>
+            </place>
+            <place type="region" xml:id="sib">
+              <placeName>Сибирь</placeName
+            </place>
+            
             
             
           </listPlace>
