@@ -112,6 +112,7 @@
 			  <change when="2022-08-21" who="#VS">[markup]:finished tagging section IV of Chapter 1.</change> 
 			  <change when="2022-08-27" who="#VS">[markup]:finished tagging section I of Chapter 2.</change> 
 			  <change when="2022-09-04" who="#VS">[markup]:finished tagging section II of Chapter 2.</change>
+			  <change when="2022-09-11" who="#VS">[markup]:finished tagging section  of Chapter 2.</change>
         	</revisionDesc> 
   </teiHeader>
   <text>
@@ -1656,7 +1657,7 @@
             <p>Войдя, он прервал их разговор и тотчас начал рассказывать о вчерашней игре, даже еще и не садясь.</p>
             <p>— <said aloud="" direct="" who="" toWhom="">Вы, кажется, тоже были</said>, — оборотился он с третьей фразы к важному гостю, приняв того за кого-то из своих, но, тотчас же разглядев, крикнул:</p>
             <p>— <said aloud="" direct="" who="" toWhom="">Ах, извините, а я вас было принял тоже за вчерашнего! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom=""><persName>Алексей Владимирович Дарзан</persName>, <persName>Ипполит</persName> Александрович Нащокин</said>, — поспешно познакомил их князь; этого мальчика все-таки можно было рекомендовать: фамилия была хорошая и известная, но нас он давеча не отрекомендовал, и мы продолжали сидеть по своим углам. Я решительно не хотел повертывать к ним головы; но <persName>Стебельков</persName> при виде молодого человека стал радостно осклабляться и видимо угрожал заговорить. Всё это мне становилось даже забавно.</p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom=""><persName ref="#avda"><forename>Алексей</forename><addName type="patronymic">Владимирович</addName><surname>Дарзан</surname></persName>, <persName>Ипполит</persName> Александрович Нащокин</said>, — поспешно познакомил их князь; этого мальчика все-таки можно было рекомендовать: фамилия была хорошая и известная, но нас он давеча не отрекомендовал, и мы продолжали сидеть по своим углам. Я решительно не хотел повертывать к ним головы; но <persName>Стебельков</persName> при виде молодого человека стал радостно осклабляться и видимо угрожал заговорить. Всё это мне становилось даже забавно.</p>
             <p>— <said aloud="" direct="" who="" toWhom="">Я вас в прошлом году часто у <persName>графини Веригиной</persName> встречал</said>, — сказал Дарзан.</p>
             <p>— <said aloud="" direct="" who="" toWhom="">Я вас помню, но вы были тогда, кажется, в военном</said>, — ласково ответил Нащокин.</p>
             <p>— <said aloud="" direct="" who="" toWhom="">Да, в военном, но благодаря... А, <persName>Стебельков</persName>, уж тут? Каким образом он здесь? Вот именно благодаря вот этим господчикам я и не в военном</said>, — указал он прямо на <persName>Стебелькова</persName> и захохотал. Радостно засмеялся и <persName>Стебельков</persName>, вероятно приняв за любезность. Князь покраснел и поскорее обратился с каким-то вопросом к <persName>Нащокину</persName>, а Дарзан, подойдя к <persName>Стебелькову</persName>, заговорил с ним о чем-то очень горячо, но уже вполголоса.</p>
@@ -4616,6 +4617,13 @@
 <person xml:id="knsash" sex="male">
           <persName>Саша Сокольский</persName>
           <persName>Саша</persName>
+</person>
+<person xml:id="avda" sex="male">
+          <persName>Алексей Владимирович Дарзан</persName>
+</person>
+            
+<person xml:id="ian" sex="male">
+          <persName>Ипполит Александрович Нащокин</persName>
 </person>
           </listPerson>
 <listPerson type="fictionalnonDostoevsky">
