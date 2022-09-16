@@ -15,7 +15,9 @@
 						<resp>Tagged by</resp>
 					<name xml:id="AG">Anastasiya Gordiychuk</name>
           <name xml:id="KB">Katherine Bowers</name>
-						  <name xml:id="SW">Simon Wiles</name>
+					<name xml:id="SW">Simon Wiles</name>
+					<name xml:id="EV">Elena Vasileva</name>
+					<name xml:id="EZ">Eden Zorne</name>
           </respStmt>
           <principal>Kate Holland</principal>
 <funder>Social Sciences and Humanities Research Council of Canada</funder>
