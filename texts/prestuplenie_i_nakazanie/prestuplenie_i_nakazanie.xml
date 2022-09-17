@@ -22,6 +22,7 @@
           <principal>Kate Holland</principal>
 <funder>Social Sciences and Humanities Research Council of Canada</funder>
 </titleStmt>
+
       <publicationStmt>
         <publisher>Digital Dostoevsky</publisher>
 					<pubPlace>Toronto, Ontario</pubPlace>
@@ -30,7 +31,9 @@
 				<addrLine>University of Toronto</addrLine></address>
 				<date>2022</date>
             </publicationStmt>
-      </sourceDesc>
+     </sourceDesc>
+   </fileDesc>
+   
       <biblStruct>
 <monogr>
 <author>Dostoevskii, Fedor Mikhailovich</author>
@@ -57,7 +60,7 @@
 </publicationStmt>
 					  </biblFull>
          </sourceDesc>
-         </fileDesc>
+         
       <profileDesc>
 <langUsage>
 	<language ident="ru">Russian</language>
@@ -86,7 +89,8 @@
 			  <change when="2022-05-27" who="#AG">[markup]:started tagging elements in part 2 chapter 3</change>
 			  <change when="2022-07-25" who="#EV">[markup]: cleaned up tagging in the beginning of chapter 1, part 1; started updating ids</change>
 			  <change when="2022-09-16" who="#EZ">[markup]: fixed find and replace error from 2022-07-25</change>
-        </revisionDesc>
+        </revisionDesc>\
+      
   </teiHeader>
   <text>
     <body>
