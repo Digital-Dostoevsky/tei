@@ -1668,7 +1668,7 @@
             <p>— <said aloud="true" direct="true" who="#avda" toWhom="#ian">Это верно!</said> — крикнул <persName ref="#avda"><surname>Дарзан</surname></persName>.</p>
             <p>— <said aloud="true" direct="true" who="#knser" toWhom="#ian">Вы... наверно это знаете?</said> — спросил <persName ref="#knser"><roleName>князь</roleName></persName> <persName ref="#ian"><surname>Нащокина</surname></persName>, с видимым волнением и с особенным ударением выговаривая свой вопрос.</p>
             <p>— <said aloud="true" direct="true" who="#ian" toWhom="#knser">Мне говорили; и об этом, кажется, уже говорят; наверно, впрочем, не знаю. </said></p>
-            <p>— <said aloud="true" direct="true" who="#avda" toWhom="#ian">О, наверно!</said> — подошел к ним <persName ref="#avda"><surname>Дарзан</surname></persName>, — <said aloud="true" direct="true" who="#avda" toWhom="#ian">мне вчера <persName>Дубасов</persName> говорил; он всегда такие новости первый знает. Да и князю следовало бы знать... </said></p>
+            <p>— <said aloud="true" direct="true" who="#avda" toWhom="#ian">О, наверно!</said> — подошел к ним <persName ref="#avda"><surname>Дарзан</surname></persName>, — <said aloud="true" direct="true" who="#avda" toWhom="#ian">мне вчера <persName ref="#dubas"><surname>Дубасов</surname></persName> говорил; он всегда такие новости первый знает. Да и князю следовало бы знать... </said></p>
             <p>Нащокин переждал <persName>Дарзана</persName> и опять обратился к князю:</p>
             <p>— <said aloud="" direct="" who="" toWhom="">Она редко стала бывать в свете. </said></p>
             <p>— <said aloud="true" direct="true" who="#avda" toWhom="#ian">Последний месяц ее отец был болен</said>, — как-то сухо заметил князь.</p>
@@ -4631,6 +4631,9 @@
 </person>
 <person xml:id="barb" sex="male">
           <persName>барон Бьоринг</persName>
+</person>
+<person xml:id="dubas" sex="male">
+          <persName>Дубасов</persName>
 </person>
           </listPerson>
 <listPerson type="fictionalnonDostoevsky">
