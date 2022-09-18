@@ -3926,24 +3926,24 @@
     <back>
 				<div type="editorial">
           <listPerson type="fictional">
-           <person xm:id="ras" sex="male"> <persName>Родион Романович Раскольников</persName></person>
+           <person xm:id="rrr" sex="male"> <persName>Родион Романович Раскольников</persName></person>
    <person xml:id="star" sex="female"><persName>Алена Ивановна</persName></person>
-            <person xm:id="zakh" sex="male"><persName>Семен Захарович Мармеладов</persName></person>
-             <person xm:id="leb" sex="male"><persName>Андрей Семенович Лебезятников</persName></person>
+            <person xm:id="szm" sex="male"><persName>Семен Захарович Мармеладов</persName></person>
+             <person xm:id="asl" sex="male"><persName>Андрей Семенович Лебезятников</persName></person>
            <person xm:id="hozbar" sex="male"><persName>Хозяин бара</persName></person>
-            <person xm:id="amal" sex="female"><persName>Амалия Федоровна Липпевехзель</persName></person>
-            <person xm:id="ivan" sex="male"><persName>Иван Иванович</persName></person>
+            <person xm:id="afl" sex="female"><persName>Амалия Федоровна Липпевехзель</persName></person>
+            <person xm:id="iviv" sex="male"><persName>Иван Иванович</persName></person>
             <person xm:id="dfra" sex="female"><persName>Дарья Францевна</persName></person>
             <person xm:id="kaper" sex="male"><persName>Капернаумов</persName></person>
-            <person xm:id="afan" sex="male"><persName>Иван Афанасьевич</persName></person>
+            <person xm:id="ivaf" sex="male"><persName>Иван Афанасьевич</persName></person>
             <person xm:id="pras" sex="female"> <persName>Прасковья Павловна</persName></person>
             <person xm:id="nast" sex="female"> <persName>Настасья</persName></person>
-            <person xm:id="dun" sex="female"> <persName>Авдотья Романовна Раскольникова </persName></person>
-            <person xm:id="pal" sex="female"> <persName>Пульхерия Александровна Раскольникова </persName></person>
-            <person xm:id="afi" sex="male"><persName>Афанасий Иванович Вахрушин</persName></person>
-            <person xm:id="arksvi" sex="male"><persName>Аркадий Иванович Свидригайлов </persName></person>
-            <person xm:id="masvi" sex="female"><persName>Марфа Петровна Свидригайлова </persName></person>
-            <person xm:id="luzh" sex="male"><persName>Петр Петрович Лужин</persName></person>
+            <person xm:id="arr" sex="female"> <persName>Авдотья Романовна Раскольникова </persName></person>
+            <person xm:id="par" sex="female"> <persName>Пульхерия Александровна Раскольникова </persName></person>
+            <person xm:id="aiv" sex="male"><persName>Афанасий Иванович Вахрушин</persName></person>
+            <person xm:id="ais" sex="male"><persName>Аркадий Иванович Свидригайлов </persName></person>
+            <person xm:id="mps" sex="female"><persName>Марфа Петровна Свидригайлова </persName></person>
+            <person xm:id="pepl" sex="male"><persName>Петр Петрович Лужин</persName></person>
             <person xm:id="gos" sex="male"> <persName>городовой</persName></person>
             <person xm:id="unc" sex="female"><persName>девушка которой Раскольников хотел помочь</persName></person>
               <person xm:id="raz" sex="male"> <persName>Дмитрий Прокофьевич Разумихин</persName></person>
