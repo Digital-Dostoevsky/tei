@@ -3926,7 +3926,37 @@
     <back>
 				<div type="editorial">
           <listPerson type="fictional">
-           <person xm:id="rrr" sex="male"> <persName>Родион Романович Раскольников</persName></person>
+           <person xm:id="rrr" sex="male">
+             <persName>Родион Романович Раскольников</persName>
+             <persName>молодой человек</persName>
+             <persName>немецкий шляпник</persName>
+             <persName>Раскольников</persName>
+             <persName>батюшка</persName>
+             <persName>гость</persName>
+             <persName>милостивый государь мой</persName>
+             <persName>студент</persName>
+             <persName>бывший студент</persName>
+             <persName>государь мой</persName>
+             <persName>сударь</persName>
+             <persName>государь</persName>
+             <persName>умник</persName>
+             <persName>Родя</persName>
+             <persName>компанион</persName>
+             <persName>правая рука</persName>
+             <persName>милый друг мой</persName>
+             <persName>надежда наша</persName>
+             <persName>миллионер будущий</persName>
+             <persName>оборванец</persName>
+             <persName>каналья</persName>
+             <persName>приятель</persName>
+             <persName>бедный мальчик</persName>
+             <persName>незваный гость</persName>
+             <persName>милостивый государь</persName>
+             <persName>товарищ</persName>
+             <persName>чудак</persName>
+             <persName>трубочист</persName>
+             <persName>брат</persName>
+           </person>
    <person xml:id="star" sex="female"><persName>Алена Ивановна</persName></person>
             <person xm:id="szm" sex="male"><persName>Семен Захарович Мармеладов</persName></person>
              <person xm:id="asl" sex="male"><persName>Андрей Семенович Лебезятников</persName></person>
