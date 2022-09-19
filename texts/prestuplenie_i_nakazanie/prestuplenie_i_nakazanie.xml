@@ -3997,14 +3997,29 @@
              <persName>Лебезятников</persName>
              <persName>просвещенный человек</persName>
            </person>
-           <person xm:id="hozbar" sex="male"><persName>Хозяин бара</persName></person>
-           <person xm:id="afl" sex="female"><persName>Амалия Федоровна Липпевехзель</persName></person>
+           <person xm:id="hozbar" sex="male">
+             <persName>Хозяин бара</persName>
+             <persName>хозяин</persName>
+             <persName>продавец</persName>
+           </person>
+           <person xm:id="afl" sex="female">
+             <persName>Амалия Федоровна Липпевехзель</persName>
+             <persName>Амалия Федоровна</persName>
+           </person>
            <person xm:id="iviv" sex="male"><persName>Иван Иванович</persName></person>
            <person xm:id="dfra" sex="female"><persName>Дарья Францевна</persName></person>
            <person xm:id="kaper" sex="male"><persName>Капернаумов</persName></person>
            <person xm:id="ivaf" sex="male"><persName>Иван Афанасьевич</persName></person>
-           <person xm:id="pras" sex="female"> <persName>Прасковья Павловна</persName></person>
-           <person xm:id="nast" sex="female"> <persName>Настасья</persName></person>
+           <person xm:id="pras" sex="female">
+             <persName>Прасковья Павловна</persName>
+             <persName>дура</persName>
+           </person>
+           <person xm:id="nast" sex="female">
+             <persName>Настасья</persName>
+             <persName>служанка</persName>
+             <persName>болтливая баба</persName>
+             <persName>Настасьюшка</persName>
+           </person>
            <person xm:id="arr" sex="female"> <persName>Авдотья Романовна Раскольникова </persName></person>
            <person xm:id="par" sex="female"> <persName>Пульхерия Александровна Раскольникова </persName></person>
            <person xm:id="aiv" sex="male"><persName>Афанасий Иванович Вахрушин</persName></person>
