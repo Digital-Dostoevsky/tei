@@ -4258,6 +4258,7 @@
               <person xml:id="alnr" sex="male">
                 <persName>Радищев</persName>
               </person>
+            
 
           </listPerson>
           <listPerson type="other">
@@ -4269,65 +4270,169 @@
               <persName>Христ</persName>
             </person>
 
-
           </listPerson>
-          <listObject>
-            
-            <object xml:id="shkaf"><objectIdentifier><objectName>шкаф </obkectIdentifier></objectName>
+          <listObject>           
+            <object xml:id="shkaf">
+              <objectIdentifier><objectName>шкаф</objectIdentifier></objectName>
           </listObject>
+          
           <listPlace>
-            <place type="fictional" xml:id="raskv"><placeName>каморка</placeName></place>
-            <place type="lane" xml:id="smp"><placeName>С—м переулке</placeName></place>
-            <place type="bridge" xml:id="knm"><placeName>К—ну мосту</placeName></place>
-            <place type="fictional" xml:id="hozk"><placeName>хозяйкиной кухни</placeName></place>
-            <place type="river" xml:id="nev"><placeName>Нева</placeName></place>
-              <place type="country" xml:id="eng"><placeName>Англия</placeName></place>
-            <place type="city" xml:id="har"> <placeName>Харьков</placeName> </place>
-            <place type="continent" xml:id="afri"><placeName>Африка</placeName></place>
-            <place type="fictional" xml:id="starkv"><placeName>квартира Алены Ивановны</placeName></place>
-            <place type="street" xml:id="petul"><placeName>петербургских улицах и переулках</placeName></place>
-              <place type="street" xml:id="uli"> <placeName>улице</placeName></place>
-            <place type="river" xml:id="kan"> <placeName>канаву</placeName></place>
-            <place type="fictional" xml:id="rasdom"> <placeName>дом Раскольникова</placeName></place>
-            <place type="fictional" xml:id="stardom"><placeName>дом Алены Ивановны</placeName></place>
-            <place type="street" xml:id="vuul"><placeName>в —ю улицу</placeName></place>
-            <place type="fictional" xml:id="leststar"><placeName>лестница в доме Алены Ивановны</placeName></place>
-              <place type="fictional" xml:id="starkom"> <placeName>комната 1 в доме Алены Ивановны</placeName></place>
-                <place type="fictional" xml:id="starkoms"> <placeName>комната 2 в доме Алены Ивановны</placeName></place>
-                  <place type="fictional" xml:id="bar"> <placeName>распивочная</placeName></place>
-            <place type="bridge" xml:id="egb"> <placeName>Египетский мост</placeName></place>
-              <place type="fictional" xml:id="kozdom"> <placeName>дом Козеля</placeName></place>
-            <place type="city" xml:id="spb"><placeName>Санкт Петербург</placeName></place>
-            <place type="gubernia" xml:id="rgub"><placeName>Р—й губернии</placeName></place>
-            <place type="island" xml:id="vaso"> <placeName>Васильевскому острову</placeName></place>
-            <place type="street" xml:id="vupr">  <placeName>В—й проспект</placeName></place>
-            <place type="calvary" xml:id="goc"> <placeName>Голгофа</placeName></place>
-              <place type="region" xml:id="schwh"> <placeName>Шлезвиг-Гольштейн</placeName></place>
-            <place type="street" xml:id="kmb"><placeName>К—му бульвару</placeName>
-              <place type="fictional" xml:id="har> <placeName>харчевня</placeName></place>
-              <place type="island" xml:id="peto"><placeName>Петровский остров</placeName>
-                <place type="river" xml:id="mnev"><placeName>Малой Невы</placeName></place>
-                <place type="bridge" xml:id="tvbridge"> <placeName>Т—в мост</placeName></place>
-                <place type="street" xml:id="knper>  <placeName>К—ного переулка</placeName></place>
-                <place type="fictional" xml:id="hozkv> <placeName>квартира Зарницыной</placeName></place>
-                <place type="fictional" xml:id="stark> <placeName>кухня Алены Ивановны</placeName></place>
-                <place type="gubernia" xml:id="ngub"><placeName>Н—й губернии</placeName></place>
-                <place type="garden" xml:id="yussad"><placeName>Юсупов сад</placeName></place>
-                <place type="park" xml:id="lsad"><placeName>Летний сад</placeName></place>
-                <place type="park" xml:id="marsp"><placeName>Марсово поле</placeName></place>
-                <place type="park" xml:id="mihs"> <placeName>Михайловский сад</placeName>
-                  <place type="square" xml:id="sen"><placeName>Сенная</placeName></place>
-                  <place type="fictional" xml:id="raskab"> <placeName>кабак</placeName></place>
-                  <place type="fictional" xml:id="klad"> <placeName>кладбище</placeName></place>
-                  <place type="fictional" xml:id="con"> <placeName>контора</placeName></place>
-                  <place type="fictional" xml:id="rasgor"><placeName>городок в котором жил Раскольников в детстве</placeName> </place>
-                    <place type="gubernia" xml:id="vgub"><placeName>в — й губернии</placeName></place>
-                  <place type="embankment" xml:id="nec"><placeName>набережной Екатерининского канала</placeName></place>
-                  <place type="island" xml:id="ost"> <placeName>Острова</placeName></place>
-                  <place type="fictional" xml:id="zav"> <placeName>каретное или слесарное заведение</placeName></place>
-                  <place type="fictional" xml:id="razkv"> <placeName>каморка Разумихина</placeName></place>
-                    <place type="bridge" xml:id="nikm">  <placeName>Николаевском мосту</placeName></place>
-                  <place type="fictional" xml:id="tol"> <placeName>Толкучий</placeName></place>
+            <place type="fictional" xml:id="raskv">
+              <placeName>каморка</placeName>
+            </place>
+            <place type="lane" xml:id="smp">
+              <placeName>С—м переулке</placeName>
+            </place>
+            <place type="bridge" xml:id="knm">
+              <placeName>К—ну мосту</placeName>
+            </place>
+            <place type="fictional" xml:id="hozk">
+              <placeName>хозяйкиной кухни</placeName>
+            </place>
+            <place type="river" xml:id="nev">
+              <placeName>Нева</placeName>
+            </place>
+            <place type="country" xml:id="eng">
+              <placeName>Англия</placeName>
+            </place>
+            <place type="city" xml:id="har">
+              <placeName>Харьков</placeName>
+            </place>
+            <place type="continent" xml:id="afri">
+              <placeName>Африка</placeName>
+            </place>
+            <place type="fictional" xml:id="starkv">
+              <placeName>квартира Алены Ивановны</placeName>
+            </place>
+            <place type="street" xml:id="petul">
+              <placeName>петербургских улицах и переулках</placeName>
+            </place>
+            <place type="street" xml:id="uli">
+              <placeName>улице</placeName>
+            </place>
+            <place type="river" xml:id="kan">
+              <placeName>канаву</placeName>
+            </place>
+            <place type="fictional" xml:id="rasdom">
+              <placeName>дом Раскольникова</placeName>
+            </place>
+            <place type="fictional" xml:id="stardom">
+              <placeName>дом Алены Ивановны</placeName>
+            </place>
+            <place type="street" xml:id="vuul">
+              <placeName>в —ю улицу</placeName>
+            </place>
+            <place type="fictional" xml:id="leststar">
+              <placeName>лестница в доме Алены Ивановны</placeName>
+            </place>
+            <place type="fictional" xml:id="starkom">
+              <placeName>комната 1 в доме Алены Ивановны</placeName>
+            </place>
+            <place type="fictional" xml:id="starkoms">
+              <placeName>комната 2 в доме Алены Ивановны</placeName>
+            </place>
+            <place type="fictional" xml:id="bar">
+              <placeName>распивочная</placeName>
+            </place>
+            <place type="bridge" xml:id="egb">
+              <placeName>Египетский мост</placeName>
+            </place>
+            <place type="fictional" xml:id="kozdom">
+              <placeName>дом Козеля</placeName>
+            </place>
+            <place type="city" xml:id="spb">
+              <placeName>Санкт Петербург</placeName>
+            </place>
+            <place type="gubernia" xml:id="rgub">
+              <placeName>Р—й губернии</placeName>
+            </place>
+            <place type="island" xml:id="vaso">
+              <placeName>Васильевскому острову</placeName>
+            </place>
+            <place type="street" xml:id="vupr">
+              <placeName>В—й проспект</placeName>
+            </place>
+            <place type="calvary" xml:id="goc">
+              <placeName>Голгофа</placeName>
+            </place>
+            <place type="region" xml:id="schwh">
+              <placeName>Шлезвиг-Гольштейн</placeName>
+            </place>
+            <place type="street" xml:id="kmb">
+              <placeName>К—му бульвару</placeName>
+            </place>
+            <place type="fictional" xml:id="har>
+              <placeName>харчевня</placeName>
+            </place>
+            <place type="island" xml:id="peto">
+              <placeName>Петровский остров</placeName>
+            </place>
+            <place type="river" xml:id="mnev">
+              <placeName>Малой Невы</placeName>
+            </place>
+            <place type="bridge" xml:id="tvbridge">
+              <placeName>Т—в мост</placeName>
+            </place>
+            <place type="street" xml:id="knper">
+              <placeName>К—ного переулка</placeName>
+            </place>
+            <place type="fictional" xml:id="hozkv">
+              <placeName>квартира Зарницыной</placeName>
+            </place>
+            <place type="fictional" xml:id="stark">
+              <placeName>кухня Алены Ивановны</placeName>
+            </place>
+            <place type="gubernia" xml:id="ngub">
+              <placeName>Н—й губернии</placeName>
+            </place>
+            <place type="garden" xml:id="yussad">
+              <placeName>Юсупов сад</placeName>
+            </place>
+            <place type="park" xml:id="lsad">
+              <placeName>Летний сад</placeName>
+            </place>
+            <place type="park" xml:id="marsp">
+              <placeName>Марсово поле</placeName>
+            </place>
+            <place type="park" xml:id="mihs">
+              <placeName>Михайловский сад</placeName>
+            </place>
+            <place type="square" xml:id="sen">
+              <placeName>Сенная</placeName>
+            </place>
+            <place type="fictional" xml:id="raskab">
+              <placeName>кабак</placeName>
+            </place>
+            <place type="fictional" xml:id="klad">
+              <placeName>кладбище</placeName>
+            </place>
+            <place type="fictional" xml:id="con">
+              <placeName>контора</placeName>
+            </place>
+            <place type="fictional" xml:id="rasgor">
+              <placeName>городок в котором жил Раскольников в детстве</placeName>
+            </place>
+            <place type="gubernia" xml:id="vgub">
+              <placeName>в — й губернии</placeName>
+            </place>
+            <place type="embankment" xml:id="nec">
+              <placeName>набережной Екатерининского канала</placeName>
+            </place>
+            <place type="island" xml:id="ost">
+              <placeName>Острова</placeName>
+            </place>
+            <place type="fictional" xml:id="zav">
+              <placeName>каретное или слесарное заведение</placeName>
+            </place>
+            <place type="fictional" xml:id="razkv">
+              <placeName>каморка Разумихина</placeName>
+            </place>
+            <place type="bridge" xml:id="nikm">
+              <placeName>Николаевском мосту</placeName>
+            </place>
+            <place type="fictional" xml:id="tol">
+              <placeName>Толкучий</placeName>
+            </place>
           </listPlace>
         </div>
     </back>
