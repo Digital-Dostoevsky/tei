@@ -3929,7 +3929,7 @@
     <back>
 				<div type="editorial">
           <listPerson type="fictional">
-           <person xm:id="rrr" sex="male">
+           <person xml:id="rrr" sex="male">
              <persName>Родион Романович Раскольников</persName>
              <persName>молодой человек</persName>
              <persName>немецкий шляпник</persName>
@@ -3974,7 +3974,7 @@
              <persName>ведьма</persName>
              <persName>кредиторша</persName>
            </person>
-           <person xm:id="szm" sex="male">
+           <person xml:id="szm" sex="male">
              <persName>Семен Захарович Мармеладов</persName>
              <persName>Чиновник</persName>
              <persName>Мармеладов</persName>
@@ -3992,7 +3992,7 @@
              <persName>колодник</persName>
              <persName>Изверг</persName>
            </person>
-           <person xm:id="asl" sex="male">
+           <person xml:id="asl" sex="male">
              <persName>Андрей Семенович Лебезятников</persName>
              <persName>господин Лебезятников</persName>
              <persName>человек</persName>
@@ -4000,30 +4000,38 @@
              <persName>Лебезятников</persName>
              <persName>просвещенный человек</persName>
            </person>
-           <person xm:id="hozbar" sex="male">
+           <person xml:id="hozbar" sex="male">
              <persName>Хозяин бара</persName>
              <persName>хозяин</persName>
              <persName>продавец</persName>
            </person>
-           <person xm:id="afl" sex="female">
+           <person xml:id="afl" sex="female">
              <persName>Амалия Федоровна Липпевехзель</persName>
              <persName>Амалия Федоровна</persName>
            </person>
-           <person xm:id="iviv" sex="male"><persName>Иван Иванович</persName></person>
-           <person xm:id="dfra" sex="female"><persName>Дарья Францевна</persName></person>
-           <person xm:id="kaper" sex="male"><persName>Капернаумов</persName></person>
-           <person xm:id="ivaf" sex="male"><persName>Иван Афанасьевич</persName></person>
-           <person xm:id="pras" sex="female">
+           <person xml:id="iviv" sex="male">
+             <persName>Иван Иванович</persName>
+           </person>
+           <person xml:id="dfra" sex="female">
+             <persName>Дарья Францевна</persName>
+           </person>
+           <person xml:id="kaper" sex="male">
+             <persName>Капернаумов</persName>
+           </person>
+           <person xml:id="ivaf" sex="male">
+             <persName>Иван Афанасьевич</persName>
+           </person>
+           <person xml:id="pras" sex="female">
              <persName>Прасковья Павловна</persName>
              <persName>дура</persName>
            </person>
-           <person xm:id="nast" sex="female">
+           <person xml:id="nast" sex="female">
              <persName>Настасья</persName>
              <persName>служанка</persName>
              <persName>болтливая баба</persName>
              <persName>Настасьюшка</persName>
            </person>
-           <person xm:id="arr" sex="female">
+           <person xml:id="arr" sex="female">
              <persName>Авдотья Романовна Раскольникова</persName>
              <persName>Дуня</persName>
              <persName>сестра твоя</persName>
@@ -4036,7 +4044,7 @@
              <persName>Авдотья Романовна</persName>
              <persName>невеста</persName>
            </person>
-           <person xm:id="par" sex="female">
+           <person xml:id="par" sex="female">
              <persName>Пульхерия Александровна Раскольникова</persName>
              <persName>мать</persName>
              <persName>Пульхерия Раскольникова</persName>
@@ -4044,12 +4052,12 @@
              <persName>наивная мамаша</persName>
              <persName>мамаша-то</persName>
            </person>
-           <person xm:id="aiv" sex="male">
+           <person xml:id="aiv" sex="male">
              <persName>Афанасий Иванович Вахрушин</persName>
              <persName>Афанфсий Иваниович</persName>
              <persName>Вахрушин</persName>
            </person>
-           <person xm:id="ais" sex="male">
+           <person xml:id="ais" sex="male">
              <persName>Аркадий Иванович Свидригайлов</persName>
              <persName>господин Свидригайлов</persName>
              <persName>господин</persName>
@@ -4059,11 +4067,11 @@
              <persName>подлец</persName>
              <persName>усач</persName>
            </person>
-           <person xm:id="mps" sex="female">
+           <person xml:id="mps" sex="female">
              <persName>Марфа Петровна Свидригайлова </persName>
              <persName>Марфа Петровна</persName>
            </person>
-           <person xm:id="pepl" sex="male">
+           <person xml:id="pepl" sex="male">
              <persName>Петр Петрович Лужин</persName>
              <persName>Петр Петрович</persName>
              <persName>человек очень расчетливый</persName>
@@ -4074,13 +4082,13 @@
              <persName>мужичка</persName>
              <persName>господин Лужин</persName>
            </person>
-           <person xm:id="gor" sex="male">
+           <person xml:id="gor" sex="male">
              <persName>городовой</persName>
              <persName>унтер-офицер</persName>
              <persName>учас</persName>
              <persName>служивый</persName>
            </person>
-           <person xm:id="devpr" sex="female">
+           <person xml:id="devpr" sex="female">
              <persName>девушка которой Раскольников хотел помочь</persName>
              <persName>женщина</persName>
              <persName>девушка</persName>
@@ -4089,76 +4097,80 @@
              <persName>сударыня</persName>
              <persName>барышня</persName>
            </person>
-           <person xm:id="dpr" sex="male">
+           <person xml:id="dpr" sex="male">
              <persName>Дмитрий Прокофьевич Разумихин</persName>
              <persName>Разумихин</persName>
              <persName>веселый и сообщительный парень</persName>
            </person>
-           <person xm:id="lizi" sex="female">
+           <person xml:id="lizi" sex="female">
              <persName>Лизавета Ивановна </persName>
              <persName>Лизавета</persName>
              <persName>смиренная девка</persName>
              <persName>робенок малый</persName>
              <persName>солдат переряженный</persName>
            </person>
-           <person xm:id="mesch" sex="male">
+           <person xml:id="mesch" sex="male">
              <persName>мещанин</persName>
              <persName>муж</persName>
            </person>
-           <person xm:id="zhme" sex="female">
+           <person xml:id="zhme" sex="female">
              <persName>жена мещанина</persName>
              <persName>жена</persName>
              <persName>баба</persName>
            </person>
-           <person xm:id="otra" sex="male">
+           <person xml:id="otra" sex="male">
              <persName>отец Раскольникова</persName>
              <persName>папочка</persName>
              <persName>отец</persName>
            </person>
-           <person xm:id="rasbab" sex="female">
+           <person xml:id="rasbab" sex="female">
              <persName>бабушка Раскольникова</persName>
              <persName>бабушка</persName>
            </person>
-           <person xm:id="myk" sex="male">
+           <person xml:id="myk" sex="male">
              <persName>Миколка</persName>
              <persName>кляча</persName>
            </person>
-           <person xm:id="gost1" sex="male">
+           <person xml:id="gost1" sex="male">
              <persName>Незваный гость</persName>
              <persName>Кох</persName>
              <persName>гость</persName>
              <persName>незнакомец</persName>
              <persName>посетитель</persName>
            </person> 
-           <person xm:id="gost2" sex="male">
+           <person xml:id="gost2" sex="male">
              <persName>подошедший</persName>
              <persName>батюшка</persName>
              <persName>молодой человек</persName>
              <persName>Престяков</persName>
            </person>
-           <person xm:id="stud" sex="male">
+           <person xml:id="stud" sex="male">
              <persName>студент</persName>
              <persName>горячившийся товарищ</persName>
            </person>
-           <person xm:id="molof" sex="male">
+           <person xml:id="molof" sex="male">
              <persName>молодой офицер</persName>
              <persName>офицер</persName>
              <persName>товарищ</persName>
              <persName>брат</persName>
            </person>
-           <person xm:id="dvor" sex="male"><persName>дворник</persName></person>
-           <person xm:id="pis" sex="male"><persName>писец</persName></person>
-           <person xm:id="ilpe" sex="male">
+           <person xml:id="dvor" sex="male">
+             <persName>дворник</persName>
+           </person>
+           <person xml:id="pis" sex="male">
+             <persName>писец</persName>
+           </person>
+           <person xml:id="ilpe" sex="male">
              <persName>Илья Петрович</persName>
              <persName>офицер</persName>
              <persName>поручик</persName>
              <persName>помощник</persName>
              <persName>господин капитэн</persName>
            </person>
-           <person xm:id="cheb" sex="male">
+           <person xml:id="cheb" sex="male">
              <persName>Чебаров</persName>
            </person>
-           <person xm:id="hoz" sex="female">
+           <person xml:id="hoz" sex="female">
             <persName>Госпожа Зарницына</persName>
             <persName>хозяйка</persName>
              <persName>Зарницына</persName>
@@ -4171,14 +4183,14 @@
            </personGrp>
            <personGrp xml:id="detmar"><persName>дети Мармеладовых</persName></personGrp>
            <personGrp xml:id="mrmlvi"><persName>Мармеладовы</persName></personGrp>
-           <person xm:id="luiv" sex="female">
+           <person xml:id="luiv" sex="female">
              <persName>Луиза Ивановна</persName>
              <persName>дама</persName>
              <persName>траурная дама</persName>
              <persName>пышная дама</persName>
              <persName>Лавиза Ивановна</persName>
            </person>
-           <person xm:id="ssm" sex="female">
+           <person xml:id="ssm" sex="female">
              <persName>Софья Семеновна Мармеладова</persName>
              <persName>дочь моя</persName>
              <persName>дочка моя</persName>
@@ -4188,52 +4200,53 @@
              <persName>Софья Семеновна</persName>
              <persName>дочь</persName>
            </person>
-           <person xm:id="uknv" sex="male">
+           <person xml:id="uknv" sex="male">
              <persName>кто-то со стороны из вошедших</persName>
            </person>
-           <person xm:id="algr" sex="male">
+           <person xml:id="algr" sex="male">
              <persName>Александр Григорьевич</persName>
              <persName>Письмоводитель</persName>
            </person>
-           <person xm:id="nikf" sex="male">
+           <person xml:id="nikf" sex="male">
              <persName>Никодим Фомич</persName>
              <persName>офицер</persName>
              <persName>господин сочинитель</persName>
              <persName>капитан</persName>
            </person>
-           <person xm:id="hev" sex="male">
+           <person xml:id="hev" sex="male">
              <persName>Херувимов</persName>
            </person>
-           <person xm:id="zos" sex="male">
+           <person xml:id="zos" sex="male">
              <persName>Зосимов</persName>
            </person>
-           <person xm:id="kuch" sex="male">
+           <person xml:id="kuch" sex="male">
              <persName>кучер одной коляски</persName>
              <persName>кучер</persName>
            </person>
-           <person xm:id="kup" sex="female">
+           <person xml:id="kup" sex="female">
              <persName>купчиха</persName>
            </person>
-           <person xm:id="kol" sex="male">
+           <person xml:id="kol" sex="male">
              <persName>Коля</persName>
            </person>
-           <person xm:id="nevras" sex="female">
+           <person xml:id="nevras" sex="female">
              <persName>девушка</persName>
              <persName>девица умерла от тифа</persName>
            </person>
-           <person xm:id="gen" sex="male">
+           <person xml:id="gen" sex="male">
              <persName>Генриет</persName>
            </person>
-           <person xm:id="kar" sex="male">
+           <person xml:id="kar" sex="male">
              <persName>Карль</persName>
            </person>
            <person xml:id="pian" sex="male">
              <persName>пьяный человек</persName>
              <persName>один пяный</persName>
            </person>
+          </listPerson>
             
           <listPerson type="fictionalnonDostoevsky">
-            <person xm:id="zgor" sex="male">
+            <person xml:id="zgor" sex="male">
               <persName>царе Горохе</persName></person>
 
           </listPerson>
@@ -4259,7 +4272,7 @@
               <person xml:id="alnr" sex="male">
                 <persName>Радищев</persName>
               </person>
-            
+
           </listPerson>
           <listPerson type="other">
             <person xml:id="god">
@@ -4269,11 +4282,12 @@
               <persName>Иисус Христос</persName>
               <persName>Христ</persName>
             </person>
-
           </listPerson>
+
           <listObject>           
             <object xml:id="shkaf">
-              <objectIdentifier><objectName>шкаф</objectIdentifier></objectName>
+              <objectIdentifier><objectName>шкаф</objectName></objectIdentifier>
+            </object>
           </listObject>
           
           <listPlace>
