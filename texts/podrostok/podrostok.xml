@@ -111,10 +111,10 @@
 			  <change when="2022-08-20" who="#VS">[markup]:finished tagging section III of Chapter 1.</change>
 			  <change when="2022-08-21" who="#VS">[markup]:finished tagging section IV of Chapter 1.</change> 
 			  <change when="2022-08-27" who="#VS">[markup]:finished tagging section I of Chapter 2.</change> 
-			  <change when="2022-09-04" who="#VS">[markup]:finished tagging section II of Chapter 2.</change>
-			  <change when="2022-09-11" who="#VS">[markup]:finished tagging section  of Chapter 2.</change>
-			  <change when="2022-09-17" who="#VS">[markup]:finished tagging section  of Chapter 2.</change>
-			  <change when="2022-09-25" who="#VS">[markup]:finished tagging section  of Chapter 2.</change>
+			  <change when="2022-09-04" who="#VS">[markup]:started tagging section II of Chapter 2.</change>
+			  <change when="2022-09-11" who="#VS">[markup]:finished tagging section II of Chapter 2.</change>
+			  <change when="2022-09-17" who="#VS">[markup]:started tagging section III of Chapter 2.</change>
+			  <change when="2022-09-25" who="#VS">[markup]:finished tagging section III of Chapter 2.</change>
         	</revisionDesc> 
   </teiHeader>
   <text>
@@ -1688,55 +1688,55 @@
             <p>— <said aloud="true" direct="true" who="#knser" toWhom="#gsteb">Ах, в самом деле!</said> — подхватил <persName ref="#knser"><roleName>князь</roleName></persName>, но на этот раз с чрезвычайно солидною и серьезною миной в лице, — <said aloud="true" direct="true" who="#knser" toWhom="#avda">это, должно быть, <persName ref="#lmd"><forename>Лизавета</forename><addName type="patronymic">Макаровна</addName></persName>, короткая знакомая <persName ref="#afed"><forename>Анны</forename><addName type="patronymic">Федоровны</addName><surname>Столбеевой</surname></persName>, у которой я теперь живу. Она, верно, посещала сегодня <persName ref="#daro"><forename>Дарью</forename><addName type="patronymic">Онисимовну</addName></persName>, тоже близкую знакомую <persName ref="#afed"><forename>Анны</forename><addName type="patronymic">Федоровны</addName></persName>, на которую та, уезжая, оставила дом... </said></p>
             <p>Это всё точно так и было. Эта <persName ref="#daro"><forename>Дарья</forename><addName type="patronymic">Онисимовна</addName></persName> была мать бедной <persName ref="#olyap"><addName type="diminutive">Оли</addName></persName>, о которой я уже рассказывал и которую <persName ref="#tpp"><forename>Татьяна</forename><addName type="patronymic">Павловна</addName></persName> приютила наконец у <persName ref="#afed"><surname>Столбеевой</surname></persName>. Я отлично знал, что <persName ref="#lmd"><addName type="diminutive">Лиза</addName></persName> у <persName ref="#afed"><surname>Столбеевой</surname></persName> бывала и изредка посещала потом бедную <persName ref="#daro"><forename>Дарью</forename><addName type="patronymic">Онисимовну</addName></persName>, которую все у нас очень полюбили; но тогда, вдруг, после этого, впрочем, чрезвычайно дельного заявления <persName ref="#knser"><roleName>князя</roleName></persName> и особенно после глупой выходки <persName ref="#gsteb"><surname>Стебелькова</surname></persName>, а может быть и потому, что меня сейчас назвали <persName ref="#knser"><roleName>князем</roleName></persName>, я вдруг от всего этого весь покраснел. К счастью, в эту самую минуту встал <persName ref="#ian"><surname>Нащокин</surname></persName>, чтоб уходить; он протянул руку и <persName ref="#avda"><surname>Дарзану</surname></persName>. В мгновение, когда мы остались одни с <persName ref="#gsteb"><surname>Стебельковым</surname></persName>, тот вдруг закивал мне на <persName ref="#avda"><surname>Дарзана</surname></persName>, стоявшего к нам спиною, в дверях; я показал <persName ref="#gsteb"><surname>Стебелькову</surname></persName> кулак.</p>
             <p>Через минуту отправился и <persName ref="#avda"><surname>Дарзан</surname></persName>, условившись с <persName ref="#sok"><roleName>князем</roleName></persName> непременно встретиться завтра в каком-то уже намеченном у них месте — в игорном доме разумеется. Выходя, он крикнул что-то <persName ref="#gsteb"><surname>Стебелькову</surname></persName> и слегка поклонился и мне. Чуть он вышел, <persName ref="#gsteb"><surname>Стебельков</surname></persName> вскочил с места и стал среди комнаты, подняв палец кверху:</p>
-            <p>— <said aloud="true" direct="true" who="#gsteb" toWhom="#amd">Этот барчонок следующую штучку на прошлой неделе отколол: дал вексель, а бланк надписал фальшивый на <persName>Аверьянова</persName>. Векселек-то в этом виде и существует, только это не принято! Уголовное. Восемь тысяч. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">И наверно этот вексель у вас?</said> — зверски взглянул я на него.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">У меня банк-с, у меня mont de piété, а не вексель. Слыхали, что такое mont de piété в <placeName>Париже</placeName>? хлеб и благодеяние бедным; У меня mont de piété... </said></p>
-            <p>Князь грубо и злобно остановил его:</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Вы чего тут? Зачем вы сидели? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А!</said> — быстро закивал глазами <persName>Стебельков</persName>, — <said aloud="" direct="" who="" toWhom="">а то? Разве не то? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Нет-нет-нет, не то</said>, — закричал и топнул князь, — <said aloud="" direct="" who="" toWhom="">я сказал! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А ну, если так... так и так. Только это — не так... </said></p>
-            <p>Он круто повернулся и, наклоня голову и выгнув спину, вдруг вышел. Князь прокричал ему вслед уже в дверях:</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Знайте, сударь, что я вас нисколько не боюсь! </said></p>
-            <p>Он был очень раздражен, хотел было сесть, но, взглянув на меня, не сел. Взгляд его как будто и мне тоже проговорил: <said aloud="" direct="" who="" toWhom="">«Ты тоже зачем торчишь?»</said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я, князь</said>, — начал было я...</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Мне, право, некогда, <persName ref="#amd"><forename>Аркадий</forename><addName type="patronymic">Макарович</addName></persName>, я сейчас еду. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Одну минутку, князь, мне очень важное; и, во-первых, возьмите назад ваши триста. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Это еще что такое? </said></p>
+            <p>— <said aloud="true" direct="true" who="#gsteb" toWhom="#amd">Этот барчонок следующую штучку на прошлой неделе отколол: дал вексель, а бланк надписал фальшивый на <persName ref="#aver"><surname>Аверьянова</surname></persName>. Векселек-то в этом виде и существует, только это не принято! Уголовное. Восемь тысяч. </said></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#gsteb">И наверно этот вексель у вас?</said> — зверски взглянул я на него.</p>
+            <p>— <said aloud="true" direct="true" who="#gsteb" toWhom="#amd">У меня банк-с, у меня  <foreign xml:lang="fr">mont de piété</foreign>, а не вексель. Слыхали, что такое <foreign xml:lang="fr">mont de piété</foreign> в <placeName ref="#par">Париже</placeName>? хлеб и благодеяние бедным; У меня <foreign xml:lang="fr">mont de piété</foreign>... </said></p>
+            <p><persName ref="#knser"><roleName>Князь</roleName></persName> грубо и злобно остановил его:</p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#gsteb">Вы чего тут? Зачем вы сидели? </said></p>
+            <p>— <said aloud="true" direct="true" who="#gsteb" toWhom="#knser">А!</said> — быстро закивал глазами <persName ref="#gsteb"><surname>Стебельков</surname></persName>, — <said aloud="true" direct="true" who="#gsteb" toWhom="#knser">а то? Разве не то? </said></p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#gsteb">Нет-нет-нет, не то</said>, — закричал и топнул <persName ref="#knser"><roleName>князь</roleName></persName>, — <said aloud="true" direct="true" who="#knser" toWhom="#gsteb">я сказал! </said></p>
+            <p>— <said aloud="true" direct="true" who="#gsteb" toWhom="#knser">А ну, если так... так и так. Только это — не так... </said></p>
+            <p>Он круто повернулся и, наклоня голову и выгнув спину, вдруг вышел. <persName ref="#knser"><roleName>Князь</roleName></persName> прокричал ему вслед уже в дверях:</p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#gsteb">Знайте, <persName ref="#gsteb"><roleName>сударь</roleName></persName>, что я вас нисколько не боюсь! </said></p>
+            <p>Он был очень раздражен, хотел было сесть, но, взглянув на меня, не сел. Взгляд его как будто и мне тоже проговорил: <q>«Ты тоже зачем торчишь?»</q></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser">Я, <persName ref="#knser"><roleName>князь</roleName></persName></said>, — начал было я...</p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd">Мне, право, некогда, <persName ref="#amd"><forename>Аркадий</forename><addName type="patronymic">Макарович</addName></persName>, я сейчас еду. </said></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser">Одну минутку, <persName ref="#knser"><roleName>князь</roleName></persName>, мне очень важное; и, во-первых, возьмите назад ваши триста. </said></p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd">Это еще что такое? </said></p>
             <p>Он ходил, но приостановился.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">То такое, что после всего, что было... и то, что вы говорили про <persName>Версилова</persName>, что он бесчестен, и, наконец, ваш тон во всё остальное время... Одним словом, я никак не могу принять. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Вы, однако же, принимали целый месяц. </said></p>
-            <p>Он вдруг сел на стул. Я стоял у стола и одной рукой трепал книгу <persName>Белинского</persName>, а в другой держал шляпу.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Были другие чувства, князь... И наконец, я бы никогда не довел до известной цифры... Эта игра... Одним словом, я не могу! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Вы просто ничем не ознаменовали себя, а потому и беситесь; я бы попросил вас оставить эту книгу в покое. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Что это значит: <said aloud="" direct="" who="" toWhom="">«не ознаменовали себя»</said>? И наконец, вы при ваших гостях почти сравняли меня с <persName>Стебельковым</persName>. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А, вот разгадка!</said> — едко осклабился он. — <said aloud="" direct="" who="" toWhom="">К тому же вы сконфузились, что <persName ref="#avda"><surname>Дарзан</surname></persName> вас назвал князем. </said></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser">То такое, что после всего, что было... и то, что вы говорили про <persName ref="#ver"><surname>Версилова</surname></persName>, что он бесчестен, и, наконец, ваш тон во всё остальное время... Одним словом, я никак не могу принять. </said></p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd">Вы, однако же, принимали целый месяц. </said></p>
+            <p>Он вдруг сел на стул. Я стоял у стола и одной рукой трепал книгу <persName ref="#bel"><surname>Белинского</surname></persName>, а в другой держал шляпу.</p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser">Были другие чувства, князь... И наконец, я бы никогда не довел до известной цифры... Эта игра... Одним словом, я не могу! </said></p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd">Вы просто ничем не ознаменовали себя, а потому и беситесь; я бы попросил вас оставить эту книгу в покое. </said></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser">Что это значит: <q>«не ознаменовали себя»</q>? И наконец, вы при ваших гостях почти сравняли меня с <persName ref="#gsteb"><surname>Стебельковым</surname></persName>. </said></p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd">А, вот разгадка!</said> — едко осклабился он. — <said aloud="" direct="" who="" toWhom="">К тому же вы сконфузились, что <persName ref="#avda"><surname>Дарзан</surname></persName> вас назвал <persName ref="#amd"><roleName>князем</roleName></persName>. </said></p>
             <p>Он злобно засмеялся. Я вспыхнул:</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я даже не понимаю... ваше княжество я не возьму и даром... </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я знаю ваш характер. Как смешно вы крикнули в защиту <persName>Ахмаковой</persName>... Оставьте книгу! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Что это значит?</said> — вскричал я тоже.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">О-ставь-те книгу!</said> — завопил он вдруг, свирепо выпрямившись в кресле, точно готовый броситься.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Это уж сверх всяких границ</said>, — проговорил я и быстро вышел из комнаты. Но я еще не прошел до конца залы, как он крикнул мне из дверей кабинета:</p>
-            <p>— <said aloud="" direct="" who="" toWhom=""><persName ref="#amd"><forename>Аркадий</forename><addName type="patronymic">Макарович</addName></persName>, воротитесь! Во-ро-ти-тесь! Во-ро-ти-тесь сейчас! </said></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser">Я даже не понимаю... ваше княжество я не возьму и даром... </said></p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd">Я знаю ваш характер. Как смешно вы крикнули в защиту <persName ref="#lida"><surname>Ахмаковой</surname></persName>... Оставьте книгу! </said></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser">Что это значит?</said> — вскричал я тоже.</p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd">О-ставь-те книгу!</said> — завопил он вдруг, свирепо выпрямившись в кресле, точно готовый броситься.</p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser">Это уж сверх всяких границ</said>, — проговорил я и быстро вышел из комнаты. Но я еще не прошел до конца залы, как он крикнул мне из дверей кабинета:</p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd"><persName ref="#amd"><forename>Аркадий</forename><addName type="patronymic">Макарович</addName></persName>, воротитесь! Во-ро-ти-тесь! Во-ро-ти-тесь сейчас! </said></p>
             <p>Я не слушал и шел. Он быстрыми шагами догнал меня, схватил за руку и потащил в кабинет. Я не сопротивлялся!</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Возьмите!</said> — говорил он, бледный от волнения, подавая брошенные мной триста рублей. — <said aloud="" direct="" who="" toWhom="">Возьмите непременно... иначе мы... непременно! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Князь, как могу я взять? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Ну, я у вас прошу прощенья, хотите? Ну, простите меня!.. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Князь, я вас всегда любил, и если вы меня тоже... </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я — тоже; возьмите... </said></p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd">Возьмите!</said> — говорил он, бледный от волнения, подавая брошенные мной триста рублей. — <said aloud="true" direct="true" who="#knser" toWhom="#amd">Возьмите непременно... иначе мы... непременно! </said></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser"><persName ref="#knser"><roleName>Князь</roleName></persName>, как могу я взять? </said></p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd">Ну, я у вас прошу прощенья, хотите? Ну, простите меня!.. </said></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser"><persName ref="#knser"><roleName>Князь</roleName></persName>, я вас всегда любил, и если вы меня тоже... </said></p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd">Я — тоже; возьмите... </said></p>
             <p>Я взял. Губы его дрожали.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я понимаю, князь, что вы взбешены этим мерзавцем... но я не иначе, князь, возьму, как если мы поцелуемся, как в прежних размолвках... </said></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser">Я понимаю, <persName ref="#knser"><roleName>князь</roleName></persName>, что вы взбешены этим мерзавцем... но я не иначе, <persName ref="#knser"><roleName>князь</roleName></persName>, возьму, как если мы поцелуемся, как в прежних размолвках... </said></p>
             <p>Говоря это, я тоже дрожал.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Ну вот нежности</said>, — пробормотал князь, смущенно улыбаясь, но нагнулся и поцеловал меня. Я вздрогнул: в лице его в миг поцелуя я решительно прочел отвращение.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">По крайней мере деньги-то вам принес?.. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Э, всё равно. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я для вас же... </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Принес, принес. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Князь, мы были друзьями... и, наконец, <persName>Версилов</persName>... </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Ну да, да, хорошо! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">И, наконец, я, право, не знаю окончательно, эти триста... </said></p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd">Ну вот нежности</said>, — пробормотал <persName ref="#knser"><roleName>князь</roleName></persName>, смущенно улыбаясь, но нагнулся и поцеловал меня. Я вздрогнул: в лице его в миг поцелуя я решительно прочел отвращение.</p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser">По крайней мере деньги-то вам принес?.. </said></p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd">Э, всё равно. </said></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser">Я для вас же... </said></p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd">Принес, принес. </said></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser"><persName ref="#knser"><roleName>Князь</roleName></persName>, мы были друзьями... и, наконец, <persName>Версилов</persName>... </said></p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd">Ну да, да, хорошо! </said></p>
+            <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser">И, наконец, я, право, не знаю окончательно, эти триста... </said></p>
             <p>Я держал их в руках.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Берите, бе-ри-те!</said> — усмехнулся он опять, но в улыбке его было что-то очень недоброе.</p>
+            <p>— <said aloud="true" direct="true" who="#knser" toWhom="#amd">Берите, бе-ри-те!</said> — усмехнулся он опять, но в улыбке его было что-то очень недоброе.</p>
             <p>Я взял.</p>
           </div3>
         </div2>
@@ -4635,6 +4635,9 @@
 </person>
 <person xml:id="dubas" sex="male">
           <persName>Дубасов</persName>
+</person>
+<person xml:id="aver" sex="male">
+          <persName>Аверьянов</persName>
 </person>
           </listPerson>
 <listPerson type="fictionalnonDostoevsky">
