@@ -99,6 +99,7 @@
 			  <change when="2022-10-07" who="#EZ">[markup]: updated and fixed RS tags in Parts I and II</change>
 			  <change when="2022-10-07" who="#EZ">[markup]: finished tagging elements in Part II Chapter IV and Part II Chapter V</change>
 			  <change when="2022-10-10" who="#EZ">[markup]: added tags for italicized text up to Part II Chapter VI</change>
+			  <change when="2022-10-15" who="#EZ">[markup]: tagged elements in Part II Chapter VI</change>
         </revisionDesc>
       
   </teiHeader>
@@ -880,7 +881,7 @@
             <p><said aloud="false" direct="true" who="#rrr">«Долго же не отвяжутся!»</said> — думал он. — <said aloud="true" direct="true" who="#rrr" toWhom="#dpr">Из каких денег это всё куплено?</said> — спросил он наконец, глядя в стену.</p>
             <p>— <said aloud="true" direct="true" who="#dpr" toWhom="#rrr">Денег? Вот тебе на! Да из твоих же собственных. Давеча артельщик был, от <persName ref="#aiv"><surname>Вахрушина</surname></persName>, <persName ref="#par">мамаша</persName> прислала; аль и это забыл? </said></p>
             <p>— <said aloud="true" direct="true" who="#rrr" toWhom="#dpr">Теперь помню...</said> — проговорил <persName ref="#rrr"><surname>Раскольников</surname></persName>, после долгой и угрюмой задумчивости. <persName ref="#dpr"><surname>Разумихин</surname></persName>, нахмурясь, с беспокойством на него посматривал.</p>
-            <p>Дверь отворилась, и вошел <persName ref="#zos">высокий и плотный человек</persName>, как будто тоже уже несколько знакомый с виду <persName ref="#rrr"><surname>Раскольникову</surname></persName>.</p>
+            <p>Дверь отворилась, и вошел высокий и плотный человек, как будто тоже уже несколько знакомый с виду <persName ref="#rrr"><surname>Раскольникову</surname></persName>.</p>
             <p>— <said aloud="true" direct="true" who="#dpr" toWhom="#zos"><persName ref="#zos"><surname>Зосимов</surname></persName>! Наконец-то!</said> — крикнул <persName ref="#dpr"><surname>Разумихин</surname></persName>, обрадовавшись.</p>
           </div3>
           <div3 type="section" n="4">
@@ -3974,6 +3975,12 @@
              <persName>милый человек</persName>
              <persName>Родька</persName>
              <persName>сударь</persName>
+             <persName>ваше сиятельство</persName>
+             <persName>милый барин</persName>
+             <persName>сами прехорошенькие</persName>
+             <persName>приятный кавалер</persName>
+             <persName>доброеюший барин</persName>
+             <persName>дурак</persName>
            </person>
            <person xml:id="star" sex="female">
              <persName>Алена Ивановна</persName>
@@ -3993,6 +4000,7 @@
              <persName>чиновница</persName>
              <persName>старуха чиновница</persName>
              <persName>старуха процентщица</persName>
+             <persName>самая старуха</persName>
            </person>
            <person xml:id="szm" sex="male">
              <persName>Семен Захарович Мармеладов</persName>
@@ -4162,6 +4170,7 @@
              <persName>оборанец</persName>
              <persName>нахал</persName>
              <persName>милостивый государь</persName>
+             <persName>господин Разумихин</persName>
            </person>
            <person xml:id="lizi" sex="female">
              <persName>Лизавета Ивановна </persName>
@@ -4199,6 +4208,8 @@
              <persName>работник красильщик</persName>
              <persName>крестьянин</persName>
              <persName>Николай</persName>
+             <persName>Николашка</persName>
+             <persName>работник-то ваш</persName>
            </person>
            <person xml:id="koch" sex="male">
              <persName>Незваный гость</persName>
@@ -4241,6 +4252,10 @@
              <persName>помощник квартального надзирателя</persName>
              <persName>поручик-порох</persName>
              <persName>надзирателя помощник</persName>
+             <persName>поручик-то порох</persName>
+             <persName>порох-то</persName>
+             <persName>поручик порох</persName>
+             <persName>болван</persName>
            </person>
            <person xml:id="cheb" sex="male">
              <persName>Чебаров</persName>
@@ -4287,6 +4302,10 @@
              <persName>господин Заметов</persName>
              <persName>письмоводитель в здешней конторе</persName>
              <persName>человек чудеснейший</persName>
+             <persName>добреюший мальчик</persName>
+             <persName>милый юноша</persName>
+             <persName>мой воробушек</persName>
+             <persName>воробушек</persName>
            </person>
            <person xml:id="nikf" sex="male">
              <persName>Никодим Фомич</persName>
@@ -4301,8 +4320,6 @@
            </person>
            <person xml:id="zos" sex="male">
              <persName>Зосимов</persName>
-             <persName>высокий и плотный человек</persName>
-             <persName>высокий и жирный человек</persName>
              <persName>брат</persName>
            </person>
            <person xml:id="kuch" sex="male">
@@ -4400,6 +4417,69 @@
               <persName>Митька</persName>
               <persName>Дмитрий</persName>
             </person>
+            <person xml:id="pevdev1" sex="female">
+              <persName>девушка</persName>
+            </person>
+            <person xml:id="shar" sex="male">
+              <persName>шарманщик</persName>
+            </person>
+            <person xml:id="stoya" sex="male">
+              <persName>стоявший</persName>
+              <persName>господин</persName>
+            </person>
+            <person xml:id="kraspar" sex="male">
+              <persName>молодой парень</persName>
+              <persName>парень</persName>
+            </person>
+            <person xml:id="dukl" sex="female">
+              <persName>Дуклида</persName>
+              <persName>одна из женщин</persName>
+              <persName>хорошенькая</persName>
+              <persName>девца</persName>
+            </person>
+            <person xml:id="polo1" sex="male">
+              <persName>половой</persName>
+            </person>
+            <person xml:id="afshka" sex="female">
+              <persName>Афросиньюшка</persName>
+              <persName>женщина</persName>
+              <persName>утопленница</persName>
+            </person>
+            <person xml:id="zhen1" sex="female">
+              <persName>неназванная женщина в хрустальном дворце</persName>
+            </person>
+            <person xml:id="zhen2" sex="female">
+              <persName>неназванная женщина знающая Афросиньюшку</persName>
+            </person>
+            <person xml:id="zhen3" sex="female">
+              <persName>неназванная женщина говорявшая с Титом Васильичем</persName>
+            </person>
+            <person xml:id="titv" sex="male">
+              <persName>Тит Васильич</persName>
+              <persName>старший</persName>
+              <persName>дядьшка</persName>
+              <persName>старший работник</persName>
+              <persName>работник</persName>
+            </person>
+            <person xml:id="alyka" sex="male">
+              <persName>Алешка</persName>
+              <persName>младший</persName>
+              <persName>молодой</persName>
+            </person>
+            <person xml:id="dvor3" sex="male">
+              <persName>дворник</persName>
+              <persName>один из дворников</persName>
+            </person>
+            <person xml:id="dvor4" sex="male">
+              <persName>другой дворник</persName>
+              <persName>большой дворник</persName>
+            </person>
+            <person xml:id="mesch2" sex="male">
+              <persName>мещанин (не видявший Муколу)</persName>
+            </person>
+            <person xml:id="bab1" sex="female">
+              <persName>баба (не видявшая Миколу)</persName>
+            </person>
           </listPerson>
             
           <listPerson type="fictionalnonDostoevsky">
@@ -4429,6 +4509,12 @@
               <person xml:id="alnr" sex="male">
                 <persName>Радищев</persName>
               </person>
+            <person xml:id="iiiz" sex="male">
+              <persName>Излер</persName>
+            </person>
+            <personGrp xml:id="masmo">
+              <persName>Массимов</persName>
+            </personGrp>
 
           </listPerson>
           <listPerson type="other">
@@ -4547,6 +4633,7 @@
             <place type="city" xml:id="spb">
               <placeName>Санкт Петербург</placeName>
               <placeName>Петербург</placeName>
+              <placeName>Питер</placeName>
             </place>
             <place type="gubernia" xml:id="rgub">
               <placeName>Р—й губернии</placeName>
@@ -4670,6 +4757,9 @@
             </place>
             <place type="fictional" xml:id="pncrypal">
               <placeName>Пале де Кристаль</placeName>
+              <placeName>трактир</placeName>
+              <placeName>Хрустальный Дворец</placeName>
+              <placeName>трактирное завединие</placeName>
             </place>
             <place type="district" xml:id="zarai">
               <placeName>Зарайский</placeName>
