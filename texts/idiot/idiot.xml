@@ -85,7 +85,15 @@
         <change when="2022-30-06" who="#DI">[markup]:completed section 8</change>
         <change when="2022-02-07" who="#DI">[markup]:completed sections 9 and 10</change>
         <change when="2022-14-07" who="#DI">[markup]:completed section 11, began 12</change>
-        <change when="2022-24-09" who="#DI">[markup]:completed section 12, worked on 13</change>
+        <change when="2022-29-08" who="#DI">[markup]:completed section 12, began 13</change>
+			  <change when="2022-03-09" who="#DI">[markup]:completed section 13, began 14</change>
+			  <change when="2022-24-09" who="#DI">[markup]:started working in oxygen instead of atom, completed 14, started 15</change>
+			  <change when="2022-06-10" who="#DI">[markup]:made sure tags in this document are in line with the universal google doc</change>
+			  <change when="2022-13-10" who="#DI">[markup]:worked on section 15</change>
+			  <change when="2022-16-10" who="#DI">[markup]:finished section 15, began 16</change>
+			  <change when="2022-17-10" who="#DI">[markup]:worked on section 16</change>
+			  <change when="2022-18-10" who="#DI">[markup]:completed section 16</change>
+			  <change when="2022-19-10" who="#DI">[markup]:completed and rechecked all sections in part 1 (первая часть), started working on first section of part two</change>
       </revisionDesc>
   </teiHeader>
   <text>
