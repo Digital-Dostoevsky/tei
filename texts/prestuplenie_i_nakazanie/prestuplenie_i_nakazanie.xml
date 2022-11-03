@@ -107,6 +107,7 @@
 			  <change when="2022-10-27" who="#EZ">[markup]: began tagging elements in Part IV Chapter II</change>
 			  <change when="2022-10-28" who="#EZ">[markup]: revised rs and persName tags in Parts I-IV</change>
 			  <change when="2022-10-28" who="#EZ">[markup]: continued tagging elements in Part IV Chapter II</change>
+			  <change when="2022-11-03" who="#EZ">[markup]: finished tagging elements in Part IV Chapter II</change>
         </revisionDesc>
       
   </teiHeader>
@@ -2344,42 +2345,42 @@
             <p>— <said aloud="true" direct="true" who="#par" toWhom="#pepl">Я не помню</said>, — сбилась <persName ref="#par"><forename>Пульхерия</forename> <addName type="patronymic">Александровна</addName></persName>, — <said aloud="true" direct="true" who="#par" toWhom="#pepl #rrr">а передала, как сама поняла. Не знаю, как передал вам <persName ref="#rrr"><addName type="diminiutive">Родя</addName></persName>... Может, он что-нибудь и преувеличил. </said></p>
             <p>— <said aloud="true" direct="true" who="#pepl" toWhom="#par">Без вашего внушения он преувеличить не мог. </said></p>
             <p>— <said aloud="true" direct="true" who="#par" toWhom="#pepl"><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName></said>, — с достоинством произнесла <persName ref="#par"><forename>Пульхерия</forename> <addName type="patronymic">Александровна</addName></persName>, — <said aloud="" direct="" who="" toWhom="">доказательство тому, что мы с <persName ref="#arr"><addName type="dimunitive">Дуней</addName></persName> не приняли ваших слов в очень дурную сторону, это то, что мы <hi rend="italic">здесь</hi>. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Хорошо, маменька!</said> — одобрительно сказала <persName><addName type="diminiutive">Дуня</addName></persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Стало быть, я и тут виноват!</said> — обиделся <persName>Лужин</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Вот, <persName><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName></persName>, вы всё Родиона вините, а вы и сами об нем давеча неправду написали в письме</said>, — прибавила, ободрившись, <persName>Пульхерия Александровна</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я не помню, чтобы написал какую-нибудь неправду-с. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Вы написали</said>, — резко проговорил <persName ref="#rrr"><surname>Раскольников</surname></persName>, не оборачиваясь к <persName>Лужину</persName>, — <said aloud="" direct="" who="" toWhom="">что я вчера отдал деньги не вдове раздавленного, как это действительно было, а его дочери (которой до вчерашнего дня никогда не видал). Вы написали это, чтобы поссорить меня с родными, и для того прибавили, в гнусных выражениях, о поведении девушки, которой вы не знаете. Всё это сплетня и низость. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Извините, сударь</said>, — дрожа со злости, ответил <persName>Лужин</persName>, — <said aloud="" direct="" who="" toWhom="">в письме моем я распространился о ваших качествах и поступках единственно в исполнение тем самым просьбы вашей сестрицы и мамаши описать им: как я вас нашел и какое вы на меня произведи впечатление? Что же касается до означенного в письме моем, то найдите хоть строчку несправедливую, то есть что вы не истратили денег и что в семействе том, хотя бы и несчастном, не находилось недостойных лиц? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А по-моему, так вы, со всеми вашими достоинствами, не стоите мизинца этой несчастной девушки, в которую вы камень бросаете. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Стало быть, вы решились бы и ввести ее в общество вашей матери и сестры? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я это уж и сделал, если вам хочется знать. Я посадил ее сегодня рядом с маменькой и с <persName>Дуней</persName>. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom=""><persName ref="#rrr"><addName type="diminiutive">Родя</addName></persName>!</said> — вскричала <persName>Пульхерия Александровна</persName>.</p>
-            <p><persName><addName type="diminiutive">Дунечка</addName></persName> покраснела; <persName ref="#dpr"><surname>Разумихин</surname></persName> сдвинул брови. <persName>Лужин</persName> язвительно и высокомерно улыбнулся.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Сами изволите видеть, <persName>Авдотья Романовна</persName></said>, — сказал он, — <said aloud="" direct="" who="" toWhom="">возможно ли тут соглашение? Надеюсь теперь, что дело это кончено и разъяснено, раз навсегда. Я же удалюсь, чтобы не мешать дальнейшей приятности родственного свидания и сообщению секретов (он встал со стула и взял шляпу). Но, уходя, осмелюсь заметить, что впредь надеюсь быть избавлен от подобных встреч и, так сказать, компромиссов. Вас же особенно буду просить, многоуважаемая <persName>Пульхерия Александровна</persName>, на эту же тему, тем паче что и письмо мое было адресовано вам, а не кому иначе. </said></p>
-            <p><persName>Пульхерия Александровна</persName> немного обиделась.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Чтой-то вы уж совсем нас во власть свою берете, <persName><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName></persName>. <persName><addName type="diminiutive">Дуня</addName></persName> вам рассказала причину, почему не исполнено ваше желание: она хорошие намерения имела. Да и пишете вы мне, точно приказываете. Неужели ж нам каждое желание ваше за приказание считать? А я так вам напротив скажу, что вам следует теперь к нам быть особенно деликатным и снисходительным, потому что мы всё бросили и, вам доверясь, сюда приехали, а стало быть, и без того уж почти в вашей власти состоим. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Это не совсем справедливо, <persName>Пульхерия Александровна</persName>, и особенно в настоящий момент, когда возвещено о завещанных <persName>Марфой Петровной</persName> трех тысячах, что, кажется, очень кстати, судя по новому тону, которым заговорили со мной</said>, — прибавил он язвительно.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Судя по этому замечанию, можно действительно предположить, что вы рассчитывали на нашу беспомощность</said>, — раздражительно заметила <persName><addName type="diminiutive">Дуня</addName></persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Но теперь, по крайней мере, не могу так рассчитывать и особенно не желаю помешать сообщению секретных предложений <persName>Аркадия Ивановича</persName> <persName>Свидригайлова</persName>, которыми он уполномочил вашего братца и которые, как я вижу, имеют для вас капитальное, а может быть, и весьма приятное значение. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Ах боже мой!</said> — вскрикнула <persName>Пульхерия Александровна</persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#arr" toWhom="#par">Хорошо, <persName ref="#par"><addName type="nickname">маменька</addName></persName>!</said> — одобрительно сказала <persName ref="#arr"><addName type="diminiutive">Дуня</addName></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#pepl" toWhom="#par #arr">Стало быть, я и тут виноват!</said> — обиделся <persName ref="#pepl"><surname>Лужин</surname></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#par" toWhom="#pepl">Вот, <persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName>, вы всё <persName ref="#rrr"><forename>Родиона</forename></persName> вините, а вы и сами об нем давеча неправду написали в письме</said>, — прибавила, ободрившись, <persName ref="#par"><forename>Пульхерия</forename> <addName type="patronymic">Александровна</addName></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#pepl" toWhom="#par">Я не помню, чтобы написал какую-нибудь неправду-с. </said></p>
+            <p>— <said aloud="true" direct="true" who="#rrr" toWhom="#pepl">Вы написали</said>, — резко проговорил <persName ref="#rrr"><surname>Раскольников</surname></persName>, не оборачиваясь к <persName ref="#pepl"><surname>Лужину</surname></persName>, — <said aloud="true" direct="true" who="#rrr" toWhom="#pepl">что я вчера отдал деньги не <persName ref="#kim">вдове <rs ref="#szm" type="person">раздавленного</rs></persName>, как это действительно было, а его <persName ref="#ssm">дочери</persName> (которой до вчерашнего дня никогда не видал). Вы написали это, чтобы поссорить меня с родными, и для того прибавили, в гнусных выражениях, о поведении <persName ref="#ssm">девушки</persName>, которой вы не знаете. Всё это сплетня и низость. </said></p>
+            <p>— <said aloud="true" direct="true" who="#pepl" toWhom="#rrr">Извините, <persName ref="#rrr"><roleName>сударь</roleName></persName></said>, — дрожа со злости, ответил <persName ref="#pepl"><surname>Лужин</surname></persName>, — <said aloud="true" direct="true" who="#pepl" toWhom="#rrr">в письме моем я распространился о ваших качествах и поступках единственно в исполнение тем самым просьбы вашей <persName ref="#arr">сестрицы</persName> и <persName ref="#par">мамаши</persName> описать им: как я вас нашел и какое вы на меня произведи впечатление? Что же касается до означенного в письме моем, то найдите хоть строчку несправедливую, то есть что вы не истратили денег и что в <persName ref="#mrmlvi">семействе том</persName>, хотя бы и несчастном, не находилось недостойных лиц? </said></p>
+            <p>— <said aloud="true" direct="true" who="#rrr" toWhom="#pepl">А по-моему, так вы, со всеми вашими достоинствами, не стоите мизинца <persName ref="#ssm">этой несчастной девушки</persName>, в которую вы камень бросаете. </said></p>
+            <p>— <said aloud="true" direct="true" who="#pepl" toWhom="#rrr">Стало быть, вы решились бы и ввести ее в общество вашей <persName ref="#par">матери</persName> и <persName ref="#arr">сестры</persName>? </said></p>
+            <p>— <said aloud="true" direct="true" who="#rrr" toWhom="#pepl">Я это уж и сделал, если вам хочется знать. Я посадил ее сегодня рядом с <persName ref="#par"><addName type="nickname">маменькой</addName></persName> и с <persName ref="#arr"><addName type="dimunitive">Дуней</addName></persName>. </said></p>
+            <p>— <said aloud="true" direct="true" who="#par" toWhom="#arr"><persName ref="#rrr"><addName type="diminiutive">Родя</addName></persName>!</said> — вскричала <persName ref="#par"><forename>Пульхерия</forename> <addName type="patronymic">Александровна</addName></persName>.</p>
+            <p><persName ref="#arr"><addName type="diminiutive">Дунечка</addName></persName> покраснела; <persName ref="#dpr"><surname>Разумихин</surname></persName> сдвинул брови. <persName ref="#pepl"><surname>Лужин</surname></persName> язвительно и высокомерно улыбнулся.</p>
+            <p>— <said aloud="true" direct="true" who="#pepl" toWhom="#arr">Сами изволите видеть, <persName ref="#arr"><forename>Авдотья</forename> <addName type="patronymic">Романовна</addName></persName></said>, — сказал он, — <said aloud="true" direct="true" who="#pepl" toWhom="#arr">возможно ли тут соглашение? Надеюсь теперь, что дело это кончено и разъяснено, раз навсегда. Я же удалюсь, чтобы не мешать дальнейшей приятности родственного свидания и сообщению секретов (он встал со стула и взял шляпу). Но, уходя, осмелюсь заметить, что впредь надеюсь быть избавлен от подобных встреч и, так сказать, компромиссов. Вас же особенно буду просить, <persName ref="#par">многоуважаемая <forename>Пульхерия</forename> <addName type="patronymic">Александровна</addName></persName>, на эту же тему, тем паче что и письмо мое было адресовано вам, а не кому иначе. </said></p>
+            <p><persName ref="#par"><forename>Пульхерия</forename> <addName type="patronymic">Александровна</addName></persName> немного обиделась.</p>
+            <p>— <said aloud="true" direct="true" who="#par" toWhom="#pepl">Чтой-то вы уж совсем нас во власть свою берете, <persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName>. <persName ref="#arr"><addName type="diminiutive">Дуня</addName></persName> вам рассказала причину, почему не исполнено ваше желание: она хорошие намерения имела. Да и пишете вы мне, точно приказываете. Неужели ж нам каждое желание ваше за приказание считать? А я так вам напротив скажу, что вам следует теперь к нам быть особенно деликатным и снисходительным, потому что мы всё бросили и, вам доверясь, сюда приехали, а стало быть, и без того уж почти в вашей власти состоим. </said></p>
+            <p>— <said aloud="true" direct="true" who="#pepl" toWhom="#par">Это не совсем справедливо, <persName ref="#par"><forename>Пульхерия</forename> <addName type="patronymic">Александровна</addName></persName>, и особенно в настоящий момент, когда возвещено о завещанных <persName ref="#mps"><forename>Марфой</forename> <addName type="patronymic">Петровной</addName></persName> трех тысячах, что, кажется, очень кстати, судя по новому тону, которым заговорили со мной</said>, — прибавил он язвительно.</p>
+            <p>— <said aloud="true" direct="true" who="#arr" toWhom="#pepl">Судя по этому замечанию, можно действительно предположить, что вы рассчитывали на нашу беспомощность</said>, — раздражительно заметила <addName type="diminiutive">Дуня</addName>.</p>
+            <p>— <said aloud="true" direct="true" who="#pepl" toWhom="#par #arr">Но теперь, по крайней мере, не могу так рассчитывать и особенно не желаю помешать сообщению секретных предложений <persName ref="#ais"><forename>Аркадия</forename> <addName type="patronymic">Ивановича</addName> <surname>Свидригайлова</surname></persName>, которыми он уполномочил <persName ref="#rrr">вашего братца</persName> и которые, как я вижу, имеют для вас капитальное, а может быть, и весьма приятное значение. </said></p>
+            <p>— <said aloud="true" direct="true" who="#par" toWhom="#pepl">Ах боже мой!</said> — вскрикнула <persName ref="#par"><forename>Пульхерия</forename> <addName type="patronymic">Александровна</addName></persName>.</p>
             <p><persName ref="#dpr"><surname>Разумихину</surname></persName> не сиделось на стуле.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">И тебе не стыдно теперь, сестра?</said> — спросил <persName ref="#rrr"><surname>Раскольников</surname></persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Стыдно, <persName ref="#rrr"><addName type="diminiutive">Родя</addName></persName></said>, — сказала <persName><addName type="diminiutive">Дуня</addName></persName>. — <said aloud="" direct="" who="" toWhom=""><persName><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName></persName>, подите вон!</said> — обратилась она к нему, побледнев от гнева.</p>
-            <p><persName><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName></persName>, кажется, совсем не ожидал такого конца. Он слишком надеялся на себя, на власть свою и на беспомощность своих жертв. Не поверил и теперь. Он побледнел, и губы его затряслись.</p>
-            <p>— <said aloud="" direct="" who="" toWhom=""><persName>Авдотья Романовна</persName>, если я выйду теперь в эту дверь, при таком напутствии, то — рассчитайте это — я уж не ворочусь никогда. Обдумайте хорошенько! Мое слово твердо. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Что за наглость!</said> — вскричала <persName><addName type="diminiutive">Дуня</addName></persName>, быстро подымаясь с места, — <said aloud="" direct="" who="" toWhom="">да я и не хочу, чтобы вы возвращались назад! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Как? Так вот ка-а-к-с!</said> — вскричал <persName>Лужин</persName>, совершенно не веровавший, до последнего мгновения, такой развязке, а потому совсем потерявший теперь нитку, — <said aloud="" direct="" who="" toWhom="">так так-то-с! Но знаете ли, <persName>Авдотья Романовна</persName>, что я мог бы и протестовать-с. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Какое право вы имеете так говорить с ней!</said> — горячо вступилась <persName>Пульхерия Александровна</persName>, — <said aloud="" direct="" who="" toWhom="">чем вы можете протестовать? И какие это ваши права? Ну, отдам я вам, такому, мою <persName>Дуню</persName>? Подите, оставьте нас совсем! Мы сами виноваты, что на несправедливое дело пошли, а всех больше я... </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Однако ж, <persName>Пульхерия Александровна</persName></said>, — горячился в бешенстве <persName>Лужин</persName>, — <said aloud="" direct="" who="" toWhom="">вы связали меня данным словом, от которого теперь отрекаетесь... и наконец... наконец, я вовлечен был, так сказать, через то в издержки... </said></p>
-            <p>Эта последняя претензия до того была в характере <persName>Петра Петровича</persName>, что <persName ref="#rrr"><surname>Раскольников</surname></persName>, бледневший от гнева и от усилий сдержать его, вдруг не выдержал и — расхохотался. Но <persName>Пульхерия Александровна</persName> вышла из себя:</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">В издержки? В какие же это издержки? Уж не про сундук ли наш вы говорите? Да ведь вам его кондуктор задаром перевез. Господи, мы же вас и связали! Да вы опомнитесь, <persName><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName></persName>, это вы нас по рукам и по ногам связали, а не мы вас! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Довольно, маменька, пожалуйста, довольно!</said> — упрашивала <persName>Авдотья Романовна</persName>. — <said aloud="" direct="" who="" toWhom=""><persName><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName></persName>, сделайте милость, уйдите! </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Уйду-с, но одно только последнее слово!</said> — проговорил он, уже почти совсем не владея собою, — <said aloud="" direct="" who="" toWhom="">ваша мамаша, кажется, совершенно забыла, что я решился вас взять, так сказать, после городской молвы, разнесшейся по всему околотку насчет репутации вашей. Пренебрегая для вас общественным мнением и восстановляя репутацию вашу, уж, конечно, мог бы я, весьма и весьма, понадеяться на возмездие и даже потребовать благодарности вашей... И только теперь открылись глаза мои! Вижу сам, что, может быть, весьма и весьма поступил опрометчиво, пренебрегая общественным голосом...	</said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да он о двух головах, что ли!</said> — крикнул <persName ref="#dpr"><surname>Разумихин</surname></persName>, вскакивая со стула и уже готовясь расправиться.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Низкий вы и злой человек!</said> — сказала <persName><addName type="diminiutive">Дуня</addName></persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Ни слова! Ни жеста!</said> — вскрикнул <persName ref="#rrr"><surname>Раскольников</surname></persName>, удерживая <persName>Разумихина</persName>; затем, подойдя чуть не в упор к <persName>Лужину</persName>:</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Извольте выйти вон!</said> — сказал он тихо и раздельно, — <said aloud="" direct="" who="" toWhom="">и ни слова более, иначе... </said></p>
-            <p><persName><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName></persName> несколько секунд смотрел на него с бледным и искривленным от злости лицом, затем повернулся, вышел, и уж, конечно, редко кто-нибудь уносил на кого в своем сердце столько злобной ненависти, как этот человек на <persName>Раскольникова</persName>. Его, и его одного, он обвинял во всем. Замечательно, что, уже спускаясь с лестницы, он всё еще воображал, что дело еще, может быть, совсем не потеряно и, что касается одних дам, даже <said aloud="" direct="" who="" toWhom="">«весьма и весьма»</said> поправимое.</p>
+            <p>— <said aloud="true" direct="true" who="#rrr" toWhom="#arr">И тебе не стыдно теперь, <persName ref="#arr">сестра</persName>?</said> — спросил <persName ref="#rrr"><surname>Раскольников</surname></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#arr" toWhom="#rrr">Стыдно, <persName ref="#rrr"><addName type="diminiutive">Родя</addName></persName></said>, — сказала <persName ref="#arr"><addName type="diminiutive">Дуня</addName></persName>. — <said aloud="true" direct="true" who="#arr" toWhom="#pepl"><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName>, подите вон!</said> — обратилась она к нему, побледнев от гнева.</p>
+            <p><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName>, кажется, совсем не ожидал такого конца. Он слишком надеялся на себя, на власть свою и на беспомощность своих жертв. Не поверил и теперь. Он побледнел, и губы его затряслись.</p>
+            <p>— <said aloud="true" direct="true" who="#pepl" toWhom="#arr"><persName ref="#arr"><forename>Авдотья</forename> <addName type="patronymic">Романовна</addName></persName>, если я выйду теперь в эту дверь, при таком напутствии, то — рассчитайте это — я уж не ворочусь никогда. Обдумайте хорошенько! Мое слово твердо. </said></p>
+            <p>— <said aloud="true" direct="true" who="#arr" toWhom="#pepl">Что за наглость!</said> — вскричала <persName ref="#arr"><addName type="diminiutive">Дуня</addName></persName>, быстро подымаясь с места, — <said aloud="true" direct="true" who="#arr" toWhom="#pepl">да я и не хочу, чтобы вы возвращались назад! </said></p>
+            <p>— <said aloud="true" direct="true" who="#pepl" toWhom="#arr">Как? Так вот ка-а-к-с!</said> — вскричал <persName ref="#pepl"><surname>Лужин</surname></persName>, совершенно не веровавший, до последнего мгновения, такой развязке, а потому совсем потерявший теперь нитку, — <said aloud="true" direct="true" who="#pepl" toWhom="#arr">так так-то-с! Но знаете ли, <persName ref="#arr"><forename>Авдотья</forename> <addName type="patronymic">Романовна</addName></persName>, что я мог бы и протестовать-с. </said></p>
+            <p>— <said aloud="true" direct="true" who="#par" toWhom="#pepl">Какое право вы имеете так говорить с ней!</said> — горячо вступилась <persName ref="#par"><forename>Пульхерия</forename> <addName type="patronymic">Александровна</addName></persName>, — <said aloud="true" direct="true" who="#par" toWhom="#pepl">чем вы можете протестовать? И какие это ваши права? Ну, отдам я вам, такому, <persName ref="#arr">мою <addName type="dimunitive">Дуню</addName></persName>? Подите, оставьте нас совсем! Мы сами виноваты, что на несправедливое дело пошли, а всех больше я... </said></p>
+            <p>— <said aloud="true" direct="true" who="#pepl" toWhom="#par">Однако ж, <persName ref="#par"><forename>Пульхерия</forename> <addName type="patronymic">Александровна</addName></persName></said>, — горячился в бешенстве <persName ref="#pepl"><surname>Лужин</surname></persName>, — <said aloud="true" direct="true" who="#pepl" toWhom="#par">вы связали меня данным словом, от которого теперь отрекаетесь... и наконец... наконец, я вовлечен был, так сказать, через то в издержки... </said></p>
+            <p>Эта последняя претензия до того была в характере <persName ref="#pepl"><forename>Петра</forename> <addName type="patronymic">Петровича</addName></persName>, что <persName ref="#rrr"><surname>Раскольников</surname></persName>, бледневший от гнева и от усилий сдержать его, вдруг не выдержал и — расхохотался. Но <persName ref="#par"><forename>Пульхерия</forename> <addName type="patronymic">Александровна</addName></persName> вышла из себя:</p>
+            <p>— <said aloud="true" direct="true" who="#par" toWhom="#pepl">В издержки? В какие же это издержки? Уж не про сундук ли наш вы говорите? Да ведь вам его кондуктор задаром перевез. Господи, мы же вас и связали! Да вы опомнитесь, <persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName>, это вы нас по рукам и по ногам связали, а не мы вас! </said></p>
+            <p>— <said aloud="true" direct="true" who="#arr" toWhom="#par">Довольно, <persName ref="#par"><addName type="nickname">маменька</addName></persName>, пожалуйста, довольно!</said> — упрашивала <persName ref="#arr"><forename>Авдотья</forename> <addName type="patronymic">Романовна</addName></persName>. — <said aloud="true" direct="true" who="#arr" toWhom="#pepl"><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName>, сделайте милость, уйдите! </said></p>
+            <p>— <said aloud="true" direct="true" who="#pepl" toWhom="#arr">Уйду-с, но одно только последнее слово!</said> — проговорил он, уже почти совсем не владея собою, — <said aloud="true" direct="true" who="#pepl" toWhom="#arr"><persName ref="#par">ваша мамаша</persName>, кажется, совершенно забыла, что я решился вас взять, так сказать, после городской молвы, разнесшейся по всему околотку насчет репутации вашей. Пренебрегая для вас общественным мнением и восстановляя репутацию вашу, уж, конечно, мог бы я, весьма и весьма, понадеяться на возмездие и даже потребовать благодарности вашей... И только теперь открылись глаза мои! Вижу сам, что, может быть, весьма и весьма поступил опрометчиво, пренебрегая общественным голосом...	</said></p>
+            <p>— <said aloud="true" direct="true" who="#dpr" toWhom="#pepl">Да он о двух головах, что ли!</said> — крикнул <persName ref="#dpr"><surname>Разумихин</surname></persName>, вскакивая со стула и уже готовясь расправиться.</p>
+            <p>— <said aloud="true" direct="true" who="#arr" toWhom="#pepl"><persName ref="#pepl"><addName type="nickname">Низкий</addName></persName> вы и <persName ref="#pepl"><addName type="nickname">злой человек</addName></persName>!</said> — сказала <persName ref="#arr"><addName type="diminiutive">Дуня</addName></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#rrr" toWhom="#dpr">Ни слова! Ни жеста!</said> — вскрикнул <persName ref="#rrr"><surname>Раскольников</surname></persName>, удерживая <persName ref="#dpr"><surname>Разумихина</surname></persName>; затем, подойдя чуть не в упор к <persName ref="#pepl"><surname>Лужину</surname></persName>:</p>
+            <p>— <said aloud="true" direct="true" who="#rrr" toWhom="#pepl">Извольте выйти вон!</said> — сказал он тихо и раздельно, — <said aloud="true" direct="true" who="#rrr" toWhom="#pepl">и ни слова более, иначе... </said></p>
+            <p><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName> несколько секунд смотрел на него с бледным и искривленным от злости лицом, затем повернулся, вышел, и уж, конечно, редко кто-нибудь уносил на кого в своем сердце столько злобной ненависти, как этот человек на <persName ref="#rrr"><surname>Раскольникова</surname></persName>. Его, и его одного, он обвинял во всем. Замечательно, что, уже спускаясь с лестницы, он всё еще воображал, что дело еще, может быть, совсем не потеряно и, что касается <persName ref="#rasdamy">одних дам</persName>, даже <q>«весьма и весьма»</q> поправимое.</p>
           </div3>
           <div3 type="section" n="3">
             <head>III</head>
@@ -4002,6 +4003,7 @@
              <persName>брат ваш</persName>
              <persName>кто-нибудь из ваших домашних</persName>
              <persName>заносчивый юноша</persName>
+             <persName>ваш братец</persName>
            </person>
             <person xml:id="arr" sex="female">
               <persName>Авдотья Романовна Раскольникова</persName>
@@ -4019,6 +4021,7 @@
               <persName>сестрица ваша</persName>
               <persName>ваша сестрица</persName>
               <persName>моя сестра</persName>
+              <persName>моя Дуня</persName>
             </person>
             <person xml:id="par" sex="female">
               <persName>Пульхерия Александровна Раскольникова</persName>
@@ -4034,7 +4037,14 @@
               <persName>Пульхерия Александровна</persName>
               <persName>маменька</persName>
               <persName>многоуважаемая ваша мамаша</persName>
+              <persName>сногоуважаемая Пульхерия Александровна</persName>
             </person>
+            <personGrp xml:id="rasdamy" sex="female">
+              <persName>Пульхерия Александровна Раскольникова и Авдотья Романовна Раскольникова</persName>
+              <persName>обие дамы</persName>
+              <persName>дамы</persName>
+              <persName>одни дами</persName>
+            </personGrp>
            <person xml:id="star" sex="female">
              <persName>Алена Ивановна</persName>
              <persName>хозяйка</persName>
@@ -4100,6 +4110,7 @@
               <persName>сударына</persName>
               <persName>очень бедная женщина</persName>
               <persName>мамочка</persName>
+              <persName>вдвова раздавленного</persName>
             </person>
             <person xml:id="ivmi" sex="male">
               <persName>Иван Михайлович, отец Катерины Ивановны</persName>
@@ -4120,6 +4131,7 @@
               <persName>сестра</persName>
               <persName>сестрица Соня</persName>
               <persName>девушка</persName>
+              <persName>эта несчастная девушка</persName>
             </person>
             <person xml:id="psm" sex="female">
               <persName>Полина Семеновна Мармеладова</persName>
@@ -4153,6 +4165,7 @@
             </personGrp>
             <personGrp xml:id="mrmlvi">
               <persName>Мармеладовы</persName>
+              <persName>семейство то</persName>
             </personGrp>
            <person xml:id="asl" sex="male">
              <persName>Андрей Семенович Лебезятников</persName>
@@ -4268,6 +4281,8 @@
              <persName>жених</persName>
              <persName>этот господин</persName>
              <persName>Петр-то Петрович</persName>
+             <persName>низкий</persName>
+             <persName>злой человек</persName>
            </person>
            <person xml:id="pngor" sex="male">
              <persName>городовой</persName>
@@ -4716,11 +4731,6 @@
               <persName>камер-юнкер князь Щегольской</persName>
               <persName>князь</persName>
             </person>
-            <personGrp xml:id="rasdamy" sex="female">
-              <persName>Пульхерия Александровна Раскольникова и Авдотья Романовна Раскольникова</persName>
-              <persName>обие дамы</persName>
-              <persName>дамы</persName>
-            </personGrp>
             <person xml:id="ress" sex="female">
               <persName>некоторая Ресслих</persName>
               <persName>иностранка</persName>
