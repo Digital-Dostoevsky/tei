@@ -126,8 +126,9 @@
 			  <change when="2022-11-11" who="#VS">[markup]:finished tagging sections I, II of Chapter 6.</change>
 			  <change when="2022-11-13" who="#VS">[markup]:finished tagging sections III, IV of Chapter 6, section I of chapter 7.</change>
 			  <change when="2022-11-18" who="#VS">[markup]:finished tagging speech in section II of chapter 7.</change>
-			  <change when="2022-11-19" who="#VS">[markup]:changed "personGrp ref" to "persName ref" in the body, finished tagging section II of chapter 7.
-			  <change when="2022-11-20" who="#VS">[markup]:finished tagging section III of chapter 7.
+			  <change when="2022-11-19" who="#VS">[markup]:changed "personGrp ref" to "persName ref" in the body, finished tagging section II of chapter 7.</change>
+			  <change when="2022-11-20" who="#VS">[markup]:finished tagging section III of chapter 7.</change>
+			    
         	</revisionDesc> 
   </teiHeader>
   <text>
