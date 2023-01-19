@@ -190,9 +190,9 @@
 				<change when="2022-09-02" who="#KB">[file]:created new repo called Dvoinik-liminality for liminality project and copied old Dvoinik xml file into it; renamed file to dvoinik-lim</change>
 				<change when="2022-09-02" who="#KB">[markup]: removed all seg types (type=liminal) and converted all seg subtypes to types</change>
 				<change when="2022-09-16" who="#KH">{markup]: added seg subtypes in liminal tags in chapter 9</change>
-				<change when="2022-09-16" who="#KB">[markup]: updated subtypes in liminal tags for chpt 1 and part of chpt 2</change>
+				<change when="2022-09-16" who="#KB">[markup]: updated subtypes in liminal tags for chpts 1-2</change>
 				<change when="2022-09-20" who="#KH">[markup]: updated seg subtypes in liminal tags for chpt 9.</change>
-				<change when="2023-01-18" who="#KB">[markup]: updated seg subtypes in liminal tags for chs 2-8</change>
+				<change when="2023-01-18" who="#KB">[markup]: updated seg subtypes in liminal tags for chs 3-8</change>
 			</revisionDesc>
   </teiHeader>
   <text>
