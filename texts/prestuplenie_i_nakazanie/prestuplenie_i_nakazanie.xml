@@ -119,6 +119,7 @@
 			  <change when="2023-03-09" who="#EZ">[markup]: continuted tagging elements in Part IV Chapter V</change>
 			  <change when="2023-03-19" who="#EZ">[markup]: continued tagging elements in Part IV Chapter V</change>
 			  <change when="2023-04-26" who="#EZ">[markup]: finished tagging elements in Part IV Chapters V and VI</change>
+			  <change when="2023-04-27" who="#EZ">[markup]: rearranged some of the character tags</change>
         </revisionDesc>
       
   </teiHeader>
@@ -4078,6 +4079,53 @@
               <persName>бабушка Раскольникова</persName>
               <persName>бабушка</persName>
             </person>
+            <person xml:id="otra" sex="male">
+              <persName>отец Раскольникова</persName>
+              <persName>папочка</persName>
+              <persName>отец</persName>
+              <persName>твой отец</persName>
+            </person>
+            <person xml:id="pepl" sex="male">
+              <persName>Петр Петрович Лужин</persName>
+              <persName>Петр Петрович</persName>
+              <persName>Лужин</persName>
+              <persName>мужичка</persName>
+              <persName>господин Лужин</persName>
+              <persName>надворный советник</persName>
+              <persName>чопорный господин</persName>
+              <persName>вошедший господин</persName>
+              <persName>гость</persName>
+              <persName>жених</persName>
+              <persName>этот господин</persName>
+              <persName>Петр-то Петрович</persName>
+              <persName>низкий</persName>
+              <persName>злой человек</persName>
+            </person>
+            <person xml:id="dpr" sex="male">
+              <persName>Дмитрий Прокофьевич Разумихин</persName>
+              <persName>Разумихин</persName>
+              <persName>Вразумихин</persName>
+              <persName>веселый и сообщительный парень</persName>
+              <persName>студент</persName>
+              <persName>дворянский сын</persName>
+              <persName>пес</persName>
+              <persName>хлопотун</persName>
+              <persName>оборанец</persName>
+              <persName>нахал</persName>
+              <persName>милостивый государь</persName>
+              <persName>господин Разумихин</persName>
+              <persName>новый жилець</persName>
+              <persName>расторопный молодой человек</persName>
+              <persName>Дмитрий Прокофьич</persName>
+              <persName>господин Рассудкин</persName>
+              <persName>господин Разумихин</persName>
+              <persName>господин Разумихин, Дмитрий Прокофьич</persName>
+            </person>
+            <person xml:id="draz" sex="male">
+              <persName>дядя Разумихина</persName>
+              <persName>дядя</persName>
+              <persName>этот дядя</persName>
+            </person>
            <person xml:id="star" sex="female">
              <persName>Алена Ивановна</persName>
              <persName>хозяйка</persName>
@@ -4339,28 +4387,107 @@
               <persName>дети Свидригайловых</persName>
               <persName>дети</persName>
             </personGrp>
-           <person xml:id="pepl" sex="male">
-             <persName>Петр Петрович Лужин</persName>
-             <persName>Петр Петрович</persName>
-             <persName>Лужин</persName>
-             <persName>мужичка</persName>
-             <persName>господин Лужин</persName>
-             <persName>надворный советник</persName>
-             <persName>чопорный господин</persName>
-             <persName>вошедший господин</persName>
-             <persName>гость</persName>
-             <persName>жених</persName>
-             <persName>этот господин</persName>
-             <persName>Петр-то Петрович</persName>
-             <persName>низкий</persName>
-             <persName>злой человек</persName>
-           </person>
-           <person xml:id="pngor" sex="male">
+            <personGrp xml:id="svgi">
+              <persName>господа Свидригайловы</persName>
+              <persName>Свидригайловы</persName>
+              <persName>Свидригайловы-то</persName>
+            </personGrp>
+            <person xml:id="porpe" sex="male">
+              <persName>Порфирий Петрович</persName>
+              <persName>Порфирий</persName>
+              <persName>этот человек</persName>
+              <persName>полишинель проклятый</persName>
+              <persName>пристав следственных дел</persName>
+            </person>
+            <person xml:id="pnkonv1" sex="male">
+              <persName>конвойный Миколая</persName>
+              <persName>человек</persName>
+              <persName>конвойный</persName>
+            </person>
+            <person xml:id="ilpe" sex="male">
+              <persName>Илья Петрович</persName>
+              <persName>офицер</persName>
+              <persName>поручик</persName>
+              <persName>помощник</persName>
+              <persName>господин капитэн</persName>
+              <persName>помощник квартального надзирателя</persName>
+              <persName>поручик-порох</persName>
+              <persName>надзирателя помощник</persName>
+              <persName>поручик-то порох</persName>
+              <persName>порох-то</persName>
+              <persName>поручик порох</persName>
+              <persName>болван</persName>
+              <persName>этот Илья Петрович</persName>
+            </person>
+            <person xml:id="agz" sex="male">
+              <persName>Александр Григорьевич Заметов</persName>
+              <persName>Александр Григорьевич</persName>
+              <persName>Письмоводитель</persName>
+              <persName>очень молодой человек</persName>
+              <persName>Заметов</persName>
+              <persName>господин Заметов</persName>
+              <persName>письмоводитель в здешней конторе</persName>
+              <persName>человек чудеснейший</persName>
+              <persName>добреюший мальчик</persName>
+              <persName>милый юноша</persName>
+              <persName>мой воробушек</persName>
+              <persName>воробушек</persName>
+              <persName>этот мальчишка</persName>
+              <persName>воробушка</persName>
+            </person>
+            <person xml:id="nikf" sex="male">
+              <persName>Никодим Фомич</persName>
+              <persName>офицер</persName>
+              <persName>господин сочинитель</persName>
+              <persName>капитан</persName>
+              <persName>квартальный надзиратель</persName>
+              <persName>надзиратель</persName>
+            </person>
+            <person xml:id="pngor" sex="male">
              <persName>городовой</persName>
              <persName>унтер-офицер</persName>
              <persName>учас</persName>
              <persName>служивый</persName>
            </person>
+            <person xml:id="myde" sex="male">
+              <persName>Миколай Дементьев</persName>
+              <persName>Миколай</persName>
+              <persName>красильщик</persName>
+              <persName>работник красильщик</persName>
+              <persName>крестьянин</persName>
+              <persName>Николай</persName>
+              <persName>Николашка</persName>
+              <persName>работник-то ваш</persName>
+              <persName>этот красальщик</persName>
+              <persName>какой-то очень бледный человек</persName>
+              <persName>бедный Миколка</persName>
+            </person>
+            <person xml:id="mitr" sex="male">
+              <persName>Митрей</persName>
+              <persName>Митька</persName>
+              <persName>Дмитрий</persName>
+              <persName>Митька-то</persName>
+            </person>
+            <person xml:id="koch" sex="male">
+              <persName>Незваный гость</persName>
+              <persName>Кох</persName>
+              <persName>гость</persName>
+              <persName>незнакомец</persName>
+              <persName>посетитель</persName>
+              <persName>мошенник какой-то</persName>
+              <persName>промышленник</persName>
+            </person> 
+            <person xml:id="pest" sex="male">
+              <persName>подошедший</persName>
+              <persName>батюшка</persName>
+              <persName>молодой человек</persName>
+              <persName>Престяков</persName>
+              <persName>студент Престяков</persName>
+            </person>
+            <person xml:id="pnstud" sex="male">
+              <persName>студент</persName>
+              <persName>горячившийся товарищ</persName>
+            </person>
            <person xml:id="devpr" sex="female">
              <persName>девушка которой Раскольников хотел помочь</persName>
              <persName>женщина</persName>
@@ -4370,31 +4497,6 @@
              <persName>сударыня</persName>
              <persName>барышня</persName>
              <persName>та девочка</persName>
-           </person>
-           <person xml:id="dpr" sex="male">
-             <persName>Дмитрий Прокофьевич Разумихин</persName>
-             <persName>Разумихин</persName>
-             <persName>Вразумихин</persName>
-             <persName>веселый и сообщительный парень</persName>
-             <persName>студент</persName>
-             <persName>дворянский сын</persName>
-             <persName>пес</persName>
-             <persName>хлопотун</persName>
-             <persName>оборанец</persName>
-             <persName>нахал</persName>
-             <persName>милостивый государь</persName>
-             <persName>господин Разумихин</persName>
-             <persName>новый жилець</persName>
-             <persName>расторопный молодой человек</persName>
-             <persName>Дмитрий Прокофьич</persName>
-             <persName>господин Рассудкин</persName>
-             <persName>господин Разумихин</persName>
-             <persName>господин Разумихин, Дмитрий Прокофьич</persName>
-           </person>
-           <person xml:id="draz" sex="male">
-             <persName>дядя Разумихина</persName>
-             <persName>дядя</persName>
-             <persName>этот дядя</persName>
            </person>
            <person xml:id="pnmesch" sex="male">
              <persName>мещанин</persName>
@@ -4411,78 +4513,15 @@
               <persName>кляча</persName>
               <persName>Миколка</persName>
             </person>
-           <person xml:id="otra" sex="male">
-             <persName>отец Раскольникова</persName>
-             <persName>папочка</persName>
-             <persName>отец</persName>
-             <persName>твой отец</persName>
-           </person>
-           <person xml:id="myde" sex="male">
-             <persName>Миколай Дементьев</persName>
-             <persName>Миколай</persName>
-             <persName>красильщик</persName>
-             <persName>работник красильщик</persName>
-             <persName>крестьянин</persName>
-             <persName>Николай</persName>
-             <persName>Николашка</persName>
-             <persName>работник-то ваш</persName>
-             <persName>этот красальщик</persName>
-             <persName>какой-то очень бледный человек</persName>
-             <persName>бедный Миколка</persName>
-           </person>
-            <person xml:id="mitr" sex="male">
-              <persName>Митрей</persName>
-              <persName>Митька</persName>
-              <persName>Дмитрий</persName>
-              <persName>Митька-то</persName>
-            </person>
-           <person xml:id="koch" sex="male">
-             <persName>Незваный гость</persName>
-             <persName>Кох</persName>
-             <persName>гость</persName>
-             <persName>незнакомец</persName>
-             <persName>посетитель</persName>
-             <persName>мошенник какой-то</persName>
-             <persName>промышленник</persName>
-           </person> 
-           <person xml:id="pest" sex="male">
-             <persName>подошедший</persName>
-             <persName>батюшка</persName>
-             <persName>молодой человек</persName>
-             <persName>Престяков</persName>
-             <persName>студент Престяков</persName>
-           </person>
-           <person xml:id="pnstud" sex="male">
-             <persName>студент</persName>
-             <persName>горячившийся товарищ</persName>
-           </person>
-           <person xml:id="molof" sex="male">
-             <persName>молодой офицер</persName>
-             <persName>офицер</persName>
-             <persName>товарищ</persName>
-             <persName>брат</persName>
-           </person>
+           
+           
            <person xml:id="pndvor" sex="male">
              <persName>дворник</persName>
            </person>
            <person xml:id="pis" sex="male">
              <persName>писец</persName>
            </person>
-           <person xml:id="ilpe" sex="male">
-             <persName>Илья Петрович</persName>
-             <persName>офицер</persName>
-             <persName>поручик</persName>
-             <persName>помощник</persName>
-             <persName>господин капитэн</persName>
-             <persName>помощник квартального надзирателя</persName>
-             <persName>поручик-порох</persName>
-             <persName>надзирателя помощник</persName>
-             <persName>поручик-то порох</persName>
-             <persName>порох-то</persName>
-             <persName>поручик порох</persName>
-             <persName>болван</persName>
-             <persName>этот Илья Петрович</persName>
-           </person>
+           
            <person xml:id="cheb" sex="male">
              <persName>Чебаров</persName>
              <persName>народный советник Чебаров</persName>
@@ -4490,11 +4529,6 @@
              <persName>народный советник</persName>
              <persName>деловой человек</persName>
            </person>
-           <personGrp xml:id="svgi">
-             <persName>господа Свидригайловы</persName>
-             <persName>Свидригайловы</persName>
-             <persName>Свидригайловы-то</persName>
-           </personGrp>
            <person xml:id="luiv" sex="female">
              <persName>Луиза Ивановна</persName>
              <persName>дама</persName>
@@ -4506,30 +4540,6 @@
            </person>
            <person xml:id="uknv" sex="male">
              <persName>кто-то со стороны из вошедших</persName>
-           </person>
-           <person xml:id="agz" sex="male">
-             <persName>Александр Григорьевич Заметов</persName>
-             <persName>Александр Григорьевич</persName>
-             <persName>Письмоводитель</persName>
-             <persName>очень молодой человек</persName>
-             <persName>Заметов</persName>
-             <persName>господин Заметов</persName>
-             <persName>письмоводитель в здешней конторе</persName>
-             <persName>человек чудеснейший</persName>
-             <persName>добреюший мальчик</persName>
-             <persName>милый юноша</persName>
-             <persName>мой воробушек</persName>
-             <persName>воробушек</persName>
-             <persName>этот мальчишка</persName>
-             <persName>воробушка</persName>
-           </person>
-           <person xml:id="nikf" sex="male">
-             <persName>Никодим Фомич</persName>
-             <persName>офицер</persName>
-             <persName>господин сочинитель</persName>
-             <persName>капитан</persName>
-             <persName>квартальный надзиратель</persName>
-             <persName>надзиратель</persName>
            </person>
            <person xml:id="hev" sex="male">
              <persName>кинопродавец Херувимов</persName>
@@ -4626,18 +4636,6 @@
             </person>
             <person xml:id="fedy" sex="male">
               <persName>Федяев</persName>
-            </person>
-            <person xml:id="porpe" sex="male">
-              <persName>Порфирий Петрович</persName>
-              <persName>Порфирий</persName>
-              <persName>этот человек</persName>
-              <persName>полишинель проклятый</persName>
-              <persName>пристав следственных дел</persName>
-            </person>
-            <person xml:id="pnkonv1" sex="male">
-              <persName>конвойный Миколая</persName>
-              <persName>человек</persName>
-              <persName>конвойный</persName>
             </person>
             <person xml:id="dush" sex="male">
               <persName>Душкин</persName>
