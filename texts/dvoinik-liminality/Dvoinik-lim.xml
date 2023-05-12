@@ -194,6 +194,8 @@
 				<change when="2022-09-20" who="#KH">[markup]: updated seg subtypes in liminal tags for chpt 9.</change>
 				<change when="2023-01-18" who="#KB">[markup]: updated seg subtypes in liminal tags for chs 3-8</change>
 				<change when="2023-01-18" who="#KB">[markup]: standardized encoding in chs 9-13 (removed hashtags, added missed subtypes)</change>
+				<change when="2023-05-12" who="#KH">[markup]: corrected errors in seg tags, removed all personal tags and changed personal to state</change>
+				<change when="2023-05-12" who="#KB">[markup]: corrected errors in seg tags</change>
 			</revisionDesc>
   </teiHeader>
   <text>
