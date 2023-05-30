@@ -122,6 +122,7 @@
         <change when="2023-05-29" who="#ES">[markup]:continued tagging Part 1</change>
         <change when="2023-05-29" who="#KB">[markup]:added plaintext of truncated part of novel to xml file (section III and chpt 8 of part 3) and added in div and head tags</change>
         <change when="2023-05-30" who="#ES">[markup]:finished tagging Part 1</change>
+        <change when="2023-05-30" who="#SW">[markup]: ran auto-tagger on section III and chpt 8 of part 3 and replaced plaintext of chpt 2 with auto-tagged text</change>
       </revisionDesc>
   </teiHeader>
   <text>
