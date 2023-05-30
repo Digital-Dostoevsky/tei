@@ -695,7 +695,7 @@
             <p>Мне не нужно денег, или, лучше, мне не деньги нужны; даже и не могущество; мне нужно лишь то, что приобретается могуществом и чего никак нельзя приобрести без могущества: это уединенное и спокойное сознание силы! Вот самое полное определение свободы, над которым так бьется мир! Свобода! Я начертал наконец это великое слово... Да, уединенное сознание силы — обаятельно и прекрасно. У меня сила, и я спокоен. Громы в руках Юпитера, и что ж: он спокоен; часто ли слышно, что он загремит? Дураку покажется, что он спит. А посади на место Юпитера какого-нибудь литератора или дуру деревенскую бабу — грому-то, грому-то что будет!</p>
             <p>Будь только у меня могущество, рассуждал я, мне и не понадобится оно вовсе; уверяю, что сам, по своей воле, займу везде последнее место. Будь я <persName ref="#roth"><surname>Ротшильд</surname></persName>, я бы ходил в стареньком пальто и с зонтиком. Какое мне дело, что меня толкают на улице, что я принужден перебегать вприпрыжку по грязи, чтоб меня не раздавили извозчики. Сознание, что это я сам <persName ref="#roth"><surname>Ротшильд</surname></persName>, даже веселило бы меня в ту минуту. Я знаю, что у меня может быть обед, как ни у кого, и первый в свете повар, с меня довольно, что я это знаю. Я съем кусок хлеба и ветчины и буду сыт моим сознанием. Я даже теперь так думаю.</p>
             <p>Не я буду лезть в аристократию, а она полезет ко мне, не я буду гоняться за женщинами, а они набегут как вода, предлагая мне всё, что может предложить женщина. <q>«Пошлые»</q> прибегут за деньгами, а умных привлечет любопытство к странному, гордому, закрытому и ко всему равнодушному существу. Я буду ласков и с теми и с другими и, может быть, дам им денег, но сам от них ничего не возьму. Любопытство рождает страсть, может быть, я и внушу страсть. Они уйдут ни с чем, уверяю вас, только разве с подарками. Я только вдвое стану для них любопытнее.</p>
-<lg type="poem"><l rhyme="a">... с меня довольно</rhyme>,</l> 
+<lg type="poem"><l rhyme="a">... с меня довольно</rhyme>,</l>
                 <l rhyme="b">Сего сознанья.</rhyme>,</l>
 </lg>
             <p>Странно то, что этой картинкой (впрочем, верной) я прельщался еще семнадцати лет.</p>
@@ -4446,7 +4446,7 @@
               <persName>старик мой</persName>
               <persName>старичок</persName>
               <persName>старичок князь</persName>
-              <persName>Ахмаков</persName> 
+              <persName>Ахмаков</persName>
               <persName>князь Николай Иванович</persName> 
               <persName>князь Николай Иванович Ахмаков</persName> 
 </person> 
@@ -4497,7 +4497,7 @@
 </person>
 <person xml:id= "mia" sex="female">
             <persName>Марья Ивановна</persName>
- </person> 
+</person> 
 <person xml:id="chino" sex="male">
             <persName>чиновник</persName>
             <persName>Кильян</persName>
@@ -4551,13 +4551,13 @@
 <person xml:id="#derg" sex="male">
            <persName>господин Дергачев</persName>
            <persName>Дергачев</persName>
- </person>
+</person>
 <person xml:id="#derga" sex="female">
             <persName>госпожа Дергачева</persName>
             <persName>Дергачева</persName>
 </person>
 <person xml:id="#gvas" sex="male">
-          <persName>Григорий Васин</persName> 
+          <persName>Григорий Васин</persName>
           <persName>господин Васин</persName>
           <persName>Васин</persName>
           <persName>Гриша</persName>
@@ -4588,9 +4588,9 @@
 <person xml:id="#luke" sex="female">
           <persName>кухарка Лукерья</persName>
           <persName>Лукерья</persName>
- </person>
+</person>
 <person xml:id= "darr" sex="female">
-          <persName>Дарья Родивоновна</persName> 
+          <persName>Дарья Родивоновна</persName>
 </person>   
 <person xml:id="vars" sex="female">
           <persName>Варвара Степановна</persName>
@@ -4613,7 +4613,7 @@
 </person>
 <person xml:id="sudp" sex="male">
           <persName>господин судебный пристав</persName>
-          <persName>судебный пристав</persName> 
+          <persName>судебный пристав</persName>
 </person> 
 <personGrp xml:id="brgr">
           <persName>Бресто-граевские</persName>
@@ -4841,9 +4841,9 @@
             <persName>Колумб</persName>
 </person>  
 <person xml:id="roth" sex="male">
-            <persName>Джеймс Ротшильд</persName>          
+            <persName>Джеймс Ротшильд</persName>         
             <persName>Джемс Ротшильд</persName>
-            <persName>Ротшильд</persName> 
+            <persName>Ротшильд</persName>
 </person>
 <person xml:id="gerber" sex="male">
             <persName>Герцог Беррийский Шарль (Карл) Фердинанд</persName>
@@ -5076,7 +5076,7 @@
               <placeName>Москва</placeName>         
 </place>
 <place type="street" xml:id="arba">
-              <placeName>Арбат</placeName> 
+              <placeName>Арбат</placeName>
 </place>
 <place type="street" xml:id="kuzm">
               <placeName>Кузнецкий Мост</placeName>
@@ -5166,7 +5166,7 @@
             <placeName>деревня</placeName>
             </place>
 <place type="countryside" xml:id="dervas">
-            <placeName>деревнюшка Васькова</placeName>             
+            <placeName>деревнюшка Васькова</placeName>            
 </place>
 <place type="countryside" xml:id="troip">
             <placeName>Троицкий посад</placeName>
@@ -5189,7 +5189,7 @@
             <placeName>Америка</placeName>
 </place> 
 <place type="city" xml:id="viln">
-            <placeName>Вильно</placeName> 
+            <placeName>Вильно</placeName>
 </place>
 <place type="region" xml:id="krm">
             <placeName>Крым</placeName>
