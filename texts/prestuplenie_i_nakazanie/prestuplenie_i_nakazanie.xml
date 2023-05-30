@@ -131,6 +131,7 @@
 			  <change when="2023-05-28" who="#EZ">[markup]: tagged elements in Part V Chapter II</change>
 			  <change when="2023-05-29" who="#KB">[markup]: updated div tags separating Part 6 and Epilogue, pasted in plain text of truncated part of epilogue (chpt 2), added head, p, and div tags to chpt 2 of epilogue</change>
 			  <change when="2023-05-29" who="#EZ">[markup]: began tagging elements in Part V Chapter III</change>
+			  <change when="2023-05-30" who="#SW">[markup]: ran auto-tagger on Epilogue, chpt 2 and replaced plaintext of chpt 2 with auto-tagged text</change>
         </revisionDesc>
       
   </teiHeader>
