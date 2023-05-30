@@ -116,6 +116,7 @@
 			  <change when="2023-05-13" who="#DI">[markup]:all sections in part 2 (вторая часть) completed</change>
 			  <change when="2023-05-14" who="#DI">[markup]:began section 1 part 3</change>
 			  <change when="2023-05-17" who="#DI">[markup]:completed section 1</change>
+			  <change when="2023-05-30" who="#SW">[markup]: ran auto-tagger on truncated text and added auto-tagged text to end of xml file</change>
       </revisionDesc>
   </teiHeader>
   <text>
