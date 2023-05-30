@@ -141,6 +141,7 @@
 			  <change when="2023-05-24" who="#VS">[markup]:finished tagging section IV of chapter 2.</change>
 			  <change when="2023-05-24" who="#VS">[markup]:finished tagging section IV of chapter 2.</change>
 			  <change when="2023-05-27" who="#VS">[markup]:finished tagging section V of chapter 2 and sections I, II, III of chapter 3.</change>
+			  <change when="2023-05-30" who="#SW">[markup]: ran auto-tagger on truncated text and added auto-tagged text to end of xml file</change>
         	</revisionDesc> 
   </teiHeader>
   <text>
