@@ -130,6 +130,7 @@
 			  <change when="2023-05-27" who="#EZ">[markup]: tagged elements in Part V Chapter I</change>
 			  <change when="2023-05-28" who="#EZ">[markup]: tagged elements in Part V Chapter II</change>
 			  <change when="2023-05-29" who="#KB">[markup]: updated div tags separating Part 6 and Epilogue, pasted in plain text of truncated part of epilogue (chpt 2), added head, p, and div tags to chpt 2 of epilogue</change>
+			  <change when="2023-05-29" who="#EZ">[markup]: began tagging elements in Part V Chapter III</change>
         </revisionDesc>
       
   </teiHeader>
@@ -3030,9 +3031,9 @@
             <p>— <said aloud="true" direct="#true" who="#kim" toWhom="#ssm"><persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>! <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>! Я не верю! Видишь, я не верю!</said> — кричала (несмотря на всю очевидность) <persName ref="#kim"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName>, сотрясая ее в руках своих, как ребенка, целуя ее бессчетно, ловя ее руки и, так и впиваясь, целуя их. — <said aloud="true" direct="true" who="#kim" toWhom="#ssm #pepl #gostpokh">Чтоб ты взяла! Да что это за глупые люди! О господи! Глупые вы, глупые</said>, — кричала она, обращаясь ко всем, — <said aloud="true" direct="true" who="#kim" toWhom="#pepl #gostpokh #rrr">да вы еще не знаете, не знаете, какое это сердце, какая эта девушка! Она возьмет, она! Да она свое последнее платье скинет, продаст, босая пойдет, а вам отдаст, коль вам надо будет, вот она какая! Она и желтый-то билет получила, потому что мои же дети с голоду пропадали, себя за нас продала!.. Ах, покойник, покойник! Ах, <persName ref="#szm">покойник</persName>, <persName ref="#szm">покойник</persName>! Видишь? Видишь? Вот тебе поминки! Господи! Да защитите же ее, что ж вы стоите все! <persName ref="#rrr"><forename>Родион</forename> <addName type="patronymic">Романович</addName></persName>! Вы-то чего ж не заступитесь? Вы тоже, что ль, верите? Мизинца вы ее не стоите, все, все, все, все! Господи! Да защити ж, наконец! </said></p>
             <p>Плач <persName ref="#kim"><addName type="epithet">бедной, чахоточной, сиротливой <forename>Катерины</forename> <addName type="patronymic">Ивановны</addName></addName></persName> произвел, казалось, сильный эффект на публику. Тут было столько жалкого, столько страдающего в этом искривленном болью, высохшем чахоточном лице, в этих иссохших, запекшихся кровью губах, в этом хрипло кричащем голосе, в этом плаче навзрыд, подобном детскому плачу, в этой доверчивой, детской и вместе с тем отчаянной мольбе защитить, что, казалось, все пожалели несчастную. По крайней мере, <persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName> тотчас же <hi rend="italic">пожалел</hi>.</p>
             <p>— <said aloud="true" direct="true" who="#pepl" toWhom="#kim"><persName ref="#kim"><roleName>Сударыня</roleName></persName>! <persName ref="#kim"><roleName>Сударыня</roleName></persName>!</said> — восклицал он внушительным голосом, — <said aloud="true" direct="true" who="#pepl" toWhom="#kim #ssm #rrr #alul #gostpokh">до вас этот факт не касается! Никто не решится вас обвинить в умысле или в соглашении, тем паче что вы же и обнаружили, выворотив карман: стало быть, ничего не предполагали. Весьма и весьма готов сожалеть, если, так сказать, нищета подвигла и <persName ref="#ssm"><forename>Софью</forename> <addName type="patronymic">Семеновну</addName></persName>, но для чего же, <persName ref="#ssm">мадемуазель</persName>, вы не хотели сознаться? Позора убоялись? Первый шаг? Потерялись, может быть? Дело понятное-с; очень понятное-с... Но, однако, для чего же было пускаться в такие качества! Господа!</said> — обратился он ко всем присутствующим, — <said aloud="true" direct="true" who="#pepl" toWhom="#kim #ssm #rrr #alul #gostpokh">господа! Сожалея и, так сказать, соболезнуя, я, пожалуй, готов простить, даже теперь, несмотря на полученные личные оскорбления. Да послужит же, <persName ref="#ssm">мадемуазель</persName>, теперешний стыд вам уроком на будущее</said>, — обратился он к <persName ref="#ssm"><addName type="diminutive">Соне</addName></persName>, — <said aloud="true" direct="true" who="#pepl" toWhom="#kim #ssm #rrr #alul #gostpokh">а я дальнейшее оставлю втуне и, так и быть, прекращаю. Довольно! </said></p>
-            <p><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName> искоса посмотрел на <persName ref="#rrr"><surname>Раскольникова</surname></persName>. Взгляды их встретились. Горящий взгляд <persName>Раскольникова</persName> готов был испепелить его. Между тем <persName><persName ref="#kim"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName></persName>, казалось, ничего больше и не слыхала: она обнимала и целовала <persName>Соню</persName>, как безумная. Дети тоже обхватили со всех сторон <persName>Соню</persName> своими ручонками, а <persName>Полечка</persName>, — не совсем понимавшая, впрочем, в чем дело, — казалось, вся так и утопла в слезах, надрываясь от рыданий и спрятав свое распухшее от плача хорошенькое личико на плече <persName>Сони</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Как это низко!</said> — раздался вдруг громкий голос в дверях. <persName><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName></persName> быстро оглянулся. — <said aloud="" direct="" who="" toWhom="">Какая низость!</said> — повторил Лебезятников, пристально смотря ему в глаза.</p>
-            <p><persName><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName></persName> даже как будто вздрогнул. Это заметили все. (Потом об этом вспоминали.) Лебезятников шагнул в комнату.</p>
+            <p><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName> искоса посмотрел на <persName ref="#rrr"><surname>Раскольникова</surname></persName>. Взгляды их встретились. Горящий взгляд <persName ref="#rrr"><surname>Раскольникова</surname></persName> готов был испепелить его. Между тем <persName ref="#kim"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName>, казалось, ничего больше и не слыхала: она обнимала и целовала <persName ref="#ssm"><addName type="diminutive">Соню</addName></persName>, как безумная. <persName ref="#detmar">Дети</persName> тоже обхватили со всех сторон <persName ref="#ssm"><addName type="diminutive">Соню</addName></persName> своими ручонками, а <persName ref="#psm"><addName type="diminutive">Полечка</addName></persName>, — не совсем понимавшая, впрочем, в чем дело, — казалось, вся так и утопла в слезах, надрываясь от рыданий и спрятав свое распухшее от плача хорошенькое личико на плече <persName ref="#ssm"><addName type="diminutive">Сони</addName></persName>.</p>
+            <p>— <said aloud="true" direct="false" who="#asl">Как это низко!</said> — раздался вдруг громкий голос в дверях. <persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName> быстро оглянулся. — <said aloud="true" direct="true" who="#asl" toWhom="#pepl">Какая низость!</said> — повторил <persName ref="#asl"><surname>Лебезятников</surname></persName>, пристально смотря ему в глаза.</p>
+            <p><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName> даже как будто вздрогнул. Это заметили все. (Потом об этом вспоминали.) <persName ref="#asl"><surname>Лебезятников</surname></persName> шагнул в <placeName ref="#markvar">комнату</placeName>.</p>
             <p>— <said aloud="" direct="" who="" toWhom="">И вы осмелились меня в свидетели поставить?</said> — сказал он, подходя к <persName>Петру Петровичу</persName>.</p>
             <p>— <said aloud="" direct="" who="" toWhom="">Что это значит, <persName>Андрей Семенович</persName>? Про что такое вы говорите?</said> — пробормотал <persName>Лужин</persName>.</p>
             <p>— <said aloud="" direct="" who="" toWhom="">То значит, что вы... клеветник, вот что значат мои слова!</said> — горячо проговорил Лебезятников, строго смотря на него своими подслеповатыми глазками. Он был ужасно рассержен. <persName ref="#rrr"><surname>Раскольников</surname></persName> так и впился в него глазами, как бы подхватывая и взвешивая каждое слово. Опять снова воцарилось молчание. <persName><persName ref="#pepl"><forename>Петр</forename> <addName type="patronymic">Петрович</addName></persName></persName> почти даже потерялся, особенно в первое мгновение.</p>
@@ -4200,6 +4201,11 @@
               <persName>свой сожитель и бывший опекун</persName>
               <persName>почтенный друг</persName>
               <persName>благороднейший, любезнейший Петр Петрович</persName>
+              <persName>дуррак</persName>
+              <persName>дурак</persName>
+              <persName>крючок судейский</persName>
+              <persName>низкий человек</persName>
+              <persName>голубчик</persName>
             </person>
             <person xml:id="hozkvarpp" sex="male">
               <persName>хозяин новой квартиры Лужина</persName>
@@ -4356,6 +4362,10 @@
               <persName>ваша родственница</persName>
               <persName>пани хорунжина</persName>
               <persName>вдовица</persName>
+              <persName>сударыня</persName>
+              <persName>беднейшая родственница ваша</persName>
+              <persName>эта сумашедшая</persName>
+              <persName>бедная, чахоточная, сиротливая Катерина Ивановна</persName>
             </person>
             <person xml:id="ivmi" sex="male">
               <persName>Иван Михайлович, отец Катерины Ивановны</persName>
@@ -4366,6 +4376,8 @@
               <persName>папенька Катерины Ивановны</persName>
               <persName>полковник</persName>
               <persName>фатер Катерины Ивановны</persName>
+              <persName>мой отец</persName>
+              <persName>папенька ваш</persName>
             </person>
             <person xml:id="ssm" sex="female">
               <persName>Софья Семеновна Мармеладова</persName>
@@ -4397,6 +4409,10 @@
               <persName>девица</persName>
               <persName>сударыня</persName>
               <persName>любезнейшая Софья Семеновна</persName>
+              <persName>воровка</persName>
+              <persName>падчерица ваша</persName>
+              <persName>мадемуазель</persName>
+              <persName>Соня-то</persName>
             </person>
             <person xml:id="psm" sex="female">
               <persName>Полина Семеновна Мармеладова</persName>
@@ -4438,6 +4454,7 @@
               <persName>три маленькие сироты</persName>
               <persName>несчастный малолетные</persName>
               <persName>сироты</persName>
+              <persName>плакавшие дети</persName>
             </personGrp>
             <personGrp xml:id="mrmlvi">
               <persName>Мармеладовы</persName>
@@ -4464,6 +4481,7 @@
              <persName>молодой его друг</persName>
              <persName>добренький Андрей Семенович</persName>
              <persName>этот скверный мерзавец Лебезятников</persName>
+             <persName>Андрей Семёнович</persName>
            </person>
            <person xml:id="imzhenasl" sex="female">
              <persName>Lebezyatnikov's imaginary hypothetical wife</persName>
@@ -4493,6 +4511,9 @@
              <persName>эта заносчивая тварь</persName>
              <persName>эта приезжная дура</persName>
              <persName>эта ничтожная провинциалка</persName>
+             <persName>почтенейшая Амалия Ивановна</persName>
+             <persName>колбасница</persName>
+             <persName>прусская куриная нога в кринолине</persName>
            </person>
             <person xml:id="fatalul" sex="male">
               <persName>отец Амалии Ивановны</persName>
@@ -4521,6 +4542,10 @@
               <persName>дами</persName>
               <persName>благородные дами</persName>
             </personGrp>
+            <person xml:id="dvoralul" sex="male">
+              <persName>дворник дома Липпевезхель</persName>
+              <persName>дворник</persName>
+            </person>
             <personGrp xml:id="gostpokh" sex="mixed">
               <persName>госты похорона Мармеладова</persName>
               <persName>пьяные гости</persName>
@@ -5474,6 +5499,7 @@
               <placeName>та квартира</placeName>
               <placeName>комната Катерины Ивановны</placeName>
               <placeName>комната Мармеладовых</placeName>
+              <placeName>комната-то</placeName>
             </place>
             <place type="fictional" xml:id="kamasl">
               <placeName>каморка Лебезятникова</placeName>
@@ -5481,6 +5507,7 @@
               <placeName>комната Андрея Семеновича Лебезятникова</placeName>
               <placeName>комната</placeName>
               <placeName>эта комната</placeName>
+              <placeName>комната друга моего</placeName>
             </place>
             <place type="city" xml:id="spb">
               <placeName>Санкт Петербург</placeName>
