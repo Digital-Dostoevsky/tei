@@ -132,6 +132,7 @@
 			  <change when="2023-05-29" who="#KB">[markup]: updated div tags separating Part 6 and Epilogue, pasted in plain text of truncated part of epilogue (chpt 2), added head, p, and div tags to chpt 2 of epilogue</change>
 			  <change when="2023-05-29" who="#EZ">[markup]: began tagging elements in Part V Chapter III</change>
 			  <change when="2023-05-30" who="#SW">[markup]: ran auto-tagger on Epilogue, chpt 2 and replaced plaintext of chpt 2 with auto-tagged text</change>
+			  <change when="2023-05-30" who="#EZ">[markup]: finished tagging elements in Part V Chapter III</change>
         </revisionDesc>
       
   </teiHeader>
@@ -4130,6 +4131,8 @@
               <persName>источник доброты, чистоты, разума, и... совершенства</persName>
               <persName>уважаемая Авдотья Романовна</persName>
               <persName>гордячка</persName>
+              <persName>одна девица</persName>
+              <persName>своя невеста</persName>
             </person>
             <person xml:id="par" sex="female">
               <persName>Пульхерия Александровна Раскольникова</persName>
@@ -4207,6 +4210,10 @@
               <persName>крючок судейский</persName>
               <persName>низкий человек</persName>
               <persName>голубчик</persName>
+              <persName>клеветник</persName>
+              <persName>мошенник</persName>
+              <persName>жалкий, подлый человек</persName>
+              <persName>этот человек</persName>
             </person>
             <person xml:id="hozkvarpp" sex="male">
               <persName>хозяин новой квартиры Лужина</persName>
@@ -4333,6 +4340,8 @@
              <persName>мой бедный покойник</persName>
              <persName>покойник муж</persName>
              <persName>покойник Мармеладов</persName>
+             <persName>покойный господин Мармеладов</persName>
+             <persName>покойный Мармеладов</persName>
            </person>
             <person xml:id="kim" sex="female">
               <persName>Катерина Ивановна Мармеладова</persName>
@@ -4367,6 +4376,7 @@
               <persName>беднейшая родственница ваша</persName>
               <persName>эта сумашедшая</persName>
               <persName>бедная, чахоточная, сиротливая Катерина Ивановна</persName>
+              <persName>супруга его</persName>
             </person>
             <person xml:id="ivmi" sex="male">
               <persName>Иван Михайлович, отец Катерины Ивановны</persName>
@@ -4443,6 +4453,7 @@
             <personGrp xml:id="nilsm" sex="mixed">
               <persName>Николай и Лидия</persName>
               <persName>обе маленькие</persName>
+              <persName>дети</persName>
             </personGrp>
             <personGrp xml:id="detmar">
               <persName>дети Мармеладовых</persName>
@@ -4483,12 +4494,20 @@
              <persName>добренький Андрей Семенович</persName>
              <persName>этот скверный мерзавец Лебезятников</persName>
              <persName>Андрей Семёнович</persName>
+             <persName>молокосос</persName>
+             <persName>голубчик</persName>
+             <persName>батюшка</persName>
+             <persName>сударь</persName>
+             <persName>дурак</persName>
            </person>
            <person xml:id="imzhenasl" sex="female">
              <persName>Lebezyatnikov's imaginary hypothetical wife</persName>
              <persName>жена моя</persName>
              <persName>друг мой</persName>
            </person>
+           <personGrp xml:id="kobly" sex="unknown">
+             <persName>Кобылятниковы</persName>
+           </personGrp>
            <person xml:id="pnhozbar" sex="male">
              <persName>Хозяин бара</persName>
              <persName>хозяин</persName>
@@ -4515,6 +4534,7 @@
              <persName>почтенейшая Амалия Ивановна</persName>
              <persName>колбасница</persName>
              <persName>прусская куриная нога в кринолине</persName>
+             <persName>эта тварь</persName>
            </person>
             <person xml:id="fatalul" sex="male">
               <persName>отец Амалии Ивановны</persName>
@@ -4585,12 +4605,17 @@
             </personGrp>
             <personGrp xml:id="3poles" sex="male">
               <persName>эти полячишки</persName>
+              <persName>все три полячка</persName>
             </personGrp>
             <person xml:id="ukpole" sex="male">
               <persName>один из полячков</persName>
               <persName>пане</persName>
               <persName>один из них</persName>
             </person>
+            <personGrp xml:id="ldipokhmar" sex="mixed">
+              <persName>everyone present at Marmeladov's funeral during the Luzhin scandal scene, including Luzhin himself</persName>
+              <persName>господа</persName>
+            </personGrp>
            <person xml:id="iviv" sex="male">
              <persName>Иван Иванович</persName>
            </person>
@@ -5313,6 +5338,14 @@
               <persName>Виссарион Григорьевич Белинский</persName>
               <persName>Белинский</persName>
             </person>
+            <person xml:id="kwp" sex="male">
+              <persName>Карль Вильгельм Пидерит</persName>
+              <persName>Пидерит</persName>
+            </person>
+            <person xml:id="wrw" sex="male">
+              <persName>Вильгельи Рихард Вагнер</persName>
+              <persName>Вагнер</persName>
+            </person>
             
 
           </listPerson>
@@ -5509,6 +5542,7 @@
               <placeName>комната</placeName>
               <placeName>эта комната</placeName>
               <placeName>комната друга моего</placeName>
+              <placeName>моя комната</placeName>
             </place>
             <place type="city" xml:id="spb">
               <placeName>Санкт Петербург</placeName>
