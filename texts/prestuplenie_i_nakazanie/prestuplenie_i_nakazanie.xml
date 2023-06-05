@@ -135,6 +135,7 @@
 			  <change when="2023-05-30" who="#SW">[markup]: ran auto-tagger on Epilogue, chpt 2 and replaced plaintext of chpt 2 with auto-tagged text</change>
 			  <change when="2023-05-30" who="#EZ">[markup]: finished tagging elements in Part V Chapter III</change>
 			  <change when="2023-05-31" who="#EZ">[markup]: added foreign language tags to Polish and German words written in Cyrillic and tagged elements in Part V Chapter IV</change>
+			  <change when="2023-06-04" who="#EZ">[markup]: tagged elements in Part V Chapter V</change>
         </revisionDesc>
       
   </teiHeader>
@@ -3286,7 +3287,7 @@
             <p>— <said aloud="true" direct="true" who="#asl" toWhom="#rrr">Вообразите, я был у вас, ищу вас. Вообразите, она исполнила свое намерение и <persName ref="#detmar">детей</persName> увела! Мы с <persName ref="#ssm"><forename>Софьей</forename> <addName type="patronymic">Семеновной</addName></persName> насилу их отыскали. Сама бьет в сковороду, <persName ref="#detmar">детей</persName> заставляет петь и плясать. <persName ref="#detmar">Дети</persName> плачут. Останавливаются на перекрестках и у лавочек. За ними глупый народ бежит. Пойдемте. </said></p>
             <p>— <said aloud="true" direct="true" who="#rrr" toWhom="#asl">А <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>?..</said> — тревожно спросил <persName ref="#rrr"><surname>Раскольников</surname></persName>, поспешая за <persName ref="#asl"><surname>Лебезятниковым</surname></persName>.</p>
             <p>— <said aloud="true" direct="true" who="#asl" toWhom="#rrr">Просто в исступлении. То есть не <persName ref="#ssm"><forename>Софья</forename> <addName type="patronymic">Семеновна</addName></persName> в исступлении, а <persName ref="#kim"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName>; а впрочем, и <persName ref="#ssm"><forename>Софья</forename> <addName type="patronymic">Семеновна</addName></persName> в исступлении. А <persName ref="#kim"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName> совсем в исступлении. Говорю вам, окончательно помешалась. Их в полицию возьмут. Можете представить, как это подействует... Они теперь на <placeName ref="#ssmkan">канаве</placeName> у <placeName ref="#most2">—ского моста</placeName>, очень недалеко от <persName ref="#ssm"><forename>Софьи</forename> <addName type="patronymic">Семеновны</addName></persName>. Близко. </said></p>
-            <p>На <placeName ref="#ssmkan">канаве</placeName>, не очень далеко от <placeName ref="#most2">моста</placeName> и не доходя двух домов от дома, где жила <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>, столпилась <persName ref="#narodkisc">кучка народу</persName>. Особенно сбегались мальчишки и девчонки. Хриплый, надорванный голос <persName ref="#kim"><forename>Катерины</forename> <addName type="patronymic">Ивановны</addName></persName> слышался еще от <placeName ref="#most2">моста</placeName>. И действительно, это было странное зрелище, способное заинтересовать уличную публику. <persName ref="#kim"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName> в своем стареньком платье, в драдедамовой шали и в изломанной соломенной шляпке, сбившейся безобразным комком на сторону, была действительно в настоящем исступлении. Она устала и задыхалась. Измучившееся чахоточное лицо ее смотрело страдальнее, чем когда-нибудь (к тому же на улице, на солнце, чахоточный всегда кажется больнее и обезображеннее, чем дома); но возбужденное состояние ее не прекращалось, и она с каждою минутой становилась еще раздраженнее. Она бросалась к <persName ref="#detmar">детям</persName>, кричала на них, уговаривала, учила их тут же при народе, как плясать и что петь, начинала им растолковывать, для чего это нужно, приходила в отчаяние от их непонятливости, била их... Потом, не докончив, бросалась к публике; если замечала чуть-чуть хорошо одетого человека, остановившегося поглядеть, то тотчас пускалась объяснять ему, что вот, дескать, до чего доведены дети <q>«из благородного, можно даже сказать, аристократического дома»</q>. Если слышала в толпе смех или какое-нибудь задирательное словцо, то тотчас же набрасывалась на дерзких и начинала с ними браниться. Иные, действительно, смеялись, другие качали головами; всем вообще было любопытно поглядеть на <persName ref="#kim"><addName type="epithet">помешанную</addName></persName> с <persName ref="#detmar"><addName type="epithet">перепуганными детьми</addName></persName>. Сковороды, про которую говорил <persName ref="#asl"><surname>Лебезятников</surname></persName>, не было; по крайней мере, <persName ref="#rrr"><surname>Раскольников</surname></persName> не видал; но вместо стука в сковороду <persName ref="#kim"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName> начинала хлопать в такт своими сухими ладонями, когда заставляла <persName ref="#psm"><addName type="diminutive">Полечку</addName></persName> петь, а <persName ref="#lsm"><addName type="diminutive">Леню</addName></persName> и <persName ref="#nsm"><addName type="diminutive">Колю</addName></persName> плясать; причем даже и сама пускалась подпевать, но каждый раз обрывалась на второй ноте от мучительного кашля, отчего снова приходила в отчаяние, проклинала свой кашель и даже плакала. Пуще всего выводили ее из себя плач и страх <persName ref="#nsm"><addName type="diminutive">Коли</addName></persName> и <persName ref="#lsm"><addName type="diminutive">Лени</addName></persName>. Действительно, была попытка нарядить <persName ref="#detmar">детей</persName> в костюм, как наряжаются уличные певцы и певицы. На <persName ref="#nsm">мальчике</persName> была надета из чего-то красного с белым чалма, чтобы он изображал собою турку. На <persName ref="#lsm"><addName type="diminutive">Леню</addName></persName> костюмов недостало; была только надета на голову красная, вязанная из гаруса шапочка (или, лучше сказать, колпак) <persName ref="#szm">покойного <forename>Семена</forename> <addName type="patronymic">Захарыча</addName></persName>, а в шапку воткнут обломок белого страусового пера, принадлежавшего еще бабушке <persName ref="#kim"><forename>Катерины</forename> <addName type="patronymic">Ивановны</addName></persName> и сохранявшегося доселе в сундуке, в виде фамильной редкости. <persName ref="#psm"><addName type="diminutive">Полечка</addName></persName> была в своем обыкновенном платьице. Она смотрела на <persName ref="#kim">мать</persName> робко и потерявшись, не отходила от нее, скрадывала свои слезы, догадывалась о помешательстве <persName ref="#kim">матери</persName> и беспокойно осматривалась кругом. Улица и толпа ужасно напугали ее. <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName> неотступно ходила за <persName ref="#kim"><forename>Катериной</forename> <addName type="patronymic">Ивановной</addName></persName>, плача и умоляя ее поминутно воротиться домой. Но <persName ref="#kim"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName> была неумолима.</p>
+            <p>На <placeName ref="#ssmkan">канаве</placeName>, не очень далеко от <placeName ref="#most2">моста</placeName> и не доходя двух домов от дома, где жила <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>, столпилась <persName ref="#narodkimsc">кучка народу</persName>. Особенно сбегались мальчишки и девчонки. Хриплый, надорванный голос <persName ref="#kim"><forename>Катерины</forename> <addName type="patronymic">Ивановны</addName></persName> слышался еще от <placeName ref="#most2">моста</placeName>. И действительно, это было странное зрелище, способное заинтересовать уличную публику. <persName ref="#kim"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName> в своем стареньком платье, в драдедамовой шали и в изломанной соломенной шляпке, сбившейся безобразным комком на сторону, была действительно в настоящем исступлении. Она устала и задыхалась. Измучившееся чахоточное лицо ее смотрело страдальнее, чем когда-нибудь (к тому же на улице, на солнце, чахоточный всегда кажется больнее и обезображеннее, чем дома); но возбужденное состояние ее не прекращалось, и она с каждою минутой становилась еще раздраженнее. Она бросалась к <persName ref="#detmar">детям</persName>, кричала на них, уговаривала, учила их тут же при народе, как плясать и что петь, начинала им растолковывать, для чего это нужно, приходила в отчаяние от их непонятливости, била их... Потом, не докончив, бросалась к публике; если замечала чуть-чуть хорошо одетого человека, остановившегося поглядеть, то тотчас пускалась объяснять ему, что вот, дескать, до чего доведены дети <q>«из благородного, можно даже сказать, аристократического дома»</q>. Если слышала в толпе смех или какое-нибудь задирательное словцо, то тотчас же набрасывалась на дерзких и начинала с ними браниться. Иные, действительно, смеялись, другие качали головами; всем вообще было любопытно поглядеть на <persName ref="#kim"><addName type="epithet">помешанную</addName></persName> с <persName ref="#detmar"><addName type="epithet">перепуганными детьми</addName></persName>. Сковороды, про которую говорил <persName ref="#asl"><surname>Лебезятников</surname></persName>, не было; по крайней мере, <persName ref="#rrr"><surname>Раскольников</surname></persName> не видал; но вместо стука в сковороду <persName ref="#kim"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName> начинала хлопать в такт своими сухими ладонями, когда заставляла <persName ref="#psm"><addName type="diminutive">Полечку</addName></persName> петь, а <persName ref="#lsm"><addName type="diminutive">Леню</addName></persName> и <persName ref="#nsm"><addName type="diminutive">Колю</addName></persName> плясать; причем даже и сама пускалась подпевать, но каждый раз обрывалась на второй ноте от мучительного кашля, отчего снова приходила в отчаяние, проклинала свой кашель и даже плакала. Пуще всего выводили ее из себя плач и страх <persName ref="#nsm"><addName type="diminutive">Коли</addName></persName> и <persName ref="#lsm"><addName type="diminutive">Лени</addName></persName>. Действительно, была попытка нарядить <persName ref="#detmar">детей</persName> в костюм, как наряжаются уличные певцы и певицы. На <persName ref="#nsm">мальчике</persName> была надета из чего-то красного с белым чалма, чтобы он изображал собою турку. На <persName ref="#lsm"><addName type="diminutive">Леню</addName></persName> костюмов недостало; была только надета на голову красная, вязанная из гаруса шапочка (или, лучше сказать, колпак) <persName ref="#szm">покойного <forename>Семена</forename> <addName type="patronymic">Захарыча</addName></persName>, а в шапку воткнут обломок белого страусового пера, принадлежавшего еще бабушке <persName ref="#kim"><forename>Катерины</forename> <addName type="patronymic">Ивановны</addName></persName> и сохранявшегося доселе в сундуке, в виде фамильной редкости. <persName ref="#psm"><addName type="diminutive">Полечка</addName></persName> была в своем обыкновенном платьице. Она смотрела на <persName ref="#kim">мать</persName> робко и потерявшись, не отходила от нее, скрадывала свои слезы, догадывалась о помешательстве <persName ref="#kim">матери</persName> и беспокойно осматривалась кругом. Улица и толпа ужасно напугали ее. <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName> неотступно ходила за <persName ref="#kim"><forename>Катериной</forename> <addName type="patronymic">Ивановной</addName></persName>, плача и умоляя ее поминутно воротиться домой. Но <persName ref="#kim"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName> была неумолима.</p>
              <p>— <said aloud="true" direct="true" who="#kim" toWhom="#ssm">Перестань, <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>, перестань!</said> — кричала она скороговоркой, спеша, задыхаясь и кашляя. — <said aloud="true" direct="true" who="#kim" toWhom="#ssm">Сама не знаешь, чего просишь, точно дитя! Я уже сказала тебе, что не ворочусь назад к <persName ref="#alul">этой пьяной немке</persName>. Пусть видят все, весь <placeName ref="#spb">Петербург</placeName>, как милостыни просят <persName ref="#detmar">дети <persName ref="#szm">благородного отца</persName></persName>, который всю жизнь служил верою и правдой и, можно сказать, умер на службе.</said> (<persName ref="#kim"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName> уже успела создать себе эту фантазию и поверить ей слепо.) <said aloud="true" direct="true" who="#kim" toWhom="#ssm #rrr">Пускай, пускай <persName ref="#nachszm">этот негодный <roleName>генералишка</roleName></persName> видит. Да и глупа ты, <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>: что теперь есть-то, скажи? Довольно мы тебя истерзали, не хочу больше! Ах, <persName ref="#rrr"><forename>Родион</forename> <addName type="patronymic">Романыч</addName></persName>, это вы!</said> — вскрикнула она, увидав <persName>Раскольникова</persName> и бросаясь к нему, — <said aloud="true" direct="true" who="#kim" toWhom="#rrr #lsm #nsm">растолкуйте вы, пожалуйста, <persName ref="#ssm">этой дурочке</persName>, что ничего умней нельзя сделать! Даже шарманщики добывают, а нас тотчас все отличат, узнают, что мы бедное благородное семейство сирот, доведенных до нищеты, а уж <persName ref="#nachszm">этот <roleName>генералишка</roleName></persName> место потеряет, увидите! Мы каждый день под окна к нему будем ходить, а проедет государь, я стану на колени, этих всех выставлю вперед и покажу на них: <q>«Защити, отец!»</q> Он отец сирот, он милосерд, защитит, увидите, а генералишку этого... <persName ref="#lsm"><addName type="diminutive">Леня</addName></persName>! <foreign xml:lang="fr">tenez-vous droite</foreign>! Ты, <persName ref="#nsm"><addName type="diminutive">Коля</addName></persName>, сейчас будешь опять танцевать. Чего ты хнычешь? Опять хнычет! Ну чего, чего ты боишься, <persName ref="#nsm"><addName type="nickname">дурачок</addName></persName>! Господи! что мне с ними делать, <persName ref="#rrr"><forename>Родион</forename> <addName type="patronymic">Романыч</addName></persName>! Если б вы знали, какие они бестолковые! Ну что с этакими сделаешь!.. </said></p>
             <p>И она, сама чуть не плача (что не мешало ее непрерывной и неумолчной скороговорке), показывала ему на <persName ref="#detmar">хнычущих детей</persName>. <persName ref="#rrr"><surname>Раскольников</surname></persName> попробовал было убедить ее воротиться и даже сказал, думая подействовать на самолюбие, что ей неприлично ходить по улицам, как шарманщики ходят, потому что она готовит себя в директрисы благородного пансиона девиц...</p>
             <p>— <said aloud="true" direct="true" who="#kim" toWhom="#rrr">Пансиона, ха-ха-ха! Славны бубны за горами!</said> — вскричала <persName ref="#kim"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName>, тотчас после смеху закатившись кашлем, — <said aloud="true" direct="true" who="#kim" toWhom="#rrr">нет, <persName>Родион Романыч</persName>, прошла мечта! Все нас бросили!.. А <persName ref="#nachszm">этот <roleName>генералишка</roleName></persName>... Знаете, <persName ref="#rrr"><forename>Родион</forename> <addName type="patronymic">Романыч</addName></persName>, я в него чернильницей пустила, — тут, в лакейской, кстати на столе стояла, подле листа, на котором расписывались, и я расписалась, пустила, да и убежала. О, подлые, подлые. Да наплевать; теперь я этих сама кормить буду, никому не поклонюсь! Довольно мы ее мучили!</said> (Она указала на <persName ref="#ssm"><addName type="diminutive">Соню</addName></persName>.) <said aloud="true" direct="true" who="#kim" toWhom="#rrr #psm"><persName ref="#psm"><addName type="diminutive">Полечка</addName></persName>, сколько собрали, покажи? Как? Всего только две копейки? О, гнусные! Ничего не дают, только бегают за нами, высунув язык! Ну чего этот болван смеется?</said> (указала она на одного из толпы).<said aloud="true" direct="true" who="#kim" toWHom="#rrr #psm"> Это всё потому, что этот <persName ref="#nsm"><addName type="diminutive">Колька</addName></persName> такой непонятливый, с ним возня! Чего тебе, <persName ref="#psm"><addName type="diminutive">Полечка</addName></persName>? Говори со мной по-французски, <foreign xml:lang="fr">parlez-moi français</foreign>. Ведь я же тебя учила, ведь ты знаешь несколько фраз!.. Иначе как же отличить, что вы благородного семейства, воспитанные дети и вовсе не так, как все шарманщики; не <q>«Петрушку»</q> же мы какого-нибудь представляем на улицах, а споем благородный романс... Ах да! что же нам петь-то? Перебиваете вы всё меня, а мы... видите ли, мы здесь остановились, <persName ref="#rrr"><forename>Родион</forename> <addName type="patronymic">Романыч</addName></persName>, чтобы выбрать, что петь, — такое, чтоб и <persName ref="#nsm"><addName type="diminutive">Коле</addName></persName> можно было протанцевать... потому всё это у нас, можете представить, без приготовления; надо сговориться, так чтобы всё совершенно прорепетировать, а потом мы отправимся на <placeName ref="#nevp">Невский</placeName>, где гораздо больше людей высшего общества и нас тотчас заметят: <persName ref="#lsm"><addName type="diminutive">Леня</addName></persName> знает <q>«Хуторок»</q>... Только всё <q>«Хуторок»</q> да <q>«Хуторок»</q>, и все-то его поют! Мы должны спеть что-нибудь гораздо более благородное... Ну, что ты придумала, <persName ref="#psm"><addName type="diminutive">Поля</addName></persName>, хоть бы ты матери помогла! Памяти, памяти у меня нет, я бы вспомнила! Не <q>«Гусара же на саблю опираясь»</q> петь, в самом деле! Ах, споемте по-французски <q>«<foreign xml:lang="fr">Cinq sous</foreign>»</q>! Я ведь вас учила же, учила же. И главное, так как это по-французски, то увидят тотчас, что вы дворянские дети, и это будет гораздо трогательнее... Можно бы даже: <q>«<foreign xml:lang="fr">Маlborough s’en va-t-en guerre</foreign>»</q>, так как это совершенно детская песенка и употребляется во всех аристократических домах, когда убаюкивают детей.</said> </p>
@@ -3327,41 +3328,45 @@
             <p>Стараниями <persName ref="#goskimsc"><roleName>чиновника</roleName></persName> дело это уладилось, даже <persName ref="#gorkimsc"><roleName>городовой</roleName></persName> помогал переносить <persName ref="#kim"><forename>Катерину</forename> <addName type="patronymic">Ивановну</addName></persName>. Внесли ее к <persName ref="#ssm"><addName type="diminutive">Соне</addName></persName> почти замертво и положили на постель. Кровотечение еще продолжалось, но она как бы начинала приходить в себя. В комнату вошли разом, кроме <persName ref="#ssm"><addName type="diminutive">Сони</addName></persName>, <persName ref="#rrr"><surname>Раскольников</surname></persName> и <persName ref="#asl"><surname>Лебезятников</surname></persName>, <persName ref="#goskimsc"><roleName>чиновник</roleName></persName> и <persName ref="#gorkimsc"><roleName>городовой</roleName></persName>, разогнавший предварительно толпу, из которой некоторые провожали до самых дверей. <persName ref="#psm"><addName type="diminutive">Полечка</addName></persName> ввела, держа за руки, <persName ref="#nsm"><addName type="diminutive">Колю</addName></persName> и <persName ref="#lsm"><addName type="diminutive">Леню</addName></persName>, дрожавших и плакавших. Сошлись и от <persName ref="#kaperi"><surname>Капернаумовых</surname></persName>: сам он, хромой и кривой, странного вида человек с щетинистыми, торчком стоящими волосами и бакенбардами; жена его, имевшая какой-то раз навсегда испуганный вид, и несколько их детей, с одеревенелыми от постоянного удивления лицами и с раскрытыми ртами. Между всею этою публикой появился вдруг и <persName ref="#ais"><surname>Свидригайлов</surname></persName>. <persName ref="#rrr"><surname>Раскольников</surname></persName> с удивлением посмотрел на него, не понимая, откуда он явился, и не помня его в толпе.</p>
             <p>Говорили про доктора и про священника. <persName ref="#goskimsc"><roleName>Чиновник</roleName></persName> хотя и шепнул <persName ref="#rrr"><surname>Раскольникову</surname></persName>, что, кажется, доктор теперь уже лишнее, но распорядился послать. Побежал сам <persName ref="#kaper"><surname>Капернаумов</surname></persName>.</p>
             <p>Между тем <persName ref="#kim"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName> отдышалась, на время кровь отошла. Она смотрела болезненным, но пристальным и проницающим взглядом на бледную и трепещущую <persName ref="#ssm"><addName type="diminutive">Соню</addName></persName>, отиравшую ей платком капли пота со лба; наконец, попросила приподнять себя. Ее посадили на постели, придерживая с обеих сторон.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Дети где?</said> — спросила она слабым голосом. — <said aloud="" direct="" who="" toWhom="">Ты привела их, <persName>Поля</persName>? О глупые!.. Ну чего вы побежали... Ох! </said></p>
+            <p>— <said aloud="true" direct="true" who="#kim" toWhom="#psm"><persName ref="#nilsm">Дети</persName> где?</said> — спросила она слабым голосом. — <said aloud="true" direct="true" who="#kim" toWhom="#psm">Ты привела их, <persName ref="#psm"><addName type="diminutive">Поля</addName></persName>? О <persName ref="#nilsm">глупые</persName>!.. Ну чего вы побежали... Ох! </said></p>
             <p>Кровь еще покрывала ее иссохшие губы. Она повела кругом глазами, осматриваясь:</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Так вот ты как живешь, <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>! Ни разу-то я у тебя не была... привелось... </said></p>
+            <p>— <said aloud="true" direct="true" who="#kim" toWhom="#ssm">Так вот ты как живешь, <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>! Ни разу-то я у тебя не была... привелось... </said></p>
             <p>Она с страданием посмотрела на нее:</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Иссосали мы тебя, <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>... <persName>Поля</persName>, <persName>Леня</persName>, <persName>Коля</persName>, подите сюда... Ну, вот они, <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>, все, бери их... с рук на руки... а с меня довольно!.. Кончен бал! Г’а!.. Опустите меня, дайте хоть помереть спокойно... </said></p>
+            <p>— <said aloud="true" direct="true" who="#kim" toWhom="#ssm #psm #nsm #lsm">Иссосали мы тебя, <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>... <persName ref="#psm"><addName type="diminutive">Поля</addName></persName>, <persName ref="#lsm"><addName type="diminutive">Леня</addName></persName>, <persName ref="#nsm"><addName type="diminutive">Коля</addName></persName>, подите сюда... Ну, вот они, <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>, все, бери их... с рук на руки... а с меня довольно!.. Кончен бал! Г’а!.. Опустите меня, дайте хоть помереть спокойно... </said></p>
             <p>Ее опустили опять на подушку.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Что? Священника?.. Не надо... Где у вас лишний целковый?.. На мне нет грехов!.. Бог и без того должен простить... Сам знает, как я страдала!.. А не простит, так и не надо!.. </said></p>
+            <p>— <said aloud="true" direct="false" who="#kim">Что? Священника?.. Не надо... Где у вас лишний целковый?.. На мне нет грехов!.. Бог и без того должен простить... Сам знает, как я страдала!.. А не простит, так и не надо!.. </said></p>
             <p>Беспокойный бред охватывал ее более и более. Порой она вздрагивала, обводила кругом глазами, узнавала всех на минуту; но тотчас же сознание снова сменялось бредом. Она хрипло и трудно дышала, что-то как будто клокотало в горле.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я говорю ему: <said aloud="" direct="" who="" toWhom="">«Ваше превосходительство!..»</said> — выкрикивала она, отдыхиваясь после каждого слова, — <said aloud="" direct="" who="" toWhom="">эта Амалия Людвиговна... ах! <persName>Леня</persName>, <persName>Коля</persName>! ручки в боки, скорей, скорей, глиссе-глиссе, па-де-баск! Стучи ножками... Будь грациозный ребенок. </said></said></p>
-            <p>Du hast Diamanten und Perlen...</p>
+            <p>— <said aloud="true" direct="false" who="#kim">Я говорю ему: <said aloud="true" direct="true" who="#kim" toWhom="#nachszm">«<persName ref="#nachszm">Ваше превосходительство</persName>!..»</said> — выкрикивала она, отдыхиваясь после каждого слова, — <said aloud="true" direct="true" who="#kim" toWhom="#nsm #lsm">эта <persName ref="#alul"><forename>Амалия</forename> <addName type="patronymic">Людвиговна</addName></persName>... ах! <persName ref="#lsm"><addName type="diminutive">Леня</addName></persName>, <persName ref="#nsm"><addName type="diminutive">Коля</addName></persName>! ручки в боки, скорей, скорей, <foreign xml:lang="fr">глиссе-глиссе, па-де-баск</foreign>! Стучи ножками... Будь грациозный ребенок. </said></said></p>
+            <said aloud="true" direct="true" who="kim" toWhom="#psm #nsm #lsm"><lg>
+            <l><foreign xml:lang="de">Du hast Diamanten und Perlen</foreign>...</l>
+            </lg>
             <p>Как дальше-то? Вот бы спеть...</p>
-            <p>Du hast die schönsten Augen,</p>
-            <p>Mädchen, was willst du mehr?</p>
+            <lg>
+            <l><foreign xml:lang="de">Du hast die schönsten Augen</foreign>,</l>
+            <l><foreign xml:lang="de">Mädchen, was willst du mehr</foreign>?</l>
+            </lg>
             <p>Ну да, как не так! was willst du mehr, — выдумает же, болван!.. Ах да, вот еще:</p>
-            <p>В полдневный жар, в долине <placeName>Дагестана</placeName>...</p>
+            <p>В полдневный жар, в долине <placeName ref="#dgst">Дагестана</placeName>...</p>
             <p>Ах, как я любила... Я до обожания любила этот романс, <persName>Полечка</persName>!.. знаешь, твой отец... еще женихом певал... О, дни!.. Вот бы, вот бы нам спеть! Ну как же, как же... вот я и забыла... да напомните же, как же? — Она была в чрезвычайном волнении и усиливалась приподняться. Наконец, страшным, хриплым, надрывающимся голосом она начала, вскрикивая и задыхаясь на каждом слове, с видом какого-то возраставшего испуга:</p>
             <p>В полдневный жар!.. в долине!.. <placeName>Дагестана</placeName>!..</p>
-            <p>С свинцом в груди!..</p>
-            <p>Ваше превосходительство! — вдруг завопила она раздирающим воплем и залившись слезами, — защитите сирот! Зная хлеб-соль покойного Семена Захарыча!.. Можно даже сказать аристократического!.. Г’а! — вздрогнула она вдруг, опамятовавшись и с каким-то ужасом всех осматривая, но тотчас узнала <persName>Соню</persName>. — <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>, <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>! — проговорила она кротко и ласково, как бы удивившись, что видит ее перед собой, — <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>, милая, и ты здесь?</p>
+            <p>С свинцом в груди!..</p></said>
+            <p><said aloud="true" direct="false" who="#kim">Ваше превосходительство!</said> — вдруг завопила она раздирающим воплем и залившись слезами, — <said aloud="true" direct="false" who="#kim">защитите <persName ref="#detmar">сирот</persName>! Зная хлеб-соль <persName ref="#szm">покойного <forename>Семена</forename> <addName type="patronymic">Захарыча</addName></persName>!.. Можно даже сказать аристократического!.. Г’а!</said> — вздрогнула она вдруг, опамятовавшись и с каким-то ужасом всех осматривая, но тотчас узнала <persName>Соню</persName>. — <said aloud="true" direct="true" who="#kim" toWhom="#ssm"><persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>, <persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>!</said> — проговорила она кротко и ласково, как бы удивившись, что видит ее перед собой, — <said aloud="true" direct="true" who="#kim" toWhom="#ssm"><persName ref="#ssm"><addName type="diminutive">Соня</addName></persName>, <persName ref="#ssm"><addName type="nickname">милая</addName></persName>, и ты здесь?</said></p>
             <p>Ее опять приподняли.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Довольно!.. Пора!.. Прощай, горемыка!.. Уездили клячу!.. Надорвала-а-сь!</said> — крикнула она отчаянно и ненавистно и грохнулась головой на подушку.</p>
+            <p>— <said aloud="true" direct="false" who="#kim">Довольно!.. Пора!.. Прощай, горемыка!.. Уездили клячу!.. Надорвала-а-сь!</said> — крикнула она отчаянно и ненавистно и грохнулась головой на подушку.</p>
             <p>Она вновь забылась, но это последнее забытье продолжалось недолго. Бледно-желтое, иссохшее лицо ее закинулось навзничь назад, рот раскрылся, ноги судорожно протянулись. Она глубоко¬глубоко вздохнула и умерла.</p>
-            <p><persName ref="#ssm"><addName type="diminutive">Соня</addName></persName> упала на ее труп, обхватила ее руками и так и замерла, прильнув головой к иссохшей груди покойницы. <persName>Полечка</persName> припала к ногам матери и целовала их, плача навзрыд. <persName>Коля</persName> и <persName>Леня</persName>, еще не поняв, что случилось, но предчувствуя что-то очень страшное, схватили один другого обеими руками за плечики и, уставившись один в другого глазами, вдруг вместе, разом, раскрыли рты и начали кричать. Оба еще были в костюмах: один в чалме, другая в ермолке с страусовым пером.</p>
-            <p>И каким образом этот <said aloud="" direct="" who="" toWhom="">«похвальный лист»</said> очутился вдруг на постели, подле Катерины Ивановны? Он лежал тут же, у подушки; <persName ref="#rrr"><surname>Раскольников</surname></persName> видел его.</p>
-            <p>Он отошел к окну. К нему подскочил Лебезятников.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Умерла!</said> — сказал Лебезятников.</p>
-            <p>— <said aloud="" direct="" who="" toWhom=""><persName>Родион Романович</persName>, имею вам два нужных словечка передать</said>, — подошел <persName>Свидригайлов</persName>. Лебезятников тотчас же уступил место и деликатно стушевался. <persName>Свидригайлов</persName> увел удивленного <persName>Раскольникова</persName> еще подальше в угол.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Всю эту возню, то есть похороны и прочее, я беру на себя. Знаете, были бы деньги, а ведь я вам сказал, что у меня лишние. Этих двух птенцов и эту <persName>Полечку</persName> я помещу в какие-нибудь сиротские заведения получше и положу на каждого, до совершеннолетия, по тысяче пятисот рублей капиталу, чтоб уж совсем <persName>Софья Семеновна</persName> была покойна. Да и ее из омута вытащу, потому хорошая девушка, так ли? Ну-с, так вы и передайте <persName>Авдотье Романовне</persName>, что ее десять тысяч я вот так и употребил. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">С какими же целями вы так разблаготворились?</said> — спросил <persName ref="#rrr"><surname>Раскольников</surname></persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Э-эх! Человек недоверчивый!</said> — засмеялся <persName>Свидригайлов</persName>. — <said aloud="" direct="" who="" toWhom="">Ведь я сказал, что эти деньги у меня лишние. Ну, а просто, по человечеству, не допускаете, что ль? Ведь не <said aloud="" direct="" who="" toWhom="">«вошь»</said> же была она (он ткнул пальцем в тот угол, где была усопшая), как какая-нибудь старушонка процентщица. Ну, согласитесь, ну <said aloud="" direct="" who="" toWhom="">«<persName>Лужину</persName> ли, в самом деле, жить и делать мерзости, или ей умирать?»</said> И не помоги я, так ведь <said aloud="" direct="" who="" toWhom="">«<persName>Полечка</persName>, например, туда же, по той же дороге пойдет...»</said> </said></p>
-            <p>Он проговорил это с видом какого-то подмигивающего, веселого плутовства, не спуская глаз с <persName>Раскольникова</persName>. <persName ref="#rrr"><surname>Раскольников</surname></persName> побледнел и похолодел, слыша свои собственные выражения, сказанные <persName>Соне</persName>. Он быстро отшатнулся и дико посмотрел на <persName>Свидригайлова</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">По-почему... вы знаете?</said> — прошептал он, едва переводя дыхание.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да ведь я здесь, через стенку, у мадам Ресслих стою. Здесь <persName>Капернаумов</persName>, а там мадам Ресслих, старинная и преданнейшая приятельница. Сосед-с. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Вы? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я</said>, — продолжал <persName>Свидригайлов</persName>, колыхаясь от смеха, — <said aloud="" direct="" who="" toWhom="">и могу вас честью уверить, милейший <persName>Родион Романович</persName>, что удивительно вы меня заинтересовали. Ведь я сказал, что мы сойдемся, предсказал вам это</said>, — <said aloud="" direct="" who="" toWhom="">ну вот и сошлись. И увидите, какой я складной человек. Увидите, что со мной еще можно жить... </said></p>
+            <p><persName ref="#ssm"><addName type="diminutive">Соня</addName></persName> упала на ее труп, обхватила ее руками и так и замерла, прильнув головой к иссохшей груди <persName ref="#kim">покойницы</persName>. <persName ref="#psm"><addName type="diminutive">Полечка</addName></persName> припала к ногам <persName ref="#kim">матери</persName> и целовала их, плача навзрыд. <persName ref="#nsm"><addName type="diminutive">Коля</addName></persName> и <persName ref="#lsm"><addName type="diminutive">Леня</addName></persName>, еще не поняв, что случилось, но предчувствуя что-то очень страшное, схватили один другого обеими руками за плечики и, уставившись один в другого глазами, вдруг вместе, разом, раскрыли рты и начали кричать. Оба еще были в костюмах: один в чалме, другая в ермолке с страусовым пером.</p>
+            <p>И каким образом этот <q>«похвальный лист»</q> очутился вдруг на постели, подле <persName ref="#kim"><forename>Катерины</forename> <addName type="patronymic">Ивановны</addName></persName>? Он лежал тут же, у подушки; <persName ref="#rrr"><surname>Раскольников</surname></persName> видел его.</p>
+            <p>Он отошел к окну. К нему подскочил <persName ref="#asl"><surname>Лебезятников</surname></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#asl" toWhom="#rrr">Умерла!</said> — сказал Лебезятников.</p>
+            <p>— <said aloud="true" direct="true" who="#ais" toWhom="#rrr"><persName ref="#rrr"><forename>Родион</forename> <addName type="patronymic">Романович</addName></persName>, имею вам два нужных словечка передать</said>, — подошел <persName ref="#ais"><surname>Свидригайлов</surname></persName>. <persName ref="#asl"><surname>Лебезятников</surname></persName> тотчас же уступил место и деликатно стушевался. <persName ref="#ais"><surname>Свидригайлов</surname></persName> увел удивленного <persName ref="#rrr"><surname>Раскольникова</surname></persName> еще подальше в угол.</p>
+            <p>— <said aloud="true" direct="true" who="#ais" toWhom="#rrr">Всю эту возню, то есть похороны и прочее, я беру на себя. Знаете, были бы деньги, а ведь я вам сказал, что у меня лишние. <persName ref="#nilsm">Этих двух птенцов</persName> и <persName ref="#psm">эту <addName type="diminutive">Полечку</addName></persName> я помещу в какие-нибудь сиротские заведения получше и положу на каждого, до совершеннолетия, по тысяче пятисот рублей капиталу, чтоб уж совсем <persName ref="#ssm"><forename>Софья</forename> <addName type="patronymic">Семеновна</addName></persName> была покойна. Да и ее из омута вытащу, потому хорошая девушка, так ли? Ну-с, так вы и передайте <persName ref="#arr"><forename>Авдотье</forename> <addName type="patronymic">Романовне</addName></persName>, что ее десять тысяч я вот так и употребил. </said></p>
+            <p>— <said aloud="true" direct="true" who="#rrr" toWhom="#ais">С какими же целями вы так разблаготворились?</said> — спросил <persName ref="#rrr"><surname>Раскольников</surname></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#ais" toWhom="#rrr">Э-эх! <persName ref="#rrr">Человек недоверчивый</persName>!</said> — засмеялся <persName ref="#ais"><surname>Свидригайлов</surname></persName>. — <said aloud="true" direct="true" who="#ais" toWhom="#rrr">Ведь я сказал, что эти деньги у меня лишние. Ну, а просто, по человечеству, не допускаете, что ль? Ведь не <q>«вошь»</q> же была она</said> (он ткнул пальцем в тот угол, где была <persName ref="#kim">усопшая</persName>),<said aloud="true" direct="true" who="#ais" toWhom="#rrr"> как <persName ref="#star">какая-нибудь старушонка процентщица</persName>. Ну, согласитесь, ну <q>«<persName ref="#pepl"><surname>Лужину</surname></persName> ли, в самом деле, жить и делать мерзости, или ей умирать?»</q> И не помоги я, так ведь <q>«<persName ref="#psm"><addName type="diminutive">Полечка</addName></persName>, например, туда же, по той же дороге пойдет...»</q> </said></p>
+            <p>Он проговорил это с видом какого-то <hi rend="italic">подмигивающего</hi>, веселого плутовства, не спуская глаз с <persName ref="#rrr"><surname>Раскольникова</surname></persName>. <persName ref="#rrr"><surname>Раскольников</surname></persName> побледнел и похолодел, слыша свои собственные выражения, сказанные <persName ref="#ssm"><addName type="diminutive">Соне</addName></persName>. Он быстро отшатнулся и дико посмотрел на <persName ref="#ais"><surname>Свидригайлова</surname></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#rrr" toWhom="#ais">По-почему... вы знаете?</said> — прошептал он, едва переводя дыхание.</p>
+            <p>— <said aloud="true" direct="true" who="#ais" toWhom="#rrr">Да ведь я здесь, через стенку, у <persName ref="#ress">мадам <surname>Ресслих</surname></persName> стою. Здесь <persName ref="#kaper"><surname>Капернаумов</surname></persName>, а там <persName ref="#ress">мадам <surname>Ресслих</surname></persName>, старинная и преданнейшая приятельница. Сосед-с. </said></p>
+            <p>— <said aloud="true" direct="true" who="#rrr" toWhom="#ais">Вы? </said></p>
+            <p>— <said aloud="true" direct="true" who="#ais" toWhom="#rrr">Я</said>, — продолжал <persName ref="#ais"><surname>Свидригайлов</surname></persName>, колыхаясь от смеха, — <said aloud="true" direct="true" who="#ais" toWhom="#rrr">и могу вас честью уверить, милейший <persName ref="#rrr"><forename>Родион</forename> <addName type="patronymic">Романович</addName></persName>, что удивительно вы меня заинтересовали. Ведь я сказал, что мы сойдемся, предсказал вам это, — ну вот и сошлись. И увидите, какой я складной человек. Увидите, что со мной еще можно жить... </said></p>
           </div3>
         </div2>
       </div1>
@@ -4122,6 +4127,7 @@
              <persName>убийца</persName>
              <persName>такой подлец</persName>
              <persName>богохульник</persName>
+             <persName>человек недоверчивый</persName>
            </person>
             <person xml:id="arr" sex="female">
               <persName>Авдотья Романовна Раскольникова</persName>
@@ -4308,6 +4314,7 @@
              <persName>легистраторша</persName>
              <persName>бесполезная, гадкая, зловредная</persName>
              <persName>человек-то вошь</persName>
+             <persName>какая-нибудь старушонка процентщица</persName>
            </person>
             <person xml:id="lizi" sex="female">
               <persName>Лизавета Ивановна </persName>
@@ -4362,6 +4369,8 @@
              <persName>покойник Мармеладов</persName>
              <persName>покойный господин Мармеладов</persName>
              <persName>покойный Мармеладов</persName>
+             <persName>покойный Семен Захарыч</persName>
+             <persName>благородный отец</persName>
            </person>
             <person xml:id="kim" sex="female">
               <persName>Катерина Ивановна Мармеладова</persName>
@@ -4397,6 +4406,11 @@
               <persName>эта сумашедшая</persName>
               <persName>бедная, чахоточная, сиротливая Катерина Ивановна</persName>
               <persName>супруга его</persName>
+              <persName>помешанная</persName>
+              <persName>помешанная мать</persName>
+              <persName>бедная Катерина Ивановна</persName>
+              <persName>покойница</persName>
+              <persName>устопшая</persName>
             </person>
             <person xml:id="ivmi" sex="male">
               <persName>Иван Михайлович, отец Катерины Ивановны</persName>
@@ -4444,6 +4458,9 @@
               <persName>падчерица ваша</persName>
               <persName>мадемуазель</persName>
               <persName>Соня-то</persName>
+              <persName>эта дурочка</persName>
+              <persName>родная дочь</persName>
+              <persName>милая</persName>
             </person>
             <person xml:id="psm" sex="female">
               <persName>Полина Семеновна Мармеладова</persName>
@@ -4454,12 +4471,18 @@
               <persName>Полечка</persName>
               <persName>одно существо</persName>
               <persName>другое одно существо</persName>
+              <persName>Полина Михайлова</persName>
+              <persName>старшенькая</persName>
+              <persName>эта Полечка</persName>
             </person>
             <person xml:id="nsm" sex="male">
               <persName>Николай Семенович Мармеладов</persName>
               <persName>маленький брат</persName>
               <persName>мальчик</persName>
               <persName>Коля</persName>
+              <persName>дурачок</persName>
+              <persName>Колька</persName>
+              <persName>парнишка</persName>
             </person>
             <person xml:id="lsm" sex="female">
               <persName>Лидия Семеновна Мармеладова</persName>
@@ -4469,11 +4492,16 @@
               <persName>маленькая Лидочка</persName>
               <persName>Лена</persName>
               <persName>Леня</persName>
+              <persName>девочоночка-то</persName>
             </person>
             <personGrp xml:id="nilsm" sex="mixed">
               <persName>Николай и Лидия</persName>
               <persName>обе маленькие</persName>
               <persName>дети</persName>
+              <persName>глупые дети</persName>
+              <persName>глупые неблагодарные дети</persName>
+              <persName>глупые</persName>
+              <persName>эти две птенцы</persName>
             </personGrp>
             <personGrp xml:id="detmar">
               <persName>дети Мармеладовых</persName>
@@ -4487,12 +4515,51 @@
               <persName>несчастный малолетные</persName>
               <persName>сироты</persName>
               <persName>плакавшие дети</persName>
+              <persName>перепуганные дети</persName>
+              <persName>дети благородного отца</persName>
+              <persName>хнычущие дети</persName>
+              <persName>глупые</persName>
             </personGrp>
             <personGrp xml:id="mrmlvi">
               <persName>Мармеладовы</persName>
               <persName>семейство то</persName>
               <persName>бедные жильци</persName>
             </personGrp>
+            <person xml:id="nachszm" sex="male">
+              <persName>начальник Мармеладова</persName>
+              <persName>начальник Семена Захарыча</persName>
+              <persName>этот негодный генералишка</persName>
+              <persName>этот генералишка</persName>
+              <persName>ваше превесходительсто</persName>
+            </person>
+            <personGrp xml:id="narodkimsc" sex="mixed">
+              <persName>the crowd of people at the Katerina Ivanovna scandal scene</persName>
+              <persName>кучка народу</persName>
+            </personGrp>
+            <person xml:id="gorkimsc" sex="male">
+              <persName>the police officer at Katerina Ivanovna's death scene</persName>
+              <persName>солдат</persName>
+              <persName>этот солдат</persName>
+              <persName>городовой</persName>
+              <persName>дурак</persName>
+              <persName>безобразник</persName>
+            </person>
+            <person xml:id="goskimsc" sex="male">
+              <persName>чиновник который хотел помочь Катерине Ивановне</persName>
+              <persName>один господин</persName>
+              <persName>солидный чиновник</persName>
+              <persName>чиновник</persName>
+              <persName>милостивый государь</persName>
+            </person>
+            <person xml:id="ukkimsc1">
+              <persName>кто-то в толпе</persName>
+            </person>
+            <person xml:id="ukkimsc2">
+              <persName>кто-то в толпе</persName>
+            </person>
+            <person xml:id="zhenkimsc1" sex="female">
+              <persName>женщина которая крестялась</persName>
+            </person>
            <person xml:id="asl" sex="male">
              <persName>Андрей Семенович Лебезятников</persName>
              <persName>господин Лебезятников</persName>
@@ -4534,6 +4601,7 @@
              <persName>продавец</persName>
            </person>
            <person xml:id="alul" sex="female">
+             <persName>Амалия Людвиговна Липпевехзель</persName>
              <persName>Амалия Федоровна Липпевехзель</persName>
              <persName>Амалия Федоровна</persName>
              <persName>госпожа Липпевехзель</persName>
@@ -4555,6 +4623,7 @@
              <persName>колбасница</persName>
              <persName>прусская куриная нога в кринолине</persName>
              <persName>эта тварь</persName>
+             <persName>эта пьяная немка</persName>
            </person>
             <person xml:id="fatalul" sex="male">
               <persName>отец Амалии Ивановны</persName>
@@ -5204,6 +5273,7 @@
               <persName>эта Ресслих</persName>
               <persName>госпожа Ресслих</persName>
               <persName>мадам Ресслих, Гертруд Карловна</persName>
+              <persName>мадам Ресслих</persName>
             </person>
             <person xml:id="ressplem" sex="female">
               <persName>племянница Ресслиха</persName>
@@ -5825,6 +5895,15 @@
               <placeName>дом Ресслих</placeName>
               <placeName>восмой нумер</placeName>
             </place>
+            <place type="fictional" xml:id="kanssm">
+              <placeName>канава у --ского моста недалеко от Сони</placeName>
+              <placeName>канава</placeName>
+            </place>
+            <place type="fictional" xml:id="most2">
+              <placeName>--ский мост недалеко от Сони</placeName>
+              <placeName>--ский мост</placeName>
+              <placeName>мост</placeName>
+            </place>
             <place type="town" xml:id="vif">
               <placeName>Вифания</placeName>
             </place>
@@ -5888,6 +5967,7 @@
             </place>
             <place type="street" xml:id="meshch">
               <placeName>Мещанская улица</placeName>
+              <placeName>Мещанская</placeName>
             </place>
             <place type="commercial" xml:id="gos">
               <placeName>Гостиный двор</placeName>
@@ -5907,6 +5987,15 @@
               <placeName>каторга</placeName>
               <placeName>каторга-то</placeName>
               <placeName>острог</placeName>
+            </place>
+            <place type="city" xml:id="par">
+              <placeName>Париж</placeName>
+            </place>
+            <place type="street" xml:id="nevp">
+              <placeName>Невский</placeName>
+            </place>
+            <place type="region" xml:id="dgst">
+              <placeName>Дагестан</placeName>
             </place>
           </listPlace>
         </div>
