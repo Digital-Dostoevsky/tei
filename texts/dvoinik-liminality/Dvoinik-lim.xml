@@ -196,6 +196,7 @@
 				<change when="2023-01-18" who="#KB">[markup]: standardized encoding in chs 9-13 (removed hashtags, added missed subtypes)</change>
 				<change when="2023-05-12" who="#KH">[markup]: corrected errors in seg tags, removed all personal tags and changed personal to state</change>
 				<change when="2023-05-12" who="#KB">[markup]: corrected errors in seg tags</change>
+				<change when="2023-06-07" who="#KB">[markup]: added seg tags to missed examples of person liminality</change>
 			</revisionDesc>
   </teiHeader>
   <text>
