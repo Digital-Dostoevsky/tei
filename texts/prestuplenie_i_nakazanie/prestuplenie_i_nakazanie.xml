@@ -2150,7 +2150,7 @@
             <p>— <said aloud="true" direct="true" who="#rrr" toWhom="#surguy">Вы меня спрашивали... у <persName ref="#pndvor"><roleName>дворника</roleName></persName>?</said> — проговорил наконец <persName ref="#rrr"><surname>Раскольников</surname></persName>, но как-то очень негромко.</p>
             <p><persName ref="#surguy"><roleName>Мещанин</roleName></persName> не дал никакого ответа и даже не поглядел. Опять помолчали.</p>
             <p>— <said aloud="true" direct="true" who="#rrr" toWhom="#surguy">Да что вы... приходите спрашивать... и молчите... да что же это такое?</said> — Голос <persName ref="#rrr"><surname>Раскольникова</surname></persName> прерывался, и слова как-то не хотели ясно выговариваться.</p>
-            <p><persName ref="#surguy"><roleName>Мещанин</roleName></persName> на этот раз поднял глаза и зловещим, мрачным взглядом посмотрел на <persName ref="#rrr"><surname>Раскольникова</surname></persName></p>.
+            <p><persName ref="#surguy"><roleName>Мещанин</roleName></persName> на этот раз поднял глаза и зловещим, мрачным взглядом посмотрел на <persName ref="#rrr"><surname>Раскольникова</surname></persName>.</p>
             <p>— <said aloud="true" direct="true" who="#surguy" toWhom="#rrr"><persName ref="#rrr">Убивец</persName>!</said> — проговорил он вдруг тихим, но ясным и отчетливым голосом...</p>
             <p><persName ref="#rrr"><surname>Раскольников</surname></persName> шел подле него. Ноги его ужасно вдруг ослабели, на спине похолодело, и сердце на мгновение как будто замерло; потом вдруг застукало, точно с крючка сорвалось. Так прошли они шагов сотню, рядом и опять совсем молча.</p>
             <p><persName ref="#surguy"><roleName>Мещанин</roleName></persName> не глядел на него.</p>
