@@ -167,6 +167,7 @@
         <change when="2023-07-12" who="#ES">[markup]:continued tagging Part 2</change>
         <change when="2023-07-13" who="#ES">[markup]:continued tagging Part 2</change>
         <change when="2023-07-13" who="#EV">[markup]:tagging Part 3</change>
+        <change when="2023-07-14" who="#ES">[markup]:continued tagging Part 2</change>
       </revisionDesc>
     
     
@@ -3003,86 +3004,86 @@
             <p>— <said aloud="true" direct="true" who="#psv" toWhom="#sek">Нет, вы вот начали о прокламациях; скажите всё, как вы на них смотрите? </said></p>
             <p>— <said aloud="true" direct="true" who="#sek" toWhom="#psv">Их все боятся, стало быть, они могущественны. Они открыто обличают обман и доказывают, что у нас не за что ухватиться и не на что опереться. Они говорят громко, когда все молчат. В них всего победительнее (несмотря на форму) эта неслыханная до сих пор смелость засматривать прямо в лицо истине. Эта способность смотреть истине прямо в лицо принадлежит одному только русскому поколению. Нет, в <placeName ref="#eur">Европе</placeName> еще не так смелы: там царство каменное, там еще есть на чем опереться. Сколько я вижу и сколько судить могу, вся суть русской революционной идеи заключается в отрицании чести. Мне нравится, что это так смело и безбоязненно выражено. Нет, в <placeName ref="#eur">Европе</placeName> еще этого не поймут, а у нас именно на это-то и набросятся. Русскому человеку честь одно только лишнее бремя. Да и всегда было бременем, во всю его историю. Открытым <q>«правом на бесчестье»</q> его скорей всего увлечь можно. Я поколения старого и, признаюсь, еще стою за честь, но ведь только по привычке. Мне лишь нравятся старые формы, положим по малодушию; нужно же как-нибудь дожить век. </said></p>
             <p>Он вдруг приостановился.</p>
-            <p><said aloud="true" direct="true" who="#sek" toWhom="#psv">«Однако я говорю-говорю</said>, — подумал он, — <said aloud="true" direct="true" who="#sek" toWhom="#psv">а он всё молчит и высматривает. Он пришел затем, чтоб я задал ему прямой вопрос. А я и задам»</said>.</p>
+            <p><said aloud="false" direct="true" who="#sek">«Однако я говорю-говорю</said>, — подумал он, — <said aloud="false" direct="true" who="#sek">а он всё молчит и высматривает. Он пришел затем, чтоб я задал ему прямой вопрос. А я и задам»</said>.</p>
             <p>— <said aloud="true" direct="true" who="#psv" toWhom="#sek"><persName ref="#ymvl"><forename>Юлия</forename> <addName type="patronymic">Михайловна</addName></persName> просила меня как-нибудь обманом у вас выпытать, какой это сюрприз вы готовите к балу послезавтра?</said> — вдруг спросил <persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName>.</p>
             <p>— <said aloud="true" direct="true" who="#sek" toWhom="#psv">Да, это действительно будет сюрприз, и я действительно изумлю...</said> — приосанился <persName ref="#sek"><surname>Кармазинов</surname></persName>, — <said aloud="true" direct="true" who="#sek" toWhom="#psv">но я не скажу вам, в чем секрет. </said></p>
             <p><persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName> не настаивал.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Здесь есть какой-то <persName>Шатов</persName></said>, — осведомился великий писатель, — <said aloud="" direct="" who="" toWhom="">и, вообразите, я его не видал. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Очень хорошая личность. А что? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Так, он про что-то там говорит. Ведь это он по щеке ударил <persName>Ставрогина</persName>? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Он. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А о <persName>Ставрогине</persName> как вы полагаете? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Не знаю; волокита какой-то. </said></p>
-            <p><persName>Кармазинов</persName> возненавидел <persName>Ставрогина</persName>, потому что тот взял привычку не замечать его вовсе.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Этого волокиту</said>, — сказал он, хихикая, — <said aloud="" direct="" who="" toWhom="">если у нас осуществится когда-нибудь то, о чем проповедуют в прокламациях, вероятно, вздернут первого на сук. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Может, и раньше</said>, — вдруг сказал <persName>Петр Степанович</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Так и следует</said>, — уже не смеясь и как-то слишком серьезно поддакнул <persName>Кармазинов</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А вы уж это раз говорили, и, знаете, я ему передал. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Как, неужто передали?</said> — рассмеялся опять <persName>Кармазинов</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Он сказал, что если его на сук, то вас довольно и высечь, но только не из чести, а больно, как мужика секут. </said></p>
-            <p><persName>Петр Степанович</persName> взял шляпу и встал с места. <persName>Кармазинов</persName> протянул ему на прощание обе руки.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А что</said>, — пропищал он вдруг медовым голоском и с какою-то особенною интонацией, всё еще придерживая его руки в своих, — <said aloud="" direct="" who="" toWhom="">что, если назначено осуществиться всему тому... о чем замышляют, то... когда это могло бы произойти? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Почем я знаю</said>, — несколько грубо ответил <persName>Петр Степанович</persName>. Оба пристально смотрели друг другу в глаза.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Примерно? приблизительно?</said> — еще слаще пропищал <persName>Кармазинов</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Продать имение успеете и убраться тоже успеете</said>, — еще грубее пробормотал <persName>Петр Степанович</persName>. Оба еще пристальнее смотрели друг на друга.</p>
+            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#psv">Здесь есть какой-то <persName ref="#ipsh"><surname>Шатов</surname></persName></said>, — осведомился великий писатель, — <said aloud="true" direct="true" who="#sek" toWhom="#psv">и, вообразите, я его не видал. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#sek">Очень хорошая личность. А что? </said></p>
+            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#psv">Так, он про что-то там говорит. Ведь это он по щеке ударил <persName ref="#nvs"><surname>Ставрогина</surname></persName>? </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#sek">Он. </said></p>
+            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#psv">А о <persName ref="#nvs"><surname>Ставрогине</surname></persName> как вы полагаете? </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#sek">Не знаю; волокита какой-то. </said></p>
+            <p><persName ref="#sek"><surname>Кармазинов</surname></persName> возненавидел <persName ref="#nvs"><surname>Ставрогина</surname></persName>, потому что тот взял привычку не замечать его вовсе.</p>
+            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#psv">Этого волокиту</said>, — сказал он, хихикая, — <said aloud="true" direct="true" who="#sek" toWhom="#psv">если у нас осуществится когда-нибудь то, о чем проповедуют в прокламациях, вероятно, вздернут первого на сук. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#sek">Может, и раньше</said>, — вдруг сказал <persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#psv">Так и следует</said>, — уже не смеясь и как-то слишком серьезно поддакнул <persName ref="#sek"><surname>Кармазинов</surname></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#sek">А вы уж это раз говорили, и, знаете, я ему передал. </said></p>
+            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#psv">Как, неужто передали?</said> — рассмеялся опять <persName ref="#sek"><surname>Кармазинов</surname></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#sek">Он сказал, что если его на сук, то вас довольно и высечь, но только не из чести, а больно, как мужика секут. </said></p>
+            <p><persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName> взял шляпу и встал с места. <persName ref="#sek"><surname>Кармазинов</surname></persName> протянул ему на прощание обе руки.</p>
+            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#psv">А что</said>, — пропищал он вдруг медовым голоском и с какою-то особенною интонацией, всё еще придерживая его руки в своих, — <said aloud="true" direct="true" who="#sek" toWhom="#psv">что, если назначено осуществиться всему тому... о чем замышляют, то... когда это могло бы произойти? </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#sek">Почем я знаю</said>, — несколько грубо ответил <persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName>. Оба пристально смотрели друг другу в глаза.</p>
+            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#psv">Примерно? приблизительно?</said> — еще слаще пропищал <persName ref="#sek"><surname>Кармазинов</surname></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#sek">Продать имение успеете и убраться тоже успеете</said>, — еще грубее пробормотал <persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName>. Оба еще пристальнее смотрели друг на друга.</p>
             <p>Произошла минута молчания.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">К началу будущего мая начнется, а к Покрову всё кончится</said>, — вдруг проговорил <persName>Петр Степанович</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Благодарю вас искренно</said>, — проникнутым голосом произнес <persName>Кармазинов</persName>, сжав ему руки.</p>
-            <p><said aloud="" direct="" who="" toWhom="">«Успеешь, крыса, выселиться из корабля!</said> — думал <persName>Петр Степанович</persName>, выходя на улицу. — <said aloud="" direct="" who="" toWhom="">Ну, коли уж этот <said aloud="" direct="" who="" toWhom="">"почти государственный ум"</said> так уверенно осведомляется о дне и часе и так почтительно благодарит за полученное сведение, то уж нам-то в себе нельзя после того сомневаться. (Он усмехнулся.) Гм. А он в самом деле у них не глуп и... всего только переселяющаяся крыса; такая не донесет!»</said></p>
-            <p>Он побежал в <placeName>Богоявленскую улицу</placeName>, в дом <persName>Филиппова</persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#sek">К началу будущего мая начнется, а к Покрову всё кончится</said>, — вдруг проговорил <persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#psv">Благодарю вас искренно</said>, — проникнутым голосом произнес <persName ref="#sek"><surname>Кармазинов</surname></persName>, сжав ему руки.</p>
+            <p><said aloud="false" direct="true" who="#psv">«Успеешь, крыса, выселиться из корабля!</said> — думал <persName ref="#psv">Петр Степанович</persName>, выходя на улицу. — <said aloud="false" direct="true" who="#psv">Ну, коли уж этот <q>"почти государственный ум"</q> так уверенно осведомляется о дне и часе и так почтительно благодарит за полученное сведение, то уж нам-то в себе нельзя после того сомневаться. (Он усмехнулся.) Гм. А он в самом деле у них не глуп и... всего только переселяющаяся крыса; такая не донесет!»</said></p>
+            <p>Он побежал в <placeName ref="#byavu">Богоявленскую улицу</placeName>, в <placeName ref="#domflppv">дом Филиппова</placeName>.</p>
           </div3>
           <div3 type="section" n="6">
             <head>VI</head>
-            <p><persName>Петр Степанович</persName> прошел сперва к <persName>Кириллову</persName>. Тот был, по обыкновению, один и в этот раз проделывал среди комнаты гимнастику, то есть, расставив ноги, вертел каким-то особенным образом над собою руками. На полу лежал мяч. На столе стоял неприбранный утренний чай, уже холодный. <persName>Петр Степанович</persName> постоял с минуту на пороге.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Вы, однако ж, о здоровье своем сильно заботитесь</said>, — проговорил он громко и весело, входя в комнату, — <said aloud="" direct="" who="" toWhom="">какой славный, однако же, мяч, фу, как отскакивает; он тоже для гимнастики? </said></p>
-            <p><persName>Кириллов</persName> надел сюртук.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да, тоже для здоровья</said>, — пробормотал он сухо, — <said aloud="" direct="" who="" toWhom="">садитесь. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я на минуту. А впрочем, сяду. Здоровье здоровьем, но я пришел напомнить об уговоре. Приближается <said aloud="" direct="" who="" toWhom="">«в некотором смысле»</said> наш срок-с</said>, — заключил он с неловким вывертом.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Какой уговор? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Как какой уговор?</said> — всполохнулся <persName>Петр Степанович</persName>, даже испугался.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Это не уговор и не обязанность, я ничем не вязал себя, с вашей стороны ошибка. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Послушайте, что же вы это делаете?</said> — вскочил уж совсем <persName>Петр Степанович</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Свою волю. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Какую?</said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Прежнюю. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">То есть как же это понять? Значит ли, что вы в прежних мыслях? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Значит. Только уговору нет и не было, и я ничем не вязал. Была одна моя воля и теперь одна моя воля. </said></p>
-            <p><persName>Кириллов</persName> объяснялся резко и брезгливо.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я согласен, согласен, пусть воля, лишь бы эта воля не изменилась</said>, — уселся опять с удовлетворенным видом <persName>Петр Степанович</persName>. — <said aloud="" direct="" who="" toWhom="">Вы сердитесь за слова. Вы что-то очень стали последнее время сердиты; я потому избегал посещать. Впрочем, был совершенно уверен, что не измените. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я вас очень не люблю; но совершенно уверены можете быть. Хоть и не признаю измены и неизмены. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Однако знаете</said>, — всполохнулся опять <persName>Петр Степанович</persName>, — <said aloud="" direct="" who="" toWhom="">надо бы опять поговорить толком, чтобы не сбиться. Дело требует точности, а вы меня ужасно как горошите. Позволяете поговорить? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Говорите</said>, — отрезал <persName>Кириллов</persName>, смотря в угол.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Вы давно уже положили лишить себя жизни... то есть у вас такая была идея. Так, что ли, я выразился? Нет ли какой ошибки? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">У меня и теперь такая же идея. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Прекрасно. Заметьте при этом, что вас никто не принуждал к тому. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Еще бы; как вы говорите глупо. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Пусть, пусть; я очень глупо выразился. Без сомнения, было бы очень глупо к тому принуждать; я продолжаю: вы были членом Общества еще при старой организации и открылись тогда же одному из членов Общества. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я не открывался, а просто сказал. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Пусть. И смешно бы было в этом <said aloud="" direct="" who="" toWhom="">«открываться»</said>, что за исповедь? Вы просто сказали, и прекрасно. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Нет, не прекрасно, потому что вы очень мямлите. Я вам не обязан никаким отчетом, и мыслей моих вы не можете понимать. Я хочу лишить себя жизни потому, что такая у меня мысль, потому что я не хочу страха смерти, потому... потому что вам нечего тут знать... Чего вы? Чай хотите пить? Холодный. Дайте я вам другой стакан принесу. </said></p>
-            <p><persName>Петр Степанович</persName> действительно схватился было за чайник и искал порожней посудины. <persName>Кириллов</persName> сходил в шкаф и принес чистый стакан.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я сейчас у <persName>Кармазинова</persName> завтракал</said>, — заметил гость, — <said aloud="" direct="" who="" toWhom="">потом слушал, как он говорил, и вспотел, а сюда бежал — тоже вспотел, смерть хочется пить. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Пейте. Чай холодный хорошо. </said></p>
-            <p><persName>Кириллов</persName> опять уселся на стул и опять уперся глазами в угол.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">В Обществе произошла мысль</said>, — продолжал он тем же голосом, — <said aloud="" direct="" who="" toWhom="">что я могу быть тем полезен, если убью себя, и что когда вы что-нибудь тут накутите и будут виновных искать, то я вдруг застрелюсь и оставлю письмо, что это я всё сделал, так что вас целый год подозревать не могут. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Хоть несколько дней; и день один дорог. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Хорошо. В этом смысле мне сказали, чтоб я, если хочу, подождал. Я сказал, что подожду, пока скажут срок от Общества, потому что мне всё равно. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да, но вспомните, что вы обязались, когда будете сочинять предсмертное письмо, то не иначе как вместе со мной, и, прибыв в <placeName>Россию</placeName>, будете в моем... ну, одним словом, в моем распоряжении, то есть на один только этот случай, разумеется, а во всех других вы, конечно, свободны</said>, — почти с любезностию прибавил <persName>Петр Степанович</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я не обязался, а согласился, потому что мне всё равно. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">И прекрасно, прекрасно, я нисколько не имею намерения стеснять ваше самолюбие, но... </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Тут не самолюбие. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Но вспомните, что вам собрали сто двадцать талеров на дорогу, стало быть, вы брали деньги. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Совсем нет</said>, — вспыхнул <persName>Кириллов</persName>, — <said aloud="" direct="" who="" toWhom="">деньги не с тем. За это не берут.	</said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Берут иногда. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Врете вы. Я заявил письмом из <placeName>Петербурга</placeName>, а в <placeName>Петербурге</placeName> заплатил вам сто двадцать талеров, вам в руки... и они туда отосланы, если только вы не задержали у себя. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Хорошо, хорошо, я ни в чем не спорю, отосланы. Главное, что вы в тех же мыслях, как прежде. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">В тех самых. Когда вы придете и скажете <said aloud="" direct="" who="" toWhom="">«пора»</said>, я всё исполню. Что, очень скоро? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Не так много дней... Но помните, записку мы сочиняем вместе, в ту же ночь.— Хоть и днем. Вы сказали, надо взять на себя прокламации? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">И кое-что еще. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я не всё возьму на себя. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Чего же не возьмете?</said> — всполохнулся опять <persName>Петр Степанович</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Чего не захочу; довольно. Я не хочу больше о том говорить. </said></p>
-            <p><persName>Петр Степанович</persName> скрепился и переменил разговор.</p>
+            <p><persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName> прошел сперва к <persName ref="#ank"><surname>Кириллову</surname></persName>. Тот был, по обыкновению, один и в этот раз проделывал среди комнаты гимнастику, то есть, расставив ноги, вертел каким-то особенным образом над собою руками. На полу лежал мяч. На столе стоял неприбранный утренний чай, уже холодный. <persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName> постоял с минуту на пороге.</p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Вы, однако ж, о здоровье своем сильно заботитесь</said>, — проговорил он громко и весело, входя в комнату, — <said aloud="true" direct="true" who="#psv" toWhom="#ank">какой славный, однако же, мяч, фу, как отскакивает; он тоже для гимнастики? </said></p>
+            <p><persName ref="#ank"><surname>Кириллов</surname></persName> надел сюртук.</p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Да, тоже для здоровья</said>, — пробормотал он сухо, — <said aloud="true" direct="true" who="#ank" toWhom="#psv">садитесь. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Я на минуту. А впрочем, сяду. Здоровье здоровьем, но я пришел напомнить об уговоре. Приближается <q>«в некотором смысле»</q> наш срок-с</said>, — заключил он с неловким вывертом.</p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Какой уговор? </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Как какой уговор?</said> — всполохнулся <persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName>, даже испугался.</p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Это не уговор и не обязанность, я ничем не вязал себя, с вашей стороны ошибка. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Послушайте, что же вы это делаете?</said> — вскочил уж совсем <persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Свою волю. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Какую?</said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Прежнюю. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">То есть как же это понять? Значит ли, что вы в прежних мыслях? </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Значит. Только уговору нет и не было, и я ничем не вязал. Была одна моя воля и теперь одна моя воля. </said></p>
+            <p><persName ref="#ank"><surname>Кириллов</surname></persName> объяснялся резко и брезгливо.</p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Я согласен, согласен, пусть воля, лишь бы эта воля не изменилась</said>, — уселся опять с удовлетворенным видом <persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName>. — <said aloud="true" direct="true" who="#psv" toWhom="#ank">Вы сердитесь за слова. Вы что-то очень стали последнее время сердиты; я потому избегал посещать. Впрочем, был совершенно уверен, что не измените. </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Я вас очень не люблю; но совершенно уверены можете быть. Хоть и не признаю измены и неизмены. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Однако знаете</said>, — всполохнулся опять <persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName>, — <said aloud="true" direct="true" who="#psv" toWhom="#ank">надо бы опять поговорить толком, чтобы не сбиться. Дело требует точности, а вы меня ужасно как горошите. Позволяете поговорить? </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Говорите</said>, — отрезал <persName ref="#ank"><surname>Кириллов</surname></persName>, смотря в угол.</p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Вы давно уже положили лишить себя жизни... то есть у вас такая была идея. Так, что ли, я выразился? Нет ли какой ошибки? </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">У меня и теперь такая же идея. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Прекрасно. Заметьте при этом, что вас никто не принуждал к тому. </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Еще бы; как вы говорите глупо. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Пусть, пусть; я очень глупо выразился. Без сомнения, было бы очень глупо к тому принуждать; я продолжаю: вы были членом Общества еще при старой организации и открылись тогда же одному из членов Общества. </said></p>
+            <p>— <said aloud="true" direct="true" who="ank" toWhom="#psv">Я не открывался, а просто сказал. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Пусть. И смешно бы было в этом <q>«открываться»</q>, что за исповедь? Вы просто сказали, и прекрасно. </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Нет, не прекрасно, потому что вы очень мямлите. Я вам не обязан никаким отчетом, и мыслей моих вы не можете понимать. Я хочу лишить себя жизни потому, что такая у меня мысль, потому что я не хочу страха смерти, потому... потому что вам нечего тут знать... Чего вы? Чай хотите пить? Холодный. Дайте я вам другой стакан принесу. </said></p>
+            <p><persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName> действительно схватился было за чайник и искал порожней посудины. <persName ref="#ank"><surname>Кириллов</surname></persName> сходил в шкаф и принес чистый стакан.</p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Я сейчас у <persName ref="#sek"><surname>Кармазинова</surname></persName> завтракал</said>, — заметил гость, — <said aloud="true" direct="true" who="#psv" toWhom="#sek">потом слушал, как он говорил, и вспотел, а сюда бежал — тоже вспотел, смерть хочется пить. </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Пейте. Чай холодный хорошо. </said></p>
+            <p><persName ref="#ank"><surname>Кириллов</surname></persName> опять уселся на стул и опять уперся глазами в угол.</p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">В Обществе произошла мысль</said>, — продолжал он тем же голосом, — <said aloud="true" direct="true" who="#ank" toWhom="#psv">что я могу быть тем полезен, если убью себя, и что когда вы что-нибудь тут накутите и будут виновных искать, то я вдруг застрелюсь и оставлю письмо, что это я всё сделал, так что вас целый год подозревать не могут. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Хоть несколько дней; и день один дорог. </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Хорошо. В этом смысле мне сказали, чтоб я, если хочу, подождал. Я сказал, что подожду, пока скажут срок от Общества, потому что мне всё равно. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Да, но вспомните, что вы обязались, когда будете сочинять предсмертное письмо, то не иначе как вместе со мной, и, прибыв в <placeName ref="#ros">Россию</placeName>, будете в моем... ну, одним словом, в моем распоряжении, то есть на один только этот случай, разумеется, а во всех других вы, конечно, свободны</said>, — почти с любезностию прибавил <persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Я не обязался, а согласился, потому что мне всё равно. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">И прекрасно, прекрасно, я нисколько не имею намерения стеснять ваше самолюбие, но... </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Тут не самолюбие. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Но вспомните, что вам собрали сто двадцать талеров на дорогу, стало быть, вы брали деньги. </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Совсем нет</said>, — вспыхнул <persName ref="#ank"><surname>Кириллов</surname></persName>, — <said aloud="true" direct="true" who="#ank" toWhom="#psv">деньги не с тем. За это не берут.	</said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Берут иногда. </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Врете вы. Я заявил письмом из <placeName ref="#spb">Петербурга</placeName>, а в <placeName ref="#spb">Петербурге</placeName> заплатил вам сто двадцать талеров, вам в руки... и они туда отосланы, если только вы не задержали у себя. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Хорошо, хорошо, я ни в чем не спорю, отосланы. Главное, что вы в тех же мыслях, как прежде. </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">В тех самых. Когда вы придете и скажете <q>«пора»</q>, я всё исполню. Что, очень скоро? </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Не так много дней... Но помните, записку мы сочиняем вместе, в ту же ночь.</said>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Хоть и днем. Вы сказали, надо взять на себя прокламации? </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">И кое-что еще. </said></p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Я не всё возьму на себя. </said></p>
+            <p>— <said aloud="true" direct="true" who="#psv" toWhom="#ank">Чего же не возьмете?</said> — всполохнулся опять <persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#ank" toWhom="#psv">Чего не захочу; довольно. Я не хочу больше о том говорить. </said></p>
+            <p><persName ref="#psv"><forename>Петр</forename> <addName type="patronymic">Степанович</addName></persName> скрепился и переменил разговор.</p>
             <p>— <said aloud="" direct="" who="" toWhom="">Я о другом</said>, — предупредил он, — <said aloud="" direct="" who="" toWhom="">будете вы сегодня вечером у наших? <persName>Виргинский</persName> именинник, под тем предлогом и соберутся.	</said></p>
             <p>— <said aloud="" direct="" who="" toWhom="">Не хочу. </said></p>
             <p>— <said aloud="" direct="" who="" toWhom="">Сделайте одолжение, будьте. Надо. Надо внушить и числом и лицом... У вас лицо... ну, одним словом, у вас лицо фатальное. </said></p>
