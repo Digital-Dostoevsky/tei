@@ -176,6 +176,7 @@
         <change when="2023-07-21" who="#EV">[markup]:tagging Part 3</change>
         <change when="2023-07-26" who="#EV">[markup]:tagging Part 3</change>
         <change when="2023-07-28" who="#EV">[markup]:tagging Part 3</change>
+        <change when="2023-07-29" who="#ES">[markup]:continued tagging Part 2</change>
       </revisionDesc>
     
     
@@ -3316,16 +3317,16 @@
             <p><q>«Хитрый»</q> вопрос произвел впечатление; все переглянулись, каждый как бы ожидая один от другого ответа, и вдруг все как по команде обратили взгляды на <persName ref="#psv"><surname>Верховенского</surname></persName> и <persName ref="#nvs"><surname>Ставрогина</surname></persName>.</p>
             <p>— <said aloud="true" direct="true" who="#apvi">Я просто предлагаю вотировать ответ на вопрос: <q>«Заседание мы или нет?»</q> — проговорила <persName ref="#apvi"><roleName>madame</roleName> <surname>Виргинская</surname></persName>. </said></p>
             <p>— <said aloud="true" direct="true" who="#svl">Совершенно присоединяюсь к предложению</said>, — отозвался <persName ref="#svl"><surname>Липутин</surname></persName>, — <said aloud="true" direct="true" who="#svl">хотя оно и несколько неопределенно. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">И я присоединяюсь, и я</said>, — послышались голоса.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">И мне кажется, действительно будет более порядку</said>, — скрепил <persName>Виргинский</persName>.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Итак, на голоса!</said> — объявила хозяйка. — <said aloud="" direct="" who="" toWhom=""><persName>Лямшин</persName>, прошу вас, сядьте за фортепьяно: вы и оттуда можете подать ваш голос, когда начнут вотировать. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Опять!</said> — крикнул <persName>Лямшин</persName>. — <said aloud="" direct="" who="" toWhom="">Довольно я вам барабанил. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Я вас прошу настойчиво, сядьте играть; вы не хотите быть полезным делу? </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Да уверяю же вас, <persName>Арина Прохоровна</persName>, что никто не подслушивает. Одна ваша фантазия. Да и окна высоки, да и кто тут поймет что-нибудь, если б и подслушивал. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Мы и сами-то не понимаем, в чем дело</said>, — проворчал чей-то голос.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">А я вам говорю, что предосторожность всегда необходима. Я на случай, если бы шпионы</said>, — обратилась она с толкованием к <persName>Верховенскому</persName>, — <said aloud="" direct="" who="" toWhom="">пусть услышат с улицы, что у нас именины и музыка. </said></p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Э, черт!</said> — выругался <persName>Лямшин</persName>, сел за фортепьяно и начал барабанить вальс, зря и чуть не кулаками стуча по клавишам.</p>
-            <p>— <said aloud="" direct="" who="" toWhom="">Тем, кто желает, чтобы было заседание, я предлагаю поднять правую руку вверх</said>, — предложила <persName>madame Виргинская</persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#imthem">И я присоединяюсь, и я</said>, — послышались голоса.</p>
+            <p>— <said aloud="true" direct="true" who="#vgsky">И мне кажется, действительно будет более порядку</said>, — скрепил <persName ref="#vgsky"><surname>Виргинский</surname></persName>.</p>
+            <p>— <said aloud="true" direct="true" who="#apvi">Итак, на голоса!</said> — объявила хозяйка. — <said aloud="true" direct="true" who="#apvi" toWhom="#lmshn"><persName ref="#lmshn"><surname>Лямшин</surname></persName>, прошу вас, сядьте за фортепьяно: вы и оттуда можете подать ваш голос, когда начнут вотировать. </said></p>
+            <p>— <said aloud="true" direct="true" who="#lmshn" toWhom="#apvi">Опять!</said> — крикнул <persName ref="#lmshn"><surname>Лямшин</surname></persName>. — <said aloud="true" direct="true" who="#lmshn" toWhom="#apvi">Довольно я вам барабанил. </said></p>
+            <p>— <said aloud="true" direct="true" who="#apvi" toWhom="#lmshn">Я вас прошу настойчиво, сядьте играть; вы не хотите быть полезным делу? </said></p>
+            <p>— <said aloud="true" direct="true" who="#lmshn" toWhom="#apvi">Да уверяю же вас, <persName ref="#apvi"><forename>Арина</forename> <addName type="patronymic">Прохоровна</addName></persName>, что никто не подслушивает. Одна ваша фантазия. Да и окна высоки, да и кто тут поймет что-нибудь, если б и подслушивал. </said></p>
+            <p>— <said aloud="true" direct="true" who="#imthem">Мы и сами-то не понимаем, в чем дело</said>, — проворчал чей-то голос.</p>
+            <p>— <said aloud="true" direct="true" who="#apvi" toWhom="#psv">А я вам говорю, что предосторожность всегда необходима. Я на случай, если бы шпионы</said>, — обратилась она с толкованием к <persName ref="#psv"><surname>Верховенскому</surname></persName>, — <said aloud="true" direct="true" who="#apvi" toWhom="#psv">пусть услышат с улицы, что у нас именины и музыка. </said></p>
+            <p>— <said aloud="true" direct="true" who="#lmshn">Э, черт!</said> — выругался <persName ref="#lmshn"><surname>Лямшин</surname></persName>, сел за фортепьяно и начал барабанить вальс, зря и чуть не кулаками стуча по клавишам.</p>
+            <p>— <said aloud="true" direct="true" who="#apvi">Тем, кто желает, чтобы было заседание, я предлагаю поднять правую руку вверх</said>, — предложила <persName ref="#apvi"><roleName xml:lang="fr">madame</roleName> <surname>Виргинская</surname></persName>.</p>
             <p>Одни подняли, другие нет. Были и такие, что подняли и опять взяли назад. Взяли назад и опять подняли.</p>
             <p>— <said aloud="" direct="" who="" toWhom="">Фу, черт! я ничего не понял</said>, — крикнул одни офицер.</p>
             <p>— <said aloud="" direct="" who="" toWhom="">И я не понимаю</said>, — крикнул другой.</p>
