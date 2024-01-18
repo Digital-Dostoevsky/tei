@@ -11,7 +11,7 @@ Automated speech tagging was a little more complicated due to the patterning of 
 
 After the automated tagging, our next step was to manually populate the blank spaces in <persName>, <placeName>, and <said> tags.
 
-**Names**
+## Names
 
 The <persName> tag was filled in by XML identifiers and information about what kind/part of a name was being used: first names, patronymics, last names, diminutives, epithets, and nicknames. XML ID practices differed depending on what parts of a name were available. Characters with first name, last name, and patronymic were assigned three initials, for example, FPK for Fyodor Pavlovich Karamazov. Some characters had only first and last names (for example, Liza Khokhlakova). To avoid the risk of having a much simpler “lh” appear in other novels, we added the identifier “bk” to differentiate between The Brothers Karamazov and other works (so, Liza Khokhlakova is “bklh”). Characters that had only first names (servants, for example) were given an XML ID that was simply their first name (e.g. Andrei). 
 
@@ -25,11 +25,11 @@ Some names in the text are not tagged as characters at all (that is, they do not
 
 The back matter organizes names into different categories/types of characters. These are: fictional Dostoevsky, fictional non-Dostoevsky, mythical, historical, legendary (names that appear in stories, such as in Ivan’s Grand Inquisitor), imagined, and other (which primarily includes religious figures). There are also two pet names. 
 
-**Places**
+## Places
 
 Places are tagged more or less in the same way as person names. Each place receives an XML ID, and all places are grouped into different categories in the back matter. These categories are: city, street, building, bridge, river, lake, country, island, station, historical entity (for states/countries no longer in existence), fictional Dostoevsky, fictional non-Dostoevsky, imagined, mythical, cosmic, region, monastery, administrative division, legendary, and other. 
 
-**Speech**
+## Speech
 
 Most of speech tagging was pretty straightforward in this novel, though there are a few peculiarities. 
 
@@ -45,6 +45,6 @@ There are many instances of speech where multiple addressees are present. These 
 
 Finally, there are a couple instances (in Mokroe, at the trial) where speech not assignable to particular people is more or less just floating around – that is, there is dialogue, but there is no indication who specifically is speaking or being spoken to. In these cases speech is tagged without a who or toWhom. 
 
-**Odds and ends**
+## Odds and ends
 
 There are two additional <seg> types that appear occasionally in the story. These are <seg type=“story”> and <seg type=“dream”>. The story tag is for passages of text that are stories told by characters (Ivan’s Grand Inquisitor, Andrei’s story about Jesus). The dream tag is for instances of dreaming (Alyosha’s “vision” of Zosima).  
