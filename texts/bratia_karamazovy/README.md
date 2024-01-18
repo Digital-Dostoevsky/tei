@@ -1,6 +1,7 @@
 # bratia_karamazovy
 
 **Automated Tagging**
+
 The first round of tagging was completed by developer Simon Wiles. Simon automated the initial steps of name tagging, place tagging, and speech tagging. For name tagging, Simon wrapped in a simple <persName> tag any name that appeared in the novel. (He was provided with a list of names beforehand.) The process for tagging places – with the <placeName> tag – was essentially the same (Simon was also provided with a list of places beforehand). Lastly, Simon automated the basic tagging of speech by encoding what appeared to be instances of speech (strings of text set off by specific punctuation) in the following way: 
 <said aloud=“” direct=“” who=“” toWhom=“”> [text goes here] </said>. 
 
