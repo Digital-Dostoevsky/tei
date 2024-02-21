@@ -118,14 +118,15 @@
 			  <change when="2023-05-17" who="#DI">[markup]:completed section 1</change>
 			  <change when="2023-05-30" who="#SW">[markup]: ran auto-tagger on truncated text and added auto-tagged text to end of xml file</change>
 			  <change when="2023-05 to 2024-01" who="#DI">[markup]:completed all of part 3 and up to part 4 section 3</change>
-			  <change when="2024-01-19" who="#DI">[markup]:small part of part 4 - unfinished</change>
-			  <change when="2024-01-24" who="#DI">[markup]:finished part 4 and started 5</change>
-			  <change when="2024-01-28" who="#DI">[markup]:edits to part 5</change>
-			  <change when="2024-02-02" who="#DI">[markup]:completed part 5</change>
-			  <change when="2024-02-06" who="#DI">[markup]:worked on part 6</change>
-			  <change when="2024-02-08" who="#DI">[markup]:worked on part 6</change>
-			  <change when="2024-02-09" who="#DI">[markup]:finished part 6, worked on 7</change>
-			  <change when="2024-02-14" who="#DI">[markup]:worked on part 7, made changes to some previous tagging for consistency</change>
+			  <change when="2024-01-19" who="#DI">[markup]:small part of section 4 - come back to it</change>
+			  <change when="2024-01-24" who="#DI">[markup]:finished section 4 and started 5</change>
+			  <change when="2024-01-28" who="#DI">[markup]:edits to section 5</change>
+			  <change when="2024-01-29" who="#DI">[markup]:edits to sections 4 and 5</change>
+			  <change when="2024-02-02" who="#DI">[markup]:completed section 5</change>
+			  <change when="2024-02-06" who="#DI">[markup]:started section 6</change>
+			  <change when="2024-02-08" who="#DI">[markup]:worked on section 6</change>
+			  <change when="2024-02-09" who="#DI">[markup]:completed section 6, worked on 7</change>
+			  <change when="2024-02-14" who="#DI">[markup]:worked on section 7, made changes to some previous tagging for consistency</change>
 			  <change when="2024-02-21" who="#DI">[markup]:worked on 7</change>
 			  
       </revisionDesc>
