@@ -16,6 +16,7 @@
           <name xml:id="SW">Simon Wiles</name>
 					<name xml:id="DI">Dmytro Ishchenko</name>
           <name xml:id="KB">Katherine Bowers</name>
+          <name xml:id="VS">Veronika Sizova</name>
         </respStmt>
         <principal>Kate Holland</principal>
 <funder>Social Sciences and Humanities Research Council of Canada</funder>
@@ -137,6 +138,7 @@
 			  <change when="2024-03-18" who="#DI">[markup]:Completed section 8</change>
 			  <change when="2024-03-19" who="#DI">[markup]:Review and edits for conistent tagging</change>
 			  <change when="2024-03-21" who="#DI">[markup]:Started section 9</change>
+			  <change when="2024-05-12" who="#VS">[markup]:Started Checking Part 3, Section 1</change>
 			  
 			  
       </revisionDesc>
