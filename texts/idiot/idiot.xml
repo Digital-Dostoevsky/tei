@@ -139,6 +139,7 @@
 			  <change when="2024-03-19" who="#DI">[markup]:Review and edits for conistent tagging</change>
 			  <change when="2024-03-21" who="#DI">[markup]:Started section 9</change>
 			  <change when="2024-05-12" who="#VS">[markup]:Fixed most validation errors with the dates above (switched all except one to the MM-DD format), changed PersGrp to persName in the body, and started Checking Part 3, Section 1</change>
+			  <change when="2024-05-13" who="#VS">[markup]:Checking Part 3, Section 1</change>
 			  
 			  
       </revisionDesc>
