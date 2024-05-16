@@ -143,6 +143,7 @@
 			  <change when="2024-05-12" who="#VS">[markup]:Fixed most validation errors with the dates above (switched all except one to the MM-DD format), changed PersGrp to persName in the body, and started Checking Part 3, Section 1</change>
 			  <change when="2024-05-13" who="#VS">[markup]:Checking Part 3, Section 1</change>
 			  <change when="2024-05-14" who="#VS">[markup]:Checking Part 3, Section 1</change>
+			  <change when="2024-05-16" who="#VS">[markup]:Checking Part 3, Section 1</change>
 			  
 			  
       </revisionDesc>
