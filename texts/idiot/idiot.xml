@@ -17,6 +17,7 @@
 					<name xml:id="DI">Dmytro Ishchenko</name>
           <name xml:id="KB">Katherine Bowers</name>
           <name xml:id="VS">Veronika Sizova</name>
+          <name xml:id="SV">Sydney Vermeersch</name>
         </respStmt>
         <principal>Kate Holland</principal>
 <funder>Social Sciences and Humanities Research Council of Canada</funder>
@@ -145,6 +146,7 @@
 			  <change when="2024-05-14" who="#VS">[markup]:Checking Part 3, Section 1</change>
 			  <change when="2024-05-16" who="#VS">[markup]:Checking Part 3, Section 1</change>
 			  <change when="2024-05-19" who="#VS">[markup]:Checking Part 3, Section 1</change>
+			  <change when="2024-05-19" who="#SV">[markup]:Checking Part 1, Section 1</change>
 			  
 			  
       </revisionDesc>
