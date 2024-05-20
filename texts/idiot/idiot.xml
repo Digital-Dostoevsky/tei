@@ -140,13 +140,17 @@
 			  <change when="2024-03-19" who="#DI">[markup]:Review and edits for conistent tagging</change>
 			  <change when="2024-03-21" who="#DI">[markup]:Started section 9</change>
 			  <change when="2024-05-11" who="#DI">[markup]:Continued and finished encoding section 9</change>
-			  <change when="2024-05-14" who="#DI">[markup]:Encoding section 10</change>
 			  <change when="2024-05-12" who="#VS">[markup]:Fixed most validation errors with the dates above (switched all except one to the MM-DD format), changed PersGrp to persName in the body, and started Checking Part 3, Section 1</change>
 			  <change when="2024-05-13" who="#VS">[markup]:Checking Part 3, Section 1</change>
+			  <change when="2024-05-14" who="#DI">[markup]:Encoding section 10</change>
 			  <change when="2024-05-14" who="#VS">[markup]:Checking Part 3, Section 1</change>
+			  <change when="2024-05-15" who="#DI">[markup]:Completed section 10</change>
 			  <change when="2024-05-16" who="#VS">[markup]:Checking Part 3, Section 1</change>
+			  <change when="2024-05-16" who="#DI">[markup]:Encoding section 11</change>
 			  <change when="2024-05-19" who="#VS">[markup]:Finished checking Part 3, Sections 1 and 2</change>
 			  <change when="2024-05-19" who="#SV">[markup]:Checking Part 1, Section 1</change>
+			  <change when="2024-05-19" who="#DI">[markup]:Completed section 11</change>
+			  <change when="2024-05-20" who="#DI">[markup]:Completed section 12, entire text completed</change>
 			  
 			  
 			  
