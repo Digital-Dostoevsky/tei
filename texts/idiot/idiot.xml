@@ -152,7 +152,7 @@
 			  <change when="2024-05-19" who="#DI">[markup]:Completed section 11</change>
 			  <change when="2024-05-20" who="#DI">[markup]:Completed section 12, entire text completed</change>
 			  <change when="2024-05-21" who="#VS">[markup]:Checking Part 3, Section 3 </change>
-			  <change when="2024-05-22" who="#VS">[markup]:Checking Part 3, Section 3 </change>
+			  <change when="2024-05-22" who="#VS">[markup]:Finished checking Part 3, Section 3 </change>
 			  
 			  
 			  
@@ -3086,7 +3086,7 @@
             <p>— <said aloud="true" direct="true" who="#mysh" toWhom="#rogozh">Оставь и не говори про это никогда!</said> — вскричал <persName ref="#mysh"><roleName>князь</roleName></persName>. — <said aloud="true" direct="true" who="#mysh" toWhom="#rogozh">Слушай, <persName ref="#rogozh"><forename>Парфен</forename></persName>, я вот сейчас пред тобой здесь ходил и вдруг стал смеяться, чему — не знаю, а только причиной было, что я припомнил, что завтрашний день — день моего рождения как нарочно приходится. Теперь чуть ли не двенадцать часов. Пойдем, встретим день! У меня вино есть, выпьем вина, пожелай мне того, чего я и сам не знаю теперь пожелать, и именно ты пожелай, а я тебе твоего счастья полного пожелаю. Не то подавай назад крест! Ведь не прислал же мне крест на другой-то день! Ведь на тебе? На тебе и теперь? </said></p>
             <p>— <said aloud="true" direct="true" who="#rogozh" toWhom="#mysh">На мне</said>, — проговорил <persName ref="#rogozh"><surname>Рогожин</surname></persName>.</p>
             <p>— <said aloud="true" direct="true" who="#mysh" toWhom="#rogozh">Ну, и пойдем. Я без тебя не хочу мою новую жизнь встречать, потому что новая моя жизнь началась! Ты не знаешь, <persName ref="#rogozh"><forename>Парфен</forename></persName>, что моя новая жизнь сегодня началась? </said></p>
-            <p>— <said aloud="true" direct="true" who="#rogozh" toWhom="#mysh">Теперь сам вижу и сам знаю, что началась; так и ей донесу. Не в себе ты совсем, <persName ref="#mysh"><forename>Лев</forename> <addName type="patronymic">Николаич</addName></persName>! </said></p>
+            <p>— <said aloud="true" direct="true" who="#rogozh" toWhom="#mysh">Теперь сам вижу и сам знаю, что началась; так и <hi rend="italic">ей</hi> донесу. Не в себе ты совсем, <persName ref="#mysh"><forename>Лев</forename> <addName type="patronymic">Николаич</addName></persName>! </said></p>
           </div3>
           <div3 type="section" n="4">
             <head>IV</head>
