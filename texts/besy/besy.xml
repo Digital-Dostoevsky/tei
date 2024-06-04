@@ -198,6 +198,7 @@
         <change when="2024-05-07" who="#EV">[markup]:fixed the backmatter. </change>
         <change when="2024-05-19" who="#EV">[markup]:made some corrections in Part 1, Ch 3 (5-8). </change>
         <change when="2024-05-20" who="#EV">[markup]:made some corrections in Part 1, Ch 3 (finished), chapter 4(1-5). </change>
+        <change when="2024-06-04" who="#EV">[markup]:added the dod ID </change>
       </revisionDesc>
     
     
@@ -6039,6 +6040,10 @@
             
             <person xml:id="dstaritsa" sex="female">
               <persName>старица</persName>
+            </person>
+            
+            <person xml:id="zmrk" sex="dog">
+              <persName>Земирка</persName>
             </person>
           </listPerson>
 				  
