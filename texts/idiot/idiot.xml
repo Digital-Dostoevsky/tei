@@ -164,6 +164,7 @@
 			  <change when="2024-06-05" who="#VS">[markup]:Finished checking Part 3, Section 6</change>
 			  <change when="2024-06-06" who="#VS">[markup]:Checking Part 3, Section 7</change>
 			  <change when="2024-06-07" who="#VS">[markup]:Finished checking Part 3, Section 7</change>
+			  <change when="2024-06-08" who="#VS">[markup]:Finished checking Part 3, Section 8</change>
 			  
 			  
 			  
@@ -3620,7 +3621,7 @@
             <p>— <said aloud="true" direct="true" who="#agla" toWhom="#mysh">Так пожертвуйте собой, это же так к вам идет! Вы ведь такой великий благотворитель. И не говорите мне <q>«<persName ref="#agla"><forename>Аглая</forename></persName>»</q>... Вы и давеча сказали мне просто <q>«<persName ref="#agla"><forename>Аглая</forename></persName>»</q>... Вы должны, вы обязаны воскресить ее, вы должны уехать с ней опять, чтоб умирять и успокоивать ее сердце. Да ведь вы же ее и любите! </said></p>
             <p>— <said aloud="true" direct="true" who="#mysh" toWhom="#agla">Я не могу так пожертвовать собой, хоть я и хотел один раз и... может быть, и теперь хочу. Но я знаю наверно, что она со мной погибнет, и потому оставляю ее. Я должен был ее видеть сегодня в семь часов; я, может быть, не пойду теперь. В своей гордости она никогда не простит мне любви моей, — и мы оба погибнем! Это неестественно, но тут всё неестественно. Вы говорите, она любит меня, но разве это любовь? Неужели может быть такая любовь, после того, что я уже вытерпел! Нет, тут другое, а не любовь!</said></p>
             <p>— <said aloud="true" direct="true" who="#agla" toWhom="#mysh">Как вы побледнели!</said> — испугалась вдруг <persName ref="#agla"><forename>Аглая</forename></persName>.</p>
-            <p>— <said aloud="true" direct="true" who="#mysh" toWhom="#agla">Ничего; я мало спал; ослаб, я... мы действительно про вас говорили тогда, <persName ref="#agla"><forename>Аглая</forename></persName>...</said> —	<said aloud="true" direct="true" who="#agla" toWhom="#mysh">Так это правда? Вы действительно могли с нею обо мне говорить и... и как могли вы меня полюбить, когда всего один раз меня видели?</said> </p>
+            <p>— <said aloud="true" direct="true" who="#mysh" toWhom="#agla">Ничего; я мало спал; ослаб, я... мы действительно про вас говорили тогда, <persName ref="#agla"><forename>Аглая</forename></persName>...</said> —	<said aloud="true" direct="true" who="#agla" toWhom="#mysh">Так это правда? Вы действительно <hi rend="italic">могли с нею обо мне</hi> говорить и... и как могли вы меня полюбить, когда всего один раз меня видели?</said> </p>
             <p>— <said aloud="true" direct="true" who="#mysh" toWhom="#agla">Я не знаю как. В моем тогдашнем мраке мне мечталась... мерещилась, может быть, новая заря. Я не знаю, как подумал о вас об первой. Я правду вам тогда написал, что не знаю. Всё это была только мечта, от тогдашнего ужаса... Я потом стал заниматься; я три года бы сюда не приехал... </said></p>
             <p>— <said aloud="true" direct="true" who="#agla" toWhom="#mysh">Стало быть, приехали для нее? </said></p>
             <p>И что-то задрожало в голосе <persName ref="#agla"><forename>Аглаи</forename></persName>.</p>
