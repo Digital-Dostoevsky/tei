@@ -180,6 +180,7 @@
 			  <change when="2024-06-18" who="#VS">[markup]:Finished checking Part 4, Section 4</change>
 			  <change when="2024-06-19" who="#SV">[markup]:Checking Part 1, Section 4</change>
 			  <change when="2024-06-20" who="#SV">[markup]:Checking Part 1, Section 4</change>
+			  <change when="2024-06-20" who="#VS">[markup]:Checking Part 4, Section 5</change>
 			  
 			  
 			  
@@ -4169,7 +4170,7 @@
             <said aloud="true" direct="true" who="#ivolg" toWhom="#mysh"><writing who="#npl">
             <lg>               
             <l>«<foreign xml:lang="fr">Ne mentez jamais</foreign>! </l>
-            <l><foreign xml:lang="fr">Napoléon, votre ami sincère</foreign>».</l>
+              <l><hi rend="italic"><foreign xml:lang="fr"><persName ref="#npl" xml:lang="fr"><forename>Napoléon</forename></persName>, votre ami sincère</foreign></hi>».</l>
             </lg>
             </writing></said>
             <p><said aloud="true" direct="true" who="#ivolg" toWhom="#mysh">Такой совет и в такую минуту, согласитесь, <persName ref="#mysh"><roleName>князь</roleName></persName>!</said></p>
@@ -5236,23 +5237,24 @@
             
           </listPerson>
           <listPerson type="historical">
-            <person xml:id="kril" sex="male">
-              <persName>Крылов</persName>
+<person xml:id="kril" sex="male">
+             <persName>Крылов</persName>
             </person>
             <person xml:id="shop" sex="male">
 	 <persName>Шопен</persName>
  </person>
-            <person xml:id="npl" sex="male">
-              <persName>Наполеон</persName>
-            </person>
-            <person xml:id="lerm" sex="male">
-	 <persName>Лермонтов</persName>
- </person>
-            <person xml:id="paf" sex="male">
-	 <persName>Пафнутий</persName>
- </person>
-            <person xml:id="molr" sex="male">
-              <persName>Мольер</persName>
+<person xml:id="npl" sex="male">
+              <persName>Наполеон</persName> 
+              <persName>Napoléon</persName>
+</person>
+<person xml:id="lerm" sex="male">
+	     <persName>Лермонтов</persName>
+</person>
+<person xml:id="paf" sex="male">
+	       <persName>Пафнутий</persName>
+</person>
+<person xml:id="molr" sex="male">
+        <persName>Мольер</persName>
             </person>
             <person xml:id="christ" sex="male">
 	          <persName>Христос</persName>
