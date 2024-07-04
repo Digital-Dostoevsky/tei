@@ -4780,7 +4780,7 @@
           </div3>
           <div3 type="section" n="11">
             <head>XI</head>
-            <p>Час спустя он уже был в <placeName ref="#spb">Петербурге</placeName>, а в десятом часу звонил к <persName ref="#rogozh"><surname>Рогожину</surname></persName>. Он вошел с парадного входа, и ему долго не отворяли. Наконец отворилась дверь из квартиры старушки Рогожиной, и показалась старенькая, благообразная <persName ref="#sluzh">служанка</persName>.</p>
+            <p>Час спустя он уже был в <placeName ref="#spb">Петербурге</placeName>, а в десятом часу звонил к <persName ref="#rogozh"><surname>Рогожину</surname></persName>. Он вошел с парадного входа, и ему долго не отворяли. Наконец отворилась дверь из квартиры <persName ref="#strog"><addName type="epithet">старушки</addName> <surname>Рогожиной</surname></persName>, и показалась старенькая, благообразная <persName ref="#sluzh"><roleName>служанка</roleName></persName>.</p>
             <p>— <said aloud="true" direct="true" who="#sluzh" toWhom="#mysh"><persName ref="#rogozh"><forename>Парфена</forename> <addName type="patronymic">Семеновича</addName></persName> дома нет</said>, — возвестила она из двери, — <said aloud="true" direct="true" who="#sluzh" toWhom="#mysh">вам кого? </said></p>
             <p>— <said aloud="true" direct="true" who="#mysh" toWhom="#sluzh"><persName ref="#rogozh"><forename>Парфена</forename> <addName type="patronymic">Семеновича</addName></persName>.	 </said></p>
             <p>— <said aloud="true" direct="true" who="#sluzh" toWhom="#mysh">Их дома нет-с. </said></p>
@@ -5228,6 +5228,9 @@
 </person>
 <person xml:id="sanov" sex="male">
             <persName>сановник</persName>
+</person>
+<person xml:id="strog" sex="female">
+            <persName>старушка Рогожина</persName>
 </person>
           </listPerson>
           <listPerson type="fictionalnonDostoevsky">
