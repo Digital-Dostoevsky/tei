@@ -2328,7 +2328,7 @@
             <p>— <said aloud="true" direct="true" who="#antip"><persName ref="#antip"><forename>Антип</forename> <surname>Бурдовский</surname></persName></said>, — торопясь и запинаясь, провозгласил <q>«сын <persName ref="#pav"><surname>Павлищева</surname></persName>»</q>.</p>
             <p>— <said aloud="true" direct="true" who="#dokt"><persName ref="#dokt"><forename>Владимир</forename> <surname>Докторенко</surname></persName></said>, — ясно, отчетливо и как бы даже хвалясь, что он <persName ref="#dokt"><surname>Докторенко</surname></persName>, отрекомендовался <persName ref="#dokt"><roleName>племянник</roleName> <surname>Лебедева</surname></persName>.</p>
             <p>— <said aloud="true" direct="true" who="#keller"><persName ref="#keller"><surname>Келлер</surname></persName>!</said> — пробормотал отставной поручик.</p>
-            <p>— <said aloud="true" direct="true" who="#ippol"><persName>Ипполит Терентьев</persName></said>, — неожиданно визгливым голосом провизжал последний. Все наконец расселись в ряд на стульях напротив <persName ref="#mysh"><roleName>князя</roleName></persName>, все, отрекомендовавшись, тотчас же нахмурились и для бодрости переложили из одной руки в другую свои фуражки, все приготовились говорить, и все, однако ж, молчали, чего-то выжидая с вызывающим видом, в котором так и читалось: <q>«Нет, брат, врешь, не надуешь!»</q> Чувствовалось, что стоит только кому-нибудь для началу произнести одно только первое слово, и тотчас же все они заговорят вместе, перегоняя и перебивая друг друга.</p>
+            <p>— <said aloud="true" direct="true" who="#ippol"><persName ref="#ippol"><forename>Ипполит</forename> <surname>Терентьев</surname></persName></said>, — неожиданно визгливым голосом провизжал последний. Все наконец расселись в ряд на стульях напротив <persName ref="#mysh"><roleName>князя</roleName></persName>, все, отрекомендовавшись, тотчас же нахмурились и для бодрости переложили из одной руки в другую свои фуражки, все приготовились говорить, и все, однако ж, молчали, чего-то выжидая с вызывающим видом, в котором так и читалось: <q>«Нет, брат, врешь, не надуешь!»</q> Чувствовалось, что стоит только кому-нибудь для началу произнести одно только первое слово, и тотчас же все они заговорят вместе, перегоняя и перебивая друг друга.</p>
           </div3>
           <div3 type="section" n="8">
             <head>VIII</head>
@@ -4937,9 +4937,9 @@
     <back>
       <div type="editorial">
 				  <listPerson type="fictional">
-				    <person xml:id="daria" sex="female">
+<person xml:id="daria" sex="female">
 				      <persName>Дарья Алексеевна</persName>
-				    </person>
+</person>
 				    <person xml:id="barina" sex="female">
 				      <persName>бойкая барыня</persName>
 				    </person>
@@ -4949,14 +4949,19 @@
 				    <persName>старичок генерал</persName>
 				        
 				      </person>
-				    <person xml:id="lench" sex="female">
+]<person xml:id="lench" sex="female">
+				      <persName>Леночка</persName>
  </person>
 				    <person xml:id="evgen" sex="male">
 				      <persName>Евгений Павлович</persName>
+				      <persName>Евгений Павлыч</persName>
+				      <persName>Евгений Павлович Радомский</persName>
+				      <persName>Радомский</persName>
 				        
 				    </person>
-				    <person xml:id="ippol" sex="male">
-	 <persName>Ипполит</persName>
+<person xml:id="ippol" sex="male">
+				     <persName>Ипполит Терентьев</persName>
+	           <persName>Ипполит</persName>
  </person>
 				    <person xml:id="zahar" sex="male">
 				      <persName>Петр Захарыч</persName>
@@ -5007,7 +5012,7 @@
 				    </person>
 <person xml:id="belk" sex="female">
               <persName>княгиня Белоконская</persName>
-              <persName>старуха Белоконская</persName>старуха
+              <persName>старуха Белоконская</persName>
  </person>
 				    <person xml:id="kolp" sex="male">
 	 <persName>Колпаков</persName>
@@ -5055,7 +5060,7 @@
 				      <persName>горничный Паша</persName>
 				    </person>
 <person xml:id="ferd" sex="male">
-	             <persName>Фердыщенко</persName>
+	            <persName>Фердыщенко</persName>
               <persName>господин Фердыщенко</persName>
               
  </person>
@@ -5071,9 +5076,6 @@
  </person>
 				    <person xml:id="bahm" sex="male">
 				      <persName>Бахмутов</persName>
-				    </person>
-				    <person xml:id="colu" sex="male">
-				      <persName>Колумб</persName>
 				    </person>
 				    <person xml:id="vilk" sex="male">
 				      <persName>Вилкин</persName>
@@ -5131,9 +5133,7 @@
             <person xml:id="lihac" sex="male">
 	 <persName>Лихачев Александр</persName>
  </person>
-				    <person xml:id="roth" sex="male">
-				      <persName>Ротшильд</persName>
-				    </person>
+
             <person xml:id="tozk" sex="male">
 	 <persName>Афанасий Иванович Тоцкий</persName>
  </person>
@@ -5420,7 +5420,12 @@
          <persName>Шарль Морис де Талейран-Перигор<persName>
          <persName>Талейран<persName>
 </person>
-            
+<person xml:id="colu" sex="male">
+              <persName>Колумб</persName>
+</person>
+<person xml:id="roth" sex="male">
+              <persName>Ротшильд</persName>
+</person>
             
           </listPerson>
           <listPerson type="other">
@@ -5433,7 +5438,7 @@
 <person xml:id="jup">
            <persName>Юпитер Олимпийский</persName>
            <persName>Юпитер</persName>
-</person>   
+</person>
 
           </listPerson>
           <listObject>
