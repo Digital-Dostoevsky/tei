@@ -206,6 +206,7 @@
 			  <change when="2024-07-29" who="#VS">[markup]:Finished checking Part 2, Section 11</change>
 			  <change when="2024-07-30" who="#VS">[markup]:Checking Part 2, Section 12</change>
 			  <change when="2024-07-31" who="#VS">[markup]:Finished checking Part 2, Section 12</change>
+			  <change when="2024-08-01" who="#VS">[markup]:Fixed all the validation errors in Part 1 and sections 1-6 of Part 2</change>
 			  
 			  
       </revisionDesc>
