@@ -158,7 +158,8 @@
 			  <change when="2023-12-29" who="#VS">[markup]:finished tagging chapter 7, chapter 8, section I of chapter 9.</change>
 			  <change when="2023-12-30" who="#VS">[markup]:finished tagging chapters 9 and 10.</change>
 			  <change when="2023-12-31" who="#VS">[markup]:finished tagging chapters 11, 12, and 13.</change>
-			  <change when="2024-08-15" who="#VS">[markup]:Checking the document and getting rid of validation errors in the first half of the novel.</change>
+			  <change when="2024-08-15" who="#VS">[markup]:Fixed validation errors in the first half of the novel.</change>
+			  <change when="2024-08-16" who="#VS">[markup]:Fixed all the validation errors</change>
         	</revisionDesc> 
   </teiHeader>
   <text>
@@ -5064,9 +5065,9 @@
               <persName>Джон Лоу</persName>
               <persName>Лоу</persName>
 </person>
-<person xml:id="#tall" sex="male">
-              <persName>Шарль Морис де Талейран-Перигор<persName>
-              <persName>Талейран<persName>
+<person xml:id="tall" sex="male">
+              <persName>Шарль Морис де Талейран-Перигор</persName>
+              <persName>Талейран</persName>
 </person>
 <person xml:id="piro" sex="male">	
               <persName>Алексис Пирон</persName>
@@ -5079,7 +5080,7 @@
 <personGrp xml:id="grpasp">
               <persName>Пушкины</persName>
 </personGrp>         
-<person xml:id="#npl" sex="male">
+<person xml:id="npl" sex="male">
               <persName>Наполеон</persName>
 </person>           
 <personGrp xml:id="grpnpl">
@@ -5243,7 +5244,7 @@
 <person xml:id="uriah" sex="male">
               <persName>Урия</persName>
 </person>
-<person xml:id="#hecub" sex="female">
+<person xml:id="hecub" sex="female">
               <persName>Гекуба</persName>
 </person> 
 <person xml:id="allah">
@@ -5386,7 +5387,7 @@
 <place type="house" xml:id="domlit">
               <placeName>дом Литвиновой</placeName>
 </place>
-<place type="military office" xml:id="kazch">           
+<place type="military" xml:id="kazch">           
               <placeName>Казанская часть</placeName>
 </place>
 <place type="university" xml:id="technu">
@@ -5421,7 +5422,7 @@
 </place>
 <place type="cathedral" xml:id="isaaks">
           <placeName>Исаакиевский собор</placeName>
-          <placeName>Исаакий</placeName
+          <placeName>Исаакий</placeName>
 </place>
 <place type="country" xml:id="ger">
             <placeName>Германия</placeName>
@@ -5536,7 +5537,7 @@
 <place type="neighborhood" xml:id="spbue">
             <placeName>Петербургский уезд</placeName>
 </place>
-<place type="historical entity" xml:id="rus">
+<place type="entity" xml:id="rus">
             <placeName>Русь</placeName>
 </place>
 <place type="city" xml:id="ldn">
