@@ -217,6 +217,7 @@
 			  <change when="2024-09-04" who="#SV">[markup]:Checking Part 1, Section 7</change>
 			  <change when="2024-09-15" who="#SV">[markup]:Checking Part 1, Section 7</change>
 			  <change when="2024-09-22" who="#SV">[markup]:Double-checked Part 1, Section 6</change>
+			  <change when="2024-09-28" who="#SV">[markup]:Finished checking Part 1, Section 7</change>
 			 
 			  
       </revisionDesc>
@@ -864,8 +865,9 @@
             <p>— <said aloud="true" direct="true" who="#mysh" toWhom="#gavr">Я должен вам заметить, <persName ref="#gavr"><forename>Гаврила</forename> <addName type="patronymic">Ардалионович</addName></persName></said>, — сказал вдруг <persName ref="#mysh"><roleName>князь</roleName></persName>, — <said aloud="true" direct="true" who="#mysh" toWhom="#gavr">что я прежде действительно был так нездоров, что и в самом деле был почти <q>идиот</q>; но теперь я давно уже выздоровел, и потому мне несколько неприятно, когда меня называют идиотом в глаза. Хоть вас и можно извинить, взяв во внимание ваши неудачи, но вы в досаде вашей даже раза два меня выбранили. Мне это очень не хочется, особенно так, вдруг, как вы, с первого раза; и так как мы теперь стоим на перекрестке, то не лучше ли нам разойтись: вы пойдете направо к себе, а я налево. У меня есть двадцать пять рублей, и я наверно найду какой-нибудь отель-гарни.</said></p>
             <p><persName ref="#gavr"><addName type="diminutive">Ганя</addName></persName> ужасно смутился и даже покраснел от стыда.</p>
             <p>— <said aloud="true" direct="true" who="#gavr" toWhom="#mysh">Извините, <persName ref="#mysh"><roleName>князь</roleName></persName></said>, — горячо вскричал он, вдруг переменяя свой ругательный тон на чрезвычайную вежливость, — <said aloud="true" direct="true" who="#gavr" toWhom="#mysh">ради бога, извините! Вы видите, в какой я беде! Вы еще почти ничего не знаете, но если бы вы знали всё, то наверно бы хоть немного извинили меня; хотя, разумеется, я неизвиним... </said></p>
-            <p>— <said aloud="true" direct="true" who="#mysh" toWhom="#gavr">О, мне и не нужно таких больших извинений</said>, — поспешил ответить <persName ref="#mysh"><roleName>князь</roleName></persName>. — <said aloud="true" direct="true" who="#mysh" toWhom="#gavr">Я ведь понимаю, что вам очень неприятно, и потому-то вы и бранитесь. Ну, пойдемте к вам. Я с удовольствием... </said></p>
-            <p><said aloud="false" direct="true" who="#gavr" toWhom="#gavr">«Нет, его теперь так отпустить невозможно</said>, — думал про себя <persName ref="#gavr"><addName type="diminutive">Ганя</addName></persName>, злобно посматривая дорогой на <persName ref="#mysh"><roleName>князя</roleName></persName>, — <said aloud="false" direct="true" who="#gavr" toWhom="#gavr">этот плут выпытал из меня всё, а потом вдруг снял маску... Это что-то значит. А вот мы увидим! Всё разрешится, всё, всё! Сегодня же!»</said> Они уже стояли у самого дома.</p>
+            <p>— <said aloud="true" direct="true" who="#mysh" toWhom="#gavr">О, мне и не нужно таких больших извинений</said>, — поспешил ответить <persName ref="#mysh"><roleName>князь</roleName></persName>. — <said aloud="true" direct="true" who="#mysh" toWhom="#gavr">Я ведь понимаю, что вам очень неприятно, и потому-то вы и бранитесь. Ну, пойдемте к вам. Я с удовольствием...</said></p>
+            <p><said aloud="false" direct="true" who="#gavr" toWhom="#gavr">«Нет, его теперь так отпустить невозможно</said>, — думал про себя <persName ref="#gavr"><addName type="diminutive">Ганя</addName></persName>, злобно посматривая дорогой на <persName ref="#mysh"><roleName>князя</roleName></persName>, — <said aloud="false" direct="true" who="#gavr" toWhom="#gavr">этот плут выпытал из меня всё, а потом вдруг снял маску... Это что-то значит. А вот мы увидим! Всё разрешится, всё, всё! Сегодня же!»</said></p> 
+            <p>Они уже стояли у самого дома.</p>
           </div3>
           <div3 type="section" n="8">
             <head>VIII</head>
