@@ -221,6 +221,8 @@
 			  <change when="2024-09-28" who="#SV">[markup]:Checking Part 1, Section 8</change>
 			  <change when="2024-09-28" who="#VS">[markup]:Double-checked Part 1, Section 8. Checked Part 1, Section 10 </change>
 			  <change when="2024-09-30" who="#SV">[markup]:Checking Part 1, Section 8</change>
+			  <change when="2024-09-30" who="#SV">[markup]:Finished checking Part 1, Section 8</change>
+			  <change when="2024-09-30" who="#SV">[markup]:Checking Part 1, Section 9</change>
 			 
 			  
       </revisionDesc>
@@ -1017,8 +1019,8 @@
             <p>— <said aloud="true" direct="true" who="#mysh" toWhom="#nasta"><persName ref="#nasta"><forename>Настасью</forename> <addName type="patronymic">Филипповну</addName></persName></said>, — пробормотал <persName ref="#mysh"><roleName>князь</roleName></persName>.</p>
             <p>— <said aloud="true" direct="true" who="#nasta" toWhom="#mysh">Почему ты меня знаешь?</said> — быстро спросила она его. — <said aloud="true" direct="true" who="#nasta" toWhom="#mysh">Я тебя никогда не видала! Ступай, докладывай... Что там за крик?</said></p>
             <p>— <said aloud="true" direct="true" who="#mysh" toWhom="#nasta">Бранятся</said>, — ответил <persName ref="#mysh"><roleName>князь</roleName></persName> и пошел в гостиную.</p>
-            <p>Он вошел в довольно решительную минуту: <persName ref="#nina"><forename>Нина</forename> <addName type="patronymic">Александровна</addName></persName> готова была уже совершенно забыть, что она <q>«всему покорилась»</q>; она, впрочем, защищала <persName ref="#varv"><forename>Варю</forename></persName>. Подле <persName ref="#varv"><forename>Вари</forename></persName> стоял и <persName ref="#ptiz"><surname>Птицын</surname></persName>, уже оставивший свою исписанную карандашом бумажку. <persName ref="#varv"><addName type="diminutive">Варя</addName></persName> и сама не робела, да и не робкого десятка была девица; но грубости брата становились с каждым словом невежливее и нестерпимее. В таких случаях она обыкновенно переставала говорить и только молча, насмешливо смотрела на брата, не сводя с него глаз. Этот маневр, как и знала она, способен был выводить его из последних границ. В эту-то самую минуту <persName ref="#mysh"><roleName>князь</roleName></persName> шагнул в комнату и провозгласил:</p>
-            <p>— <said aloud="true" direct="true" who="#mysh" toWhom="#gavr #ptiz #nina #varv"><persName ref="#nasta"><forename>Настасья</forename> <addName type="patronymic">Филипповна</addName></persName>! </said></p>
+              <p>Он вошел в довольно решительную минуту: <persName ref="#nina"><forename>Нина</forename> <addName type="patronymic">Александровна</addName></persName> готова была уже совершенно забыть, что она <q>«всему покорилась»</q>; она, впрочем, защищала <persName ref="#varv"><addName type="diminutive">Варю</addName></persName>. Подле <persName ref="#varv"><addName type="diminutive">Вари</addName></persName> стоял и <persName ref="#ptiz"><surname>Птицын</surname></persName>, уже оставивший свою исписанную карандашом бумажку. <persName ref="#varv"><addName type="diminutive">Варя</addName></persName> и сама не робела, да и не робкого десятка была девица; но грубости брата становились с каждым словом невежливее и нестерпимее. В таких случаях она обыкновенно переставала говорить и только молча, насмешливо смотрела на брата, не сводя с него глаз. Этот маневр, как и знала она, способен был выводить его из последних границ. В эту-то самую минуту <persName ref="#mysh"><roleName>князь</roleName></persName> шагнул в комнату и провозгласил:</p>
+            <p>— <said aloud="true" direct="true" who="#mysh" toWhom="#gavr #ptiz #nina #varv"><persName ref="#nasta"><forename>Настасья</forename> <addName type="patronymic">Филипповна</addName></persName>!</said></p>
           </div3>
           <div3 type="section" n="9">
             <head>IX</head>
