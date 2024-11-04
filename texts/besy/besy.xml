@@ -17,6 +17,7 @@
           <name xml:id="VS">Veronika Sizova</name>
           <name xml:id="NI">Nadezhda Ivanova</name>
           <name xml:id="SV">Sydney Vermeersch</name>
+          <name xml:id="KH">Kate Holland</name>
         </respStmt>
         <principal>Kate Holland</principal>
         <funder>Social Sciences and Humanities Research Council of Canada</funder>
@@ -214,6 +215,8 @@
         <change when="2024-10-20" who="#NI">[markup]: finished checking Part 3, Ch 5, 6</change>
         <change when="2024-10-21" who="#SV">[markup]: finished checking Part 3, Ch 3</change>
         <change when="2024-10-21" who="#SV">[markup]: finished checking Part 3, Ch 4</change>
+        <change when="2024-11-01" who="#KH">[markup]: fixing errors discovered in said tags</change>
+        <change when="2023-11-04" who="#KH">[markup]: fixing errors discovered in said tags and added #ikmon</change>
     </revisionDesc>
     
     
