@@ -2752,7 +2752,7 @@
             <p>— <said aloud="true" direct="true" who="#ddamy" toWhom="#semyak">Батюшка! <persName ref="#semyak"><forename>Семен</forename> <addName type="patronymic">Яковлевич</addName></persName>!</said> — раздался вдруг горестный, но резкий до того, что трудно было и ожидать, голос убогой дамы, которую наши оттерли к стене. — <said aloud="true" direct="true" who="#ddamy" toWhom="#semyak">Целый час, родной, благодати ожидаю. Изреки ты мне, рассуди меня, сироту.</said></p>
             <p>— <said aloud="true" direct="true" who="#semyak" toWhom="#dslugaprich">Спроси,</said> — указал <persName ref="#semyak"><forename>Семен</forename> <addName type="patronymic">Яковлевич</addName></persName> слуге-причетнику. Тот подошел к решетке.</p>
             <p>- <said aloud="true" direct="true"  who="#dslugaprich" toWhom="#ddamy">Исполнили ли то, что приказал в прошлый раз <persName ref="#semyak"><forename>Семен</forename> <addName type="patronymic">Яковлевич</addName></persName>?</said> — спросил он вдову тихим и размеренным голосом.</p>
-            <p>— <said aloud="true" direct="true" who="ddamy" toWhom="#semyak">Какое, батюшка <persName ref="#semyak"><forename>Семен</forename> <addName type="patronymic">Яковлевич</addName></persName>, исполнила, исполнишь с ними!</said> — завопила вдова,— <said aloud="true" direct="true" toWhom="#semyak">людоеды, просьбу на меня в окружной подают, в Сенат грозят; это на родную-то мать!.. </said></p>
+            <p>— <said aloud="true" direct="true" who="ddamy" toWhom="#semyak">Какое, батюшка <persName ref="#semyak"><forename>Семен</forename> <addName type="patronymic">Яковлевич</addName></persName>, исполнила, исполнишь с ними!</said> — завопила вдова,— <said aloud="true" direct="true" who="ddamy" toWhom="#semyak">людоеды, просьбу на меня в окружной подают, в Сенат грозят; это на родную-то мать!.. </said></p>
             <p>— <said aloud="true" direct="true" who="#semyak">Дай ей!..</said> — указал <persName ref="#semyak"><forename>Семен</forename> <addName type="patronymic">Яковлевич</addName></persName> на голову сахару. Мальчишка подскочил, схватил голову и потащил ко вдове.</p>
             <p>— <said aloud="true" direct="true" who="#ddamy" toWhom="#semyak">Ох, батюшка, велика твоя милость. И куда мне столько?</said> — завопила было вдовица.</p>
             <p>— <said aloud="true" direct="true" who="#semyak">Еще, еще!</said> — награждал <persName ref="#semyak"><forename>Семен</forename> <addName type="patronymic">Яковлевич</addName></persName>.</p>
@@ -2767,7 +2767,7 @@
             <p>— <said aloud="true" direct="true" who="#semyak" toWhom="#dslugaprich">Гони, гони!</said> — вдруг замахал руками <persName ref="#semyak"><forename>Семен</forename> <addName type="patronymic">Яковлевич</addName></persName>.</p>
             <p>Причетник и мальчишка вырвались за решетку. Причетник взял вдову под руку, и она, присмирев, потащилась к дверям, озираясь на дареные сахарные головы, которые за нею поволок мальчишка.</p>
             <p>— <said aloud="true" direct="true" who="#semyak">Одну отнять, отними!</said> — приказал <persName ref="#semyak"><forename>Семен</forename> <addName type="patronymic">Яковлевич</addName></persName> остававшемуся при нем артельщику. Тот бросился за уходившими, и все трое слуг воротились через несколько времени, неся обратно раз подаренную и теперь отнятую у вдовицы одну голову сахару; она унесла, однако же, три.</p>
-            <p>— <said aloud="true" direct="true" toWhom="#semyak"><persName ref="#semyak"><forename>Семен</forename> <addName type="patronymic">Яковлевич</addName></persName></said>, — раздался чей-то голос сзади у самых дверей, — <said aloud="true" direct="true" toWhom="#semyak">видел я во сне птицу, галку, вылетела из воды и полетела в огонь. Что сей сон значит? </said></p>
+            <p>— <said aloud="true" direct="true" who="#dgolos" toWhom="#semyak"><persName ref="#semyak"><forename>Семен</forename> <addName type="patronymic">Яковлевич</addName></persName></said>, — раздался чей-то голос сзади у самых дверей, — <said aloud="true" direct="true" who="#dgolos" toWhom="#semyak">видел я во сне птицу, галку, вылетела из воды и полетела в огонь. Что сей сон значит? </said></p>
             <p>— <said aloud="true" direct="true" who="#semyak">К морозу</said>, — произнес <persName ref="#semyak"><forename>Семен</forename> <addName type="patronymic">Яковлевич</addName></persName>.</p>
             <p>— <said aloud="true" direct="true" who="#dfundama" toWhom="#semyak"><persName ref="#semyak"><forename>Семен</forename> <addName type="patronymic">Яковлевич</addName></persName>, что же вы мне-то ничего не ответили, я так давно вами интересуюсь</said>, — начала было опять наша дама.</p>
             <p>— <said aloud="true" direct="true" who="#semyak" toWhom="#dmonakh">Спроси!</said> — указал вдруг, не слушая ее, <persName ref="#semyak"><forename>Семен</forename> <addName type="patronymic">Яковлевич</addName></persName> на помещика, стоявшего на коленях. Монах от монастыря, которому указано было спросить, степенно подошел к помещику.</p>
@@ -5906,10 +5906,12 @@
             <person xml:id="ikmon">
               <persName>монах(у блюда)(</persName>
             </person>
+            <person xml:id="dgolos">
+              <persName>чей-то голос сзади у самых дверей</persName>
+            </person>
             <person xml:id="dgeneral">
               <persName>важный старый генерал (который «отворил дверь общественному нетерпению» и рассказал о дуэли Гаганова/Ставрогина)</persName>
             </person>
-            
             <person xml:id="melkgosp">
               <persName>один из мелкотравчатых господ</persName>
             </person>
