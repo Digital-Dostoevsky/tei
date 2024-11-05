@@ -3413,7 +3413,7 @@
             <p>— <said aloud="true" direct="true" who="#gmnzst" toWhom="#rodVgsky">А я утверждаю</said>, — остервенился тот, — <said aloud="true" direct="true" who="#gmnzst" toWhom="#rodVgsky">что вы — приехавший из <placeName ref="#spb">Петербурга</placeName> ребенок, с тем чтобы нас всех просветить, тогда как мы и сами знаем. О заповеди: <q>«Чти отца твоего и матерь твою»</q>, которую вы не умели прочесть, и что она безнравственна, — уже с <persName ref="#bel"><surname>Белинского</surname></persName> всем в <placeName ref="#ros">России</placeName> известно. </said></p>
             <p>— <said aloud="true" direct="true" who="#apvi" toWhom="#vgsky">Кончится ли это когда-нибудь?</said> — решительно проговорила <persName ref="#apvi"><roleName>madame</roleName> <surname>Виргинская</surname></persName> мужу. Как хозяйка, она краснела за ничтожество разговоров, особенно заметив несколько улыбок и даже недоумение между новопозванными гостями.</p>
             <p>— <said aloud="true" direct="true" who="#vgsky">Господа</said>, — возвысил вдруг голос <persName ref="#vgsky"><surname>Виргинский</surname></persName>, — <said aloud="true" direct="true" who="#vgsky">если бы кто пожелал начать о чем-нибудь более идущем к делу или имеет что заявить, то я предлагаю приступить, не теряя времени. </said></p>
-            <p>— <said aloud="true" direct="true">Осмелюсь сделать один вопрос</said>, — мягко проговорил доселе молчавший и особенно чинно сидевший хромой учитель, — <said aloud="true" direct="true">я желал бы знать, составляем ли мы здесь, теперь, какое-нибудь заседание или просто мы собрание обыкновенных смертных, пришедших в гости? Спрашиваю более для порядку и чтобы не находиться в неведении. </said></p>
+            <p>— <said aloud="true" direct="true" who="#khrch">Осмелюсь сделать один вопрос</said>, — мягко проговорил доселе молчавший и особенно чинно сидевший хромой учитель, — <said aloud="true" direct="true" who="#khrch">я желал бы знать, составляем ли мы здесь, теперь, какое-нибудь заседание или просто мы собрание обыкновенных смертных, пришедших в гости? Спрашиваю более для порядку и чтобы не находиться в неведении. </said></p>
             <p><q>«Хитрый»</q> вопрос произвел впечатление; все переглянулись, каждый как бы ожидая один от другого ответа, и вдруг все как по команде обратили взгляды на <persName ref="#psv"><surname>Верховенского</surname></persName> и <persName ref="#nvs"><surname>Ставрогина</surname></persName>.</p>
             <p>— <said aloud="true" direct="true" who="#apvi">Я просто предлагаю вотировать ответ на вопрос: <q>«Заседание мы или нет?»</q> — проговорила <persName ref="#apvi"><roleName>madame</roleName> <surname>Виргинская</surname></persName>. </said></p>
             <p>— <said aloud="true" direct="true" who="#svl">Совершенно присоединяюсь к предложению</said>, — отозвался <persName ref="#svl"><surname>Липутин</surname></persName>, — <said aloud="true" direct="true" who="#svl">хотя оно и несколько неопределенно. </said></p>
@@ -3443,7 +3443,7 @@
             <p>— <said aloud="true" direct="true" who="#apvi">Кто не хочет, не хочет. </said></p>
             <p>— <q>Ну да, но что надо делать, подымать или не подымать, если не хочет?</q> — крикнул офицер.</p>
             <p>— <said aloud="true" direct="true" who="#dmajor" toWhom="#apvi">Эх, к конституции-то мы еще не привыкли!</said> — заметил <persName ref="#dmajor">майор</persName>.</p>
-            <p>— <said aloud="true" direct="true" toWhom="#lmshn">Господин <persName ref="#lmshn"><surname>Лямшин</surname></persName>, сделайте одолжение, вы так стучите, никто не может расслышать</said>, — заметил хромой учитель.</p>
+            <p>— <said aloud="true" direct="true" who="#khrch" toWhom="#lmshn">Господин <persName ref="#lmshn"><surname>Лямшин</surname></persName>, сделайте одолжение, вы так стучите, никто не может расслышать</said>, — заметил хромой учитель.</p>
             <p>— <said aloud="true" direct="true" who="#lmshn" toWhom="#apvi">Да ей-богу же, <persName ref="#apvi"><forename>Арина</forename> <addName type="patronymic">Прохоровна</addName></persName>, никто не подслушивает</said>, — вскочил <persName ref="#lmshn"><surname>Лямшин</surname></persName>. — <said aloud="true" direct="true" who="#lmshn" toWhom="#apvi">Да не хочу же играть! Я к вам в гости пришел, а не барабанить! </said></p>
             <p>— <said aloud="true" direct="true" who="#vgsky">Господа</said>, — предложил <persName ref="#vgsky"><surname>Виргинский</surname></persName>, — <said aloud="true" direct="true" who="#vgsky">отвечайте все голосом: заседание мы или нет? </said></p>
             <p>— <q>Заседание, заседание!</q> — раздалось со всех сторон.</p>
@@ -5896,7 +5896,10 @@
             </person>            
             <person xml:id="rodVgsky" sex="female">
               <persName>студентка (родственница Верховенского)</persName>
-            </person>            
+            </person>
+            <person xml:id="khrch" sex="male">
+              <persName>хромой учитель</persName>
+            </person>
             <person xml:id="fkat" sex="male">
               <persName>Федька Каторжный</persName>
             </person>            
