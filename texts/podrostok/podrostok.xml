@@ -436,7 +436,7 @@
             <p>— <said aloud="true" direct="true" who="#amd" toWhom="#efz">Если будет, как только войдем, толкни меня и укажи <persName ref="#gvas"><surname>Васина</surname></persName>; только что войдем, слышишь? </said></p>
             <p>Об <persName ref="#gvas"><surname>Васине</surname></persName> я уже довольно слышал и давно интересовался.</p>
             <p><persName ref="#derg"><surname>Дергачев</surname></persName> жил в маленьком флигеле, на дворе деревянного дома одной купчихи, но зато флигель занимал весь. Всего было чистых три комнаты. Во всех четырех окнах были спущены шторы. Это был техник и имел в <placeName ref="#spb">Петербурге</placeName> занятие; я слышал мельком, что ему выходило одно выгодное частное место в губернии и что он уже отправляется.</p>
-            <p>Только что мы вошли в крошечную прихожую, как послышались голоса; кажется, горячо спорили и кто-то кричал: <said aloud="true" direct="true">«<foreign xml:lang="la">Quae medicamenta non sanant — ferrum sanat, quae ferrum non sanat — ignis sanat!</foreign>»</said></p>
+            <p>Только что мы вошли в крошечную прихожую, как послышались голоса; кажется, горячо спорили и кто-то кричал: <said aloud="true" direct="true" who="#neizgp">«<foreign xml:lang="la">Quae medicamenta non sanant — ferrum sanat, quae ferrum non sanat — ignis sanat!</foreign>»</said></p>
             <p>Я действительно был в некотором беспокойстве. Конечно, я не привык к обществу, даже к какому бы ни было. В гимназии я с товарищами был на ты, но ни с кем почти не был товарищем, я сделал себе угол и жил в углу. Но не это смущало меня. На всякий случай я дал себе слово не входить в споры и говорить только самое необходимое, так чтоб никто не мог обо мне ничего заключить; главное — не спорить.</p>
             <p>В комнате, даже слишком небольшой, было человек семь, а с дамами человек десять. <persName ref="#derg"><surname>Дергачеву</surname></persName> было двадцать пять лет, и он был женат. У жены была сестра и еще родственница; они тоже жили у <persName ref="#derg"><surname>Дергачева</surname></persName>. Комната была меблирована кое-как, впрочем достаточно, и даже было чисто. На стене висел литографированный портрет, но очень дешевый, а в углу образ без ризы, но с горевшей лампадкой.<persName ref="#derg"><surname>Дергачев</surname></persName> подошел ко мне, пожал руку и попросил <said aloud="true" direct="false" who="#derg" toWhom="#amd">садиться.</said></p>
             <p>— <said aloud="true" direct="true" who="#derg" toWhom="#amd">Садитесь, здесь все свои. </said></p>
@@ -4628,6 +4628,9 @@
 </person>
 <person xml:id="kra" sex="male">
            <persName>Крафт</persName>
+</person>
+<person xml:id="#neizgp" sex="male">
+  <persName>неизвестный голос (у Дергачева)</persName>
 </person>
 <personGrp xml:id="grpkra">
            <persName>Крафты</persName>
