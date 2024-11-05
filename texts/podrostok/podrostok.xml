@@ -2355,7 +2355,7 @@
             <p>— <said aloud="true" direct="true" who="#ofiz" toWhom="#amd">Извольте принять!</said> — крикнул он весь багровый от гнева, — <said aloud="true" direct="true" who="#ofiz" toWhom="#amd">я не обязан стоять над вами; а то после скажете, что не получили. Сосчитайте. </said></p>
             <p>— <said aloud="true" direct="true" who="#amd" toWhom="#ofiz">Верю, верю, <persName ref="#ofiz"><roleName>полковник</roleName></persName>, верю без счету; только, пожалуйста, так на меня не кричите и не сердитесь</said>, — и я сгреб кучку его золота рукой.</p>
             <p>— <said aloud="true" direct="true" who="#ofiz" toWhom="#amd"><persName ref="#amd"><addName type="diminutive">Милостивый государь</addName></persName>, я вас прошу, суйтесь с вашими восторгами к кому другому, а не ко мне</said>, — резко закричал <persName ref="#ofiz"><roleName>полковник</roleName></persName>. — <said aloud="true" direct="true" who="#ofiz" toWhom="#amd">Я с вами вместе свиней не пас! </said></p>
-            <p>— <said aloud="true" direct="true">Странно пускать таких</said>, — кто такой? — юноша какой-то, — <said aloud="true" direct="true">раздавались вполголоса восклицания. </said></p>
+            <p>— <said aloud="true" direct="true" who="#neizga">Странно пускать таких</said>, — <said aloud="true" direct="true" who="#neizga"> кто такой? — юноша какой-то, раздавались вполголоса восклицания. </said></p>
             <p>Но я не слушал, я ставил зря и уже не на <foreign xml:lang="fr">zéro</foreign>. Я поставил целую пачку радужных на восемнадцать первых.</p>
             <p>— <said aloud="true" direct="true" who="#knser" toWhom="#avda">Едем, <persName ref="#avda"><surname>Дарзан</surname></persName></said>, — послышался сзади голос <persName ref="#knser"><roleName>князя</roleName></persName>.</p>
             <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser">Домой?</said> — обернулся я к ним. — <said aloud="true" direct="true" who="#amd" toWhom="#knser">Постойте меня, вместе выйдем, я — шабаш. </said></p>
@@ -2365,8 +2365,8 @@
             <p>Вот это-то и была та прелюдия, которой потом, через несколько дней, суждено было иметь такие последствия. Теперь же, честью клянусь, что эти три сторублевые были мои, но, к моей злой судьбе, тогда я хоть и был уверен в том, что они мои, но всё же у меня оставалась одна десятая доля и сомнения, а для честного человека это — всё; а я — честный человек. Главное, я тогда еще не знал наверно, что <persName ref="#aferd"><surname>Афердов</surname></persName> — вор; я тогда еще и фамилию его не знал, так что в ту минуту действительно мог подумать, что я ошибся и что эти три сторублевые не были в числе тех, которые мне сейчас отсчитали. Я всё время не считал мою кучу денег и только пригребал руками, а перед <persName ref="#aferd"><surname>Афердовым</surname></persName> тоже всё время лежали деньги, и как раз сейчас подле моих, но в порядке и сосчитанные. Наконец, <persName ref="#aferd"><surname>Афердова</surname></persName> здесь знали, его считали за богача, к нему обращались с уважением: всё это и на меня повлияло, и я опять не протестовал. Ужасная ошибка! Главное свинство заключалось в том, что я был в восторге.</p>
             <p>— <said aloud="true" direct="true" who="#amd" toWhom="#aferd">Чрезвычайно жаль, что я наверно не помню; но мне ужасно кажется, что это — мои</said>, — проговорил я с дрожащими от негодования губами. Слова эти тотчас же вызвали ропот.</p>
             <p>— <said aloud="true" direct="true" who="#aferd" toWhom="#amd">Чтоб говорить такие вещи, то надо наверно помнить, а вы сами изволили провозгласить, что помните не наверно</said>, — проговорил нестерпимо свысока <persName ref="#aferd"><surname>Афердов</surname></persName>.</p>
-            <p>— <said aloud="true" direct="true">Да кто такой?</said> — да как позволять это? — раздалось было несколько восклицаний.</p>
-            <p>— <said aloud="true" direct="true">Это с ними не в первый раз; давеча там с <persName ref="#rehbe"><surname>Рехбергом</surname></persName> вышла тоже история из-за десятирублевой</said>, — раздался подле чей-то подленький голос.</p>
+            <p>— <said aloud="true" direct="true" who="#neizga">Да кто такой?</said> — да как позволять это? — раздалось было несколько восклицаний.</p>
+            <p>— <said aloud="true" direct="true" who="#chtpg">Это с ними не в первый раз; давеча там с <persName ref="#rehbe"><surname>Рехбергом</surname></persName> вышла тоже история из-за десятирублевой</said>, — раздался подле чей-то подленький голос.</p>
             <p>— <said aloud="true" direct="true" who="#amd" toWhom="#aferd">Ну, довольно же, довольно!</said> — восклицал я, — <said aloud="true" direct="true" who="#amd" toWhom="#aferd">я не протестую, берите! <persName ref="#knser"><roleName>Князь</roleName></persName>... где же <persName ref="#knser"><roleName>князь</roleName></persName> и <persName ref="#avda"><surname>Дарзан</surname></persName>? Ушли? Господа, вы не видали, куда ушли <persName ref="#knser"><roleName>князь</roleName></persName> и <persName ref="#avda"><surname>Дарзан</surname></persName>?</said> — и, подхватив наконец все мои деньги, а несколько полуимпериалов так и не успев засунуть в карман и держа в горсти, я пустился догонять князя и <persName ref="#avda"><surname>Дарзана</surname></persName>. Читатель, кажется, видит, что я не щажу себя и припоминаю в эту минуту всего себя тогдашнего, до последней гадости, чтоб было понятно, что потом могло выйти.</p>
             <p>Князь и <persName ref="#avda"><surname>Дарзан</surname></persName> уже спустились с лестницы, не обращая ни малейшего внимания на мой зов и крики. Я уже догнал их, но остановился на секунду перед швейцаром и сунул ему в руку три полуимпериала, черт знает зачем; он поглядел на меня с недоумением и даже не поблагодарил. Но мне было всё равно, и если бы тут был и <persName ref="#matve"><forename>Матвей</forename></persName>, то я наверно бы отвалил ему целую горсть золотых, да так и хотел, кажется, сделать, но, выбежав на крыльцо, вдруг вспомнил, что я его еще давеча отпустил домой. В эту минуту <persName ref="#knser"><roleName>князю</roleName></persName> подали его рысака, и он сел в сани.</p>
             <p>— <said aloud="true" direct="true" who="#amd" toWhom="#knser">Я с вами, <persName ref="#knser"><roleName>князь</roleName></persName>, и к вам!</said> — крикнул я, схватил полость и отмахнул ее, чтоб влезть в его сани; но вдруг, мимо меня, в сани вскочил <persName ref="#avda"><surname>Дарзан</surname></persName>, и кучер, вырвав у меня полость, запахнул господ.</p>
@@ -4809,8 +4809,15 @@
 <person xml:id="zers" sex="male">
           <persName>Зерщиков</persName>
 </person>
+<person xml:id="neizga" sex="male">
+              <persName>неизвестные голоса</persName>
+</person>
 <person xml:id="aferd" sex="male">
           <persName>Афердов</persName>
+</person>
+<person xml:id="chtpg" sex="male">
+  <persName>чей-то подленький голос</persName>
+ 
 </person>
 <person xml:id="usach" sex="male">
           <persName>усач</persName>
