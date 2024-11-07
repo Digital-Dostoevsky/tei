@@ -13,6 +13,7 @@
           <name xml:id="KB">Katherine Bowers</name>
           <name xml:id="ES">Elijah Sciborowski</name>
           <name xml:id="LS">Liza Shershneva</name>
+          <name xml:id="KH">Kate Holland</name>
         </respStmt>
         <principal>Kate Holland</principal>
         <funder>Social Sciences and Humanities Research Council of Canada</funder>
@@ -63,6 +64,7 @@
         <change when="2023-05-10" who="#ES">[markup]:Started tagging II.</change>
         <change when="2024-03-10" who="#LS">[markup]:Started tagging II.</change>
         <change when="2024-07-10" who="#LS">[markup]:Finished tagging II.</change>
+        <change when="2024-11-07" who="#KH"></change>
       </revisionDesc>
     
     
