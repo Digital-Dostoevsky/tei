@@ -166,7 +166,7 @@
 			  <change when="2024-11-05" who="#NI">fixed Part I, sections VI–VII, Part II section I.</change>
 			  <change when="2024-11-06" who="#NI">fixed Part II, sections II–IV, cleaned up tags.</change>
 			  <change when="2024-11-07" who="#NI">finished proofing Part II, fixed tags in the back.</change>
-			  
+			  <change when="2025-01-17" who="#KB">drafted README.md file and moved the Dusso restaurant in the backmatter from "other" to "St Petersburg"</change>
 			  
         </revisionDesc>
       
@@ -6299,6 +6299,10 @@
 				      <placeName>Митрофаниевское кладбище</placeName>
 				    </place>
 				    
+				    <place type="restaurant" xml:id="duss">
+				      <placeName>Дюссо</placeName>
+				    </place>
+				    
 				  </listPlace>
 				  
 				  
@@ -6470,9 +6474,7 @@
             
             
             
-            <place type="hotel" xml:id="duss">
-              <placeName>Дюссот</placeName>
-            </place>
+            
             <place type="bay" xml:id="baynap">
               <placeName>Неаполитанский залив</placeName>
             </place>
