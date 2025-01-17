@@ -36,7 +36,8 @@ Places are tagged more or less in the same way as person names. Each place recei
 
 Most of speech tagging was straightforward in this novel, though there are a few peculiarities. 
 
+There are many instances of speech where multiple addressees are present. These are tagged in the following way (as an example): ```<who=“#stv” toWhom= “#vps” “#alg”>```
 
-## Odds and ends
+Finally, there are a couple instances where speech not assignable to particular people is more or less just floating around – that is, there is dialogue, but there is no indication who specifically is speaking or being spoken to. In these cases speech is tagged without a who or toWhom. 
 
  
