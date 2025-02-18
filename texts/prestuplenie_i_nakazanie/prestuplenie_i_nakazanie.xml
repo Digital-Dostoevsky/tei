@@ -167,6 +167,7 @@
 			  <change when="2024-11-06" who="#NI">fixed Part II, sections II–IV, cleaned up tags.</change>
 			  <change when="2024-11-07" who="#NI">finished proofing Part II, fixed tags in the back.</change>
 			  <change when="2025-01-17" who="#KB">drafted README.md file and moved the Dusso restaurant in the backmatter from "other" to "St Petersburg"</change>
+			  <change when="2025-02-18" who="#KB">added missing # to some xml ids in Part V</change>
 			  
         </revisionDesc>
       
@@ -3396,20 +3397,20 @@
             <p>Беспокойный бред охватывал ее более и более. Порой она вздрагивала, обводила кругом глазами, узнавала всех на минуту; но тотчас же сознание снова сменялось бредом. Она хрипло и трудно дышала, что-то как будто клокотало в горле.</p>
             <p>— <said aloud="true" direct="false" who="#kim">Я говорю ему: <q who="#kim" toWhom="#nachszm">«Ваше превосходительство!..»</q></said> — выкрикивала она, отдыхиваясь после каждого слова, — <said aloud="true" direct="false" who="#kim" toWhom="#nsm #lsm">эта <persName ref="#alul"><forename>Амалия</forename> <addName type="patronymic">Людвиговна</addName></persName>... ах! <persName ref="#lsm"><addName type="diminutive">Леня</addName></persName>, <persName ref="#nsm"><addName type="diminutive">Коля</addName></persName>! ручки в боки, скорей, скорей, <foreign xml:lang="fr">глиссе-глиссе, па-де-баск</foreign>! Стучи ножками... Будь грациозный ребенок. </said></p>
               <lg>
-                <l><said aloud="true" direct="true" who="kim" toWhom="#psm #nsm #lsm"><foreign xml:lang="de">Du hast Diamanten und Perlen</foreign>...</said></l>
+                <l><said aloud="true" direct="true" who="#kim" toWhom="#psm #nsm #lsm"><foreign xml:lang="de">Du hast Diamanten und Perlen</foreign>...</said></l>
               </lg>
-              <p><said aloud="true" direct="true" who="kim" toWhom="#psm #nsm #lsm">Как дальше-то? Вот бы спеть...</said></p>
+              <p><said aloud="true" direct="true" who="#kim" toWhom="#psm #nsm #lsm">Как дальше-то? Вот бы спеть...</said></p>
               <lg>
-                <l><said aloud="true" direct="true" who="kim" toWhom="#psm #nsm #lsm"><foreign xml:lang="de">Du hast die schönsten Augen</foreign>,</said></l>
-                <l><said aloud="true" direct="true" who="kim" toWhom="#psm #nsm #lsm"><foreign xml:lang="de">Mädchen, was willst du mehr</foreign>?</said></l>
+                <l><said aloud="true" direct="true" who="#kim" toWhom="#psm #nsm #lsm"><foreign xml:lang="de">Du hast die schönsten Augen</foreign>,</said></l>
+                <l><said aloud="true" direct="true" who="#kim" toWhom="#psm #nsm #lsm"><foreign xml:lang="de">Mädchen, was willst du mehr</foreign>?</said></l>
               </lg>
-            <p><said aloud="true" direct="true" who="kim" toWhom="#psm #nsm #lsm">Ну да, как не так! <foreign xml:lang="de">was willst du mehr</foreign>, — выдумает же, болван!.. Ах да, вот еще:</said></p>
-            <p><said aloud="true" direct="true" who="kim" toWhom="#psm #nsm #lsm">В полдневный жар, в долине <placeName ref="#dgst">Дагестана</placeName>...</said></p>
+            <p><said aloud="true" direct="true" who="#kim" toWhom="#psm #nsm #lsm">Ну да, как не так! <foreign xml:lang="de">was willst du mehr</foreign>, — выдумает же, болван!.. Ах да, вот еще:</said></p>
+            <p><said aloud="true" direct="true" who="#kim" toWhom="#psm #nsm #lsm">В полдневный жар, в долине <placeName ref="#dgst">Дагестана</placeName>...</said></p>
 
-              <p><said aloud="true" direct="true" who="kim" toWhom="#psm #nsm #lsm">Ах, как я любила... Я до обожания любила этот романс, <persName ref="#psm"><addName type="diminutive">Полечка</addName></persName>!.. знаешь, твой отец... еще женихом певал... О, дни!.. Вот бы, вот бы нам спеть! Ну как же, как же... вот я и забыла... да напомните же, как же?</said> — Она была в чрезвычайном волнении и усиливалась приподняться. Наконец, страшным, хриплым, надрывающимся голосом она начала, вскрикивая и задыхаясь на каждом слове, с видом какого-то возраставшего испуга:</p>
+              <p><said aloud="true" direct="true" who="#kim" toWhom="#psm #nsm #lsm">Ах, как я любила... Я до обожания любила этот романс, <persName ref="#psm"><addName type="diminutive">Полечка</addName></persName>!.. знаешь, твой отец... еще женихом певал... О, дни!.. Вот бы, вот бы нам спеть! Ну как же, как же... вот я и забыла... да напомните же, как же?</said> — Она была в чрезвычайном волнении и усиливалась приподняться. Наконец, страшным, хриплым, надрывающимся голосом она начала, вскрикивая и задыхаясь на каждом слове, с видом какого-то возраставшего испуга:</p>
             <lg>
-              <l><said aloud="true" direct="true" who="kim" toWhom="#psm #nsm #lsm">В полдневный жар!.. в долине!.. <placeName ref="#dgst">Дагестана</placeName>!..</said></l>
-              <l><said aloud="true" direct="true" who="kim" toWhom="#psm #nsm #lsm">С свинцом в груди!..</said></l>
+              <l><said aloud="true" direct="true" who="#kim" toWhom="#psm #nsm #lsm">В полдневный жар!.. в долине!.. <placeName ref="#dgst">Дагестана</placeName>!..</said></l>
+              <l><said aloud="true" direct="true" who="#kim" toWhom="#psm #nsm #lsm">С свинцом в груди!..</said></l>
             </lg>
 
 
