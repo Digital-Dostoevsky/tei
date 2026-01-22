@@ -217,8 +217,9 @@
         <change when="2024-10-21" who="#SV">[markup]: finished checking Part 3, Ch 4</change>
         <change when="2024-11-01" who="#KH">[markup]: fixing errors discovered in said tags</change>
         <change when="2024-11-04" who="#KH">[markup]: fixing errors discovered in said tags and added #ikmon</change>
-        <change when="2024-11-16" who="#EV">[markup]: fixed the epigraphes</change>
+        <change when="2024-11-16" who="#EV">[markup]: fixed the epigraphs</change>
         <change when="2025-04-09" who="#KH">[markup]: checking Part 1, correcting encoding errors, adding addressees where missing in said tags</change>
+        <change when="2026-01-21" who="#KH">[markup]: fixed some groups for consistency></change>
     </revisionDesc>
     
     
@@ -3976,17 +3977,17 @@
             <p>Это выскочило невольно и, я уверен, безо всякой демонстрации. Просто устал человек. Но господин <persName ref="#sek"><surname>Кармазинов</surname></persName> приостановился, насмешливо поглядел на публику и вдруг просюсюкал с осанкою уязвленного камергера:</p>
             <p>— <said aloud="true" direct="true" who="#sek" toWhom="#dempublic">Я, кажется, вам, господа, надоел порядочно? </said></p>
             <p>Вот в том-то и вина его, что он первый заговорил; ибо, вызывая таким образом на ответ, тем самым дал возможность всякой сволочи тоже заговорить и, так сказать, даже законно, тогда как если б удержался, то посморкались-посморкались бы, и сошло бы как-нибудь... Может быть, он ждал аплодисмента в ответ на свой вопрос; но аплодисмента не раздалось; напротив, все как будто испугались, съежились и притихли.</p>
-            <p>— <said aloud="true" direct="true" who="#dempublic" toWhom="#sek">Вы вовсе никогда не видали <persName ref="#marz">Анк Марция</persName>, это всё слог</said>, — раздался вдруг один раздраженный, даже как бы наболевший голос.</p>
-            <p>— <said aloud="true" direct="true" who="#dempublic" toWhom="#sek">Именно</said>, — подхватил сейчас же другой голос, — <said aloud="true" direct="true" who="#dempublic" toWhom="#sek">нынче нет привидений, а естественные науки. Справьтесь с естественными науками. </said></p>
-            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#dempublic">Господа, я менее всего ожидал таких возражений</said>, — ужасно удивился <persName ref="#sek"><surname>Кармазинов</surname></persName>. Великий гений совсем отвык в <placeName ref="#karls">Карлсруэ</placeName> от отечества.</p>
+            <p>— <said aloud="true" direct="true" who="#dirnabvo" toWhom="#sek">Вы вовсе никогда не видали <persName ref="#marz">Анк Марция</persName>, это всё слог</said>, — раздался вдруг один раздраженный, даже как бы наболевший голос.</p>
+            <p>— <said aloud="true" direct="true" who="#dotvo" toWhom="#sek">Именно</said>, — подхватил сейчас же другой голос, — <said aloud="true" direct="true" who="#dotvo" toWhom="#sek">нынче нет привидений, а естественные науки. Справьтесь с естественными науками. </said></p>
+            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#dirnabvo""#dotvo">Господа, я менее всего ожидал таких возражений</said>, — ужасно удивился <persName ref="#sek"><surname>Кармазинов</surname></persName>. Великий гений совсем отвык в <placeName ref="#karls">Карлсруэ</placeName> от отечества.</p>
             <p>— <said aloud="true" direct="true" who="#dev1" toWhom="#sek">В наш век стыдно читать, что мир стоит на трех рыбах</said>, — протрещала вдруг <persName ref="#dev1">одна девица</persName>. — <said aloud="true" direct="true" who="#dev1" toWhom="#sek">Вы, <persName ref="#sek"><surname>Кармазинов</surname></persName>, не могли спускаться в пещеры к пустыннику. Да и кто говорит теперь про пустынников? </said></p>
-            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#dempublic">Господа, всего более удивляет меня, что это так серьезно. Впрочем... впрочем, вы совершенно правы. Никто более меня не уважает реальную правду...</said></p>
+            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#devl1""dirnabvo""#dotvo">Господа, всего более удивляет меня, что это так серьезно. Впрочем... впрочем, вы совершенно правы. Никто более меня не уважает реальную правду...</said></p>
             <p>Он хоть и улыбался иронически, но сильно был поражен. Лицо его так и выражало: <q>«Я ведь не такой, как вы думаете, я ведь за вас, только хвалите меня, хвалите больше, как можно больше, я это ужасно люблю...»</q></p>
             <p>— <said aloud="true" direct="true" who="#sek" toWhom="#dempublic">Господа</said>, — прокричал он наконец, уже совсем уязвленный, — <said aloud="true" direct="true" who="#sek" toWhom="#dempublic">я вижу, что моя бедная поэмка не туда попала. Да и сам я, кажется, не туда попал. </said></p>
-            <p>— <said aloud="true" direct="true" who="#dempublic" toWhom="#sek">Метил в ворону, а попал в корову</said>, — крикнул во всё горло какой-то дурак, должно быть пьяный, и на него, уж конечно, не надо бы обращать внимания. Правда, раздался непочтительный смех.</p>
-            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#dempublic">В корову, говорите вы?</said> — тотчас же подхватил <persName ref="#sek"><surname>Кармазинов</surname></persName>. Голос его становился всё крикливее. — <said aloud="true" direct="true" who="#sek" toWhom="#dempublic">Насчет ворон и коров я позволю себе, господа, удержаться. Я слишком уважаю даже всякую публику, чтобы позволить себе сравнения, хотя бы и невинные; но я думал...</said></p>
-            <p>— <said aloud="true" direct="true" who="#dempublic" toWhom="#sek">Однако вы, милостивый государь, не очень бы...</said> — прокричал кто-то из задних рядов.</p>
-            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#dempublic">Но я полагал, что, кладя перо и прощаясь с читателем, буду выслушан... </said></p>
+            <p>— <said aloud="true" direct="true" who="#ddrfoo" toWhom="#sek">Метил в ворону, а попал в корову</said>, — крикнул во всё горло какой-то дурак, должно быть пьяный, и на него, уж конечно, не надо бы обращать внимания. Правда, раздался непочтительный смех.</p>
+            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#ddrfoo">В корову, говорите вы?</said> — тотчас же подхватил <persName ref="#sek"><surname>Кармазинов</surname></persName>. Голос его становился всё крикливее. — <said aloud="true" direct="true" who="#sek" toWhom="#ddrfoo">Насчет ворон и коров я позволю себе, господа, удержаться. Я слишком уважаю даже всякую публику, чтобы позволить себе сравнения, хотя бы и невинные; но я думал...</said></p>
+            <p>— <said aloud="true" direct="true" who="#dbackso" toWhom="#sek">Однако вы, милостивый государь, не очень бы...</said> — прокричал кто-то из задних рядов.</p>
+            <p>— <said aloud="true" direct="true" who="#sek" toWhom="#dbackso">Но я полагал, что, кладя перо и прощаясь с читателем, буду выслушан... </said></p>
             <p>— <said aloud="true" direct="true" who="#dempublic2" toWhom="#sek">Нет, нет, мы желаем слушать, желаем</said>, — раздалось несколько осмелившихся наконец <persName ref="#dempublic2">голосов из первого ряда</persName>.</p>
             <p>— <said aloud="true" direct="true" who="#dempublic3" toWhom="#sek">Читайте, читайте!</said> — подхватило несколько <persName ref="#dempublic3">восторженных дамских голосов</persName>, и наконец-то прорвался аплодисмент, правда мелкий, жиденький. <persName ref="#sek"><surname>Кармазинов</surname></persName> криво улыбнулся и привстал с места.</p>
             <p>— <said aloud="true" direct="true" who="#predv" toWhom="#sek">Поверьте, <persName ref="#sek"><surname>Кармазинов</surname></persName>, что все считают даже за честь...</said> — не удержалась даже сама <persName ref="#ref"><roleName>предводительша</roleName></persName>.</p>
@@ -6055,6 +6056,22 @@
             </person>
             <person xml:id="ansiv" sex="female">
               <persName>Анисим Иванович</persName>
+            </person>
+            
+            <person xml:id="dirnabvo" sex="male">
+              <persName>раздраженный, даже как бы наболевший голос</persName>
+            </person>
+            
+            <person xml:id="#dotvo" sex="male">
+              <persName>другой голос</persName>
+            </person>
+            
+            <person xml:id="#ddrfoo" sex="male">
+              <persName>дурак, должно быть пьяный</persName>
+            </person>
+            
+            <person xml:id="#dbackso" sex="male">
+              <persName>кто-то из задних рядов</persName>
             </person>
             
             <personGrp xml:id="dmzhki">
