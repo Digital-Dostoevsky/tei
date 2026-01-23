@@ -220,6 +220,8 @@
         <change when="2024-11-16" who="#EV">[markup]: fixed the epigraphs</change>
         <change when="2025-04-09" who="#KH">[markup]: checking Part 1, correcting encoding errors, adding addressees where missing in said tags</change>
         <change when="2026-01-21" who="#KH">[markup]: fixed some groups for consistency></change>
+        <change when="2026-01-22" who="#KH">[markup]: fixed some groups and added some individual ids for consistency</change>
+        <change when="2026-01-23" who="#KH">[markup]: fixed some groups and added some individual ids for consistency</change>
         <change when="2026-01-23" who="#KB">[markup]: removed the group #demtolpa for clarity</change>
     </revisionDesc>
     
