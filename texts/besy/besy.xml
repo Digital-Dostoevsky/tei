@@ -6096,6 +6096,10 @@
               <persName>кто-то из другого конца</persName>
             </person>
             
+            <person xml:id="dshyvo" sex="male">
+              <persName>скромный голос</persName>
+            </person>
+            
             <personGrp xml:id="dmzhki">
               <persName>мужики</persName>
             </personGrp>
