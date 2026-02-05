@@ -223,6 +223,7 @@
         <change when="2026-01-22" who="#KH">[markup]: fixed some groups and added some individual ids for consistency</change>
         <change when="2026-01-23" who="#KH">[markup]: fixed some groups and added some individual ids for consistency</change>
         <change when="2026-01-23" who="#KB">[markup]: removed the group #demtolpa for clarity</change>
+        <change when="2026-02-05" who="#KB">[markup]: copied original TEI file for temporality tagging</change>
     </revisionDesc>
     
     
