@@ -40,6 +40,7 @@ There are many instances of speech where multiple addressees are present. These 
 
 Finally, there are a couple instances where speech not assignable to particular people is more or less just floating around – that is, there is dialogue, but there is no indication who specifically is speaking or being spoken to. In these cases speech is tagged without a who or toWhom. 
 
-## U Tikhona
+## Temporality
 
-An encoded version of this section of the novel which was not originally published because of censorship can also be found in this repository and follows the same encoding model.
+We are experimenting with temporality tagging in this branch. 
+
