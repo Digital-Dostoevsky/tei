@@ -63,21 +63,21 @@
         </list>
       </p>
       <schemaSpec ident="dostoevschema" start="TEI" prefix="tei_" targetLang="en" docLang="en">
+        <moduleRef key="core"
+          include="addrLine address author biblStruct date editor emph foreign head hi imprint item l lb lg list milestone monogr name note p pubPlace publisher q quote resp respStmt rs said title"/>
+        <moduleRef key="namesdates"
+          include="addName forename listObject listPerson listPlace object objectIdentifier objectName orgName persName person personGrp place placeName roleName state surname"/>
+        <moduleRef key="linking" include="seg"/>
+        <moduleRef key="header"
+          include="biblFull change creation fileDesc funder langUsage language principal profileDesc publicationStmt revisionDesc sourceDesc teiHeader titleStmt"/>
+        <moduleRef key="spoken" include="writing"/>
+        <moduleRef key="textstructure"
+          include="TEI back body div div1 div2 div3 epigraph front text"/>
         
-        <!-- required minimal header elements -->
-        <moduleRef key="namesdates"/><moduleRef key="linking"/><moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt sourceDesc"/>
-        
-        <!-- required core elements (p and title for use in titleStmt) -->
-        <moduleRef key="core" include="p title q said"/>
-        
-        <!-- required textstructure elements (TEI, text, and body) -->
-        <moduleRef key="textstructure" include="TEI text body"/>
-        
-        <!-- required module tei instantiates lots of classes used for further expansion of this odd -->
+        <!--Include everything from the TEI module, including attribute classes,
+          model classes, datatypes, and macros -->
         <moduleRef key="tei"/>
-        
-        
-      <elementSpec ident="seg" mode="change"><attList><attDef ident="met" mode="delete"/><attDef ident="real" mode="delete"/><attDef ident="rhyme" mode="delete"/></attList></elementSpec></schemaSpec>
+      </schemaSpec>
     </body>
   </text>
 </TEI>
