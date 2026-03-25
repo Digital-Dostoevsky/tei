@@ -1202,7 +1202,7 @@
             <p>И он кувыркнулся вниз.</p>
             <p><persName ref="#rrr"><surname>Раскольников</surname></persName> тронулся дальше.</p>
             <p>— <said aloud="true" direct="true" who="#dukl" toWhom="#rrr">Послушайте, барин!</said> — крикнула вслед девица.</p>
-            <p>— <said aloud="true" direct="true" who="#rrr" toWhom="#dukl">Что? </said></p>
+            <p>— <said aloud="true" direct="true" who="#rrr" toWhom="#duk1">Что?</said></p>
             <p>Она законфузилась.</p>
             <p>— <said aloud="true" direct="true" who="#dukl" toWhom="#rrr">Я, милый барин, всегда с вами рада буду часы разделить, а теперь вот как-то совести при вас не соберу. Подарите мне, приятный кавалер, шесть копеек на выпивку! </said></p>
             <p><persName ref="#rrr"><surname>Раскольников</surname></persName> вынул сколько вынулось: три пятака.</p>
