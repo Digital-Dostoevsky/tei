@@ -2162,38 +2162,38 @@
             <p><said aloud="false" direct="true" who="#mysh" toWhom="#mysh">«Может быть, сам и выдумал»</said>, — подумал <persName ref="#mysh"><roleName>князь</roleName></persName> про себя.</p>
             <p>Но совсем другое было с <persName ref="#agla"><forename>Аглаей</forename></persName>. Всю первоначальную аффектацию и напыщенность, с которою она выступила читать, она прикрыла такою серьезностью и таким проникновением в дух и смысл поэтического произведения, с таким смыслом произносила каждое слово стихов, с такою высшею простотой проговаривала их, что в конце чтения не только увлекла всеобщее внимание, но передачей высокого духа баллады как бы и оправдала отчасти ту усиленную, аффектированную важность, с которою она так торжественно вышла на средину террасы. В этой важности можно было видеть теперь только безграничность и, пожалуй, даже наивность ее уважения к тому, что она взяла на себя передать. Глаза ее блистали, и легкая, едва заметная судорога вдохновения и восторга раза два прошла по ее прекрасному лицу. Она прочла:</p>
             <quote source="#asp">
-  <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Жил на свете рыцарь бедный,</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Молчаливый и простой,</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>С виду сумрачный и бледный,</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Духом смелый и прямой.</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Он имел одно виденье,</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Непостижное уму, —</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>И глубоко впечатленье</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>В сердце врезалось ему.</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>С той поры, сгорев душою,</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Он на женщин не смотрел,</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Он до гроба ни с одною</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Молвить слова не хотел.</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Он себе на шею четки</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Вместо шарфа навязал,</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>И с лица стальной решетки</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Ни пред кем не подымал.</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Полон чистою любовью,</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Верен сладостной мечте,</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l><hi rend="italic"><foreign xml:lang="la">А. М. D.</foreign></hi> своею кровью</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Начертал он на щите.</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>И в пустынях <placeName ref="#plst">Палестины</placeName>,</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Между тем как по скалам</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Мчались в битву паладины,</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Именуя громко дам,</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l><foreign xml:lang="la">Lumen coeli, sancta Rosa</foreign>!</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Восклицал он, дик и рьян,</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>И как гром его угроза</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Поражала мусульман.</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Возвратись в свой замок дальний.</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Жил он, строго заключен,</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Всё безмолвный, всё печальный,</l></lg></said>
-              <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Как безумец умер он.</l></lg></said>
+  <said aloud="true" direct="true" who="#agla" toWhom="#mysh"><lg><l>Жил на свете рыцарь бедный,</l></lg>
+              <lg><l>Молчаливый и простой,</l></lg>
+              <lg><l>С виду сумрачный и бледный,</l></lg>
+              <lg><l>Духом смелый и прямой.</l></lg>
+              <lg><l>Он имел одно виденье,</l></lg>
+              <lg><l>Непостижное уму, —</l></lg>
+              <lg><l>И глубоко впечатленье</l></lg>
+              <lg><l>В сердце врезалось ему.</l></lg>
+              <lg><l>С той поры, сгорев душою,</l></lg>
+              <lg><l>Он на женщин не смотрел,</l></lg>
+              <lg><l>Он до гроба ни с одною</l></lg>
+              <lg><l>Молвить слова не хотел.</l></lg>
+              <lg><l>Он себе на шею четки</l></lg>
+              <lg><l>Вместо шарфа навязал,</l></lg>
+              <lg><l>И с лица стальной решетки</l></lg>
+              <lg><l>Ни пред кем не подымал.</l></lg>
+              <lg><l>Полон чистою любовью,</l></lg>
+              <lg><l>Верен сладостной мечте,</l></lg>
+              <lg><l><hi rend="italic"><foreign xml:lang="la">А. М. D.</foreign></hi> своею кровью</l></lg>
+              <lg><l>Начертал он на щите.</l></lg>
+              <lg><l>И в пустынях <placeName ref="#plst">Палестины</placeName>,</l></lg>
+              <lg><l>Между тем как по скалам</l></lg>
+              <lg><l>Мчались в битву паладины,</l></lg>
+              <lg><l>Именуя громко дам,</l></lg>
+              <lg><l><foreign xml:lang="la">Lumen coeli, sancta Rosa</foreign>!</l></lg>
+              <lg><l>Восклицал он, дик и рьян,</l></lg>
+              <lg><l>И как гром его угроза</l></lg>
+              <lg><l>Поражала мусульман.</l></lg>
+              <lg><l>Возвратись в свой замок дальний.</l></lg>
+              <lg><l>Жил он, строго заключен,</l></lg>
+              <lg><l>Всё безмолвный, всё печальный,</l></lg>
+              <lg><l>Как безумец умер он.</l></lg></said>
             </quote>
             <p>Припоминая потом всю эту минуту, <persName ref="#mysh"><roleName>князь</roleName></persName> долго в чрезвычайном смущении мучился одним неразрешимым для него вопросом: как можно было соединить такое истинное, прекрасное чувство с такою явною и злобною насмешкой? Что была насмешка, в том он не сомневался; он ясно это понял и имел на то причины: во время чтения <persName ref="#agla"><forename>Аглая</forename></persName> позволила себе переменить буквы <hi rend="italic"><foreign xml:lang="la">А. М. D.</foreign></hi> в буквы <hi rend="italic">Н. Ф. Б.</hi> Что тут была не ошибка и не ослышка с его стороны — в том он сомневаться не мог (впоследствии это было доказано). Во всяком случае выходка <persName ref="#agla"><forename>Аглаи</forename></persName>, — конечно, шутка, хоть слишком резкая и легкомысленная, — была преднамеренная. О <q>«рыцаре бедном»</q> все говорили (и <q>«смеялись»</q>) еще месяц назад. А между тем, как ни припоминал потом <persName ref="#mysh"><roleName>князь</roleName></persName>, выходило, что <persName ref="#agla"><forename>Аглая</forename></persName> произнесла эти буквы не только без всякого вида шутки, или какой-нибудь усмешки, или даже какого-нибудь напирания на эти буквы, чтобы рельефнее выдать их затаенный смысл, но, напротив, с такою неизменною серьезностью, с такою невинною и наивною простотой, что можно было подумать, что эти самые буквы и были в балладе и что так было в книге напечатано. Что-то тяжелое и неприятное как бы уязвило <persName ref="#mysh"><roleName>князя</roleName></persName>. <persName ref="#eep"><forename>Лизавета</forename> <addName type="patronymic">Прокофьевна</addName></persName>, конечно, не поняла и не заметила ни подмены букв, ни намека.  <persName ref="#epanc"><roleName>Генерал</roleName> <forename>Иван</forename> <addName type="patronymic">Федорович</addName></persName> понял только, что декламировали стихи. Из остальных слушателей очень многие поняли и удивились и смелости выходки и намерению, но смолчали и старались не показывать виду. Но <persName ref="#evgen"><forename>Евгений</forename> <addName type="patronymic">Павлович</addName></persName> (<persName ref="#mysh"><roleName>князь</roleName></persName> даже об заклад готов был побиться) не только понял, но даже старался и вид показать, что понял: он слишком насмешливо улыбнулся.</p>
             <p>— <said aloud="true" direct="true" who="#eep" toWhom="#agla">Экая прелесть какая!</said> — воскликнула <persName ref="#eep"><roleName>генеральша</roleName></persName> в истинном упоении, только что кончилось чтение. — <said aloud="true" direct="true" who="#eep" toWhom="#agla">Чьи стихи? </said></p>
