@@ -5040,6 +5040,9 @@
 				    <person xml:id="med" sex="male">
 				      <persName>медик</persName>
 				    </person>
+				    <person xml:id="medz" sex="female">
+				      <persName>жена медика</persName>
+				    </person>
             <person xml:id="pazk" sex="female">
 	 <persName>княгиня Пацкая</persName>
  </person>
