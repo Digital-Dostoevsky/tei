@@ -23,7 +23,7 @@
   </target>
     
   <target name="rng">
-      <description>Uses the TEI Stylesheets (bundled in the Stylesheets)
+      <description>Uses the TEI Stylesheets (bundled in oXygen)
       to convert the expanded ODD to RNG</description>
       <ant antfile="${stylesheetsDir}/rng/build-to.xml" inheritall="false">
           <property name="inputFile" value="${expandedODD}"/>
