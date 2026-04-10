@@ -42,5 +42,9 @@ Finally, there are a couple instances where speech not assignable to particular 
 
 ## Temporality
 
-We are experimenting with temporality tagging in this branch. 
+We have begun to tag some temporal markers in the text. Specific dates have been encoded using <date>. 
+
+## Narrative Shifts
+
+We have used the <shift> tag to mark shifts in narrative voice. So far we have done this for the first chapter of each part only. We have categorized the shifts using: Narrational, Prehistory, ImmediatePast, UnknownPast, Rumour, and NovelPresent. 
 
