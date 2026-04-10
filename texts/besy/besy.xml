@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="besy">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -224,7 +224,7 @@
         <change when="2026-01-23" who="#KH">[markup]: fixed some groups and added some individual ids for consistency</change>
         <change when="2026-01-23" who="#KB">[markup]: removed the group #demtolpa for clarity</change>
         <change when="2026-02-26" who="#KB">[markup]: corrected paragraph marks in chapter 1 part 8</change>
-        <change whesmn="2026-03-06" who="#KB">[markup]: deleted Stepan Trofimovich's second wife</change>
+        <change when="2026-03-06" who="#KB">[markup]: deleted Stepan Trofimovich's second wife</change>
     </revisionDesc>
     
     
