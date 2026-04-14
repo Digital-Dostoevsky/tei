@@ -4629,7 +4629,7 @@
 <person xml:id="kra" sex="male">
            <persName>Крафт</persName>
 </person>
-<person xml:id="#neizgp" sex="male">
+<person xml:id="neizgp" sex="male">
   <persName>неизвестный голос (у Дергачева)</persName>
 </person>
 <personGrp xml:id="grpkra">
