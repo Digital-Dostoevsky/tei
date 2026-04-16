@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="dostoevschema" default="all">
+  <description>
+      # Digital Dostoevsky Schema Build
+      
+      This build transform the ODD file into an RNG file. 
+      It _MUST_ be run from oXygen only; it uses the oXygen frameworks
+      rather than a local copy of the TEI Stylesheets.
+  </description>
+    
+  <property name="projectDir" value="${basedir}"/>
+  <property name="sourceODD" value="${projectDir}/dostoevschema.odd"/>
+  <property name="expandedODD" value="${projectDir}/dostoevschema.expanded.odd"/>
+  <property name="rng" value="${projectDir}/dostoevschema.rng"/>
+  
+  <property name="stylesheetsDir" value="${frameworksDir}/tei/xml/tei/stylesheet"/>
+  
+  <target name="expand">
+      <description>Expands the schema using XSLT</description>
+      <xslt force="yes" style="utilities/expand-ODD.xsl" in="${sourceODD}" out="${expandedODD}">
+          <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      </xslt>
+  </target>
+    
+  <target name="rng">
+      <description>Uses the TEI Stylesheets (bundled in oXygen)
+      to convert the expanded ODD to RNG</description>
+      <ant antfile="${stylesheetsDir}/rng/build-to.xml" inheritall="false">
+          <property name="inputFile" value="${expandedODD}"/>
+          <property name="outputFile" value="${rng}"/>
+      </ant>
+  </target>
+    
+   <target name="clean">
+       <delete file="${expandedODD}"/>
+   </target>
+      
+  <target name="all" depends="expand, rng, clean"/>
+  
+</project>
