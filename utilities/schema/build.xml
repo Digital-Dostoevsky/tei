@@ -8,16 +8,15 @@
       rather than a local copy of the TEI Stylesheets.
   </description>
     
-  <property name="projectDir" value="${basedir}"/>
-  <property name="sourceODD" value="${projectDir}/dostoevschema.odd"/>
-  <property name="expandedODD" value="${projectDir}/dostoevschema.expanded.odd"/>
-  <property name="rng" value="${projectDir}/dostoevschema.rng"/>
-  
+  <dirname property="projectDir" file="../../Digital-Dostoevsky.xpr"/>
+  <property name="sourceODD" value="${projectDir}/schema/dostoevschema.odd"/>
+  <property name="expandedODD" value="${projectDir}/schema/dostoevschema.expanded.odd"/>
+  <property name="rng" value="${projectDir}/schema/dostoevschema.rng"/>
   <property name="stylesheetsDir" value="${frameworksDir}/tei/xml/tei/stylesheet"/>
   
   <target name="expand">
       <description>Expands the schema using XSLT</description>
-      <xslt force="yes" style="utilities/expand-ODD.xsl" in="${sourceODD}" out="${expandedODD}">
+      <xslt force="yes" style="expand-ODD.xsl" in="${sourceODD}" out="${expandedODD}">
           <factory name="net.sf.saxon.TransformerFactoryImpl"/>
       </xslt>
   </target>
