@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="DigitalDostoevsky" default="all">
+    <description>Build for Digital Dostoevsky</description>
+    
+    <property name="projectDir" value="${basedir}"/>
+    <property name="libDir" value="${projectDir}/utilities/lib"/>
+    <property name="schemaDir" value="${projectDir}/schema"/>
+    <property name="textsDir" value="${projectDir}/texts"/>
+    
+    <property name="saxon.jar" value="${libDir}/saxon/saxon-he-12.9.jar"/>
+    
+    <!--Currently set as TEI All, but should use project
+        schema once possible-->
+    <property name="schema.rng" value="${schemaDir}/tei_all.rng"/>
+    
+    <fileset id="texts" dir="${textsDir}">
+        <include name="**/*.xml"/>
+    </fileset>
+    
+    <!--Validate all of the files-->
+    <target name="validate.rng">
+        <description>
+            target: validate.rng
+        
+            Validates all files in textsDir
+            against an RNG file.
+        </description>
+        <apply executable="java" parallel="true">
+            <arg line="-jar ${libDir}/jing.jar"/>
+            <arg value="${schema.rng}"/>
+            <fileset refid="texts"/>
+        </apply>
+    </target>
+    
+    <target name="validate.sch">
+        <java jar="${saxon.jar}" fork="true">
+            <arg line="-xsl:${libDir}/xsl-schematron/validate.xsl"/>
+            <arg line="-s:${libDir}/xsl-schematron/validate.xsl"/>
+            <arg line="rng=${schema.rng}"/>
+            <arg line="dir=${textsDir}"/>
+        </java>
+    </target>
+    
+    <target name="validate" depends="validate.rng, validate.sch"/>
+    
+    
+    
+    <target name="all" depends="validate"/>
+    
+    
+    
+</project>
