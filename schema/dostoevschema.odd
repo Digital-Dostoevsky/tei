@@ -72,6 +72,11 @@
           include="addName forename listObject listPerson listPlace
                    object objectIdentifier objectName orgName persName
                    person personGrp place placeName roleName state surname"/>
+        
+        <!--TODO:
+            Constrain addName to a small subset of types (closed list)
+            and probably remove the @ref attribute to avoid confusion -->
+        
         <moduleRef key="linking" include="seg"/>
         <moduleRef key="header"
           include="biblFull change creation fileDesc funder langUsage

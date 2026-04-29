@@ -3,10 +3,12 @@
     <description>Build for Digital Dostoevsky</description>
     
     <property name="projectDir" value="${basedir}"/>
+    <property name="utilitiesDir" value="${projectDir}/utilities"/>
     <property name="libDir" value="${projectDir}/utilities/lib"/>
     <property name="schemaDir" value="${projectDir}/schema"/>
     <property name="textsDir" value="${projectDir}/texts"/>
     
+    <property name="outputDir" value="${projectDir}/_public"/>
     <property name="saxon.jar" value="${libDir}/saxon/saxon-he-12.9.jar"/>
     
     <!--Currently set as TEI All, but should use project
@@ -41,11 +43,19 @@
         </java>
     </target>
     
+    <target name="diagnostics">
+        <java jar="${saxon.jar}" fork="true">
+            <arg line="-xsl:${utilitiesDir}/diagnostics.xsl"/>
+            <arg line="-it:go"/>
+            <arg line="outputDir=${outputDir}"/>
+        </java>
+    </target>
+    
     <target name="validate" depends="validate.rng, validate.sch"/>
     
     
     
-    <target name="all" depends="validate"/>
+    <target name="all" depends="validate, diagnostics"/>
     
     
     
