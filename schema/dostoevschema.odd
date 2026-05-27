@@ -44,34 +44,77 @@
     </fileDesc>
   </teiHeader>
   <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Dostoevschema</titlePart>
+          <titlePart type="sub">Schema and guidelines for Computational Dostoevsky</titlePart>
+        </docTitle>
+        <docAuthor></docAuthor>
+      </titlePage>
+      <p>This documentation describes the schema and encoding guidelines (<soCalled>Dostoevschema</soCalled>) for the Computational Dostoevsky project.</p>
+      <divGen type="toc"/>
+    </front>
     <body>
-      <head>A Minimal TEI Customization</head>
+      <head>Dostoevschema</head>
       
-      <p>This TEI ODD defines a TEI customization that is as minimal as possible and the schema generated from it will validate
-        a document that is minimally valid against the TEI scheme. It includes only the ten required elements:
-        <list rend="numbered">
-          <item><gi>teiHeader</gi> from the header module to store required metadata</item>
-          <item><gi>fileDesc</gi> from the header module to record information about this file</item>
-          <item><gi>titleStmt</gi> from the header module to record information about the title</item>
-          <item><gi>publicationStmt</gi> from the header module to detail how it is published</item>
-          <item><gi>sourceDesc</gi> from the header module to record where it is from</item>
-          <item><gi>p</gi> from the core module for use in the header and the body</item>
-          <item><gi>title</gi> from the core module for use in the titleStmt</item>
-          <item><gi>TEI</gi> from the textstructure module because what is a TEI file without that?</item>
-          <item><gi>text</gi> from the textstructure module to hold some text</item>
-          <item><gi>body</gi> from the textstructure module as a place to put that text</item>
-        </list>
-      </p>
+      <div>
+        <head>General Overview</head>
+      </div>
+      
+      <div>
+        <head>History of the Project</head>
+        <p></p>
+      </div>
+      
+      <div>
+        <head>Encoding Practices</head>
+        <div>
+          <head>Automated Tagging</head>
+          <p>Primarily automated tagging dealt with structural elements:
+            <specList>
+              <specDesc key="div1"/>
+              <specDesc key="div2"/>
+              <specDesc key="div3"/>
+            </specList>
+          
+          </p>
+        </div>
+        <div>
+          <head>Speech</head>
+          <p>Speech is encoded using the <gi>said</gi> element:
+            <specList>
+              <specDesc key="said" atts="who toWhom aloud direct"/>
+            </specList>
+          
+          </p>
+          
+         </div>
+      </div>
+      
+    </body>
+    <back>
       <schemaSpec ident="dostoevschema" start="TEI" prefix="tei_" targetLang="en" docLang="en">
         <moduleRef key="core"
           include="addrLine address author biblStruct date editor emph
-                   foreign head hi imprint item l lb lg list milestone
-                   monogr name note p pubPlace publisher q quote resp
-                   respStmt rs said title"/>
+          foreign head hi imprint item l lb lg list milestone
+          monogr name note p pubPlace publisher q quote resp
+          respStmt rs said title"/>
+        <!--        
+        <elementSpec ident="said" mode="change">
+          <attList>
+            <attDef ident="aloud" mode="change" usage="req"/>
+          </attList>
+          <remarks mode="add">
+            <p>In this project, if there is no <att>who</att> then....</p>
+          </remarks>
+        </elementSpec>
+        -->
+        
         <moduleRef key="namesdates"
           include="addName forename listObject listPerson listPlace
-                   object objectIdentifier objectName orgName persName
-                   person personGrp place placeName roleName state surname"/>
+          object objectIdentifier objectName orgName persName
+          person personGrp place placeName roleName state surname"/>
         
         <!--TODO:
             Constrain addName to a small subset of types (closed list)
@@ -80,13 +123,13 @@
         <moduleRef key="linking" include="seg"/>
         <moduleRef key="header"
           include="biblFull change creation fileDesc funder langUsage
-                   language principal profileDesc publicationStmt revisionDesc
-                   sourceDesc teiHeader titleStmt"/>
+          language principal profileDesc publicationStmt revisionDesc
+          sourceDesc teiHeader titleStmt"/>
         <moduleRef key="spoken" include="writing"/>
         <moduleRef key="textstructure"
           include="TEI back body div div1 div2 div3 epigraph front text"/>
         
-<!--        <!-\-Option 1: Delete att.divLike completely-\->
+        <!--        <!-\-Option 1: Delete att.divLike completely-\->
         <classSpec ident="att.divLike" type="atts" mode="delete"/>
         
         <!-\-Option 2: Remove att.metrical from att.divLike-\->
@@ -98,7 +141,7 @@
         -->
         <elementSpec ident="div" module="textstructure" mode="change">
           <attList>
-<!--            <attDef ident="rhyme" mode="delete"/>
+            <!--            <attDef ident="rhyme" mode="delete"/>
             <attDef ident="met" mode="delete"/>
             <attDef ident="real" mode="delete"/>-->
             <attDef ident="type" mode="change" usage="req">
@@ -127,6 +170,6 @@
           model classes, datatypes, and macros -->
         <moduleRef key="tei"/>
       </schemaSpec>
-    </body>
+    </back>
   </text>
 </TEI>
