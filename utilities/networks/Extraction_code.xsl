@@ -22,7 +22,11 @@
     -->
     
     <xsl:variable name="TAB" select="codepoints-to-string(9)"/>
-    <xsl:variable name="NEWLINE" select="codepoints-to-string(10)"/>  
+    <xsl:variable name="NEWLINE" select="codepoints-to-string(10)"/>
+    <xsl:param name="outputDir" select="'.'"/>
+    <xsl:variable name="texts"
+        as="document-node()+"
+        select="collection('../../texts?select=*.xml;recurse=yes')"/>
     
     <!--Use collection to get all of the documents (see the Diagnostics for an example)-->
     <!--For every document, create a new result document called `fileId.tsv`
@@ -39,15 +43,91 @@
         <!--Here is where you will iterate over the documents, create the result document,
             and then apply templates to each document to create the TSV output-->
         
+       <!-- Get the document ID from the TEI @xml:id attribute-->
+        <xsl:for-each select="$texts">
+            <xsl:variable name="docId"
+                select="//TEI/@xml:id"
+                as="xs:string"/>
+            <xsl:message>Processing <xsl:value-of select="$docId"/></xsl:message>
+            
+            
+       <!-- Create a result document named fileId.tsv for each source file-->
+            <xsl:result-document href="{$outputDir}/{$docId}.tsv" method="text">
+                <xsl:message>Creating <xsl:value-of select="current-output-uri()"/></xsl:message>
+                
+                
+                <!-- Write the header row-->
+                <xsl:variable name="headerValues" select="
+                    'Part', 'Section', 'Chapter', 'ID', 'Aloud', 'Direct', 'who', 'toWhom', 'text'"/>
+                <xsl:value-of select="string-join($headerValues, $TAB) || $NEWLINE"/>
+                
+                
+                <!-- Retrieve all variables in relation to said-->
+                <xsl:for-each select="//said[@who and @toWhom]">
+                    <xsl:variable name="part"
+                        select="string(ancestor::div1/@n)"
+                        as="xs:string"/>
+                    <xsl:variable name="section"
+                        select="string(ancestor::div2/@n)"
+                        as="xs:string"/>
+                    <xsl:variable name="chapter"
+                        select="string(ancestor::div3/@n)"
+                        as="xs:string"/>
+                    
+                    <!--Get id for the said value; this could be 
+                more location based if desired-->
+                    <xsl:variable name="saidId" select="generate-id(.)" as="xs:string"/>
+                    <xsl:variable name="aloud"
+                        select="if (@aloud) then string(@aloud) else 'unknown'"
+                        as="xs:string"/>
+                    <xsl:variable name="direct"
+                        select="if (@direct) then string(@direct) else 'unknown'"
+                        as="xs:string"/>
+                    
+                    
+                    <!--Since @who and @toWhom can have multiple values, we need to
+                split on spaces (i.e. tokenize) and then iterate for every
+                combination-->
+                    <xsl:variable name="whoTokens" select="tokenize(@who)" as="xs:string+"/>
+                    <xsl:variable name="toWhomTokens" select="tokenize(@toWhom)" as="xs:string+"/>
+                    
+                    
+                    <!--And then get raw string content -->
+                    <xsl:variable name="spContents" as="xs:string"
+                        select="descendant::text()
+                        => string-join()
+                        => normalize-space()
+                        "/>
+                    
+                    <xsl:for-each select="$whoTokens">
+                        <xsl:variable name="currWhoPtr" select="." as="xs:string"/>
+                        <xsl:for-each select="$toWhomTokens">
+                            <xsl:variable name="currToWhomPtr" select="." as="xs:string"/>
+                            <xsl:variable name="rowValues" as="xs:string+"
+                                select="($part, $section, $chapter, $saidId, $aloud,
+                                $direct, $currWhoPtr, $currToWhomPtr,
+                                $spContents)"/>
+                            <xsl:value-of select="string-join($rowValues, $TAB) || $NEWLINE"/>
+                        </xsl:for-each>
+                    </xsl:for-each>
+                </xsl:for-each>
+                
+            </xsl:result-document>
+        </xsl:for-each>
     </xsl:template>
+            
     
-    <xsl:template match="/">
-        <!-- Defines a template that matches the root node (/) of the XML document. -->
+    
+    
+   <!-- Joey's template, which I subsumed into the "go" template above
+       
+       <xsl:template match="/">
+        <!-\- Defines a template that matches the root node (/) of the XML document. -\->
         <xsl:variable name="headerValues" select="
             'Part', 'Section', 'Chapter', 'ID', 'Aloud', 'Direct', 'who', 'toWhom', 'text'"/>
         <xsl:value-of select="string-join($headerValues, $TAB) || $NEWLINE"/>
         <xsl:for-each select="//said[@who and @toWhom]">
-            <!--Retrieve all variables in relation to said-->
+            <!-\-Retrieve all variables in relation to said-\->
             <xsl:variable name="part" 
                 select="string(ancestor::div1/@n)"
                 as="xs:string"/>
@@ -57,8 +137,8 @@
             <xsl:variable name="chapter"
                 select="string(ancestor::div3/@n)"
                 as="xs:string"/>
-            <!--Get id for the said value; this could be 
-                more location based if desired-->
+            <!-\-Get id for the said value; this could be 
+                more location based if desired-\->
             <xsl:variable name="saidId" select="generate-id(.)" as="xs:string"/>
             <xsl:variable name="aloud" 
                 select="if (@aloud) then string(@aloud) else 'unknown'" 
@@ -67,13 +147,13 @@
                 select="if (@direct) then string(@direct) else 'unknown'" 
                 as="xs:string"/>
             
-            <!--Since @who and @toWhom can have multiple values, we need to
+            <!-\-Since @who and @toWhom can have multiple values, we need to
                 split on spaces (i.e. tokenize) and then iterate for every
-                combination-->
+                combination-\->
             <xsl:variable name="whoTokens" select="tokenize(@who)" as="xs:string+"/>
             <xsl:variable name="toWhomTokens" select="tokenize(@toWhom)" as="xs:string+"/>
            
-            <!--And then get raw string content -->
+            <!-\-And then get raw string content -\->
             <xsl:variable name="spContents" as="xs:string"
                 select="descendant::text() (: Get all text :)
                 => string-join() (: Then join all of it together :)
@@ -92,7 +172,7 @@
                 </xsl:for-each>
             </xsl:for-each>
         </xsl:for-each>
-    </xsl:template>
+    </xsl:template>-->
    
     
  <!-- 
