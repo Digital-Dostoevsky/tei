@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
+    xmlns:dd="https://github.com/Digital-Dostoevsky"
     version="3.0">
     <!-- Defines the root element of the XSLT stylesheet -->
     
@@ -14,11 +17,11 @@
         string-join((ancestor::div1/@n, ancestor::div2/@n), $TAB)"/>-->
     
 <!--   
-        <said who="personA personB" toWhom="personC personD"/>
-         1   1   1   true    true    personA      personC
-         1   1   1   true    true    personA      personD
-         1   1   1   true    true    personB      personC
-         1   1   1   true    true    personB      personD
+        <said who="#personA #personB" toWhom="#personC #personD"/>
+         1   1   1   true    true    #personA      #personC
+         1   1   1   true    true    #personA      #personD
+         1   1   1   true    true    #personB      #personC
+         1   1   1   true    true    #personB      #personD
     -->
     
     <xsl:variable name="TAB" select="codepoints-to-string(9)"/>
@@ -48,6 +51,10 @@
             <xsl:variable name="docId"
                 select="//TEI/@xml:id"
                 as="xs:string"/>
+            <xsl:variable name="people"
+                select="(//person[@xml:id], //personGrp[@xml:id])"
+                as="element()+"/>
+            
             <xsl:message>Processing <xsl:value-of select="$docId"/></xsl:message>
             
             
@@ -58,7 +65,8 @@
                 
                 <!-- Write the header row-->
                 <xsl:variable name="headerValues" select="
-                    'Part', 'Section', 'Chapter', 'ID', 'Aloud', 'Direct', 'who', 'toWhom', 'text'"/>
+                    'Part', 'Section', 'Chapter', 'ID', 'Aloud', 'Direct',
+                    'who', 'who_sex', 'toWhom', 'toWhom_sex',  'text'"/>
                 <xsl:value-of select="string-join($headerValues, $TAB) || $NEWLINE"/>
                 
                 
@@ -88,8 +96,10 @@
                     <!--Since @who and @toWhom can have multiple values, we need to
                 split on spaces (i.e. tokenize) and then iterate for every
                 combination-->
-                    <xsl:variable name="whoTokens" select="tokenize(@who)" as="xs:string+"/>
-                    <xsl:variable name="toWhomTokens" select="tokenize(@toWhom)" as="xs:string+"/>
+                    <xsl:variable name="whoTokens" 
+                        select="tokenize(@who)" as="xs:string+"/>
+                    <xsl:variable name="toWhomTokens" 
+                        select="tokenize(@toWhom)" as="xs:string+"/>
                     
                     
                     <!--And then get raw string content -->
@@ -100,12 +110,15 @@
                         "/>
                     
                     <xsl:for-each select="$whoTokens">
+                        <!--currWhoPtr: e.g. #zlts-->
                         <xsl:variable name="currWhoPtr" select="." as="xs:string"/>
+                        <xsl:variable name="whoSex" select="dd:getSexVal($currWhoPtr, $people)" as="xs:string"/>
                         <xsl:for-each select="$toWhomTokens">
                             <xsl:variable name="currToWhomPtr" select="." as="xs:string"/>
+                            <xsl:variable name="toWhomSex" select="dd:getSexVal($currToWhomPtr, $people)" as="xs:string"/>
                             <xsl:variable name="rowValues" as="xs:string+"
                                 select="($part, $section, $chapter, $saidId, $aloud,
-                                $direct, $currWhoPtr, $currToWhomPtr,
+                                $direct, $currWhoPtr, $whoSex,  $currToWhomPtr, $toWhomSex,
                                 $spContents)"/>
                             <xsl:value-of select="string-join($rowValues, $TAB) || $NEWLINE"/>
                         </xsl:for-each>
@@ -115,7 +128,33 @@
             </xsl:result-document>
         </xsl:for-each>
     </xsl:template>
-            
+    
+    <xd:doc>
+        <xd:desc>Function to retrieve the `@sex` value from an person pointer.</xd:desc>
+        <xd:param name="ptr">The ptr value (e.g. #rrr) for the person</xd:param>
+        <xd:param name="people">The declared people (e.g. person OR personGrp) in this file.</xd:param>
+        <xd:return>A string value as encoded in the person
+            (e.g. "male", "female" or "unknown")</xd:return>
+    </xd:doc>
+    <xsl:function name="dd:getSexVal" as="xs:string">
+        <xsl:param name="ptr" as="xs:string"/>
+        <xsl:param name="people" as="element()+"/>
+        <!--currWhoID: e.g. zlts-->
+        <xsl:variable name="currId" 
+            select="substring-after($ptr,'#')"
+            as="xs:string"/>
+        <!--Now find the person-->
+        <xsl:variable name="person" 
+            select="$people[@xml:id = $currId]" 
+            as="element()?"/>
+        <xsl:if test="empty($person)">
+            <xsl:message>WARNING: Cannot find corresponding entity for <xsl:value-of select="$ptr"/></xsl:message>
+        </xsl:if>
+        <xsl:variable name="sex" 
+            select="if ($person/@sex) then $person/@sex else 'unknown'"
+            as="xs:string"/>
+        <xsl:value-of select="$sex"/>
+    </xsl:function>
     
     
     
