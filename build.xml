@@ -59,11 +59,19 @@
         </java>
     </target>
     
+    <target name="networkTest">
+        <java jar="${saxon.jar}" fork="true">
+            <arg line="-xsl:${utilitiesDir}/networks/Extraction_code.xsl"/>
+            <arg line="-it:test"/>
+            <arg line="outputDir=${outputDir}"/>
+        </java>
+    </target>
+    
     <target name="validate" depends="validate.rng, validate.sch"/>
     
     
     
-    <target name="all" depends="validate, diagnostics, networks"/>
+    <target name="all" depends="validate, diagnostics, networks, networkTest"/>
     
     
     
