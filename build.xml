@@ -66,12 +66,20 @@
             <arg line="outputDir=${outputDir}"/>
         </java>
     </target>
-    
+
+    <target name="masterNetwork">
+        <java jar="${saxon.jar}" fork="true">
+            <arg line="-xsl:${utilitiesDir}/networks/Extraction_code.xsl"/>
+            <arg line="-it:masterNetwork"/>
+            <arg line="outputDir=${outputDir}"/>
+        </java>
+    </target>
+
     <target name="validate" depends="validate.rng, validate.sch"/>
     
     
     
-    <target name="all" depends="validate, diagnostics, networks, networkTest"/>
+    <target name="all" depends="validate, diagnostics, networks, networkTest, masterNetwork"/>
     
     
     

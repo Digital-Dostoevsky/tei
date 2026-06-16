@@ -7,8 +7,66 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     xmlns:dd="https://github.com/Digital-Dostoevsky"
     version="3.0">
-    <!-- Defines the root element of the XSLT stylesheet -->
     
+<!-- Products of this stylesheet
+ 
+ 1) csv files of all speech in all the novels of the corpus, regardless of the values 
+ of any of the component parts of `<said`. Should be called "[novel]_Master_Network_Data."
+ 
+    The resulting csv files should be structured with the following columns:
+    Part, Chapter, Section, aloud, direct, who, whoSex, toWhom, toWhomSex, Text
+    
+ 2) csv edges files for all direct speech in all the novels of the corpus. Should
+ be called "[novel]_edges".
+ 
+     Direct speech means no self-talk, no empty `who` or `toWhom`, and the values of
+     `aloud` and `direct` are true.
+    
+     The resulting csv files should be structured by the following columns:
+     Part, Chapter, Section, source, sourceSex, target, targetSex, aloud, direct.
+     
+     Note: "source" and "target" are functionally equivalent to `who` and `toWhom`.
+     
+     Note: Self-talk only means exactly one character talking to themselves, i.e.
+     `<said aloud="true" direct="true" who="#abc" toWhom="#abc">`
+     Speech where `who` and `toWhom` are identical, but where there is more than
+     one character speaking and being spoken to, should go into the csv. 
+     For example: 
+     `<said aloud="true" direct="true" who="#abc #def #ghi" toWhom="#abc #def #ghi">
+     This is most likely individual members of a group all talking to each other
+     simultaneously, and is thus different than self-talk.
+     
+ 3) csv edges files for direct speech in each part of each novel in the corpus.
+ Should be called "[novel]_Edges_[part]." 
+
+     Same parameters as the edges files above, just broken down into parts. 
+ 
+ 4) csv nodes files for all direct speech in all the novels of the corpus.
+ Should be called "[novel]_Nodes".
+ 
+     These nodes files should be comprised of the distinct `xml:ids` of everyone
+     who engages in direct speech, whether speaking (`who`) or spoken to (`toWhom`).
+ 
+     The resulting csv files should be structured by the following columns:
+     ID, LABEL.
+     
+     "ID" is the distinct `xml:id` of anyone who either speaks or is spoken to.
+     
+     "LABEL" is the actual name of the character that corresponds to a given `xml:id.`
+     Names should be taken from the `back`, preferably from the English language
+     text in `<persName xml:lang="en">...</persName> if there is an English equivalent
+     given. If there is not, revert to whatever the Cyrillic is in
+     `<persName>...</persName>
+     
+ 5) csv nodes files for direct speech in each part of each novel in the corpus.
+ Should be called "[novel]_Nodes_[part]".
+ 
+     Same parameters as the nodes files above, just broken down into parts.
+
+-->
+     
+     
+    <!-- Defines the root element of the XSLT stylesheet --> 
     <xsl:output method="text" />
     <!-- Specifies the output format as text. -->
     
@@ -25,28 +83,25 @@
     -->
     
     <xsl:variable name="TAB" select="codepoints-to-string(9)"/>
+    <xsl:variable name="COMMA" select="','"/>
     <xsl:variable name="NEWLINE" select="codepoints-to-string(10)"/>
     <xsl:param name="outputDir" select="'.'"/>
     <xsl:variable name="texts"
         as="document-node()+"
         select="collection('../../texts?select=*.xml;recurse=yes')"/>
     
-    <!--Use collection to get all of the documents (see the Diagnostics for an example)-->
-    <!--For every document, create a new result document called `fileId.tsv`
-    populated with the said values-->
-    <!--The goal here is to be able to run this Extraction_code and create all of the TSVs
-        automatically-->
+    <xd:doc>
+        <xd:desc>Product 1 from comments at beginning of stylesheet. 
+            Extracts all speech from the corpus regardless of attribute values 
+            and writes one csv per novel named [novel]_Master_Network_data.csv.
+            
+            There is a current problem where
+        </xd:desc>
+    </xd:doc>
     
-    <!--For running this, you will need to either do this at the command line using `saxon` 
-        OR in oXygen, using the `initial-template` parameter -->
-    
-    <!--For running in the ANT build, look at how the diagnostics file is invoked -->
-    
-    <xsl:template name="go">
-        <!--Here is where you will iterate over the documents, create the result document,
-            and then apply templates to each document to create the TSV output-->
-        
-       <!-- Get the document ID from the TEI @xml:id attribute-->
+    <!-- Iterate over the documents, create the result document,
+        and then apply templates to each document to create the CSV output.-->
+    <xsl:template name="masterNetwork">
         <xsl:for-each select="$texts">
             <xsl:variable name="docId"
                 select="//TEI/@xml:id"
@@ -58,7 +113,208 @@
             <xsl:message>Processing <xsl:value-of select="$docId"/></xsl:message>
             
             
-       <!-- Create a result document named fileId.tsv for each source file-->
+            <!-- Create a result document named fileId.csv for each source file-->
+            <xsl:result-document href="{$outputDir}/{$docId}_Master_Network_Data.csv" method="text">
+                <xsl:message>Creating <xsl:value-of select="current-output-uri()"/></xsl:message>
+                
+            <!-- Write the header row -->
+            <xsl:variable name="headerValues" select="
+                'Part', 'Chapter', 'Section', 'ID', 'aloud', 'direct',
+                'who', 'whoSex', 'toWhom', 'toWhomSex', 'Text'"/>
+            <xsl:value-of select="string-join($headerValues, $COMMA) || $NEWLINE"/>
+                
+            <!-- Retrieve all variables in relation to
+            all instances of `<said>`-->
+            <xsl:for-each select="//said">
+                <xsl:variable name="part"
+                    select="string(ancestor::div1/@n)"
+                    as="xs:string"/>
+                <xsl:variable name="chapter"
+                    select="string(ancestor::div2/@n)"
+                    as="xs:string"/>
+                <xsl:variable name="section"
+                    select="string(ancestor::div3/@n)"
+                    as="xs:string"/>
+                
+                
+                <!-- Get id for the said value-->
+                <xsl:variable name="saidId" select="generate-id(.)" as="xs:string"/>
+                <xsl:variable name="aloud"
+                    select="if (@aloud) then string(@aloud) else 'unknown'"
+                    as="xs:string"/>
+                <xsl:variable name="direct"
+                    select="if (@direct) then string(@direct) else 'unknown'"
+                    as="xs:string"/>
+                
+                <!--Since @who and @toWhom can have multiple values, we need to
+                split on spaces (i.e. tokenize) and then iterate for every
+                combination. 
+                Create fallback of "unknown" if `@who` and/or `@toWhom` 
+                are not present in an instance of `<said>`-->
+                <xsl:variable name="whoTokens"
+                    select="if (@who) then tokenize(@who) else 'unknown'"
+                    as="xs:string+"/>
+                <xsl:variable name="toWhomTokens"
+                    select="if (@toWhom) then tokenize(@toWhom) else 'unknown'"
+                    as="xs:string+"/>
+                
+                <!-- And then get raw string content -->
+                <xsl:variable name="spContents" as="xs:string"
+                    select="descendant::text()
+                    => string-join()
+                    => normalize-space()
+                    "/>
+                
+                
+                <!-- Get `@sex` information for `@who` and `@toWhom.`
+                    Create fallback for instances where there is not
+                    a `@who` or `@toWhom`.-->
+                <xsl:for-each select="$whoTokens">
+                    <xsl:variable name="currWhoPtr" select="." as="xs:string"/>
+                    <xsl:variable name="whoSex"
+                        select="if ($currWhoPtr != 'unknown')
+                        then dd:getSexVal($currWhoPtr, $people)
+                        else 'unknown'"
+                        as="xs:string"/>
+                    <xsl:for-each select="$toWhomTokens">
+                        <xsl:variable name="currToWhomPtr" select="." as="xs:string"/>
+                        <xsl:variable name="toWhomSex"
+                            select="if ($currToWhomPtr != 'unknown')
+                            then dd:getSexVal($currToWhomPtr, $people)
+                            else 'unknown'"
+                            as="xs:string"/>
+                        <xsl:variable name="rowValues" as="xs:string+"
+                            select="($part, $chapter, $section, $saidId, $aloud,
+                            $direct, $currWhoPtr, $whoSex, $currToWhomPtr, $toWhomSex,
+                            $spContents)"/>
+                        <xsl:value-of select="string-join($rowValues, $COMMA) || $NEWLINE"/>
+                    </xsl:for-each>
+                </xsl:for-each>
+                
+            </xsl:for-each>
+                
+         </xsl:result-document>
+        </xsl:for-each>
+        
+    </xsl:template>
+    
+
+    <xd:doc>
+        <xd:desc>Product 2 from comments at beginning of stylesheet.
+           Creates csv edges files for all direct speech in all the novels of the corpus.
+        </xd:desc>
+    </xd:doc>
+    <xsl:template name="test">
+        
+        <!-- Get the document ID from the TEI @xml:id attribute-->
+        <xsl:for-each select="$texts">
+            <xsl:variable name="docId"
+                select="//TEI/@xml:id"
+                as="xs:string"/>
+            <xsl:variable name="people"
+                select="(//person[@xml:id], //personGrp[@xml:id])"
+                as="element()+"/>
+            
+            <xsl:message>Processing <xsl:value-of select="$docId"/></xsl:message>
+            
+            
+            <!-- Create a result document named [novel]_edges.csv for each source file-->
+            <xsl:result-document href="{$outputDir}/{$docId}_edges.csv" method="text">
+                <xsl:message>Creating <xsl:value-of select="current-output-uri()"/></xsl:message>
+                
+                
+                <!-- Write the header row-->
+                <xsl:variable name="headerValues" select="
+                    'Part', 'Chapter', 'Section', 'ID', 'Aloud', 'Direct',
+                    'who', 'who_sex', 'toWhom', 'toWhom_sex',  'text'"/>
+                <xsl:value-of select="string-join($headerValues, $COMMA) || $NEWLINE"/>
+                
+                <!-- Return only aloud and direct speech where `@who` and `@toWhom` have different values, i.e. no self-talk-->
+                <xsl:for-each select="//said[@who and @toWhom
+                    and @aloud = 'true'
+                    and @direct = 'true'
+                    and not(tokenize(@who) = tokenize(@toWhom))]">
+                    <!-- Concern: what about a situation where everyone in a group is shouting at each other? `who="#person1 #person2 #person3" toWhom="#person1                           #person2 #person3". This is legitimate speech (unlike self-talk), but would it get excluded from the resulting document? Edge case, but still                          possible.-->
+                    
+                    <!-- Return variables in relation to speech as defined above-->
+                    <xsl:variable name="part"
+                        select="string(ancestor::div1/@n)"
+                        as="xs:string"/>
+                    <xsl:variable name="section"
+                        select="string(ancestor::div2/@n)"
+                        as="xs:string"/>
+                    <xsl:variable name="chapter"
+                        select="string(ancestor::div3/@n)"
+                        as="xs:string"/>
+                    <!--Get id for the said value; this could be 
+                more location based if desired-->
+                    <xsl:variable name="saidId" select="generate-id(.)" as="xs:string"/>
+                    <xsl:variable name="aloud"
+                        select="string(@aloud)"
+                        as="xs:string"/>
+                    <xsl:variable name="direct"
+                        select="string(@direct)"
+                        as="xs:string"/>
+                    
+                    <!--Since @who and @toWhom can have multiple values, we need to
+                split on spaces (i.e. tokenize) and then iterate for every
+                combination-->
+                    <xsl:variable name="whoTokens" 
+                        select="tokenize(@who)" as="xs:string+"/>
+                    <xsl:variable name="toWhomTokens" 
+                        select="tokenize(@toWhom)" as="xs:string+"/>
+                    
+                    <!--And then get raw string content -->
+                    <xsl:variable name="spContents" as="xs:string"
+                        select="descendant::text()
+                        => string-join()
+                        => normalize-space()
+                        "/>
+                    
+                    
+                    <!-- Get `@sex` information for `@who` and `@toWhom.`-->
+                    <xsl:for-each select="$whoTokens">
+                        <!--currWhoPtr: e.g. #zlts-->
+                        <xsl:variable name="currWhoPtr" select="." as="xs:string"/>
+                        <xsl:variable name="whoSex" select="dd:getSexVal($currWhoPtr, $people)" as="xs:string"/>
+                        <xsl:for-each select="$toWhomTokens">
+                            <xsl:variable name="currToWhomPtr" select="." as="xs:string"/>
+                            <xsl:variable name="toWhomSex" select="dd:getSexVal($currToWhomPtr, $people)" as="xs:string"/>
+                            <xsl:variable name="rowValues" as="xs:string+"
+                                select="($part, $chapter, $section, $saidId, $aloud,
+                                $direct, $currWhoPtr, $whoSex,  $currToWhomPtr, $toWhomSex,
+                                $spContents)"/>
+                            <xsl:value-of select="string-join($rowValues, $TAB) || $NEWLINE"/>
+                        </xsl:for-each>
+                    </xsl:for-each>
+                </xsl:for-each>
+                
+            </xsl:result-document>
+        </xsl:for-each>
+        
+    </xsl:template>
+    
+    
+    <xd:doc>
+        <xd:desc>Joey Takeda's original code getting speech</xd:desc>
+    </xd:doc>
+    <xsl:template name="go">
+        <!--Here is where you will iterate over the documents, create the result document,
+            and then apply templates to each document to create the TSV output-->
+        
+        <!-- Get the document ID from the TEI @xml:id attribute-->
+        <xsl:for-each select="$texts">
+            <xsl:variable name="docId"
+                select="//TEI/@xml:id"
+                as="xs:string"/>
+            <xsl:variable name="people"
+                select="(//person[@xml:id], //personGrp[@xml:id])"
+                as="element()+"/>
+            
+            <xsl:message>Processing <xsl:value-of select="$docId"/></xsl:message>
+            
+            
+            <!-- Create a result document named fileId.tsv for each source file-->
             <xsl:result-document href="{$outputDir}/{$docId}.tsv" method="text">
                 <xsl:message>Creating <xsl:value-of select="current-output-uri()"/></xsl:message>
                 
@@ -130,95 +386,6 @@
     </xsl:template>
     
     
-    <!-- Template for returning only that speech which is aloud, direct, and has different `@who` and `@toWhom` values-->
-    <xsl:template name="test">
-        
-        <!-- Get the document ID from the TEI @xml:id attribute-->
-        <xsl:for-each select="$texts">
-            <xsl:variable name="docId"
-                select="//TEI/@xml:id"
-                as="xs:string"/>
-            <xsl:variable name="people"
-                select="(//person[@xml:id], //personGrp[@xml:id])"
-                as="element()+"/>
-            
-            <xsl:message>Processing <xsl:value-of select="$docId"/></xsl:message>
-            
-            
-            <!-- Create a result document named fileId_network.tsv for each source file-->
-            <xsl:result-document href="{$outputDir}/{$docId}_network.tsv" method="text">
-                <xsl:message>Creating <xsl:value-of select="current-output-uri()"/></xsl:message>
-                
-                
-                <!-- Write the header row-->
-                <xsl:variable name="headerValues" select="
-                    'Part', 'Section', 'Chapter', 'ID', 'Aloud', 'Direct',
-                    'who', 'who_sex', 'toWhom', 'toWhom_sex',  'text'"/>
-                <xsl:value-of select="string-join($headerValues, $TAB) || $NEWLINE"/>
-                
-                <!-- Return only aloud and direct speech where `@who` and `@toWhom` have different values, i.e. no self-talk-->
-                <xsl:for-each select="//said[@who and @toWhom
-                    and @aloud = 'true'
-                    and @direct = 'true'
-                    and not(tokenize(@who) = tokenize(@toWhom))]">
-                    <!-- Concern: what about a situation where everyone in a group is shouting at each other? `who="#person1 #person2 #person3" toWhom="#person1 #person2 #person3". This is legitimate speech (unlike self-talk), but would it get excluded from the resulting document? Edge case, but still possible.-->
-                    
-                    <!-- Return variables in relation to speech as defined above-->
-                    <xsl:variable name="part"
-                        select="string(ancestor::div1/@n)"
-                        as="xs:string"/>
-                    <xsl:variable name="section"
-                        select="string(ancestor::div2/@n)"
-                        as="xs:string"/>
-                    <xsl:variable name="chapter"
-                        select="string(ancestor::div3/@n)"
-                        as="xs:string"/>
-                    <!--Get id for the said value; this could be 
-                more location based if desired-->
-                    <xsl:variable name="saidId" select="generate-id(.)" as="xs:string"/>
-                    <xsl:variable name="aloud"
-                        select="string(@aloud)"
-                        as="xs:string"/>
-                    <xsl:variable name="direct"
-                        select="string(@direct)"
-                        as="xs:string"/>
-                    
-                    <!--Since @who and @toWhom can have multiple values, we need to
-                split on spaces (i.e. tokenize) and then iterate for every
-                combination-->
-                    <xsl:variable name="whoTokens" 
-                        select="tokenize(@who)" as="xs:string+"/>
-                    <xsl:variable name="toWhomTokens" 
-                        select="tokenize(@toWhom)" as="xs:string+"/>
-                    
-                    <!--And then get raw string content -->
-                    <xsl:variable name="spContents" as="xs:string"
-                        select="descendant::text()
-                        => string-join()
-                        => normalize-space()
-                        "/>
-                    
-                    <xsl:for-each select="$whoTokens">
-                        <!--currWhoPtr: e.g. #zlts-->
-                        <xsl:variable name="currWhoPtr" select="." as="xs:string"/>
-                        <xsl:variable name="whoSex" select="dd:getSexVal($currWhoPtr, $people)" as="xs:string"/>
-                        <xsl:for-each select="$toWhomTokens">
-                            <xsl:variable name="currToWhomPtr" select="." as="xs:string"/>
-                            <xsl:variable name="toWhomSex" select="dd:getSexVal($currToWhomPtr, $people)" as="xs:string"/>
-                            <xsl:variable name="rowValues" as="xs:string+"
-                                select="($part, $section, $chapter, $saidId, $aloud,
-                                $direct, $currWhoPtr, $whoSex,  $currToWhomPtr, $toWhomSex,
-                                $spContents)"/>
-                            <xsl:value-of select="string-join($rowValues, $TAB) || $NEWLINE"/>
-                        </xsl:for-each>
-                    </xsl:for-each>
-                </xsl:for-each>
-                
-            </xsl:result-document>
-        </xsl:for-each>
-        
-    </xsl:template>
-    
     <xd:doc>
         <xd:desc>Function to retrieve the `@sex` value from an person pointer.</xd:desc>
         <xd:param name="ptr">The ptr value (e.g. #rrr) for the person</xd:param>
@@ -248,7 +415,25 @@
     
     
     
-   <!-- Joey's template, which I subsumed into the "go" template above
+     
+    
+    <!--Some previous instructions
+    Use collection to get all of the documents (see the Diagnostics for an example)
+    For every document, create a new result document called `fileId.tsv`
+    populated with the said values
+    The goal here is to be able to run this Extraction_code and create all of the TSVs
+        automatically
+    
+    For running this, you will need to either do this at the command line using `saxon` 
+        OR in oXygen, using the `initial-template` parameter
+    
+    For running in the ANT build, look at how the diagnostics file is invoked-->
+    
+   
+    
+    
+    
+    <!--<!-\- Joey Takeda's template, which I subsumed into the "go" template above
        
        <xsl:template match="/">
         <!-\- Defines a template that matches the root node (/) of the XML document. -\->
@@ -304,7 +489,11 @@
     </xsl:template>-->
    
     
- <!-- 
+ 
+    
+    
+    
+    <!-- First pass at network extraction, written by Dima Ischenko
     
     <xsl:template match="*" mode="strip">
         <!-\- Template that matches any element in 'strip' mode. -\->
