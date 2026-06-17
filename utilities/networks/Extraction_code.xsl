@@ -92,6 +92,7 @@
         select="collection('../../texts?select=*.xml;recurse=yes')"/>
    
     
+    
     <xsl:template name="all">
         <xsl:for-each select="$texts">
             <xsl:variable name="docId" select="//TEI/@xml:id" as="xs:string"/>
