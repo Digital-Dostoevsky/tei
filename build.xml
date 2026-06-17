@@ -54,7 +54,7 @@
     <target name="networks">
         <java jar="${saxon.jar}" fork="true">
             <arg line="-xsl:${utilitiesDir}/networks/Extraction_code.xsl"/>
-            <arg line="-it:go"/>
+            <arg line="-it:all"/>
             <arg line="outputDir=${outputDir}"/>
         </java>
     </target>
