@@ -81,8 +81,9 @@
         select="collection('../../texts?select=*.xml;recurse=yes')"/>
     
     <xd:doc>
-        <xd:desc>Extracts all the data from all the novels that we will need in order to
-            create the files indicated in the comment at the top of this document.</xd:desc>
+        <xd:desc>Utilizing maps, this process extracts all the data from all the novels that we will need 
+            and stores it in a structured intermediate format which we pull from later in order to create 
+            the files indicated in the comment at the top of this document.</xd:desc>
     </xd:doc>
     <xsl:template name="allData">
         <xsl:for-each select="$texts">
