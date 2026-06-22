@@ -211,13 +211,13 @@
                 <xsl:message select="'Creating ' || current-output-uri()"/>
                 <xsl:variable name="headerValues" select="
                     'Part', 'Chapter', 'Section', 'ID', 'aloud', 'direct', 'isSelfTalk','isMeaningfulSpeech',
-                    'who', 'whoName', 'whoSex', 'toWhom', 'toWhomSex', 'Text'"/>
+                    'who', 'whoName', 'whoSex', 'toWhom', 'toWhomName', 'toWhomSex', 'Text'"/>
                 <xsl:variable name="headerRow" select="string-join($headerValues, $TAB)"/>
                 <xsl:variable name="dataRows" as="xs:string+">
                     <xsl:for-each select="$data">
                         <xsl:variable name="dataToUse" 
                             select=".?Part, .?Chapter, .?Section, .?saidID, .?aloud, .?direct, xs:string(.?isSelfTalk),
-                            xs:string(.?isMeaningfulSpeech), .?who, .?whoName, .?whoSex, .?toWhom, .?toWhomSex, .?text" as="xs:string+"/>
+                            xs:string(.?isMeaningfulSpeech), .?who, .?whoName, .?whoSex, .?toWhom, ?toWhomName, .?toWhomSex, .?text" as="xs:string+"/>
                         <xsl:variable name="row" select="string-join($dataToUse, $TAB)" as="xs:string"/>
                         <xsl:sequence select="$row"/>
                     </xsl:for-each>
