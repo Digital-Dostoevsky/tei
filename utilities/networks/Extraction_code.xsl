@@ -252,7 +252,8 @@
                 <xsl:sequence select="string-join(($headerRow, $dataRows), $NEWLINE)"/>
             </xsl:result-document>
             
-            <!--Result Document 3: Nodes files for all novels in full-->
+            <!--Result Document 3: Nodes files for all novels in full
+            REMOVE HASH FROM ID WHEN PROCESSING-->
             <xsl:result-document href="{$outputDir}/{$docId}/{$docId}_all_nodes.tsv" method="text">
                 <xsl:message select="'Creating ' || current-output-uri()"/>
                 <xsl:variable name="headerValues" select="
