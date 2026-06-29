@@ -43,6 +43,8 @@
         </java>
     </target>
     
+    <!-- Runs various diagnostics over the corpus of encoded novels.
+        See "diagnostics.xsl" for details -->
     <target name="diagnostics">
         <java jar="${saxon.jar}" fork="true">
             <arg line="-xsl:${utilitiesDir}/diagnostics.xsl"/>
@@ -51,7 +53,17 @@
         </java>
     </target>
     
-    <target name="networks">
+    <!-- Extracts speech data from the corpus of encoded novels.
+        See "Extraction_code.xsl for details. -->
+    <target name="allData">
+        <java jar="${saxon.jar}" fork="true">
+            <arg line="-xsl:${utilitiesDir}/networks/Extraction_code.xsl"/>
+            <arg line="-it:allData"/>
+            <arg line="outputDir=${outputDir}"/>
+        </java>
+    </target>
+    
+<!--    <target name="networks">
         <java jar="${saxon.jar}" fork="true">
             <arg line="-xsl:${utilitiesDir}/networks/Extraction_code.xsl"/>
             <arg line="-it:all"/>
@@ -73,13 +85,13 @@
             <arg line="-it:masterNetwork"/>
             <arg line="outputDir=${outputDir}"/>
         </java>
-    </target>
+    </target>-->
 
     <target name="validate" depends="validate.rng, validate.sch"/>
     
     
     
-    <target name="all" depends="validate, diagnostics, networks, networkTest, masterNetwork"/>
+    <target name="all" depends="validate, diagnostics, allData"/>
     
     
     
