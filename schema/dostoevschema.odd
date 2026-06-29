@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -94,56 +94,136 @@
       
     </body>
     <back>
-      <schemaSpec ident="dostoevschema" start="TEI" prefix="tei_" targetLang="en" docLang="en">
+      <!--NOTE (JT, 2026-06-29): There is currently a bug with
+          TEI >= 4.10.0 where a schematron abstract pattern is not
+          included and thus breaks the output schema, which is why
+          we specify 4.9.0 as the base schema for now. -->
+      <schemaSpec ident="dostoevschema" start="TEI" prefix="tei_" targetLang="en" docLang="en"
+        source="tei:4.9.0">
+        
+        <!--*************************************
+            MODULE: core
+            *************************************-->
         <moduleRef key="core"
           include="addrLine address author biblStruct date editor emph
           foreign head hi imprint item l lb lg list milestone
           monogr name note p pubPlace publisher q quote resp
           respStmt rs said title"/>
-        <!--        
-        <elementSpec ident="said" mode="change">
-          <attList>
-            <attDef ident="aloud" mode="change" usage="req"/>
-          </attList>
-          <remarks mode="add">
-            <p>In this project, if there is no <att>who</att> then....</p>
-          </remarks>
-        </elementSpec>
-        -->
-        
-        <moduleRef key="namesdates"
-          include="addName forename listObject listPerson listPlace
-          object objectIdentifier objectName orgName persName
-          person personGrp place placeName roleName state surname"/>
+
         
         <!--TODO:
             Constrain addName to a small subset of types (closed list)
             and probably remove the @ref attribute to avoid confusion -->
         
-        <moduleRef key="linking" include="seg"/>
+        <!--*************************************
+            MODULE: header
+            *************************************-->
         <moduleRef key="header"
           include="biblFull change creation fileDesc funder langUsage
           language principal profileDesc publicationStmt revisionDesc
           sourceDesc teiHeader titleStmt"/>
-        <moduleRef key="spoken" include="writing"/>
+        
+        <elementSpec ident="revisionDesc" mode="change" module="header">
+          <content>
+            <elementRef key="change" minOccurs="1" maxOccurs="unbounded"/>
+          </content>
+        </elementSpec>
+        
+        
+        <elementSpec ident="change" mode="change" module="header">
+          <classes mode="change">
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.docStatus" mode="delete"/>
+            <memberOf key="att.typed" mode="delete"/>
+          </classes>
+          <constraintSpec mode="add" scheme="schematron" ident="change.alwaysChronological">
+            <desc>Change elements in revisionDesc should always follow chronological order (TODO: CHANGE WHEN IT IS REVERSED)</desc>
+            <constraint>
+              <sch:rule context="tei:change[following-sibling::tei:change]">
+                <sch:let name="when" value="xs:date(@when)"/>
+                <sch:let name="nextWhen" 
+                  value="xs:date(following-sibling::tei:change[1]/@when)"/>
+                <sch:assert test="not($when gt $nextWhen)">ERROR: All change elements should be listed in chronological order.</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="target" mode="delete"/>
+            <attDef ident="who" usage="req" mode="change"/>
+            <attDef ident="when" usage="req" mode="change"/>
+            <attDef ident="period" mode="delete"/>
+            <attDef ident="when-custom" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <!--*************************************
+            MODULE: linking
+            *************************************-->
+        
+        <moduleRef key="linking" include="seg"/>
+        
+        
+        <!--*************************************
+            MODULE: namesdates
+            *************************************-->
+        <moduleRef key="namesdates"
+          include="addName forename listObject listPerson listPlace
+          object objectIdentifier objectName orgName persName
+          person personGrp place placeName roleName state surname"/>
+        
+        <elementSpec ident="person" mode="change" module="namesdates">
+          <content>
+            <sequence>
+              <elementRef key="persName" minOccurs="1" maxOccurs="unbounded"/>
+              <elementRef key="note" minOccurs="0"/>
+            </sequence>
+          </content>
+          <attList>
+            <attDef ident="xml:id" usage="req" mode="change"/>
+            <attDef ident="sex" usage="req" mode="change"/>
+          </attList>
+        </elementSpec>
+        
+        <!--*************************************
+            MODULE: spoken
+            *************************************-->
+        <moduleRef key="spoken" include="shift writing"/>
+        
+        <!--*************************************
+            MODULE: tei
+            
+            Include everything from the TEI module,
+            including attribute classes, model classes,
+            datatypes, and macros
+            *************************************-->
+        <moduleRef key="tei"/>
+        
+        
+        <!--*************************************
+            MODULE: textstructure
+            *************************************-->
         <moduleRef key="textstructure"
           include="TEI back body div div1 div2 div3 epigraph front text"/>
         
-        <!--        <!-\-Option 1: Delete att.divLike completely-\->
-        <classSpec ident="att.divLike" type="atts" mode="delete"/>
-        
-        <!-\-Option 2: Remove att.metrical from att.divLike-\->
-        <classSpec ident="att.divLike" type="atts" mode="change">
-          <classes mode="change">
-            <memberOf key="att.metrical" mode="delete"/>
-          </classes>
-        </classSpec>
-        -->
         <elementSpec ident="div" module="textstructure" mode="change">
+          <constraintSpec mode="add" scheme="schematron" ident="div.nestTypesProperly">
+            <desc>Constrain div/@type to enforce the proper hierarchy (parts, then chapters, then sections).</desc>
+            <constraint>
+              
+              <sch:rule context="tei:div[@type][ancestor::tei:div[@type]]">
+                <sch:let name="allTypes" value="('part','chapter','section')"/>
+                <sch:let name="currType" value="@type"/>
+                <sch:let name="ancestorDivType"
+                  value="ancestor::tei:div[@type][1]/@type"/>
+                <sch:let name="currIdx" 
+                  value="index-of($allTypes, $currType)"/>
+                <sch:let name="ancestorIdx" 
+                  value="index-of($allTypes, $ancestorDivType)"/>
+                <sch:assert test="$ancestorIdx lt $currIdx">ERROR: Types of divisions must nest properly (<sch:value-of select="string-join($allTypes,', ')"/>).</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
           <attList>
-            <!--            <attDef ident="rhyme" mode="delete"/>
-            <attDef ident="met" mode="delete"/>
-            <attDef ident="real" mode="delete"/>-->
             <attDef ident="type" mode="change" usage="req">
               <valList mode="add" type="closed">
                 <valItem ident="part" mode="add">
@@ -157,18 +237,17 @@
                 <valItem ident="section" mode="add">
                   <gloss>section</gloss>
                 </valItem>
-                <valItem ident="editorial" mode="add"/>
               </valList>
             </attDef>
-          </attList>  
+          </attList>
         </elementSpec>
         
+        <!--*************************************
+            MODULE: verse
+            *************************************-->
         <moduleRef key="verse" include="att.metrical"/>
         
-        
-        <!--Include everything from the TEI module, including attribute classes,
-          model classes, datatypes, and macros -->
-        <moduleRef key="tei"/>
+     
       </schemaSpec>
     </back>
   </text>
