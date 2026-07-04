@@ -1,10 +1,16 @@
+<!-- Need to clean up/add to the namespace declarations -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Dostoevschema</title>
-        <author>Team Digital Dostoevsky</author>
+        <title>Dostoevschema, the ODD for Computational Dostoevsky</title>
+        <author>Katherine Bowers</author>
+        <author>Kate Holland</author>
+        <author>Joey Takeda</author>
+        <author>Braxton Boyer</author>
       </titleStmt>
+      
+      <!-- Change the publicationStmt and sourceDesc -->
       <publicationStmt>
         <publisher>TEI Consortium</publisher>
         <availability status="free">
@@ -43,6 +49,8 @@
       </sourceDesc>
     </fileDesc>
   </teiHeader>
+  
+  <!-- Not sure what a lot of this stuff in <front> and <body> is. Could this information be moved up to the <fileDesc> somewhere? The title information, <docAuthor>, General Overview, History of the Project, etc. Also, does <schemaSpec> need to go in <body>? -->
   <text>
     <front>
       <titlePage>
@@ -184,6 +192,50 @@
           </attList>
         </elementSpec>
         
+        <!-- Constrains `<addName>` to a closed list of `@type` values.
+        Would it be better to do a `<constraintSpec>` for this?-->
+        <elementSpec ident="addName" mode="change" module="namesdates">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList mode="replace" type="closed">
+                <valItem ident="patronymic">
+                  <gloss>patronymic</gloss>
+                  <desc>the patronymic of a character's name</desc>
+                </valItem>
+                <valItem ident="diminutive">
+                  <gloss>diminutive</gloss>
+                  <desc>the diminutive version of a character's name, for example "Mitya" for "Dmitry."</desc>
+                </valItem>
+                <valItem ident="nickname">
+                  <gloss>nickname</gloss>
+                  <desc>a name given to a character by another character</desc>
+                </valItem>
+                <valItem ident="epithet">
+                  <gloss>epithet</gloss>
+                  <desc>a name given to a character by the narrator, for example "our hero" for Golyadkin in The Double</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        
+<!--       A possible `<constraintSpec>` for `<addName>` if this would be better?
+          
+          <constraintSpec mode="add" scheme="schematron" ident="addName.certainTypesOnly">
+          <desc>Constrain addName/@type to enforce proper encoding of names</desc>
+          <constraint>
+            <sch:rule context="tei:addName">
+              <sch:assert test="@type = ('patronymic','diminutive','nickname', 'epithet')">
+                ERROR: The @type attribute on addName must be one of: patronymic, diminutive, nickname, or epithet.
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>-->
+        
+
+          
+        
         <!--*************************************
             MODULE: spoken
             *************************************-->
@@ -235,7 +287,7 @@
                   <desc>The chapter, usually containing sections (formerly <gi>div2</gi>)</desc>
                 </valItem>
                 <valItem ident="section" mode="add">
-                  <gloss>section</gloss>
+                  <gloss>section, formerly <gi>div3</gi></gloss>
                 </valItem>
               </valList>
             </attDef>
