@@ -94,9 +94,9 @@
 
             <xsl:variable name="data" as="map(*)+">
                 <xsl:for-each select="//said">
-                    <xsl:variable name="part" select="string(ancestor::div1/@n)" as="xs:string"/>
-                    <xsl:variable name="chapter" select="string(ancestor::div2/@n)" as="xs:string"/>
-                    <xsl:variable name="section" select="string(ancestor::div3/@n)" as="xs:string"/>
+                    <xsl:variable name="part" select="string(ancestor::div[@type='part']/@n)" as="xs:string"/>
+                    <xsl:variable name="chapter" select="string(ancestor::div[@type='chapter']/@n)" as="xs:string"/>
+                    <xsl:variable name="section" select="string(ancestor::div[@type='section']/@n)" as="xs:string"/>
                     <xsl:variable name="saidId" select="generate-id(.)" as="xs:string"/>
                     <xsl:variable name="aloud" select="
                             if (@aloud) then

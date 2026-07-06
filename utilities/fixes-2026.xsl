@@ -38,7 +38,8 @@
         <xd:desc>Driver template: process all of the documents</xd:desc>
     </xd:doc>
     <xsl:template name="go">
-        <xsl:apply-templates select="$docs"/>
+        <xsl:message terminate="yes">THIS TRANSFORMATION HAS ALREADY BEEN RUN AS OF JULY 6, 2026.</xsl:message>
+      <!--  <xsl:apply-templates select="$docs"/>-->
     </xsl:template>
     
     <xd:doc>

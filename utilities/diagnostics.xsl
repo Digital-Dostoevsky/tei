@@ -93,7 +93,7 @@
                                             <td><xsl:value-of select="$targetId"/></td>
                                             <td><xsl:value-of 
                                                     select="
-                                                    $currParent/ancestor::*[matches(local-name(),'^div\d+')]/@n
+                                                    $currParent/ancestor::div[@type and @n]/@n
                                                     => string-join('.')"/></td>
                                             <td><xsl:value-of select="$currParent/local-name()"/></td>
                                             <td><xsl:value-of select="$currAtt/local-name()"/></td>
