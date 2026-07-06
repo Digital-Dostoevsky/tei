@@ -107,6 +107,7 @@
     <xsl:template match="revisionDesc">
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
+            <change when="{current-date() => format-date('[Y0001]-[M01]-[D01]')}" who="#BB #JT">Updating encoding using <ptr target="../../utilities/fixes-2026.xsl"/>.</change>
             <xsl:apply-templates select="change">
                 <xsl:sort select="xs:date(@when)" order="descending"/>
             </xsl:apply-templates>
