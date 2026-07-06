@@ -1,85 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="u_tikhona">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>U Tikhona</title>
-        <author>Fedor Dostoevskii</author>
-        <respStmt>
-          <resp>Tagged by</resp>
-          <name xml:id="KB">Katherine Bowers</name>
-          <name xml:id="ES">Elijah Sciborowski</name>
-          <name xml:id="LS">Liza Shershneva</name>
-          <name xml:id="KH">Kate Holland</name>
-        </respStmt>
-        <principal>Kate Holland</principal>
-        <funder>Social Sciences and Humanities Research Council of Canada</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Digital Dostoevsky</publisher>
-        <pubPlace>Toronto, Ontario</pubPlace>
-        <address>
-          <addrLine>Department of Slavic Languages and Literatures</addrLine>
-          <addrLine>University of Toronto</addrLine></address>
-          <date>2022</date>
-        </publicationStmt>
-      <sourceDesc>
-        <biblStruct>
-          <monogr>
-            <author>Dostoevskii, Fedor Mikhailovich</author>
-            <title type="main">Glava deviataia. U Tikhona.</title>
-            <imprint>
-              <pubPlace/>
-              <publisher/>
-              <date/>
-            </imprint>
-            </monogr>
-          </biblStruct>
-          <biblFull>
-            <titleStmt>
-              <title>Polnoe sobranie sochinenii. Tom 11.</title>
-              <author><name>Fedor Mikhailovich Dostoevskii</name></author>
-              <editor><name>G.M. Friedlender</name></editor>
-            </titleStmt>
-            <publicationStmt>
-              <publisher>Nauka</publisher>
-              <pubPlace>Leningrad</pubPlace>
-              <date>1974</date>
-            </publicationStmt>
-          </biblFull>
-        </sourceDesc>
+<?xml-model href="../../schema/dostoevschema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/dostoevschema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="u_tikhona" xml:lang="ru">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title>U Tikhona</title>
+            <author>Fedor Dostoevskii</author>
+            <respStmt>
+               <resp>Tagged by</resp>
+               <name xml:id="KB">Katherine Bowers</name>
+               <name xml:id="ES">Elijah Sciborowski</name>
+               <name xml:id="LS">Liza Shershneva</name>
+               <name xml:id="KH">Kate Holland</name>
+            </respStmt>
+            <principal>Kate Holland</principal>
+            <funder>Social Sciences and Humanities Research Council of Canada</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Digital Dostoevsky</publisher>
+            <pubPlace>Toronto, Ontario</pubPlace>
+            <address>
+               <addrLine>Department of Slavic Languages and Literatures</addrLine>
+               <addrLine>University of Toronto</addrLine>
+            </address>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Dostoevskii, Fedor Mikhailovich</author>
+                  <title type="main">Glava deviataia. U Tikhona.</title>
+                  <imprint>
+                     <pubPlace/>
+                     <publisher/>
+                     <date/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblFull>
+               <titleStmt>
+                  <title>Polnoe sobranie sochinenii. Tom 11.</title>
+                  <author>
+                     <name>Fedor Mikhailovich Dostoevskii</name>
+                  </author>
+                  <editor>
+                     <name>G.M. Friedlender</name>
+                  </editor>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Nauka</publisher>
+                  <pubPlace>Leningrad</pubPlace>
+                  <date>1974</date>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-        <langUsage>
-          <language ident="ru">Russian</language>
-        </langUsage>
-        <creation/>
+         <langUsage>
+            <language ident="ru">Russian</language>
+         </langUsage>
+         <creation/>
       </profileDesc>
       <revisionDesc>
-        <change when="2023-09-22" who="#KB">[markup]:Created TEI file; added TEI Header</change>
-        <change when="2023-10-20" who="#ES">[markup]:Started tagging I.</change>
-        <change when="2023-05-10" who="#ES">[markup]:Started tagging II.</change>
-        <change when="2024-03-10" who="#LS">[markup]:Started tagging II.</change>
-        <change when="2024-07-10" who="#LS">[markup]:Finished tagging II.</change>
-        <change when="2024-11-07" who="#KH"></change>
+         <change when="2026-07-06" who="#BB #JT">Updating encoding using <ptr target="../../utilities/fixes-2026.xsl"/>.</change>
+         <change when="2024-11-07" who="#KH"/>
+         <change when="2024-07-10" who="#LS">[markup]:Finished tagging II.</change>
+         <change when="2024-03-10" who="#LS">[markup]:Started tagging II.</change>
+         <change when="2023-10-20" who="#ES">[markup]:Started tagging I.</change>
+         <change when="2023-09-22" who="#KB">[markup]:Created TEI file; added TEI Header</change>
+         <change when="2023-05-10" who="#ES">[markup]:Started tagging II.</change>
       </revisionDesc>
-    
-    
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
   <body>
-<div1>
-<div2 type="chapter" n="9">
+
+<div type="chapter" n="9">
 <head>Глава девятая</head>
 
 
 <head type="mainTitle">У ТИХОНА</head>
 
 
- <div3 type="section" n="1">
+ <div type="section" n="1">
             <head>I</head> 
 
   <p><persName ref="#nvs"><forename>Николай</forename> <addName type="patronymic">Всеволодович</addName></persName> в эту ночь не спал и всю просидел на диване, часто устремляя неподвижный взор в одну точку в углу у комода. Всю ночь у него горела лампа. Часов в семь поутру заснул сидя, и когда <persName ref="#aleg"><forename>Алексей</forename> <addName type="patronymic">Егорович</addName></persName>, по обычаю, раз навсегда заведенному, вошел к нему ровно в половину десятого с утреннею чашкою кофею и появлением своим разбудил его, то, открыв глаза, он, казалось, неприятно был удивлен, что мог так долго проспать и что так уже поздно. Наскоро выпил он кофе, наскоро оделся и торопливо вышел из дому. На осторожный спрос <persName ref="#aleg"><forename>Алексея</forename> <addName type="patronymic">Егоровича</addName></persName>: <said aloud="true" direct="false" who="#aleg" toWhom="#nvs">«Не будет ли каких приказаний?»</said> — ничего не ответил. По улице шел, смотря в землю, в глубокой задумчивости и лишь мгновениями подымая голову, вдруг выказывал иногда какое-то неопределенное, но сильное беспокойство. На одном перекрестке, еще недалеко от дому, ему пересекла дорогу толпа проходивших мужиков, человек в пятьдесят или более; они шли чинно, почти молча, в нарочном порядке. У лавочки, возле которой с минуту пришлось ему подождать, кто-то сказал, что это «шпигулинские рабочие». Он едва обратил на них внимание. Наконец около половины одиннадцатого дошел он к вратам нашего <placeName ref="#ebmst">Спасо-Ефимьевского Богородского монастыря</placeName>, на краю города, у реки. Тут только он вдруг как бы что-то вспомнил, остановился, наскоро и тревожно пощупал что-то в своем боковом кармане и — усмехнулся. Войдя в ограду, он спросил у первого попавшегося ему служки: как пройти к проживавшему в монастыре на спокое <persName ref="#tikh"><roleName>архиерею</roleName> <forename>Тихону</forename></persName>. Служка принялся кланяться и тотчас же повел его. У крылечка, в конце длинного двухэтажного монастырского корпуса, властно и проворно отбил его у служки повстречавшийся с ними толстый и седой монах и повел его длинным узким коридором, тоже всё кланяясь (хотя по толстоте своей не мог наклоняться низко, а только дергал часто и отрывисто головой) и всё приглашая пожаловать, хотя <persName ref="#nvs"><surname>Ставрогин</surname></persName> и без того шел за ним. Монах всё предлагал какие-то вопросы и говорил об отце архимандрите; не получая же ответов, становился всё почтительнее. <persName ref="#nvs"><surname>Ставрогин</surname></persName> заметил, что его здесь знают, хотя, сколько помнилось ему, он здесь бывал только в детстве. Когда дошли до двери в самом конце коридора, монах отворил ее как бы властною рукой, фамильярно осведомился у подскочившего келейника, можно ль войти, и, даже не выждав ответа, отмахнул совсем дверь и, наклонившись, пропустил мимо себя «дорогого» посетителя: получив же благодарность, быстро скрылся, точно бежал. <persName ref="#nvs"><forename>Николай</forename> <addName type="patronymic">Всеволодович</addName></persName> вступил в небольшую комнату, и почти в ту же минуту в дверях соседней комнаты показался высокий и сухощавый человек, лет пятидесяти пяти, в простом домашнем подряснике и на вид как будто несколько больной, с неопределенною улыбкой и с странным, как бы застенчивым взглядом. Это и был тот самый <persName ref="#tikh"><forename>Тихон</forename></persName>, о котором <persName ref="#nvs"><forename>Николай</forename> <addName type="patronymic">Всеволодович</addName></persName> в первый раз услыхал от <persName ref="#ipsh"><surname>Шатова</surname></persName> и о котором он, с тех пор, успел собрать кое-какие сведения.</p> 
@@ -178,9 +181,9 @@
    <p> — <said aloud="true" direct="true" who="#nvs" toWhom="#tikh">Читайте; я давно спокоен.</said> </p>
    <p> — <said aloud="true" direct="true" who="#tikh" toWhom="#nvs">Нет, без очков не разберу, печать тонкая, заграничная.</said> </p>
    <p> — <said aloud="true" direct="true" who="#nvs" toWhom="#tikh">Вот очки,</said> — подал ему со стола Ставрогин и отклонился на спинку дивана. Тихон углубился в чтение.</p>
-</div3>
+</div>
 
-  <div3 type="section" n="2">
+  <div type="section" n="2">
 <head>II</head> 
 
 
@@ -338,123 +341,115 @@
 <p><persName ref="#nvs"><surname>Ставрогин</surname></persName> даже задрожал от гнева и почти от испуга. </p>
 <p>— <said aloud="true" direct="true" who="#nvs" toWhom="#tikh">Проклятый психолог!</said> — оборвал он вдруг в бешенстве и, не оглядываясь, вышел из кельи.</p>
 
-</div3>
-</div2>
-</div1>
+</div>
+</div>
+
 </body>
-<back>
-  <div type="editorial">
-    <listPerson type="fictional">
-      <person xml:id="nvs" sex="male">
-        <persName>Николай Всеволодович Ставрогин</persName>
-      </person>
-      <person xml:id="aleg" sex="male">
-        <persName>Алексей Егорович</persName>
-      </person>
-      <person xml:id="tikh" sex="male">
-        <persName>Отец Тихон</persName>
-      </person>
-      <person xml:id="ipsh" sex="male">
-        <persName>Иван Павлович Шатов</persName>
-      </person>
-      <person xml:id="mtl" sex="female">
-        <persName>Марья Тимофеевна Лебядкина</persName>
-      </person>
-      <person xml:id="nis" sex="female">
-        <persName>горничная Нина Савельевна</persName>
-      </person>
-        <person xml:id="tres" sex="female">
-        <persName>Матреша</persName>
-      </person>
-        <person xml:id="mpa" sex="male">
-         <persName>отец Матреши</persName>
-      </person>
-          <person xml:id="stm" sex="female">
-         <persName>Степанида Михайловна</persName>
-        </person>
-          <person xml:id="chi" sex="male">
-       <persName>безимянный чиновник</persName>
-        </person>
-         <person xml:id="ank" sex="male">
-       <persName>Алексей Нилыч Кириллов</persName>
-        </person> 
-   
-      <person xml:id="pml" sex="male">
-         <persName>Прохор Малов</persName>        
-      </person>
-      <person xml:id="impsv" sex="male">
-        <persName>imagined Петр Степанович Верховенский</persName>
-      </person>
-      <person xml:id="vps" sex="female">
-        <persName>Варвара Петровна Ставрогина</persName>
-      </person>
-    </listPerson>
-    <listPerson type="historical">
-      <person xml:id="rous" sex="male">
-        <persName>Жан-Жак Руссо</persName>
-      </person>
-      <person xml:id="clor" sex="male">
-        <persName>Клод Лоррен</persName>
-      </person>
-      <person xml:id="christ">
-        <persName>Христос</persName>
-      </person>
-    </listPerson>
-    <listPlace>
-      <place type="street" xml:id="roh">
-        <placeName>Гороховая улица</placeName>
-      </place>
-      <place type="monastery" xml:id="ebmst">
-        <placeName>Спасо-Ефимьевский Богородский монастырь</placeName>
-      </place>
-      <place type="city" xml:id="spb">
-        <placeName>Санкт-Петербург</placeName>
-      </place>
-      <place type="region" xml:id="sib">
-        <placeName>Сибирь</placeName>
-      </place>
-      <place type="region" xml:id="vost">
-        <placeName>Восток</placeName>
-      </place>
-      <place type="island" xml:id="aph">
-        <placeName>Афон</placeName>
-      </place>
-      <place type="country" xml:id="egpt">
-        <placeName>Египет</placeName>
-      </place>
-      <place type="country" xml:id="shv">
-        <placeName>Швейцария</placeName>
-      </place>
-      <place type="country" xml:id="iclnd">
-        <placeName>Исландия</placeName>
-      </place>
-      <place type="city" xml:id="par">
-        <placeName>Париж</placeName>
-      </place>
-      <place type="country" xml:id="ger">
-        <placeName>Германия</placeName>
-        <placeName>Немецкая земля</placeName>
-      </place>
-      <place type="city" xml:id="drezd">
-        <placeName>Дрезден</placeName>
-      </place>
-      <place type="country" xml:id="ros">
-        <placeName>Россия</placeName>
-      </place>
-      <place type="city" xml:id="gtt">
-      <placeName>Геттинген</placeName>
-      </place>
-      <place type="city" xml:id="fran">
-        <placeName>Франкфурт</placeName>
-      </place>
-      
-      
-      
-      
-      
-      
-    </listPlace>
-  </div>       
-</back>
+
 </text>
+   <standOff>
+      <listPerson type="fictional">
+         <person xml:id="nvs" sex="male">
+            <persName>Николай Всеволодович Ставрогин</persName>
+         </person>
+         <person xml:id="aleg" sex="male">
+            <persName>Алексей Егорович</persName>
+         </person>
+         <person xml:id="tikh" sex="male">
+            <persName>Отец Тихон</persName>
+         </person>
+         <person xml:id="ipsh" sex="male">
+            <persName>Иван Павлович Шатов</persName>
+         </person>
+         <person xml:id="mtl" sex="female">
+            <persName>Марья Тимофеевна Лебядкина</persName>
+         </person>
+         <person xml:id="nis" sex="female">
+            <persName>горничная Нина Савельевна</persName>
+         </person>
+         <person xml:id="tres" sex="female">
+            <persName>Матреша</persName>
+         </person>
+         <person xml:id="mpa" sex="male">
+            <persName>отец Матреши</persName>
+         </person>
+         <person xml:id="stm" sex="female">
+            <persName>Степанида Михайловна</persName>
+         </person>
+         <person xml:id="chi" sex="male">
+            <persName>безимянный чиновник</persName>
+         </person>
+         <person xml:id="ank" sex="male">
+            <persName>Алексей Нилыч Кириллов</persName>
+         </person>
+         <person xml:id="pml" sex="male">
+            <persName>Прохор Малов</persName>
+         </person>
+         <person xml:id="impsv" sex="male">
+            <persName>imagined Петр Степанович Верховенский</persName>
+         </person>
+         <person xml:id="vps" sex="female">
+            <persName>Варвара Петровна Ставрогина</persName>
+         </person>
+      </listPerson>
+      <listPerson type="historical">
+         <person xml:id="rous" sex="male">
+            <persName>Жан-Жак Руссо</persName>
+         </person>
+         <person xml:id="clor" sex="male">
+            <persName>Клод Лоррен</persName>
+         </person>
+         <person xml:id="christ">
+            <persName>Христос</persName>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place type="street" xml:id="roh">
+            <placeName>Гороховая улица</placeName>
+         </place>
+         <place type="monastery" xml:id="ebmst">
+            <placeName>Спасо-Ефимьевский Богородский монастырь</placeName>
+         </place>
+         <place type="city" xml:id="spb">
+            <placeName>Санкт-Петербург</placeName>
+         </place>
+         <place type="region" xml:id="sib">
+            <placeName>Сибирь</placeName>
+         </place>
+         <place type="region" xml:id="vost">
+            <placeName>Восток</placeName>
+         </place>
+         <place type="island" xml:id="aph">
+            <placeName>Афон</placeName>
+         </place>
+         <place type="country" xml:id="egpt">
+            <placeName>Египет</placeName>
+         </place>
+         <place type="country" xml:id="shv">
+            <placeName>Швейцария</placeName>
+         </place>
+         <place type="country" xml:id="iclnd">
+            <placeName>Исландия</placeName>
+         </place>
+         <place type="city" xml:id="par">
+            <placeName>Париж</placeName>
+         </place>
+         <place type="country" xml:id="ger">
+            <placeName>Германия</placeName>
+            <placeName>Немецкая земля</placeName>
+         </place>
+         <place type="city" xml:id="drezd">
+            <placeName>Дрезден</placeName>
+         </place>
+         <place type="country" xml:id="ros">
+            <placeName>Россия</placeName>
+         </place>
+         <place type="city" xml:id="gtt">
+            <placeName>Геттинген</placeName>
+         </place>
+         <place type="city" xml:id="fran">
+            <placeName>Франкфурт</placeName>
+         </place>
+      </listPlace>
+   </standOff>
 </TEI>

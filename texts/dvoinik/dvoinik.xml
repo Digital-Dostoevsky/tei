@@ -1,225 +1,230 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dvoinik">
-  <teiHeader>
+<?xml-model href="../../schema/dostoevschema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/dostoevschema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dvoinik" xml:lang="ru">
+   <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
             <title>Двойник</title>
-						<author>Fedor Dostoevskii</author>
-						<respStmt>
-						<resp>Tagged by</resp>
-							<name xml:id="KH">Kate Holland</name>
-						<name xml:id="KB">Katherine Bowers</name>
-					<name xml:id="BB">Braxton Boyer</name>
-				<name xml:id="EV">Elena Vasileva</name>
-		   <name xml:id="VS">Veronika Sizova</name>
-</respStmt>
-<principal>Kate Holland</principal>
-<funder>Social Sciences and Humanities Research Council of Canada</funder>
+            <author>Fedor Dostoevskii</author>
+            <respStmt>
+               <resp>Tagged by</resp>
+               <name xml:id="KH">Kate Holland</name>
+               <name xml:id="KB">Katherine Bowers</name>
+               <name xml:id="BB">Braxton Boyer</name>
+               <name xml:id="EV">Elena Vasileva</name>
+               <name xml:id="VS">Veronika Sizova</name>
+            </respStmt>
+            <principal>Kate Holland</principal>
+            <funder>Social Sciences and Humanities Research Council of Canada</funder>
          </titleStmt>
          <publicationStmt>
-					<publisher>Digital Dostoevsky</publisher>
-					<pubPlace>Toronto, Ontario</pubPlace>
-					<address>
-					<addrLine>Department of Slavic Languages and Literatures</addrLine>
-				<addrLine>University of Toronto</addrLine></address>
-				<date>2021</date>
+            <publisher>Digital Dostoevsky</publisher>
+            <pubPlace>Toronto, Ontario</pubPlace>
+            <address>
+               <addrLine>Department of Slavic Languages and Literatures</addrLine>
+               <addrLine>University of Toronto</addrLine>
+            </address>
+            <date>2021</date>
          </publicationStmt>
          <sourceDesc>
-					 <biblStruct>
-<monogr>
-<author>Dostoevskii, Fedor Mikhailovich</author>
-<title type="main">Dvoinik</title>
-<title type="subordinate">Peterburgskaia poema</title>
-<imprint>
-<pubPlace>St. Petersburg</pubPlace>
-<publisher>tip. F. Stellovskogo</publisher>
-<date>1866</date>
-</imprint>
-</monogr>
-					 </biblStruct>
-					 <biblFull>
-						 <titleStmt>
-<title>Polnoe sobranie sochinenii. Tom 1.</title>
-<author><name>Fedor Mikhailovich Dostoevskii</name></author>
-<editor><name>G.M. Fridlender</name></editor>
-						 </titleStmt>
-<publicationStmt>
-<publisher>Nauka</publisher>
-<pubPlace>Leningrad</pubPlace>
-<date>1972</date>
-</publicationStmt>
-					  </biblFull>
+            <biblStruct>
+               <monogr>
+                  <author>Dostoevskii, Fedor Mikhailovich</author>
+                  <title type="main">Dvoinik</title>
+                  <title type="subordinate">Peterburgskaia poema</title>
+                  <imprint>
+                     <pubPlace>St. Petersburg</pubPlace>
+                     <publisher>tip. F. Stellovskogo</publisher>
+                     <date>1866</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <biblFull>
+               <titleStmt>
+                  <title>Polnoe sobranie sochinenii. Tom 1.</title>
+                  <author>
+                     <name>Fedor Mikhailovich Dostoevskii</name>
+                  </author>
+                  <editor>
+                     <name>G.M. Fridlender</name>
+                  </editor>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Nauka</publisher>
+                  <pubPlace>Leningrad</pubPlace>
+                  <date>1972</date>
+               </publicationStmt>
+            </biblFull>
          </sourceDesc>
       </fileDesc>
-			<profileDesc>
-<langUsage>
-	<language ident="ru">Russian</language>
-</langUsage>
-<creation>First version written<date when="1846">1846</date> in <name type="city">St. Petersburg</name>.
+      <profileDesc>
+         <langUsage>
+            <language ident="ru">Russian</language>
+         </langUsage>
+         <creation>First version written<date when="1846">1846</date> in <name type="city">St. Petersburg</name>.
 </creation>
-			</profileDesc>
-			<revisionDesc>
-				<change when="2021-03-12" who="#KH">[file]:created TEI compliant document</change>
-				<change when="2021-03-18" who="#KH">[markup]:division and speech marking of chapter 1</change>
-				<change when="2021-03-19" who="#KH">[markup]:division and speech marking of chapters 1 and 2</change>
-				<change when="2021-03-22" who="#KH">[markup]:division and speech marking of chapter 2</change>
-				<change when="2021-03-23" who="#KH">[markup]:division and speech marking of chapter 3</change>
-				<change when="2021-03-23" who="#KB">[markup]:division and speech marking of chapter 5</change>
-				<change when="2021-03-23" who="#EV">[markup]:division and speech marking of chapter 11</change>
-				<change when="2021-03-23" who="#BB">[markup]:division marking of chapter 8</change>
-				<change when="2021-03-24" who="#KH">[markup]:division and speech marking of chapters 3 and 4</change>
-				<change when="2021-03-24" who="#KB">[markup]:division and speech marking of chapters 6 and 7</change>
-				<change when="2021-03-24" who="#EV">[markup]:division and speech marking of chapters 12 and 13</change>
-				<change when="2021-03-24" who="#BB">[markup]:speech marking of chapter 8</change>
-				<change when="2021-03-24" who="#KH">[markup]:speech marking of chapter 4</change>
-				<change when="2021-03-29" who="#BB">[markup]:division marking of chapter 9</change>
-				<change when="2021-03-31" who="#BB">[markup]:division marking of chapter 10</change>
-				<change when="2021-04-05" who="#EV">[markup]:speech marking of chapter 11</change>
-				<change when="2021-04-05" who="#BB">[markup]:speech marking of chapter 8</change>
-				<change when="2021-04-06" who="#KH">[markup]:speech marking of chapters 1 and 2</change>
-				<change when="2021-04-06" who="#KB">[markup]:clean up of tags in chpts 5-7</change>
-				<change when="2021-04-06" who="#BB">[markup]:speech marking of chapter 9</change>
-				<change when="2021-04-06" who="#EV">[markup]:speech marking of chapters 11, 12, 13</change>
-				<change when="2021-04-07" who="#KH">[markup]:speech marking of chapters 2 and 3</change>
-				<change when="2021-04-07" who="#KH">[markup]:clean up of tags in chpts 3 and 4</change>
-				<change when="2021-04-07" who="#EV">[markup]:speech marking of chapter 13</change>
-				<change when="2021-04-08" who="#BB">[markup]:speech marking of chapter 10</change>
-				<change when="2021-04-16" who="#KB">[markup]:person names added</change>
-				<change when="2021-04-20" who="#KH">[markup]:addresser addressee of chapter 1 added</change>
-				<change when="2021-04-21" who="#KH"> [markup]: addresser addressee of chapter 2 added</change>
-			  <change when="2021-04-21" who="#KH"> [markup]: addresser addressee of chapter 2 added</change>
-				<change when="2021-04-22" who="#BB">[markup]:addresser addressee of chapter 8 added</change>
-					<change when="2021-04-26" who="#EV">[markup]:addresser addressee of chapter 11 and 12 added; person names added</change>
-				<change when="2021-04-26" who="#BB">[markup]:addresser addressee of chapter 8 added</change>
-				<change when="2021-04-27" who="#KH">[markup]: addresser addressee of chapter 3 added</change>
-				<change when="2021-04-28" who="#KH">[markup]: addresser addressee of chapter 4 added; person names added</change>
-				<change when="2021-04-28" who="#BB">[markup]:addresser addressee of chapter 9 added; person names added</change>
-				<change when="2021-04-29" who="#EV">[markup]: addresser addressee of chapter 12 and 13 added; person names added</change>
-				<change when="2021-04-29" who="#KB">[markup]: addresser addressee of chpts 5-7 added</change>
-				<change when="2021-04-29" who="#BB">[markup]:addresser addressee of ch. 10; person names added</change>
-				<change when="2021-05-03" who="#KH">[markup]: added character names for chs 1 and 2</change>
-				<change when="2021-05-03" who="#EV">[markup]: added character names for chs 11 and 12; person name added</change>
-				<change when="2021-05-04" who="#KH">[markup]: added character names for chs 2 and 3; corrected tagging errors</change>
-				<change when="2021-05-04" who="#BB">[markup]:added character names for ch 8</change>
-				<change when="2021-05-05" who="#KH">[markup]: added character names for ch 3 and 4</change>
-				<change when="2021-05-05" who="#KB">[markup]: added character names for chs 5-7, added several historical person xml ids</change>
-				<change when="2021-05-05" who="#EV">[markup]: added character names for chs 12-13, added a historical person xml id; marked Goliadkin's imagined conversations with other characters with a said-element</change>
-				<change when="2021-05-06" who="#KH">[markup]: added character names for ch 4</change>
-				<change when="2021-05-06" who="#EV">[markup]: added character names for ch 13, marked Goliadkin's imagined conversations with other characters with a said-element</change>
-				<change when="2021-05-06" who="#BB">[markup]:added character names for ch. 9</change>
-				<change when="2021-05-07" who="#EV">[markup]:added a few lists</change>
-				<change when="2021-05-07" who="#KB">[markup]:deleted Pelegeia Semenovna name tag and ref in ch. 7, removed mismarked god name tags in ch. 6, added nested dbl name tags in chs. 6 and 7</change>
-				<change when="2021-05-11" who="#KH">[markup]:edited spaces and dashes in chapters 1 and 2 and added object tag for wad of cash</change>
-				<change when="2021-05-12" who="#KH">[markup]:edited spaces and dashes in chapters 3 and 4 and added a couple of missing name tags. Moved a couple of names into fiction other list</change>
-				<change when="2021-05-12" who="#BB">[markup]:added character names for ch. 10</change>
-				<change when="2021-05-13" who="#BB">[markup]:added character names for ch. 10</change>
-				<change when="2021-05-17" who="#KH">[markup]:made some small tagging speech changes in ch. 3 and 4</change>
-				<change when="2021-05-17" who="#EV">[markup]:made changes to character names in Ch11, added the False Klara character</change>
-				<change when="2021-05-18" who="#EV">[markup]:made changes to character names in Chs 12-13, added two imagined characters, added descriptions to some non-Dostoevsky-fictional characters</change>
-				<change when="2021-05-18" who="#BB">[markup]:added character names for ch. 10, added character of федосеич</change>
-				<change when="2021-05-19" who="#BB">[markup]:edited spaces and dashes in chs. 8-10</change>
-				<change when="2021-05-20" who="#KB">[markup]:converted dbl and gol person tags to personGrp tags; converted several name tags; added listPlace to base</change>
-				<change when="2021-05-21" who="#KH">[markup]:added a couple of place names in ch. 1, 2, 3.</change>
-				<change when="2021-05-24" who="#BB">[markup]:added other names for the double in chs. 8,9,10 to the persGrp for #dbl</change>
-				<change when="2021-05-25" who="#KH">[markup]: added place names in ch. 1-4 and some more persongroup names for Golyadkin</change>
-				<change when="2021-05-25" who="#BB">[markup]:added other names for the double in chs. 8,9,10 to the persGrp for #dbl and cleaned up other name tags</change>
-				<change when="2021-05-26" who="#KH">[markup]:added place names in ch. 1-4, added merchant persGrp and edited speech tags to reflect, cleaned up other name tags.</change>
-				<change when="2021-05-27" who="#KH">[markup]:added place names in ch. 1-4.</change>
-				<change when="2021-05-27" who="#KB">[markup]:added place names in ch. 5-7; marked all instances of наш герой in ch. 5-7 as gol personGrp; added name variations from ch. 5-7 to personGrp gol and personGrp dbl; cleaned up ch. 5-7</change>
-				<change when="2021-05-27" who="#EV">[markup]:added place names in ch.11; marked all instances of наш герой in ch. 11 as gol personGrp; added name variations from ch. 11 to personGrp dbl;</change>
-				<change when="2021-05-28" who="#EV">[markup]:added place names in ch.11-13; marked all instances of наш герой in ch. 11-13 as gol personGrp; added name variations from ch. 11-13 to personGrp dbl</change>
-				<change when="2021-05-28" who="#BB">[markup]:added names for the double, tagged petersburg places</change>
-				<change when="2021-05-31" who="#KH">[markup]: tagged a few place names</change>
-				<change when="2021-05-31" who="#EV">[markup]: added names for the double and for Goliadkin</change>
-				<change when="2021-06-02" who="#BB">[markup]:added names for Goliadkin</change>
-				<change when="2021-06-03" who="#BB">[markup]:added place names for ch. 8 and a few more name tags for the Goliadkins</change>
-				<change when="2021-06-03" who="#KB">[markup]: added type="fictional" to all tagged fictional place names; added dining establishment tags and tagged them throughout; added first liminal seg tag; added Eliseev and Miliutins' stores</change>
-				<change when="2021-06-04" who="#BB">[markup]: added place names and some liminal tags for ch. 9</change>
-				<change when="2021-06-04" who="#BB">[markup]:added place names for ch. 9</change>
-				<change when="2021-06-08" who="#KH">[markup]:added some liminal tags in ch. 1-4</change>
-				<change when="2021-06-08" who="#BB">[markup]:added place names and liminal tags in ch. 10</change>
-				<change when="2021-06-30" who="#EV">[markup]:added some liminal tags in chs. 11,12; added more names for the double and Goliadkin</change>
-				<change when="2021-07-02" who="#EV">[markup]:added some liminal tags in ch. 13; added even more names for both Goliadkins</change>
-				<change when="2021-07-06" who="#BB">[markup]:added liminal tags to ch. 8</change>
-				<change when="2021-07-08" who="#BB">[markup]:added liminal tags and some place names to ch. 9</change>
-				<change when="2021-07-12" who="#KH">[markup]: added liminal tags to chs. 1 and 2</change>
-				<change when="2021-07-14" who="#KH">[markup]: added liminal tags to chs. 3 and 4</change>
-				<change when="2021-07-15" who="#KH">[markup]: added liminal tags to ch. 4</change>
-				<change when="2021-07-15" who="#KB">[markup]: added liminal seg tags to chpts 5-7; checked placename tags in chpts 5-7</change>
-				<change when="2021-07-23" who="#KB">[markup]: added subtypes (spatial, temporal, weather, atmosphere, state, motion, person) to liminal seg tags in chpts 5-7; accidentally added some spatial subtypes to seg tags in chpt 8</change>
-				<change when="2021-07-24" who="#KH">[markup]: added subtypes to liminal seg tags in chpts 1-2.</change>
-				<change when="2021-07-24" who="#EV">[markup]: added subtypes to liminal seg tags in chpts 11-13.</change>
-				<change when="2021-07-25" who="#KH">[markup]: added subtypes to liminal seg tags in chpts 3-4.</change>
-				<change when="2021-07-26" who="#BB">[markup]:added subtypes to liminal seg tags in chpts 8-10. Added a location tag for Vakhrameyev's apartment</change>
-				<change when="2021-07-28" who="#EV">[markup]: added more subtypes to liminal seg tags in chpts 11-12; added even more names for the double.</change>
-				<change when="2021-07-29" who="#EV">[markup]: added more subtypes to liminal seg tags in chpt 13</change>
-				<change when="2021-08-16" who="#BB">[markup]:added additional liminal tags to chs. 8-10</change>
-				<change when="2021-10-04" who="#KH">[markup]:changed name persongrp tags to persname type tags in ch. 1</change>
-				<change when="2021-10-05" who="#BB">[markup]:changed name persongrp tags to persname tags in ch. 8</change>
-				<change when="2021-10-06" who="#KH">[markup]:changed name persongrp tages to persname as well as rolename tags in chpts. 1 and 2</change>
-				<change when="2021-10-06" who="#BB">[markup]:changed persongrp tags to persname tags in ch. 8</change>
-				<change when="2021-10-07" who="#KH">[markup]:changed persongrp tags to persname as well as rolename tags in chpts 2 and 3</change>
-				<change when="2021-10-08" who="#BB">[markup]:updated name tags in ch. 8</change>
-				<change when="2021-10-08" who="#EV">[markup]:updated name tags in ch.11</change>
-				<change when="2021-10-09" who="#EV">[markup]:updated name tags in ch.11</change>
-				<change when="2021-10-11" who="#KH">[markup]:updated name tags in ch.3</change>
-				<change when="2021-10-11" who="#EV">[markup]:updated name tags in chs 11, 12</change>
-				<change when="2021-10-12" who="#KB">[markup]:updated persName tags in chs 5, 6, 7</change>
-				<change when="2021-10-12" who="#EV">[markup]:updated name tags in ch 12</change>
-				<change when="2021-10-12" who="#BB">[markup]:updated name tags in ch. 9</change>
-				<change when="2021-10-13" who="#KH">[markup]:updated name tags in ch. 4</change>
-				<change when="2021-10-13" who="#KB">[markup]:updated some name tags during group meeting</change>
-				<change when="2021-10-13" who="#KB">[markup]:finished persName tags in ch 7, fixed historical figs back to plain name tags in chs 5, 6, 7; embedded double epithets as per group decision in chs 5, 6, 7</change>
-				<change when="2021-10-16" who="#EV">[markup]:updated name tags in ch 13</change>
-				<change when="2021-10-20" who="#KH">[markup]:updated name tags in ch 1-4</change>
-				<change when="2021-10-21" who="#KH">[markup]:updated name tags in ch 1-4</change>
-			    <change when="2021-10-25" who="#KH">[markup]:updated name tags in ch 1-4</change>
-				<change when="2021-10-25" who="#EV">[markup]:finished names in chapter 11</change>
-				<change when="2021-10-25" who="#BB">[markup]:updated some names in ch. 9</change>
-				<change when="2021-10-26" who="#BB">[markup]:updated some names in chs. 9-10</change>
-				<change when="2021-11-03" who="#BB">[markup]:cleaned up names in chs. 8-10</change>
-				<change when="2021-11-06" who="#EV">[markup]:cleaned up names in chs. 11-13</change>
-				<change when="2021-11-17" who="#KB">[markup]:replaced misspelled diminiutive subtypes with diminutive subtypes</change>
-				<change when="2021-12-15" who="#KB">[markup]:cleaned up seg tags</change>
-				<change when="2022-02-21" who="#EV">[markup]:added some missing #'s to speech; cleaned most things up </change> 
-				<change when="2022-05-05" who="#KB">[markup]:cleaned up IDs, fixed typos</change>
-				<change when="2022-05-13" who="#KB">[markup]:added writing tags to all letters in the text, changed Klara Olsufyevna's letter signature from #ko to #imko</change>
-				<change when="2022-05-16" who="#KB">[markup]:changed remnant old name tags to persName and personGrp</change>
-				<change when="2022-09-02" who="#KB">[file]:created new repo called Dvoinik-liminality for liminality project and copied old Dvoinik xml file into it; renamed file to dvoinik-lim</change>
-				<change when="2022-09-02" who="#KB">[markup]: removed all seg types (type=liminal) and converted all seg subtypes to types</change>
-				<change when="2022-09-16" who="#KH">{markup]: added seg subtypes in liminal tags in chapter 9</change>
-				<change when="2022-09-16" who="#KB">[markup]: updated subtypes in liminal tags for chpts 1-2</change>
-				<change when="2022-09-20" who="#KH">[markup]: updated seg subtypes in liminal tags for chpt 9.</change>
-				<change when="2023-01-18" who="#KB">[markup]: updated seg subtypes in liminal tags for chs 3-8</change>
-				<change when="2023-01-18" who="#KB">[markup]: standardized encoding in chs 9-13 (removed hashtags, added missed subtypes)</change>
-				<change when="2023-05-12" who="#KH">[markup]: corrected errors in seg tags, removed all personal tags and changed personal to state</change>
-				<change when="2023-05-12" who="#KB">[markup]: corrected errors in seg tags</change>
-				<change when="2023-06-07" who="#KB">[markup]: added seg tags to missed examples of person liminality</change>
-				<change when="2024-04-18" who="#KB">[markup]: added seg tags to the verb stushevat'sia; changed "weather" liminal categories to "atmosphere"; removed "person" liminal category and seg tags or reassigned to "atmosphere" as appropriate</change>
-				<change when="2024-08-19" who="#VS">[markup]:checked chapter 1</change>
-				<change when="2024-08-20" who="#VS">[markup]:checking chapter 2</change>
-				<change when="2024-08-21" who="#VS">[markup]:finished checking chapter 2</change>
-				<change when="2024-08-22" who="#VS">[markup]:finished checking chapter 3</change>
-				<change when="2024-08-23" who="#VS">[markup]:finished checking chapter 4</change>
-				<change when="2024-08-26" who="#VS">[markup]:checking chapter 5</change>
-				<change when="2024-08-27" who="#VS">[markup]:finished checking chapter 5</change>
-				<change when="2024-08-28" who="#VS">[markup]:finished checking chapter 6</change>
-				<change when="2024-09-06" who="#VS">[markup]:finished checking chapter 7</change>
-				<change when="2024-09-07" who="#VS">[markup]:finished checking chapter 8</change>
-				<change when="2024-09-13" who="#VS">[markup]:checking chapter 9</change>
-				<change when="2024-09-27" who="#VS">[markup]:checking chapter 10</change>
-				<change when="2024-09-28" who="#VS">[markup]:checked chapters 11-13</change>
-			</revisionDesc>
-  </teiHeader>
-  <text>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-07-06" who="#BB #JT">Updating encoding using <ptr target="../../utilities/fixes-2026.xsl"/>.</change>
+         <change when="2024-09-28" who="#VS">[markup]:checked chapters 11-13</change>
+         <change when="2024-09-27" who="#VS">[markup]:checking chapter 10</change>
+         <change when="2024-09-13" who="#VS">[markup]:checking chapter 9</change>
+         <change when="2024-09-07" who="#VS">[markup]:finished checking chapter 8</change>
+         <change when="2024-09-06" who="#VS">[markup]:finished checking chapter 7</change>
+         <change when="2024-08-28" who="#VS">[markup]:finished checking chapter 6</change>
+         <change when="2024-08-27" who="#VS">[markup]:finished checking chapter 5</change>
+         <change when="2024-08-26" who="#VS">[markup]:checking chapter 5</change>
+         <change when="2024-08-23" who="#VS">[markup]:finished checking chapter 4</change>
+         <change when="2024-08-22" who="#VS">[markup]:finished checking chapter 3</change>
+         <change when="2024-08-21" who="#VS">[markup]:finished checking chapter 2</change>
+         <change when="2024-08-20" who="#VS">[markup]:checking chapter 2</change>
+         <change when="2024-08-19" who="#VS">[markup]:checked chapter 1</change>
+         <change when="2024-04-18" who="#KB">[markup]: added seg tags to the verb stushevat'sia; changed "weather" liminal categories to "atmosphere"; removed "person" liminal category and seg tags or reassigned to "atmosphere" as appropriate</change>
+         <change when="2023-06-07" who="#KB">[markup]: added seg tags to missed examples of person liminality</change>
+         <change when="2023-05-12" who="#KH">[markup]: corrected errors in seg tags, removed all personal tags and changed personal to state</change>
+         <change when="2023-05-12" who="#KB">[markup]: corrected errors in seg tags</change>
+         <change when="2023-01-18" who="#KB">[markup]: updated seg subtypes in liminal tags for chs 3-8</change>
+         <change when="2023-01-18" who="#KB">[markup]: standardized encoding in chs 9-13 (removed hashtags, added missed subtypes)</change>
+         <change when="2022-09-20" who="#KH">[markup]: updated seg subtypes in liminal tags for chpt 9.</change>
+         <change when="2022-09-16" who="#KH">{markup]: added seg subtypes in liminal tags in chapter 9</change>
+         <change when="2022-09-16" who="#KB">[markup]: updated subtypes in liminal tags for chpts 1-2</change>
+         <change when="2022-09-02" who="#KB">[file]:created new repo called Dvoinik-liminality for liminality project and copied old Dvoinik xml file into it; renamed file to dvoinik-lim</change>
+         <change when="2022-09-02" who="#KB">[markup]: removed all seg types (type=liminal) and converted all seg subtypes to types</change>
+         <change when="2022-05-16" who="#KB">[markup]:changed remnant old name tags to persName and personGrp</change>
+         <change when="2022-05-13" who="#KB">[markup]:added writing tags to all letters in the text, changed Klara Olsufyevna's letter signature from #ko to #imko</change>
+         <change when="2022-05-05" who="#KB">[markup]:cleaned up IDs, fixed typos</change>
+         <change when="2022-02-21" who="#EV">[markup]:added some missing #'s to speech; cleaned most things up </change>
+         <change when="2021-12-15" who="#KB">[markup]:cleaned up seg tags</change>
+         <change when="2021-11-17" who="#KB">[markup]:replaced misspelled diminiutive subtypes with diminutive subtypes</change>
+         <change when="2021-11-06" who="#EV">[markup]:cleaned up names in chs. 11-13</change>
+         <change when="2021-11-03" who="#BB">[markup]:cleaned up names in chs. 8-10</change>
+         <change when="2021-10-26" who="#BB">[markup]:updated some names in chs. 9-10</change>
+         <change when="2021-10-25" who="#KH">[markup]:updated name tags in ch 1-4</change>
+         <change when="2021-10-25" who="#EV">[markup]:finished names in chapter 11</change>
+         <change when="2021-10-25" who="#BB">[markup]:updated some names in ch. 9</change>
+         <change when="2021-10-21" who="#KH">[markup]:updated name tags in ch 1-4</change>
+         <change when="2021-10-20" who="#KH">[markup]:updated name tags in ch 1-4</change>
+         <change when="2021-10-16" who="#EV">[markup]:updated name tags in ch 13</change>
+         <change when="2021-10-13" who="#KH">[markup]:updated name tags in ch. 4</change>
+         <change when="2021-10-13" who="#KB">[markup]:updated some name tags during group meeting</change>
+         <change when="2021-10-13" who="#KB">[markup]:finished persName tags in ch 7, fixed historical figs back to plain name tags in chs 5, 6, 7; embedded double epithets as per group decision in chs 5, 6, 7</change>
+         <change when="2021-10-12" who="#KB">[markup]:updated persName tags in chs 5, 6, 7</change>
+         <change when="2021-10-12" who="#EV">[markup]:updated name tags in ch 12</change>
+         <change when="2021-10-12" who="#BB">[markup]:updated name tags in ch. 9</change>
+         <change when="2021-10-11" who="#KH">[markup]:updated name tags in ch.3</change>
+         <change when="2021-10-11" who="#EV">[markup]:updated name tags in chs 11, 12</change>
+         <change when="2021-10-09" who="#EV">[markup]:updated name tags in ch.11</change>
+         <change when="2021-10-08" who="#BB">[markup]:updated name tags in ch. 8</change>
+         <change when="2021-10-08" who="#EV">[markup]:updated name tags in ch.11</change>
+         <change when="2021-10-07" who="#KH">[markup]:changed persongrp tags to persname as well as rolename tags in chpts 2 and 3</change>
+         <change when="2021-10-06" who="#KH">[markup]:changed name persongrp tages to persname as well as rolename tags in chpts. 1 and 2</change>
+         <change when="2021-10-06" who="#BB">[markup]:changed persongrp tags to persname tags in ch. 8</change>
+         <change when="2021-10-05" who="#BB">[markup]:changed name persongrp tags to persname tags in ch. 8</change>
+         <change when="2021-10-04" who="#KH">[markup]:changed name persongrp tags to persname type tags in ch. 1</change>
+         <change when="2021-08-16" who="#BB">[markup]:added additional liminal tags to chs. 8-10</change>
+         <change when="2021-07-29" who="#EV">[markup]: added more subtypes to liminal seg tags in chpt 13</change>
+         <change when="2021-07-28" who="#EV">[markup]: added more subtypes to liminal seg tags in chpts 11-12; added even more names for the double.</change>
+         <change when="2021-07-26" who="#BB">[markup]:added subtypes to liminal seg tags in chpts 8-10. Added a location tag for Vakhrameyev's apartment</change>
+         <change when="2021-07-25" who="#KH">[markup]: added subtypes to liminal seg tags in chpts 3-4.</change>
+         <change when="2021-07-24" who="#KH">[markup]: added subtypes to liminal seg tags in chpts 1-2.</change>
+         <change when="2021-07-24" who="#EV">[markup]: added subtypes to liminal seg tags in chpts 11-13.</change>
+         <change when="2021-07-23" who="#KB">[markup]: added subtypes (spatial, temporal, weather, atmosphere, state, motion, person) to liminal seg tags in chpts 5-7; accidentally added some spatial subtypes to seg tags in chpt 8</change>
+         <change when="2021-07-15" who="#KH">[markup]: added liminal tags to ch. 4</change>
+         <change when="2021-07-15" who="#KB">[markup]: added liminal seg tags to chpts 5-7; checked placename tags in chpts 5-7</change>
+         <change when="2021-07-14" who="#KH">[markup]: added liminal tags to chs. 3 and 4</change>
+         <change when="2021-07-12" who="#KH">[markup]: added liminal tags to chs. 1 and 2</change>
+         <change when="2021-07-08" who="#BB">[markup]:added liminal tags and some place names to ch. 9</change>
+         <change when="2021-07-06" who="#BB">[markup]:added liminal tags to ch. 8</change>
+         <change when="2021-07-02" who="#EV">[markup]:added some liminal tags in ch. 13; added even more names for both Goliadkins</change>
+         <change when="2021-06-30" who="#EV">[markup]:added some liminal tags in chs. 11,12; added more names for the double and Goliadkin</change>
+         <change when="2021-06-08" who="#KH">[markup]:added some liminal tags in ch. 1-4</change>
+         <change when="2021-06-08" who="#BB">[markup]:added place names and liminal tags in ch. 10</change>
+         <change when="2021-06-04" who="#BB">[markup]: added place names and some liminal tags for ch. 9</change>
+         <change when="2021-06-04" who="#BB">[markup]:added place names for ch. 9</change>
+         <change when="2021-06-03" who="#BB">[markup]:added place names for ch. 8 and a few more name tags for the Goliadkins</change>
+         <change when="2021-06-03" who="#KB">[markup]: added type="fictional" to all tagged fictional place names; added dining establishment tags and tagged them throughout; added first liminal seg tag; added Eliseev and Miliutins' stores</change>
+         <change when="2021-06-02" who="#BB">[markup]:added names for Goliadkin</change>
+         <change when="2021-05-31" who="#KH">[markup]: tagged a few place names</change>
+         <change when="2021-05-31" who="#EV">[markup]: added names for the double and for Goliadkin</change>
+         <change when="2021-05-28" who="#EV">[markup]:added place names in ch.11-13; marked all instances of наш герой in ch. 11-13 as gol personGrp; added name variations from ch. 11-13 to personGrp dbl</change>
+         <change when="2021-05-28" who="#BB">[markup]:added names for the double, tagged petersburg places</change>
+         <change when="2021-05-27" who="#KH">[markup]:added place names in ch. 1-4.</change>
+         <change when="2021-05-27" who="#KB">[markup]:added place names in ch. 5-7; marked all instances of наш герой in ch. 5-7 as gol personGrp; added name variations from ch. 5-7 to personGrp gol and personGrp dbl; cleaned up ch. 5-7</change>
+         <change when="2021-05-27" who="#EV">[markup]:added place names in ch.11; marked all instances of наш герой in ch. 11 as gol personGrp; added name variations from ch. 11 to personGrp dbl;</change>
+         <change when="2021-05-26" who="#KH">[markup]:added place names in ch. 1-4, added merchant persGrp and edited speech tags to reflect, cleaned up other name tags.</change>
+         <change when="2021-05-25" who="#KH">[markup]: added place names in ch. 1-4 and some more persongroup names for Golyadkin</change>
+         <change when="2021-05-25" who="#BB">[markup]:added other names for the double in chs. 8,9,10 to the persGrp for #dbl and cleaned up other name tags</change>
+         <change when="2021-05-24" who="#BB">[markup]:added other names for the double in chs. 8,9,10 to the persGrp for #dbl</change>
+         <change when="2021-05-21" who="#KH">[markup]:added a couple of place names in ch. 1, 2, 3.</change>
+         <change when="2021-05-20" who="#KB">[markup]:converted dbl and gol person tags to personGrp tags; converted several name tags; added listPlace to base</change>
+         <change when="2021-05-19" who="#BB">[markup]:edited spaces and dashes in chs. 8-10</change>
+         <change when="2021-05-18" who="#EV">[markup]:made changes to character names in Chs 12-13, added two imagined characters, added descriptions to some non-Dostoevsky-fictional characters</change>
+         <change when="2021-05-18" who="#BB">[markup]:added character names for ch. 10, added character of федосеич</change>
+         <change when="2021-05-17" who="#KH">[markup]:made some small tagging speech changes in ch. 3 and 4</change>
+         <change when="2021-05-17" who="#EV">[markup]:made changes to character names in Ch11, added the False Klara character</change>
+         <change when="2021-05-13" who="#BB">[markup]:added character names for ch. 10</change>
+         <change when="2021-05-12" who="#KH">[markup]:edited spaces and dashes in chapters 3 and 4 and added a couple of missing name tags. Moved a couple of names into fiction other list</change>
+         <change when="2021-05-12" who="#BB">[markup]:added character names for ch. 10</change>
+         <change when="2021-05-11" who="#KH">[markup]:edited spaces and dashes in chapters 1 and 2 and added object tag for wad of cash</change>
+         <change when="2021-05-07" who="#EV">[markup]:added a few lists</change>
+         <change when="2021-05-07" who="#KB">[markup]:deleted Pelegeia Semenovna name tag and ref in ch. 7, removed mismarked god name tags in ch. 6, added nested dbl name tags in chs. 6 and 7</change>
+         <change when="2021-05-06" who="#KH">[markup]: added character names for ch 4</change>
+         <change when="2021-05-06" who="#EV">[markup]: added character names for ch 13, marked Goliadkin's imagined conversations with other characters with a said-element</change>
+         <change when="2021-05-06" who="#BB">[markup]:added character names for ch. 9</change>
+         <change when="2021-05-05" who="#KH">[markup]: added character names for ch 3 and 4</change>
+         <change when="2021-05-05" who="#KB">[markup]: added character names for chs 5-7, added several historical person xml ids</change>
+         <change when="2021-05-05" who="#EV">[markup]: added character names for chs 12-13, added a historical person xml id; marked Goliadkin's imagined conversations with other characters with a said-element</change>
+         <change when="2021-05-04" who="#KH">[markup]: added character names for chs 2 and 3; corrected tagging errors</change>
+         <change when="2021-05-04" who="#BB">[markup]:added character names for ch 8</change>
+         <change when="2021-05-03" who="#KH">[markup]: added character names for chs 1 and 2</change>
+         <change when="2021-05-03" who="#EV">[markup]: added character names for chs 11 and 12; person name added</change>
+         <change when="2021-04-29" who="#EV">[markup]: addresser addressee of chapter 12 and 13 added; person names added</change>
+         <change when="2021-04-29" who="#KB">[markup]: addresser addressee of chpts 5-7 added</change>
+         <change when="2021-04-29" who="#BB">[markup]:addresser addressee of ch. 10; person names added</change>
+         <change when="2021-04-28" who="#KH">[markup]: addresser addressee of chapter 4 added; person names added</change>
+         <change when="2021-04-28" who="#BB">[markup]:addresser addressee of chapter 9 added; person names added</change>
+         <change when="2021-04-27" who="#KH">[markup]: addresser addressee of chapter 3 added</change>
+         <change when="2021-04-26" who="#EV">[markup]:addresser addressee of chapter 11 and 12 added; person names added</change>
+         <change when="2021-04-26" who="#BB">[markup]:addresser addressee of chapter 8 added</change>
+         <change when="2021-04-22" who="#BB">[markup]:addresser addressee of chapter 8 added</change>
+         <change when="2021-04-21" who="#KH"> [markup]: addresser addressee of chapter 2 added</change>
+         <change when="2021-04-21" who="#KH"> [markup]: addresser addressee of chapter 2 added</change>
+         <change when="2021-04-20" who="#KH">[markup]:addresser addressee of chapter 1 added</change>
+         <change when="2021-04-16" who="#KB">[markup]:person names added</change>
+         <change when="2021-04-08" who="#BB">[markup]:speech marking of chapter 10</change>
+         <change when="2021-04-07" who="#KH">[markup]:speech marking of chapters 2 and 3</change>
+         <change when="2021-04-07" who="#KH">[markup]:clean up of tags in chpts 3 and 4</change>
+         <change when="2021-04-07" who="#EV">[markup]:speech marking of chapter 13</change>
+         <change when="2021-04-06" who="#KH">[markup]:speech marking of chapters 1 and 2</change>
+         <change when="2021-04-06" who="#KB">[markup]:clean up of tags in chpts 5-7</change>
+         <change when="2021-04-06" who="#BB">[markup]:speech marking of chapter 9</change>
+         <change when="2021-04-06" who="#EV">[markup]:speech marking of chapters 11, 12, 13</change>
+         <change when="2021-04-05" who="#EV">[markup]:speech marking of chapter 11</change>
+         <change when="2021-04-05" who="#BB">[markup]:speech marking of chapter 8</change>
+         <change when="2021-03-31" who="#BB">[markup]:division marking of chapter 10</change>
+         <change when="2021-03-29" who="#BB">[markup]:division marking of chapter 9</change>
+         <change when="2021-03-24" who="#KH">[markup]:division and speech marking of chapters 3 and 4</change>
+         <change when="2021-03-24" who="#KB">[markup]:division and speech marking of chapters 6 and 7</change>
+         <change when="2021-03-24" who="#EV">[markup]:division and speech marking of chapters 12 and 13</change>
+         <change when="2021-03-24" who="#BB">[markup]:speech marking of chapter 8</change>
+         <change when="2021-03-24" who="#KH">[markup]:speech marking of chapter 4</change>
+         <change when="2021-03-23" who="#KH">[markup]:division and speech marking of chapter 3</change>
+         <change when="2021-03-23" who="#KB">[markup]:division and speech marking of chapter 5</change>
+         <change when="2021-03-23" who="#EV">[markup]:division and speech marking of chapter 11</change>
+         <change when="2021-03-23" who="#BB">[markup]:division marking of chapter 8</change>
+         <change when="2021-03-22" who="#KH">[markup]:division and speech marking of chapter 2</change>
+         <change when="2021-03-19" who="#KH">[markup]:division and speech marking of chapters 1 and 2</change>
+         <change when="2021-03-18" who="#KH">[markup]:division and speech marking of chapter 1</change>
+         <change when="2021-03-12" who="#KH">[file]:created TEI compliant document</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
       <body>
 <head type="mainTitle">ДВОЙНИК</head>
 <head type="subTitle">ПЕТЕРБУРГСКАЯ ПОЭМА</head>
-<div1 type="part">
-	<div2 type="chapter" n="1">
+<div type="part">
+	<div type="chapter" n="1">
 		<head>Глава I</head>
 		<p>Было без малого восемь часов утра, когда титулярный советник <persName ref="#gol"><forename>Яков</forename> <addName type="patronymic">Петрович</addName> <surname>Голядкин</surname></persName> очнулся после долгого сна, зевнул, потянулся и открыл наконец совершенно глаза свои. Минуты с две, впрочем, лежал он неподвижно на своей постели, как человек <seg type="state" subtype="golkva">не вполне еще уверенный, проснулся ли он или всё еще спит, наяву ли и в действительности ли всё, что около него теперь совершается, или — продолжение его беспорядочных сонных грез.</seg> Вскоре, однако ж, чувства <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName> стали яснее и отчетливее принимать свои привычные, обыденные впечатления. Знакомо глянули на него <seg type="spatial" subtype="golkva">зеленовато-грязноватые, закоптелые, пыльные стены его маленькой комнатки,</seg> его комод красного дерева, стулья под красное дерево, стол, окрашенный красною краскою, клеенчатый турецкий диван красноватого цвета с зелененькими цветочками и, наконец, вчера впопыхах снятое платье и брошенное комком на диване. Наконец, серый
 			<seg type="temporal" subtype="golkva">осенний день</seg>, мутный и грязный, так сердито и с такой кислой гримасою заглянул к нему сквозь тусклое окно в комнату, что
@@ -310,9 +315,9 @@
 
 		<p>Остановившись, <persName ref="#gol"><addName type="epithet">герой наш</addName></persName> поспешил придать своей физиономии приличный, развязный, не без некоторой любезности вид и приготовился дернуть за снурок колокольчика. Приготовившись дернуть за снурок колокольчика, он немедленно и довольно кстати рассудил, <said aloud="false" who="#gol" direct="false">что не лучше ли завтра и что теперь покамест надобности большой не имеется.</said> Но так как <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> услышал вдруг <seg type="spatial" subtype="rutkva">на лестнице чьи-то шаги</seg>, то немедленно переменил новое решение свое и уже так, заодно, впрочем с самым решительным видом, позвонил у <seg type="spatial" subtype="rutkva">дверей</seg>
 			<persName ref="#rut"><forename>Крестьяна</forename> <addName type="patronymic">Ивановича</addName></persName></p>
-</div2>
+</div>
 
-<div2 type="chapter" n="2">
+<div type="chapter" n="2">
 	<head>Глава II</head>
 
 	<p>Доктор медицины и хирургии, <persName ref="#rut"><forename>Крестьян</forename> <addName type="patronymic">Иванович</addName> <surname>Рутеншпиц</surname></persName>, весьма здоровый, хотя уже и пожилой человек, одаренный густыми седеющими бровями и бакенбардами, выразительным, сверкающим взглядом, которым одним, по-видимому, прогонял все болезни, и, наконец, значительным орденом, сидел в это утро у себя в кабинете, в покойных креслах своих, пил кофе, принесенный ему собственноручно его докторшей, курил сигару и прописывал от времени до времени рецепты своим пациентам. Прописав последний пузырек одному старичку, страдавшему геморроем, и выпроводив страждущего старичка в <seg type="spatial" subtype="rutkva">боковые двери</seg>, <persName ref="#rut"><forename>Крестьян</forename> <addName type="patronymic">Иванович</addName></persName> уселся в ожидании следующего посещения. Вошел <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName></p>
@@ -353,7 +358,7 @@
 </p>
 <p>Тогда произошла довольно странная сцена.</p>
 	<p>Немного озадаченный, <persName ref="#rut"><forename>Крестьян</forename> <addName type="patronymic">Иванович</addName></persName> на мгновение будто прирос к своему креслу и, потерявшись, смотрел во все глаза <persName ref="#gol"><roleName>господину</roleName> <surname>Голядкину</surname></persName> который таким же образом смотрел на него. Наконец <persName ref="#rut"><forename>Крестьян</forename> <addName type="patronymic">Иванович</addName></persName> встал, придерживаясь немного за лацкан вицмундира <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>. Несколько секунд стояли они таким образом оба, неподвижно и не сводя глаз друг с друга. Тогда, впрочем необыкновенно странным образом, разрешилось и второе движение <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>. Губы его затряслись, подбородок запрыгал, и <persName ref="#gol"><addName type="epithet">герой наш</addName></persName> заплакал совсем неожиданно. Всхлипывая, кивая головой и ударяя себя в грудь правой рукою, а левой схватив тоже за лацкан домашней одежды <persName ref="#rut"><forename>Крестьяна</forename> <addName type="patronymic">Ивановича</addName></persName>, <said aloud="false" who="#gol" direct="false">хотел было он говорить и в чем-то немедленно объясниться,</said> но не мог и слова сказать. Наконец <persName ref="#rut"><forename>Крестьян</forename> <addName type="patronymic">Иванович</addName></persName> опомнился от своего изумления.</p>
-<p>— <said aloud="true" who="#rut" direct="true" toWhom="#gol" >Полноте, успокойтесь, садитесь!</said>
+<p>— <said aloud="true" who="#rut" direct="true" toWhom="#gol">Полноте, успокойтесь, садитесь!</said>
 	— проговорил он наконец, стараясь посадить <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName> в кресла.</p>
 	<p>— <said aloud="true" who="#gol" direct="true" toWhom="#rut">У меня есть враги, <persName ref="#rut"><forename>Крестьян</forename> <addName type="patronymic">Иванович</addName></persName>, у меня есть враги; у меня есть злые враги, которые меня погубить поклялись...</said>
 	— отвечал <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> боязливо и шепотом.</p>
@@ -432,9 +437,9 @@
 	<persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> уселся, <persName ref="#pet"><addName type="diminuitive">Петрушка</addName></persName>крикнул:
 <said aloud="true" who="#pet" direct="true">«Пошел!»</said>
 — и карета покатилась опять на <placeName ref="#nev">Невский проспект.</placeName></p>
-</div2>
+</div>
 
-<div2 type="chapter" n="3">
+<div type="chapter" n="3">
 	<head>Глава III</head>
 
 
@@ -537,9 +542,9 @@
 	<p><said aloud="true" who="#gol" direct="true" toWhom="#ik">«Не нужно, дурак, не нужно; назад!»</said> — прокричал <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName>, — и кучер словно ожидал такого приказания: не возражая ни на что, не останавливаясь у подъезда и объехав кругом весь <seg type="spatial" subtype="dombe">двор</seg>, выехал снова на улицу.</p>
 
 	<p>Домой <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> не поехал, а, миновав <placeName ref="smost">Семеновский мост,</placeName> приказал поворотить <seg type="spatial" subtype="smost">в один переулок</seg> и остановиться возле <placeName type="fictional" ref="#trak">трактира</placeName> довольно скромной наружности. Вышед из кареты, герой наш расплатился с извозчиком и, таким образом, избавился наконец от своего экипажа, <persName ref="#pet"><addName type="diminutive">Петрушке</addName></persName> приказал идти <placeName type="fictional" ref="#golkva">домой</placeName> и ждать его возвращения, сам же вошел в <placeName type="fictional" ref="#trak">трактир</placeName>, взял особенный нумер и приказал подать себе пообедать. Чувствовал он себя весьма дурно, а голову свою в полнейшем разброде и в хаосе. Долго ходил он в волнении по комнате; наконец сел на стул, подпер себе лоб руками и начал всеми силами стараться обсудить и разрешить кое-что относительно настоящего своего положения...</p>
-</div2>
+</div>
 
-<div2 type="chapter" n="4">
+<div type="chapter" n="4">
 	<head>Глава IV</head>
 
 	<p>День, торжественный день рождения <persName ref="#ko"><forename>Клары</forename> <addName type="patronymic">Олсуфьевны</addName></persName>, единородной дочери статского советника <persName ref="#oi"><surname>Берендеева</surname></persName> в оно время благодетеля <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>, — день, ознаменовавшийся блистательным, великолепным званым обедом, таким обедом, какого давно не видали в стенах чиновничьих квартир у <placeName ref="#izm">Измайловского моста</placeName> и около, — обедом, который походил более на какой-то <rs ref="#valt">пир вальтасаровский</rs>, чем на обед, — который отзывался чем-то <rs ref="#babylon">вавилонским</rs> в отношении блеска, роскоши и приличия, с шампанским-клико, с устрицами и плодами <placeName ref="#ellav">Елисеева</placeName> и <placeName ref="#millav">Милютиных</placeName> лавок, со всякими упитанными тельцами и чиновною табелью о рангах, — этот торжественный день, ознаменовавшийся таким торжественным обедом, заключился блистательным балом, семейным, маленьким, родственным балом, но все-таки блистательным в отношении вкуса, образованности и приличия. Конечно, я совершенно согласен, такие балы бывают, но редко. Такие балы, более похожие на семейные радости, чем на балы, могут лишь даваться в таких домах, как например дом статского советника <persName ref="#oi"><surname>Берендеева</surname></persName>. Скажу более: я даже сомневаюсь, чтоб у всех статских советников могли даваться такие балы. О, если бы я был поэт! — разумеется, по крайней мере такой, как <persName ref="#hom">Гомер</persName> или <persName ref="#asp">Пушкин</persName>; с меньшим талантом соваться нельзя — я бы непременно изобразил вам яркими красками и широкою кистью, о читатели! весь этот высокоторжественный день. Нет, я бы начал свою поэму обедом, я особенно бы налег на то поразительное и вместе с тем торжественное мгновение, когда поднялась первая заздравная чаша в честь царицы праздника. Я изобразил бы вам, во-первых, этих гостей, погруженных в благоговейное молчание и ожидание, более похожее на <rs ref="#demo">демосфеновское</rs> красноречие, чем на молчание. Я изобразил бы вам потом <persName ref="#af"><forename>Андрея</forename> <addName type="patronymic">Филипповича</addName></persName>, как старшего из гостей, имеющего даже некоторое право на первенство, украшенного сединами и приличными седине орденами, вставшего с места и поднявшего над головою заздравный бокал с искрометным вином, — вином, нарочно привозимым из одного отдаленного королевства, чтоб запивать им подобные мгновения, — вином, более похожим на божественный нектар, чем на вино. Я изобразил бы вам гостей и счастливых родителей царицы праздника, поднявших тоже свои бокалы вслед за
@@ -588,9 +593,9 @@
 		<said aloud="false" who="#gol" direct="false">Всё пропало, всё на ветер пошло.</said> <persName ref="#gol"><roleName>Господин</roleName> <surname>Голядкин</surname></persName> вздрогнул, <persName ref="#eg"><addName type="patronymic">Герасимыч</addName></persName> отшатнулся назад,<said aloud="false" who="#gol" direct="false"> всё, что ни было в зале, заволновалось, как море,</said> и
 		<persName ref="#vls"><forename>Владимир</forename> <addName type="patronymic">Семенович</addName></persName> уже несся в первой паре с <persName ref="#ko"><forename>Кларой</forename> <addName type="patronymic">Олсуфьевной</addName></persName>, а красивый <persName ref="#por"><roleName>поручик</roleName></persName> с <persName ref="#kch"><roleName>княжной</roleName> <surname>Чевчехановой</surname></persName> Зрители с любопытством и восторгом теснились взглянуть на танцующих польку — танец интересный, новый, модный, круживший всем головы. <persName ref="#gol"><roleName>Господин</roleName> <surname>Голядкин</surname></persName> был на время забыт. <said aloud="false" who="#gol" direct="false"> Но вдруг всё заволновалось, замешалось, засуетилось; музыка умолкла... случилось странное происшествие.</said> Утомленная танцем, <persName ref="#ko"><forename>Клара</forename> <addName type="patronymic">Олсуфьевна</addName></persName>, едва переводя дух от усталости, с пылающими щеками и глубоко волнующеюся грудью упала наконец в изнеможении сил в кресла. Все сердца устремились к прелестной очаровательнице, все спешили наперерыв приветствовать ее и благодарить за оказанное удовольствие, — вдруг перед нею очутился <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName>. <persName ref="#gol"><roleName>Господин</roleName> <surname>Голядкин</surname></persName> был бледен, крайне расстроен; казалось, он тоже был в каком-то изнеможении, он едва двигался. Он отчего-то улыбался, он просительно протягивал руку. <persName ref="#ko"><forename>Клара</forename> <addName type="patronymic">Олсуфьевна</addName></persName> в изумлении не успела отдернуть руки своей и машинально встала на приглашение <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>.<persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> покачнулся вперед, сперва один раз, потом другой, потом поднял ножку, потом как-то пришаркнул, потом как-то притопнул, потом споткнулся... он тоже хотел танцевать с <persName ref="#ko"><forename> Кларой</forename> <addName type="patronymic">Олсуфьевной</addName></persName>. <persName ref="#ko"><forename> Клара</forename> <addName type="patronymic">Олсуфьевна</addName></persName> вскрикнула; все бросились освобождать ее руку из руки <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>, но и разом <persName ref="#gol"><addName type="epithet">герой наш</addName></persName> был <seg type="spatial" subtype="dombe">оттеснен толпою едва ли не на десять шагов расстояния</seg>. Вокруг него сгруппировался тоже кружок. Послышался визг и крик двух старух, которых <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> едва не опрокинул в ретираде. <said aloud="false" who="#gol" direct="false"> Смятение было ужасное; всё спрашивало, всё кричало, всё рассуждало. Оркестр умолк.</said> <persName ref="#gol"><addName type="epithet">Герой наш</addName></persName> вертелся в кружке своем и машинально, отчасти улыбаясь, что-то бормотал про себя, что, <said aloud="true" who="#gol" direct="true"> «дескать, отчего ж и нет и что, дескать, полька, сколько ему по крайней мере кажется, танец новый и весьма интересный, созданный для утешения дам... но что если так дело пошло, то он, пожалуй, готов согласиться».</said> Но согласия <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>, кажется, никто и не спрашивал. <persName ref="#gol"><addName type="epithet">Герой наш</addName></persName> почувствовал, что вдруг чья-то рука упала на его руку, что другая рука немного оперлась на спину его, что <seg type="state" subtype="dombe">его с какою-то особенною заботливостью направляют в какую-то сторону</seg>. Наконец, он заметил, <seg type="spatial" subtype="dombe">что идет прямо к дверям</seg>. <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> хотел было <said aloud="false" who="#gol" direct="false">что-то сказать, что-то сделать... Но нет, он уже ничего не хотел.</said> Он только машинально отсмеивался. Наконец, он почувствовал,<said aloud="false" who="#gol" direct="false"> что на него надевают шинель, что ему нахлобучили на глаза шляпу; что, наконец, <seg type="atmosphere" subtype="dombe">он почувствовал себя в сенях, в темноте и на холоде, наконец и на лестнице</seg>. Наконец, он споткнулся, ему казалось, <seg type="state" subtype="dombe">что он падает в бездну</seg>; он хотел было вскрикнуть — <seg type="spatial" subtype="dombe">и вдруг очутился на дворе</seg>. Свежий воздух пахнул на него, он на минутку приостановился; в самое это мгновение до него долетели звуки вновь грянувшего оркестра. <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> вдруг вспомнил всё; казалось, все опавшие силы его возвратились к нему опять. Он сорвался с места, на котором доселе стоял, как прикованный, и стремглав бросился вон, куда-нибудь, на воздух, на волю, куда глаза глядят...
 </said>
-</p></div2>
+</p></div>
 
-<div2 type="chapter" n="5">
+<div type="chapter" n="5">
 	<head>Глава V</head>
 
 	<p>На всех петербургских башнях, показывающих и бьющих часы, пробило <seg type="temporal" subtype="izm">ровно полночь</seg>, когда <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName>, вне себя, выбежал на <placeName ref="#nabfon">набережную Фонтанки</placeName>, близ самого <placeName ref="#izm">Измайловского моста</placeName>, спасаясь от врагов, от преследований, от града щелчков, на него занесенных, от крика встревоженных старух, от оханья и аханья женщин и от убийственных взглядов <persName ref="#af"><forename>Андрея</forename> <addName type="patronymic">Филипповича</addName></persName>. <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> <seg type="state" subtype="izm">был убит, — убит вполне, в полном смысле слова, и если сохранил в настоящую минуту способность бежать, то единственно по какому-то чуду, по чуду, которому он сам, наконец, верить отказывался</seg>. Ночь была ужасная, ноябрьская, — мокрая, <seg type="atmosphere" subtype="izm">туманная</seg>, дождливая, снежливая, <seg type="atmosphere" subtype="izm">чреватая флюсами, насморками, лихорадками, жабами, горячками всех возможных родов и сортов—одним словом, всеми дарами петербургского ноября</seg>. Ветер выл в опустелых улицах, вздымая выше колец черную воду <placeName ref="#fon">Фонтанки</placeName> и задорно потрогивая тощие фонари набережной, которые в свою очередь вторили его завываниям тоненьким, пронзительным скрипом, что составляло бесконечный, пискливый, дребезжащий концерт, весьма знакомый каждому петербургскому жителю. <seg type="atmosphere" subtype="izm">Шел дождь и снег разом</seg>. Прорываемые ветром струи дождевой воды прыскали чуть-чуть не горизонтально, словно из пожарной трубы, и кололи и секли лицо несчастного <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>, как тысячи булавок и шпилек. Среди ночного безмолвия, прерываемого лишь отдаленным гулом карет, воем ветра и скрипом фонарей, уныло слышались хлест и журчание воды, стекавшей со всех крыш, крылечек, желобов и карнизов на гранитный помост тротуара. Ни души не было ни вблизи, ни вдали, да казалось, что и быть не могло в такую пору и в такую погоду. Итак, один только <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName>, один с своим отчаянием, трусил в это время по <placeName ref="#nabfon"><seg type="spatial" subtype="nabfon">тротуару Фонтанки</seg></placeName> своим обыкновенным мелким и частым шажком, спеша добежать как можно скорее в свою <placeName ref="#shu">Шестилавочную улицу</placeName>, в свой четвертый этаж, к себе на
@@ -602,8 +607,8 @@
 <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName> был словно знакомый, словно домашний; взбегал легко, без затруднений и с совершенным знанием местности.
 		<persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> почти совсем нагонял его; даже раза два или три подол шинели незнакомца ударил его по носу. Сердце в нем замирало. Таинственный человек остановился прямо <seg type="spatial" subtype="golkva">против дверей</seg> <placeName type="fictional" ref="#golkva">квартиры</placeName> <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>, стукнул, и (что, впрочем, удивило бы в другое время <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>) <persName ref="#pet"><addName type="diminutive">Петрушка</addName></persName>, словно ждал и спать не ложился, тотчас отворил <seg type="spatial" subtype="golkva">дверь</seg> и пошел за вошедшим человеком со свечою в руках. Вне себя вбежал в жилище свое <persName ref="#gol"><addName type="epithet">герой нашей повести</addName></persName>; не снимая шинели и шляпы, прошел он <seg type="spatial" subtype="golkva">коридорчик</seg> и, словно громом пораженный, остановился <seg type="spatial" subtype="golkva">на пороге своей комнаты</seg>. Все предчувствия <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName> сбылись совершенно. Всё, чего опасался он и что предугадывал, совершилось теперь наяву. Дыхание его порвалось, голова закружилась. Незнакомец сидел перед ним, тоже в шинели и в шляпе, на его же постели, слегка улыбаясь, и, прищурясь немного, дружески кивал ему головою. <persName ref="#gol"><roleName>Господин</roleName> <surname>Голядкин</surname></persName> хотел закричать, но не мог, — протестовать каким-нибудь образом, но сил не хватило. Волосы встали на голове его дыбом, и он присел без чувств на месте от ужаса. Да и было от чего, впрочем. <persName ref="#gol"><roleName>Господин</roleName> <surname>Голядкин</surname></persName> совершенно узнал своего <persName ref="#dbl"><addName type="epithet">ночного приятеля</addName></persName>. <persName ref="#dbl"><addName type="epithet">Ночной приятель</addName></persName> его был не кто иной, как он сам, — сам <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName>, <persName ref="#dbl"><addName type="epithet">другой <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName></addName></persName>, но совершенно такой же, как и он сам, — одним словом, что называется, <persName ref="#dbl"><addName type="epithet">двойник</addName></persName> его во всех отношениях..............................................
 </p>
-</div2>
-<div2 type="chapter" n="6">
+</div>
+<div type="chapter" n="6">
 	<head>Глава VI</head>
 <p>
 На другой день, ровно в восемь часов, <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> очнулся на своей постели. Тотчас же все необыкновенные вещи вчерашнего дня и вся невероятная, дикая ночь, с ее почти невозможными приключениями, разом, вдруг, во всей ужасающей полноте, явились его воображению и памяти. <said aloud="false" who="#gol" direct="false">Такая ожесточенная адская злоба врагов его и особенно последнее доказательство этой злобы оледенили сердце <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>. Но и вместе с тем всё это было так странно, непонятно, дико, казалось так невозможным, что действительно трудно было веру дать всему этому делу; <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> даже сам готов был признать всё это несбыточным бредом, мгновенным расстройством воображения, отемнением ума, если б, к счастию своему, не знал по горькому житейскому опыту, до чего иногда злоба может довести человека,— до чего может иногда дойти ожесточенность врага, мстящего за честь и амбицию.</said> К тому же разбитые члены <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>, чадная голова, изломанная поясница и злокачественный насморк сильно свидетельствовали и отстаивали всю вероятность вчерашней ночной <seg type="motion" subtype="golkva">прогулки</seg>, а частию и всего прочего, приключившегося во время этой <seg type="motion" subtype="golkva">прогулки</seg>. Да и, наконец, <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> уже давным-давно знал,
@@ -725,8 +730,8 @@
 	<seg type="spatial" subtype="nev">переулочком</seg>... мы лучше возьмем <seg type="spatial" subtype="nev">переулочком</seg>.</said></p>
 	<p>— <said aloud="true" who="#dbl" direct="true" toWhom="#gol">Хорошо-с. Пожалуй, возьмем <seg type="spatial" subtype="nev">переулочком-с</seg>,</said> — робко сказал <persName ref="#dbl"><addName type="epithet">смиренный спутник <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName></addName></persName>, как будто намекая тоном ответа, что где ему разбирать и что, в его положении, он и <seg type="spatial" subtype="nev">переулочком</seg> готов удовольствоваться. Что же касается до
 <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>, то он совершенно не понимал, что с ним делалось. Он не верил себе. Он еще не опомнился от своего изумления.</p>
-</div2>
-<div2 type="chapter" n="7">
+</div>
+<div type="chapter" n="7">
 	<head>Глава VII</head>
 <p>
 	Опомнился он немного <seg type="spatial" subtype="golkva">на лестнице</seg>, <seg type="spatial" subtype="golkva">при входе</seg> в <placeName type="fictional" ref="#golkva">квартиру свою</placeName>. <said aloud="false" who="#gol" direct="true">«Ах я баран-голова!</said> — ругнул он себя мысленно, — <said aloud="false" who="#gol" direct="true">ну, куда ж я веду его? Сам я голову в петлю кладу. Что же подумает
@@ -818,9 +823,9 @@
 
 <p>Наконец <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> улегся совсем. В голове у него шумело, трещало, звонило. Он стал забываться-забываться... силился было о чем-то думать, вспомнить что-то такое весьма интересное, разрешить что-то такое весьма важное, какое-то щекотливое дело, — но не мог. Сон налетел на его победную голову, и он заснул так, как обыкновенно спят люди, с непривычки употребившие вдруг пять стаканов пунша на какой-нибудь дружеской вечеринке.
 </p>
-</div2>
+</div>
 
-<div2 type="chapter" n="8">
+<div type="chapter" n="8">
   <head>Глава VIII</head>
   <p>Как обыкновенно, на другой день <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> проснулся в восемь часов; проснувшись же, тотчас припомнил все происшествия вчерашнего вечера, — припомнил и поморщился. <said aloud="false" who="#gol" direct="true">«Эк я разыгрался вчера каким дураком!»</said> — подумал он, приподымаясь с постели и взглянув на постель своего гостя. Но каково же было его удивление, когда не только гостя, но даже и постели, на которой спал гость, не было в комнате! <said aloud="false" who="#gol" direct="true">«Что ж это такое?</said> — чуть не вскрикнул <persName ref="#gol"><roleName>господин</roleName> <surname> Голядкин</surname></persName>, — <said aloud="false" who="#gol" direct="true">что ж бы это было такое? Что же означает теперь это новое обстоятельство?»</said> Покамест <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName>, недоумевая, с раскрытым ртом смотрел на опустелое место, скрипнула <seg type="spatial" subtype="golkva">дверь</seg>, и <persName ref="#pet"><addName type="diminutive">Петрушка</addName></persName> вошел с чайным подносом.
 	<said aloud="true" who="#gol" direct="true" toWhom="#pet">«Где же, где же?»</said> — проговорил чуть слышным голосом <persName ref="#gol"><addName type="epithet">наш герой</addName></persName>, указывая пальцем на вчерашнее место, отведенное гостю.
@@ -881,7 +886,7 @@
   <p>Тут <persName ref="#af"><forename>Андрей</forename> <addName type="patronymic">Филиппович</addName></persName> второй раз кликнул <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>.</p>
   <p>— <said aloud="true" who="#gol" direct="true" toWhom="#af">Сейчас, <persName ref="#af"><forename>Андрей</forename> <addName type="patronymic">Филиппович</addName></persName>; я вот только немножко, вот здесь...</said> <said aloud="true" who="#gol" direct="true" toWhom="#dbl">Милостивый государь, понимаете ли вы русский язык?</said></p>
   <p>— <said aloud="true" who="#dbl" direct="true" toWhom="#gol">Лучше всего будет ножичком снять, <persName ref="#gol"><forename>Яков</forename> <addName type="patronymic">Петрович</addName></persName>, вы лучше на меня положитесь: вы лучше не трогайте сами, <persName ref="#gol"><forename>Яков</forename> <addName type="patronymic">Петрович</addName></persName>, а на меня положитесь, — я же отчасти тут ножичком..</said>.</p>
-  <p><persName ref="#af"><forename>Андрей</forename> <addName type="patronymic">Филиппович</addName></persName> третий раз кликнул <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>>.</p>
+  <p><persName ref="#af"><forename>Андрей</forename> <addName type="patronymic">Филиппович</addName></persName> третий раз кликнул <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>&gt;.</p>
   <p>— <said aloud="true" who="#gol" direct="true" toWhom="#dbl">Да, помилуйте, где же тут пятнышко? Ведь, кажется, вовсе нету здесь пятнышка?</said></p>
   <p>— <said aloud="true" who="#dbl" direct="true" toWhom="#gol">И огромное пятнышко, вот оно! вот, позвольте, я здесь его видел; вот, позвольте... вы только позвольте мне, <persName ref="#gol"><forename>Яков</forename> <addName type="patronymic">Петрович</addName></persName>, я отчасти здесь ножичком, я из участия, <persName ref="#gol"><forename>Яков</forename> <addName type="patronymic">Петрович</addName></persName>, и ножичком от чистого сердца... вот так, вот и дело с концом...</said></p>
   <p>Тут, и совсем неожиданно, <persName ref="#dbl"><roleName>господин</roleName> <surname>Голядкин</surname><addName type="epithet">-младший</addName></persName>, вдруг ни с того ни с сего, осилив <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname><addName type="epithet">-старшего</addName></persName> в мгновенной борьбе, между ними возникшей, и во всяком случае совершенно против воли его, овладел требуемой начальством бумагой и, вместо того чтоб поскоблить ее ножичком от чистого сердца, как вероломно уверял он <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname><addName type="epithet">-старшего</addName></persName>, — быстро свернул ее, сунул под мышку, в два скачка очутился возле <persName ref="#af"><forename>Андрея</forename> <addName type="patronymic">Филипповича</addName></persName>, не заметившего ни одной из проделок его, и полетел с ним в директорский кабинет.
@@ -930,9 +935,9 @@
 	<p>— <said aloud="true" who="#dbl" direct="true" toWhom="#gol">Кто это говорит? Это враги мои говорят,</said> — отвечал отрывисто <persName ref="#dbl"><addName type="epithet">тот, кто называл себя <persName ref="#gol"><roleName>господином</roleName> <surname>Голядкиным</surname></persName></addName></persName>, и вместо с словом этим неожиданно освободился из слабых рук настоящего <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>. Освободившись, он бросился с <seg type="spatial" subtype="dep">лестницы</seg>, оглянулся кругом, увидев извозчика, подбежал к нему, сел на дрожки и в одно мгновение скрылся из глаз
 		<persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname><addName type="epithet">-старшего</addName></persName>. Отчаянный и покинутый всеми титулярный советник оглянулся кругом, но не было другого извозчика. Попробовал было он бежать, да ноги подламывались. С опрокинутой физиономией, с разинутым ртом, уничтожившись, съежившись, в бессилии прислонился он к фонарному столбу и остался несколько минут таким образом посреди тротуара. Казалось, что всё погибло для
 		<persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>...</p>
-</div2>
+</div>
 
-<div2 type="chapter" n="9">
+<div type="chapter" n="9">
 	<head>Глава IX</head>
 	<p>Всё, по-видимому, и даже природа сама, вооружилось против <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>; но он еще был на ногах и не побежден; он это чувствовал, что не побежден. Он готов был бороться. Он с таким чувством и с такою энергией потер себе руки, когда очнулся после первого изумления, что уже по одному виду <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName> заключить можно было, что он не уступит. Впрочем, опасность была на носу, была очевидна; <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> и это чувствовал; да как за нее взяться, за эту опасность-то? вот вопрос. Даже на мгновение мелькнула мысль в голове <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>,
 		<said aloud="false" who="#gol" direct="true" toWhom="#gol">«что, дескать, не оставить ли всё это так, не отступиться ли запросто? Ну, что ж? ну, и ничего. Я буду особо, как будто не я,</said> — думал <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName>, — <said aloud="false" who="#gol" direct="true" toWhom="#gol">пропускаю всё мимо; не я, да и только; он тоже особо, авось и отступится; поюлит, шельмец, поюлит, повертится, да и отступится. Вот оно как! Я смирением возьму. Да и где же опасность? ну, какая опасность? Желал бы я, чтоб кто-нибудь указал мне в этом деле опасность? Плевое дело! обыкновенное дело!..»</said> Здесь <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> осекся. Слова у него на языке замерли; он даже ругнул себя за эту мысль; даже тут же и уличил себя в низости, в трусости за эту мысль; однако дело его все-таки не двинулось с места. Чувствовал он, что решиться на что-нибудь в настоящую минуту было для него сущею необходимостью; даже чувствовал, что много бы дал тому, кто сказал бы ему, на что именно нужно решиться. Ну, да ведь как угадать? Впрочем, и некогда было угадывать. На всякий случай, чтоб времени не терять, нанял он извозчика и полетел
@@ -1088,9 +1093,9 @@
 	<p><writing who="#gol" toWhom="#ni">Во всяком случае честь имею пребыть</writing></p>
 	<p><writing who="#gol" toWhom="#ni">вашим покорным слугою
 <persName ref="#gol"><forename>Я</forename>. <surname>Голядкин</surname></persName>».</writing></p>
-</div2>
+</div>
 
-<div2 type="chapter" n="10">
+<div type="chapter" n="10">
   <head>Глава X</head>
 	<p>Вообще можно сказать, что происшествия вчерашнего дня до основания потрясли <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>. Почивал <persName ref="#gol"><addName type="epithet">наш герой</addName></persName> весьма нехорошо, то есть никак не мог даже на пять минут заснуть совершенно: словно проказник какой-нибудь насыпал ему резаной щетины в постель. Всю ночь провел он в <seg type="state" subtype="golkva">каком-то полусне, полубдении,</seg> переворачиваясь со стороны на сторону, с боку на бок, охая, кряхтя, на минутку засыпая, через минутку опять просыпаясь, и всё это сопровождалось какой-то странной тоской, неясными воспоминаниями, безобразными видениями, — одним словом, всем, что только можно найти неприятного... То появлялась перед ним, в каком-то странном, загадочном полусвете, фигура <persName ref="#imaf"><forename>Андрея</forename> <addName type="patronymic">Филипповича</addName></persName>, — сухая фигура, сердитая фигура, с сухим, жестким взглядом и с черство-учтивой побранкой... И только что <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> начинал было подходить к
 <persName ref="#imaf"><forename>Андрею</forename> <addName type="patronymic">Филипповичу</addName></persName>, чтоб перед ним каким-нибудь образом, так или этак, оправдаться и доказать ему, что он вовсе не таков, как его враги расписали, что он вот такой-то да сякой-то и даже обладает, сверх обыкновенных, врожденных качеств своих, вот тем-то и тем-то; но как тут и являлось известное своим неблагопристойным направлением лицо и каким-нибудь самым возмущающим душу средством сразу разрушало все предначинания <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>, тут же, почти на глазах же <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>, очерняло досконально его репутацию, втаптывало в грязь его амбицию и потом немедленно занимало место его на службе и в обществе. То чесалась голова <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName> от какого-нибудь щелчка, недавно благоприобретенного и уничиженно принятого, полученного или в общежитии, или как-нибудь там, по обязанности, на который щелчок протестовать было трудно... И между тем как
@@ -1295,9 +1300,9 @@
 	<p>В беспокойстве своем, в тоске и смущении, чувствуя, что так оставаться нельзя, что наступает минута решительная, что нужно же с кем-нибудь объясниться, <persName ref="#gol"><addName type="epithet">герой наш</addName></persName> стал было понемножку подвигаться к тому месту, где стоял недостойный и загадочный приятель его; но в самое это время у <seg type="spatial" subtype="dep">подъезда</seg> загремел давно ожидаемый экипаж <persName ref="#ep"><roleName>его превосходительства</roleName></persName>. <persName ref="#fed"><addName type="patronymic">Федосеич</addName></persName> рванул <seg type="spatial" subtype="dep">дверь</seg> и, согнувшись в три дуги, пропустил
 <persName ref="#ep"><roleName>его превосходительство</roleName></persName> мимо себя. Все ожидавшие разом хлынули к выходу и оттеснили на мгновение <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname><addName type="epithet">-старшего</addName></persName> от <persName ref="#dbl"><roleName>господина</roleName> <surname>Голядкина</surname><addName type="epithet">-младшего</addName></persName>.
 <said aloud="true" who="#gol" direct="true" toWhom="#dbl">«Не уйдешь!»</said> — говорил <persName ref="#gol"><addName type="epithet">наш герой</addName></persName>, прорываясь сквозь толпу и не спуская глаз с кого следовало. Наконец толпа раздалась. <persName ref="#gol"><addName type="epithet">Герой наш</addName></persName> почувствовал себя на свободе и ринулся в погоню за своим неприятелем.</p>
-</div2>
+</div>
 
-<div2 type="chapter" n="11">
+<div type="chapter" n="11">
 <head>Глава XI</head>
 
 	<p>Дух занимался в груди <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>; словно на крыльях летел он вслед за своим быстро удалявшимся неприятелем. Чувствовал он в себе присутствие страшной энергии. Впрочем, несмотря на присутствие страшной энергии, <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> мог смело надеяться, что в настоящую минуту даже простой комар, если бы только он мог в такое время жить в <placeName ref="#spb">Петербурге</placeName>, весьма бы удобно перешиб его крылом своим. <seg type="state" subtype="nev">Чувствовал он еще, что опал и ослаб совершенно, что несет его какою-то совершенно особенною и постороннею силою, что он вовсе не сам идет, что, напротив, его ноги подкашиваются и служить отказываются</seg>. Впрочем, это всё могло бы устроиться к лучшему.
@@ -1348,7 +1353,7 @@
 	<p><said aloud="true" who="#gol" direct="true" toWhom="#dbl">—	И не я</said>, — с жаром перебил <persName ref="#gol"><addName type="epithet">наш герой</addName></persName>,- <said aloud="true" who="#gol" direct="true" toWhom="#dbl"> и не я! Сердце мое говорит мне, <persName ref="#dbl"><forename>Яков</forename> <addName type="patronymic">Петрович</addName></persName>, что не я виноват во всем этом. Будем обвинять судьбу во всем этом, <persName ref="#dbl"><forename>Яков</forename> <addName type="patronymic">Петрович</addName></persName>
 	</said>, — прибавил <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname><addName type="epithet">-старший</addName></persName> совершенно примирительным тоном. Голос его начинал мало-помалу слабеть и дрожать.</p>
 <p><said aloud="true" who="#dbl" direct="true" toWhom="#gol">—	Ну, что? как вообще ваше здоровье?</said> — произнес <persName ref="#dbl"><addName type="epithet">заблудшийся</addName></persName> сладким голосом.</p>
-<p><said aloud="true" who="#gol" direct="true" toWhom="#dbl">—	Немного покашливаю</said>,— отвечал еще слаще <persName ref="#gol"><addName type="epithet">герой наш></addName></persName>.</p>
+<p><said aloud="true" who="#gol" direct="true" toWhom="#dbl">—	Немного покашливаю</said>,— отвечал еще слаще <persName ref="#gol"><addName type="epithet">герой наш&gt;</addName></persName>.</p>
 <p><said aloud="true" who="#dbl" direct="true" toWhom="#gol">—	Берегитесь. Теперь всё такие поветрия, немудрено схватить жабу, и я, признаюсь вам, начинаю уже кутаться во фланель.</said></p>
 	<p><said aloud="true" who="#gol" direct="true" toWhom="#dbl">—	Действительно, <persName ref="#dbl"><forename>Яков</forename> <addName type="patronymic">Петрович</addName></persName>, немудрено схватить жабу-с... <persName ref="#dbl"><forename>Яков</forename> <addName type="patronymic">Петрович</addName></persName>!</said> — произнес после кроткого молчания <persName ref="#gol"><addName type="epithet">герой наш</addName></persName>.
 		<said aloud="true" who="#gol" direct="true" toWhom="#dbl"> — <persName ref="#dbl"><forename>Яков</forename> <addName type="patronymic">Петрович</addName></persName>! я вижу, что я заблуждался... Я с умилением вспоминаю о тех счастливых минутах, которые удалось нам провести вместе под бедным, но, смею сказать, радушным кровом моим...</said></p>
@@ -1410,8 +1415,7 @@
 <p><said aloud="true" who="#gol" direct="true" toWhom="#pol">—	Сколько с меня, братец?</said> — спросил <persName ref="#gol"><addName type="epithet">наш герой</addName></persName> трепещущим голосом.</p>
 
 	<p>Громкий смех раздался кругом <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>; сам половой усмехнулся. <persName ref="#gol"><roleName>Господин</roleName> <surname>Голядкин</surname></persName> понял, что и на этом срезался и сделал какую-то страшную глупость. Поняв всё это, он до того сконфузился, что принужден был полезть в карман за платком своим, вероятно чтобы что-нибудь сделать и так не стоять; но, к неописанному своему и всех окружавших его изумлению, вынул вместо платка стклянку с каким-то лекарством, дня четыре тому назад прописанным <persName ref="#rut"><forename>Крестьяном</forename> <addName type="patronymic">Ивановичем</addName></persName>.<said aloud="false" who="#gol" direct="true" toWhom="#gol"><q>«Медикаменты в той же аптеке»</q></said>, — пронеслось в голове
-		<persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>... Вдруг он вздрогнул и чуть не вскрикнул от ужаса. Новый свет проливался... Темная, красновато-отвратительная жидкость зловещим отсветом блеснула в глаза <persName ref="#gol"><roleName>господину</roleName> <surname>Голядкину</surname></persName>... Пузырек выпал у него из рук и тут же разбился. <persName ref="#gol"><addName type="epithet">Герой наш</addName></persName> вскрикнул и отскочил шага на два назад от пролившейся жидкости... он дрожал всеми членами, и пот пробивался у него на висках и на лбу.<said aloud="false"
-			who="#gol" direct="true" toWhom="#gol"> «Стало быть, жизнь в опасности!»
+		<persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>... Вдруг он вздрогнул и чуть не вскрикнул от ужаса. Новый свет проливался... Темная, красновато-отвратительная жидкость зловещим отсветом блеснула в глаза <persName ref="#gol"><roleName>господину</roleName> <surname>Голядкину</surname></persName>... Пузырек выпал у него из рук и тут же разбился. <persName ref="#gol"><addName type="epithet">Герой наш</addName></persName> вскрикнул и отскочил шага на два назад от пролившейся жидкости... он дрожал всеми членами, и пот пробивался у него на висках и на лбу.<said aloud="false" who="#gol" direct="true" toWhom="#gol"> «Стало быть, жизнь в опасности!»
 		</said> Между тем в комнате произошло движение, смятение; все окружали <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>, все говорили <persName ref="#gol"><roleName>господину</roleName> <surname>Голядкину</surname></persName>, некоторые даже хватали <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>. Но <persName ref="#gol"><addName type="epithet">герой наш</addName></persName> <seg type="state" subtype="trak">был нем и недвижим, не видя ничего, не слыша ничего, не чувствуя ничего...
 </seg> Наконец, как будто с места сорвавшись, бросился он вон из
 <placeName type="fictional" ref="#trak">трактира</placeName>, растолкал всех и каждого из стремившихся удержать его, почти без чувств упал на первые попавшиеся ему извозчичьи дрожки и полетел на квартиру.</p>
@@ -1421,9 +1425,9 @@
 	<said aloud="true" who="#gol" direct="true" toWhom="#mikh"> это официальное...»</said> В пакете действительно было предписание <persName ref="#gol"><roleName>господину</roleName> <surname>Голядкину</surname></persName>, за подписью <persName ref="#af"><forename>Андрея</forename> <addName type="patronymic">Филипповича</addName></persName>, сдать находившиеся у него на руках дела <persName ref="#is"><forename>Ивану</forename> <addName type="patronymic">Семеновичу</addName></persName>. Взяв пакет и дав сторожу гривенник,
 	<persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> пришел в <placeName ref="#residence">квартиру свою</placeName> и увидел, что <persName ref="#pet"><addName type="diminutive">Петрушка</addName></persName> готовит и собирает в одну кучу весь свой дрязг и хлам, все свои вещи, очевидно намереваясь оставить <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName> и переехать от него к переманившей его <persName ref="#ki"><forename>Каролине</forename> <addName type="patronymic">Ивановне</addName></persName>, чтоб заменить ей
 <persName ref="#ev"><forename>Евстафия</forename></persName>.</p>
-</div2>
+</div>
 
-<div2 type="chapter" n="12">
+<div type="chapter" n="12">
 		<head>Глава XII</head>
 
 	<p> <persName ref="#pet"><addName type="diminutive">Петрушка</addName></persName> вошел, покачиваясь, держась как-то странно-небрежно и с какой-то холопски-торжественной миной в лице. Видно было, что он что-то задумал, чувствовал себя вполне в своем праве и смотрел совершенно посторонним человеком, то есть чьим-то другим служителем, но только никак не прежним служителем <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>.</p>
@@ -1514,7 +1518,7 @@
 <p><said aloud="true" who="#lep1" direct="true" toWhom="#gol">—	А вам чего-с? </said>— спросил <persName ref="#lep1"><roleName>лакей</roleName></persName>, оглядывая с ног до головы <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>.</p>
 	<p><said aloud="true" who="#gol" direct="true" toWhom="#lep1">—	А я, мой друг, того... <persName ref="#gol"><surname>Голядкин</surname></persName>, <persName ref="#gol"> <roleName>чиновник</roleName>, <roleName>титулярный советник</roleName> <surname>Голядкин</surname></persName>. Дескать, так и так, объясниться...</said></p>
 <p><said aloud="true" who="#lep1" direct="true" toWhom="#gol">—	Обождите; нельзя-с...</said></p>
-<p><said aloud="true" who="#gol" direct="true" toWhom="#lep1" >—	Друг мой, я не могу обождать: мое дело важное, не терпящее отлагательства дело...</said></p>
+<p><said aloud="true" who="#gol" direct="true" toWhom="#lep1">—	Друг мой, я не могу обождать: мое дело важное, не терпящее отлагательства дело...</said></p>
 <p><said aloud="true" who="#lep1" direct="true" toWhom="#gol">—	Да вы от кого? Вы с бумагами?..</said></p>
 <p><said aloud="true" who="#gol" direct="true" toWhom="#lep1">—	Нет, я, мой друг, сам по себе... Доложи, мой друг, дескать, так и так, объясниться. А я тебя поблагодарю, милый мой...</said></p>
 <p><said aloud="true" who="#lep1" direct="true" toWhom="#gol">—	Нельзя-с. Не велено принимать; у них гости-с. Пожалуйте утром в десять часов-с...</said></p>
@@ -1583,9 +1587,9 @@
 		<persName ref="#gol"><addName type="epithet">Герой наш</addName></persName> плюнул от негодования и выбежал на <seg type="spatial" subtype="epkva">крыльцо</seg>; <seg type="state" subtype="epkva">он был так убит, что совершенно не помнил, кто и как посадил его в карету</seg>. Очнувшись, увидел он, что его везут по <placeName ref="#nabfon">Фонтанке</placeName>. <said aloud="false" who="#gol" direct="true">«Стало быть, к <placeName ref="#izm">Измайловскому мосту
 </placeName>?</said>
 	— подумал <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName>... Тут <persName ref="#gol"><roleName>господину</roleName> <surname>Голядкину</surname></persName> захотелось еще о чем-то подумать, но нельзя было; а было что-то такое ужасное, чего и объяснить невозможно...<said aloud="false" who="#gol" direct="true"> — Ну, ничего!» </said>— заключил <persName ref="#gol"><addName type="epithet">наш герой</addName></persName> и поехал к <placeName ref="#izm">Измайловскому мосту</placeName>.</p>
-</div2>
+</div>
 
-<div2 type="chapter" n="13">
+<div type="chapter" n="13">
 		<head> Глава XIII</head>
 
 	<p>...Казалось, что погода хотела перемениться к лучшему. Действительно, мокрый снег, валивший доселе целыми тучами, начал мало-помалу редеть, редеть и наконец почти совсем перестал. Стало видно небо, и на нем там и сям заискрились звездочки. Было только мокро, грязно, сыро и удушливо, особенно для <persName ref="#gol"><roleName>господина</roleName> <surname>Голядкина</surname></persName>, который и без того уже едва дух переводил. Вымокшая и отяжелевшая шинель его пронимала все его члены какою-то неприятно теплою сыростью и тяжестью своею подламывала и без того уже сильно ослабевшие ноги его. Какая-то лихорадочная дрожь гуляла острыми и едкими мурашками по всему его телу; изнеможение точило из него холодный болезненный пот, так что <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName> позабыл уже при сем удобном случае повторить с свойственною ему твердостью и решимостью свою любимую фразу, что <said aloud="false" who="#gol" direct="false" toWhom="#gol">
@@ -1626,7 +1630,7 @@
 <p><said aloud="true" who="#iz3" direct="true" toWhom="#gol">—	Так-с...</said></p>
 <p><said aloud="true" who="#gol" direct="true" toWhom="#iz3">—	Я, видишь, мой друг... ты из какой деревни, мой милый?</said></p>
 <p><said aloud="true" who="#iz3" direct="true" toWhom="#gol">—	Мы господские...</said></p>
-<p><said aloud="true" who="#gol" direct="true" toWhom="#iz3">>—	И добрых господ?..</said></p>
+<p><said aloud="true" who="#gol" direct="true" toWhom="#iz3">&gt;—	И добрых господ?..</said></p>
 <p><said aloud="true" who="#iz3" direct="true" toWhom="#gol">—	Нешто...</said></p>
 <p><said aloud="true" who="#gol" direct="true" toWhom="#iz3">—	Да, мой друг; ты постой здесь, мой друг. Ты, видишь, мой друг, ты давно в Петербурге?</said></p>
 <p><said aloud="true" who="#iz3" direct="true" toWhom="#gol">—	Да уж год езжу...</said></p>
@@ -1713,418 +1717,416 @@
 		<persName ref="#rut"><forename>Крестьяна</forename> <addName type="patronymic">Ивановича</addName></persName>.</p>
 	<p><said aloud="true" who="#rut" direct="true" toWhom="#gol">—	Ви получаит казенный квартир, с дровами, с лихт и с прислугой, чего ви недостоин</said>, — строго и ужасно, как приговор, прозвучал ответ <persName ref="#rut"><forename>Крестьяна</forename> <addName type="patronymic">Ивановича</addName></persName>.</p>
 <p><persName ref="#gol"><addName type="epithet">Герой наш</addName></persName> вскрикнул и схватил себя за голову. Увы! он это давно уже предчувствовал!</p>
-</div2>
-</div1>
+</div>
+</div>
       </body>
-			<back>
-				<div type="editorial">
-<listPerson type="fictional">
-	<person xml:id="gol" sex="male">
-		<persName>Яков Петрович Голядкин</persName>
-		<persName>Господин Голядкин</persName>
-		<persName>наш герой</persName>
-		<persName>герой наш</persName>
-		<persName>герой нашей повести</persName>
-		<persName>Яков Петрович</persName>
-		<persName>Голядкин</persName>
-		<persName>Господин Голядкин-старший</persName>
-		<persName>Я. Голядкин</persName>
-		<persName>Фоблаз</persName>
-		<persName>Яша</persName>
-		<persName>старый господин Голядкин</persName>
-		<persName>плачевный герой повести нашей</persName>
-		<persName>солидный господин Голядкин</persName>
-		<persName>возмущенный господин Голядкин</persName>
-		<persName>настоящий господин Голядкин</persName>
-		<persName>достойный господин Голядкин</persName>
-		<persName>полумертвый господин Голядкин</persName>
-		<persName>оторопевший господин Голядкин</persName>
-		<persName>несчастный господин Голядкин-старший</persName>
-		<persName>настоящий и невинный господин Голядкин</persName>
-		<persName>правдолюбивый господин Голядкин</persName>
-		<persName>благонамеренный господин Голядкин</persName>
-		<persName>известный любовию к ближнему настоящий господин Голядкин</persName>
-		<persName>многострадальный господин Голядкин</persName>
-		<persName>откровенный герой наш</persName>
-		<persName>крепкий и неунывающий духом герой наш</persName>
-	</person>
-	<person xml:id="dbl" sex="male">
-		<persName>двойник</persName>
-		<persName>другой господин Голядкин</persName>
-		<persName>другой Голядкин</persName>
-		<persName>другой Яков Петрович</persName>
-		<persName>Голядкин</persName>
-		<persName>смиренный спутник господина Голядкина</persName>
-		<persName>смиренный гость господина Голядкина</persName>
-		<persName>господин Голядкин-младший</persName>
-		<persName>Голядкин-младший</persName>
-		<persName>Яков Петрович</persName>
-		<persName>новый господин Голядкин</persName>
-		<persName>Голядкин</persName>
-		<persName>безобразный господин Голядкин</persName>
-		<persName>бесполезный и фальшивый господин Голядкин</persName>
-		<persName>подозрительный и бесполезный господин Голядкин</persName>
-		<persName>развращенный господин Голядкин</persName>
-		<persName>отвратительный господин Голядкин второй</persName>
-		<persName>неблагородный господин Голядкин-младший</persName>
-		<persName>бесполезный господин Голядкин</persName>
-		<persName>недостойный и неблагородный враг господина Голядкина</persName>
-		<persName>безобразный и подельный господин Голядкин</persName>
-		<persName>гость господина Голядкина</persName>
-		<persName>Яша</persName>
-		<persName>приятель господина Голядкина</persName>
-		<persName>господин Голядкин-второй</persName>
-		<persName>ночной приятель</persName>
-		<persName>бесчувственный неприятель господина Голядкина</persName>
-		<persName>ложно благородный неприятель господина Голядкина</persName>
-		<persName>ложный друг господина Голядкина</persName>
-		<persName>недостойный неприятель</persName>
-		<persName>неблагородный человек</persName>
-		<persName>фальшивый господин Голядкин</persName>
-		<persName>заблудшийся</persName>
-		<persName>вероломный друг господина Голядкина-старшего</persName>
-		<persName>Клеветник, интригант и известный бесполезностью своего направления человек</persName>
-		<persName>Безнравственный</persName>
-		<persName>Подлый близнец господина Голядкина</persName>
-		<persName>развратный человек</persName>
-		<persName>неблагопристойный близнец</persName>
-		<persName>известный своей бесполезностью человек</persName>
-		<persName>отвратительный человек</persName>
-		<persName>сам господин Голядкин</persName>
-		<persName>совершенно справедливый (впрочем, единственно только в этом отношении совершенно справедливый) господин Голядкин-младший</persName>
-		<persName>Зловредный близнец</persName>
-		<persName>отвратительный подлыми качествами души своей близнец господина Годядкина</persName>
-		<persName>Злорадственный господин Голядкин-младший</persName>
-		<persName>Однофамилец господина Голядкина-старшего</persName>
-		<persName>тот, кто называл себя господином Голядкиным</persName>
-		<persName>развратный и ожесточеннейший неприятель</persName>
-		<persName>ожесточенный неприятель</persName>
-		<persName>беспощадный противник</persName>
-    <persName>недостойный</persName>
-		<persName>неблагопристойный господин Голядкин-младший</persName>
-		<persName>известный своею бесполезностью господин Голядкин-младший</persName>
-		<persName>безнравственный</persName>
-		<persName>бесстыдный человек</persName>
-
- </person>
-	<person xml:id="imdbl" sex="male">
-		<persName>imagined Двойник</persName>
-		</person>
-	<person xml:id="pet" sex="male">
-		<persName>Петрушка</persName>
-	</person>
-	<person xml:id="rut" sex="male">
-		<persName>Крестьян Иванович Рутеншпиц</persName>
-	</person>
-	<person xml:id="vls" sex="male">
-		<persName>Владимир Семенович</persName>
-	</person>
-	<person xml:id="af" sex="male">
-		<persName>Андрей Филиппович</persName>
-	</person>
-	<person xml:id="imaf" sex="male">
-		<persName>imagined Андрей Филиппович</persName>
-	</person>
-	<person xml:id="oi" sex="male">
-		<persName>Олсуфий Иванович Берендеев</persName>
-	</person>
-	<person xml:id="ko" sex="female">
-		<persName>Клара Олсуфьевна Берендеева</persName>
-	</person>
-	<person xml:id="imko" sex="female">
-		<persName>imagined Клара Олсуфьевна</persName>
-		<!--Commented out per BB for now-->
-		<!--<state type="imagined"></state>-->
-	</person>
-	<person xml:id="aa" sex="male">
-		<persName>Антон Антонович Сеточкин</persName>
-	</person>
-	<person xml:id="ni" sex="male">
-		<persName>Нестор Игнатьевич Вахрамеев</persName>
-	</person>
-	<person xml:id="eg" sex="male">
-		<persName>Емельян Герасимович</persName>
-	</person>
-	<person xml:id="is" sex="male">
-		<persName>Иван Семенович</persName>
-	</person>
-	<person xml:id="si" sex="male">
-		<persName>Семен Иванович</persName>
-	</person>
-	<person xml:id="ale" sex="male">
-		<persName>Алексеич</persName>
-	</person>
-	<person xml:id="ki" sex="female">
-		<persName>Каролина Ивановна</persName>
-	</person>
-	<person xml:id="ost" sex="male">
-		<persName>Остафьев</persName>
-	</person>
-	<person xml:id="ik" sex="male">
-	<persName>извозчик-кучер</persName>
-	</person>
-	<personGrp xml:id="mch" sex="male">
-	<persName>молодые чиновники 1 and 2</persName>
-	</personGrp>
-	<person xml:id="mch1" sex="male">
-		<persName>молодой чиновник 1</persName>
-	</person>
-	<person xml:id="mch2" sex="male">
-		<persName>молодой чиновник 2</persName>
-	</person>
-	<personGrp xml:id="kup" sex="male">
-<persName>купец</persName>
-	</personGrp>
-	<person xml:id="por" sex="male">
-		<persName>поручик</persName>
-	</person>
-	<person xml:id="pol" sex="male">
-		<persName>половой</persName>
-		</person>
-		<person xml:id="mikh" sex="male">
-			<persName>Михеев</persName>
-			</person>
-		<person xml:id="saf" sex="male">
-			<persName>слуга Андрея Филипповича</persName>
-		  </person>
-		<person xml:id="iz2" sex="male">
-			<persName>извозчик 2</persName>
-			</person>
-		<person xml:id="kon" sex="male">
-			<persName>конторщик</persName>
-		  </person>
-		<person xml:id="iz3" sex="male">
-				<persName>извозчик 3</persName>
-				</person>
-				<person xml:id="imiz2" sex="male">
-						<persName>imagined извозчик 3</persName>
-						</person>
-		<person xml:id="lep1" sex="male">
-			<persName> лакей Его Превосходительства 1</persName>
-		</person>
-		<person xml:id="lep2" sex="male">
-			<persName> лакей Его Превосходительства 2</persName>
-		</person>
-		<person xml:id="ep" sex="male">
-			<persName>Его Превосходительство</persName>
-		</person>
-		<person xml:id="imep" sex="male">
-			<persName>imagined Его Превосходительство</persName>
-		</person>
-		<person xml:id="sov" sex="male">
-		<persName>советник</persName>
-	</person>
-	  <person xml:id="imiz" sex="male">
-			<persName>imagined извозчик</persName>
-		</person>
-		<person xml:id="pko" sex="male">
-			<persName>Писаренко</persName>
-			</person>
-		<person xml:id="ev" sex="male">
-			<persName>Евстафий</persName>
-			</person>
-			<person xml:id="sem" sex="male">
-				<persName>Семеныч</persName>
-			</person>
-		<person xml:id="kch">
-<persName>княжна Чевчеханова</persName>
-		</person>
-		<person xml:id="fed">
-			<persName>Федосеич</persName>
-		</person>
-		<person xml:id="vep" sex="male">
-			<persName>его высокопревосходительству</persName>
-		</person>
-		<personGrp xml:id="crowd">
-		<persName>толпа</persName>
-	</personGrp>
-	<personGrp xml:id="genchs">
-		<persName> general чиновники, pl</persName>
-	</personGrp>
-	<personGrp xml:id="gols" sex="male">
-<persName>Голядкины</persName>
-	</personGrp>
-	<person xml:id="fko" sex="female">
-		<persName>False Клара Олсуфьевна Берендеева</persName>
-	</person>
-</listPerson>
-
-<listPerson type="fictionalnonDostoevsky">
-	<person xml:id="mar" sex="male">
-		<persName>Марцимирис</persName>
-	</person>
-	<person xml:id="mlu" sex="female">
-		<persName>маркграфиня Луиза</persName>
-	</person><person xml:id="fbl" sex="male">
-		<persName>Фоблаз, персонаж из 'Любовных похождений кавалера де Фобласа' Ж.Б. Луве де Кувре</persName>
-	</person>
-<person xml:id="fal" sex="female">
-	<persName>Фальбала, француженка, содержательница пансиона из поэмы А.С. Пушкина 'Граф Нулин'</persName>
-</person>
-</listPerson>
-
-<listPerson type="other">
-	<person xml:id="god">
-		<persName>бог</persName>
-	</person>
-</listPerson>
-
-<listPerson type="historical">
-<person xml:id="asp" sex="male">
-	<persName>Александр Сергеевич Пушкин</persName>
-</person>
-<person xml:id="hom" sex="male">
-	<persName>Гомер</persName>
-</person>
-<person xml:id="vil" sex="male">
-<persName>Жан-Батист Гийом Жозеф Мари Анн Серафен, граф де Виллель</persName>
-</person>
-<person xml:id="iak" sex="male">
-	<persName>Иван Андреевич Крылов</persName>
-</person>
-<person xml:id="avs" sex="male">
-	<persName>Александр Васильевич Суворов</persName>
-</person>
-<person xml:id="kpb" sex="male">
-	<persName>Карл Павлович Брюллов</persName>
-</person>
-<person xml:id="ois" sex="male">
-	<persName>Осип Иванович Сенковский (барон Брамбеус псевд.)</persName>
-</person>
-<person xml:id="muh" sex="male">
-	<persName>Мухаммед</persName>
-</person>
-<person xml:id="rous" sex="male">
-	<persName>Жан-Жак Руссо</persName>
-</person>
-<person xml:id="go" sex="male">
-	<persName>Гришка Отрепьев</persName>
-</person>
-<person xml:id="jud" sex="male">
-	<persName>Иуда</persName>
-</person>
-<person xml:id="valt" sex="male">
-		<persName>Валтасар (Вальтасар)</persName>
-</person>
-<person xml:id="demo" sex="male">
-		<persName>Демосфен</persName>
-</person>
-<person xml:id="sumar" sex="male">
-		<persName>Александр Петрович Сумароков</persName>
-</person>
-</listPerson>
-
-<listObject>
-<object xml:id="sam">
-	<objectIdentifier><objectName>самовар</objectName></objectIdentifier>
-</object>
-<object xml:id="wad">
-<objectIdentifier><objectName>пачка бумажек</objectName></objectIdentifier>
-</object>
-</listObject>
-
-<listPlace>
-	<place type="city" xml:id="spb">
-		<placeName>Санкт Петербург</placeName>
-	</place>
-	<place type="street" xml:id="shu">
-		<placeName>Шестилавочная улица</placeName>
-	</place>
-	<place type="residence" xml:id="golkva">
-		<placeName>квартира Господина Голядкина</placeName>
-	</place>
-<place type="street" xml:id="nev">
-	<placeName>Невский проспект</placeName>
-</place>
-<place type="street" xml:id="lit">
-	<placeName>Литейный проспект</placeName>
-</place>
-<place type="residence" xml:id="rutkva">
-	<placeName>квартира Рутеншпица</placeName>
-</place>
-<place type="workplace" xml:id="dep">
-	<placeName>департамент, где работает Голядкин</placeName>
-</place>
-<place type="commercial" xml:id="gos">
-	<placeName>Гостиный двор</placeName>
-	</place>
-	<place type="bridge" xml:id="izm">
-<placeName>Измайловский мост</placeName>
-	</place>
-	<place type="residence" xml:id="dombe">
-	<placeName>дом Берендеева</placeName>
-	</place>
-	<place type="bridge" xml:id="smost">
-		<placeName>Семеновский мост</placeName>
-	</place>
-	<place type="embankment" xml:id="nabfon">
-		<placeName>набережная Фонтанки</placeName>
-	</place>
-	<place type="river" xml:id="fon">
-		<placeName>Фонтанка</placeName>
-	</place>
-	<place type="bridge" xml:id="anmost">
-		<placeName>Аничков мост</placeName>
-	</place>
-	<place type="street" xml:id="itu">
-		<placeName>Итальянская улица</placeName>
-	</place>
-	<place type="country" xml:id="eng">
-		<placeName>Англия</placeName>
-	</place>
-	<place type="country" xml:id="ros">
-		<placeName>Россия</placeName>
-	</place>
-	<place type="park" xml:id="lsad">
-		<placeName>Летний сад</placeName>
-	</place>
-	<place type="country" xml:id="ind">
-		<placeName>Индия</placeName>
-	</place>
-	<place type="city" xml:id="sar">
-		<placeName>Саратов</placeName>
-	</place>
-	<place type="residence" xml:id="epkva">
-		<placeName>квартира его превосходительства</placeName>
-	</place>
-	<place type="dining" xml:id="resto">
-		<placeName>известный ресторан на Невском проспекте</placeName>
-	</place>
-	<place type="dining" xml:id="trak">
-		<placeName>трактир недалеко от Семеновского моста</placeName>
-	</place>
-	<place type="dining" xml:id="kofdom">
-		<placeName>кофейный дом</placeName>
-	</place>
-	<place type="dining" xml:id="kof">
-		<placeName>кофейная</placeName>
-	</place>
-	<place type="commercial" xml:id="ellav">
-		<placeName>лавка Елисеева</placeName>
-	</place>
-	<place type="commercial" xml:id="millav">
-		<placeName>лавка Милютиных</placeName>
-	</place>
-	<place type="residence" xml:id="afkva">
-		<placeName>квартира Андрея Филипповича</placeName>
-	</place>
-	<place type="city" xml:id="tamb">
-		<placeName>Тамбов</placeName>
-	</place>
-	<place type="residence" xml:id="kikva">
-		<placeName>квартира Каролины Ивановны</placeName>
-	</place>
-	<place type="residence" xml:id="nikva">
-		<placeName>квартира Нестора Игнатьевича Вахрамеева</placeName>
-	</place>
-	<place type="city" xml:id="babylon">
-		<placeName>Вавилон</placeName>
-	</place>
-	<place type="region" xml:id="malrs">
-		<placeName>Малороссия</placeName>
-	</place>
-</listPlace>
-				</div>
-			</back>
+			
   </text>
+   <standOff>
+      <listPerson type="fictional">
+         <person xml:id="gol" sex="male">
+            <persName>Яков Петрович Голядкин</persName>
+            <persName>Господин Голядкин</persName>
+            <persName>наш герой</persName>
+            <persName>герой наш</persName>
+            <persName>герой нашей повести</persName>
+            <persName>Яков Петрович</persName>
+            <persName>Голядкин</persName>
+            <persName>Господин Голядкин-старший</persName>
+            <persName>Я. Голядкин</persName>
+            <persName>Фоблаз</persName>
+            <persName>Яша</persName>
+            <persName>старый господин Голядкин</persName>
+            <persName>плачевный герой повести нашей</persName>
+            <persName>солидный господин Голядкин</persName>
+            <persName>возмущенный господин Голядкин</persName>
+            <persName>настоящий господин Голядкин</persName>
+            <persName>достойный господин Голядкин</persName>
+            <persName>полумертвый господин Голядкин</persName>
+            <persName>оторопевший господин Голядкин</persName>
+            <persName>несчастный господин Голядкин-старший</persName>
+            <persName>настоящий и невинный господин Голядкин</persName>
+            <persName>правдолюбивый господин Голядкин</persName>
+            <persName>благонамеренный господин Голядкин</persName>
+            <persName>известный любовию к ближнему настоящий господин Голядкин</persName>
+            <persName>многострадальный господин Голядкин</persName>
+            <persName>откровенный герой наш</persName>
+            <persName>крепкий и неунывающий духом герой наш</persName>
+         </person>
+         <person xml:id="dbl" sex="male">
+            <persName>двойник</persName>
+            <persName>другой господин Голядкин</persName>
+            <persName>другой Голядкин</persName>
+            <persName>другой Яков Петрович</persName>
+            <persName>Голядкин</persName>
+            <persName>смиренный спутник господина Голядкина</persName>
+            <persName>смиренный гость господина Голядкина</persName>
+            <persName>господин Голядкин-младший</persName>
+            <persName>Голядкин-младший</persName>
+            <persName>Яков Петрович</persName>
+            <persName>новый господин Голядкин</persName>
+            <persName>Голядкин</persName>
+            <persName>безобразный господин Голядкин</persName>
+            <persName>бесполезный и фальшивый господин Голядкин</persName>
+            <persName>подозрительный и бесполезный господин Голядкин</persName>
+            <persName>развращенный господин Голядкин</persName>
+            <persName>отвратительный господин Голядкин второй</persName>
+            <persName>неблагородный господин Голядкин-младший</persName>
+            <persName>бесполезный господин Голядкин</persName>
+            <persName>недостойный и неблагородный враг господина Голядкина</persName>
+            <persName>безобразный и подельный господин Голядкин</persName>
+            <persName>гость господина Голядкина</persName>
+            <persName>Яша</persName>
+            <persName>приятель господина Голядкина</persName>
+            <persName>господин Голядкин-второй</persName>
+            <persName>ночной приятель</persName>
+            <persName>бесчувственный неприятель господина Голядкина</persName>
+            <persName>ложно благородный неприятель господина Голядкина</persName>
+            <persName>ложный друг господина Голядкина</persName>
+            <persName>недостойный неприятель</persName>
+            <persName>неблагородный человек</persName>
+            <persName>фальшивый господин Голядкин</persName>
+            <persName>заблудшийся</persName>
+            <persName>вероломный друг господина Голядкина-старшего</persName>
+            <persName>Клеветник, интригант и известный бесполезностью своего направления человек</persName>
+            <persName>Безнравственный</persName>
+            <persName>Подлый близнец господина Голядкина</persName>
+            <persName>развратный человек</persName>
+            <persName>неблагопристойный близнец</persName>
+            <persName>известный своей бесполезностью человек</persName>
+            <persName>отвратительный человек</persName>
+            <persName>сам господин Голядкин</persName>
+            <persName>совершенно справедливый (впрочем, единственно только в этом отношении совершенно справедливый) господин Голядкин-младший</persName>
+            <persName>Зловредный близнец</persName>
+            <persName>отвратительный подлыми качествами души своей близнец господина Годядкина</persName>
+            <persName>Злорадственный господин Голядкин-младший</persName>
+            <persName>Однофамилец господина Голядкина-старшего</persName>
+            <persName>тот, кто называл себя господином Голядкиным</persName>
+            <persName>развратный и ожесточеннейший неприятель</persName>
+            <persName>ожесточенный неприятель</persName>
+            <persName>беспощадный противник</persName>
+            <persName>недостойный</persName>
+            <persName>неблагопристойный господин Голядкин-младший</persName>
+            <persName>известный своею бесполезностью господин Голядкин-младший</persName>
+            <persName>безнравственный</persName>
+            <persName>бесстыдный человек</persName>
+         </person>
+         <person xml:id="imdbl" sex="male">
+            <persName>imagined Двойник</persName>
+         </person>
+         <person xml:id="pet" sex="male">
+            <persName>Петрушка</persName>
+         </person>
+         <person xml:id="rut" sex="male">
+            <persName>Крестьян Иванович Рутеншпиц</persName>
+         </person>
+         <person xml:id="vls" sex="male">
+            <persName>Владимир Семенович</persName>
+         </person>
+         <person xml:id="af" sex="male">
+            <persName>Андрей Филиппович</persName>
+         </person>
+         <person xml:id="imaf" sex="male">
+            <persName>imagined Андрей Филиппович</persName>
+         </person>
+         <person xml:id="oi" sex="male">
+            <persName>Олсуфий Иванович Берендеев</persName>
+         </person>
+         <person xml:id="ko" sex="female">
+            <persName>Клара Олсуфьевна Берендеева</persName>
+         </person>
+         <person xml:id="imko" sex="female">
+            <persName>imagined Клара Олсуфьевна</persName>
+            <!--Commented out per BB for now-->
+            <!--<state type="imagined"></state>-->
+         </person>
+         <person xml:id="aa" sex="male">
+            <persName>Антон Антонович Сеточкин</persName>
+         </person>
+         <person xml:id="ni" sex="male">
+            <persName>Нестор Игнатьевич Вахрамеев</persName>
+         </person>
+         <person xml:id="eg" sex="male">
+            <persName>Емельян Герасимович</persName>
+         </person>
+         <person xml:id="is" sex="male">
+            <persName>Иван Семенович</persName>
+         </person>
+         <person xml:id="si" sex="male">
+            <persName>Семен Иванович</persName>
+         </person>
+         <person xml:id="ale" sex="male">
+            <persName>Алексеич</persName>
+         </person>
+         <person xml:id="ki" sex="female">
+            <persName>Каролина Ивановна</persName>
+         </person>
+         <person xml:id="ost" sex="male">
+            <persName>Остафьев</persName>
+         </person>
+         <person xml:id="ik" sex="male">
+            <persName>извозчик-кучер</persName>
+         </person>
+         <personGrp xml:id="mch" sex="male">
+            <persName>молодые чиновники 1 and 2</persName>
+         </personGrp>
+         <person xml:id="mch1" sex="male">
+            <persName>молодой чиновник 1</persName>
+         </person>
+         <person xml:id="mch2" sex="male">
+            <persName>молодой чиновник 2</persName>
+         </person>
+         <personGrp xml:id="kup" sex="male">
+            <persName>купец</persName>
+         </personGrp>
+         <person xml:id="por" sex="male">
+            <persName>поручик</persName>
+         </person>
+         <person xml:id="pol" sex="male">
+            <persName>половой</persName>
+         </person>
+         <person xml:id="mikh" sex="male">
+            <persName>Михеев</persName>
+         </person>
+         <person xml:id="saf" sex="male">
+            <persName>слуга Андрея Филипповича</persName>
+         </person>
+         <person xml:id="iz2" sex="male">
+            <persName>извозчик 2</persName>
+         </person>
+         <person xml:id="kon" sex="male">
+            <persName>конторщик</persName>
+         </person>
+         <person xml:id="iz3" sex="male">
+            <persName>извозчик 3</persName>
+         </person>
+         <person xml:id="imiz2" sex="male">
+            <persName>imagined извозчик 3</persName>
+         </person>
+         <person xml:id="lep1" sex="male">
+            <persName> лакей Его Превосходительства 1</persName>
+         </person>
+         <person xml:id="lep2" sex="male">
+            <persName> лакей Его Превосходительства 2</persName>
+         </person>
+         <person xml:id="ep" sex="male">
+            <persName>Его Превосходительство</persName>
+         </person>
+         <person xml:id="imep" sex="male">
+            <persName>imagined Его Превосходительство</persName>
+         </person>
+         <person xml:id="sov" sex="male">
+            <persName>советник</persName>
+         </person>
+         <person xml:id="imiz" sex="male">
+            <persName>imagined извозчик</persName>
+         </person>
+         <person xml:id="pko" sex="male">
+            <persName>Писаренко</persName>
+         </person>
+         <person xml:id="ev" sex="male">
+            <persName>Евстафий</persName>
+         </person>
+         <person xml:id="sem" sex="male">
+            <persName>Семеныч</persName>
+         </person>
+         <person xml:id="kch">
+            <persName>княжна Чевчеханова</persName>
+         </person>
+         <person xml:id="fed">
+            <persName>Федосеич</persName>
+         </person>
+         <person xml:id="vep" sex="male">
+            <persName>его высокопревосходительству</persName>
+         </person>
+         <personGrp xml:id="crowd">
+            <persName>толпа</persName>
+         </personGrp>
+         <personGrp xml:id="genchs">
+            <persName> general чиновники, pl</persName>
+         </personGrp>
+         <personGrp xml:id="gols" sex="male">
+            <persName>Голядкины</persName>
+         </personGrp>
+         <person xml:id="fko" sex="female">
+            <persName>False Клара Олсуфьевна Берендеева</persName>
+         </person>
+      </listPerson>
+      <listPerson type="fictionalnonDostoevsky">
+         <person xml:id="mar" sex="male">
+            <persName>Марцимирис</persName>
+         </person>
+         <person xml:id="mlu" sex="female">
+            <persName>маркграфиня Луиза</persName>
+         </person>
+         <person xml:id="fbl" sex="male">
+            <persName>Фоблаз, персонаж из 'Любовных похождений кавалера де Фобласа' Ж.Б. Луве де Кувре</persName>
+         </person>
+         <person xml:id="fal" sex="female">
+            <persName>Фальбала, француженка, содержательница пансиона из поэмы А.С. Пушкина 'Граф Нулин'</persName>
+         </person>
+      </listPerson>
+      <listPerson type="other">
+         <person xml:id="god">
+            <persName>бог</persName>
+         </person>
+      </listPerson>
+      <listPerson type="historical">
+         <person xml:id="asp" sex="male">
+            <persName>Александр Сергеевич Пушкин</persName>
+         </person>
+         <person xml:id="hom" sex="male">
+            <persName>Гомер</persName>
+         </person>
+         <person xml:id="vil" sex="male">
+            <persName>Жан-Батист Гийом Жозеф Мари Анн Серафен, граф де Виллель</persName>
+         </person>
+         <person xml:id="iak" sex="male">
+            <persName>Иван Андреевич Крылов</persName>
+         </person>
+         <person xml:id="avs" sex="male">
+            <persName>Александр Васильевич Суворов</persName>
+         </person>
+         <person xml:id="kpb" sex="male">
+            <persName>Карл Павлович Брюллов</persName>
+         </person>
+         <person xml:id="ois" sex="male">
+            <persName>Осип Иванович Сенковский (барон Брамбеус псевд.)</persName>
+         </person>
+         <person xml:id="muh" sex="male">
+            <persName>Мухаммед</persName>
+         </person>
+         <person xml:id="rous" sex="male">
+            <persName>Жан-Жак Руссо</persName>
+         </person>
+         <person xml:id="go" sex="male">
+            <persName>Гришка Отрепьев</persName>
+         </person>
+         <person xml:id="jud" sex="male">
+            <persName>Иуда</persName>
+         </person>
+         <person xml:id="valt" sex="male">
+            <persName>Валтасар (Вальтасар)</persName>
+         </person>
+         <person xml:id="demo" sex="male">
+            <persName>Демосфен</persName>
+         </person>
+         <person xml:id="sumar" sex="male">
+            <persName>Александр Петрович Сумароков</persName>
+         </person>
+      </listPerson>
+      <listObject>
+         <object xml:id="sam">
+            <objectIdentifier>
+               <objectName>самовар</objectName>
+            </objectIdentifier>
+         </object>
+         <object xml:id="wad">
+            <objectIdentifier>
+               <objectName>пачка бумажек</objectName>
+            </objectIdentifier>
+         </object>
+      </listObject>
+      <listPlace>
+         <place type="city" xml:id="spb">
+            <placeName>Санкт Петербург</placeName>
+         </place>
+         <place type="street" xml:id="shu">
+            <placeName>Шестилавочная улица</placeName>
+         </place>
+         <place type="residence" xml:id="golkva">
+            <placeName>квартира Господина Голядкина</placeName>
+         </place>
+         <place type="street" xml:id="nev">
+            <placeName>Невский проспект</placeName>
+         </place>
+         <place type="street" xml:id="lit">
+            <placeName>Литейный проспект</placeName>
+         </place>
+         <place type="residence" xml:id="rutkva">
+            <placeName>квартира Рутеншпица</placeName>
+         </place>
+         <place type="workplace" xml:id="dep">
+            <placeName>департамент, где работает Голядкин</placeName>
+         </place>
+         <place type="commercial" xml:id="gos">
+            <placeName>Гостиный двор</placeName>
+         </place>
+         <place type="bridge" xml:id="izm">
+            <placeName>Измайловский мост</placeName>
+         </place>
+         <place type="residence" xml:id="dombe">
+            <placeName>дом Берендеева</placeName>
+         </place>
+         <place type="bridge" xml:id="smost">
+            <placeName>Семеновский мост</placeName>
+         </place>
+         <place type="embankment" xml:id="nabfon">
+            <placeName>набережная Фонтанки</placeName>
+         </place>
+         <place type="river" xml:id="fon">
+            <placeName>Фонтанка</placeName>
+         </place>
+         <place type="bridge" xml:id="anmost">
+            <placeName>Аничков мост</placeName>
+         </place>
+         <place type="street" xml:id="itu">
+            <placeName>Итальянская улица</placeName>
+         </place>
+         <place type="country" xml:id="eng">
+            <placeName>Англия</placeName>
+         </place>
+         <place type="country" xml:id="ros">
+            <placeName>Россия</placeName>
+         </place>
+         <place type="park" xml:id="lsad">
+            <placeName>Летний сад</placeName>
+         </place>
+         <place type="country" xml:id="ind">
+            <placeName>Индия</placeName>
+         </place>
+         <place type="city" xml:id="sar">
+            <placeName>Саратов</placeName>
+         </place>
+         <place type="residence" xml:id="epkva">
+            <placeName>квартира его превосходительства</placeName>
+         </place>
+         <place type="dining" xml:id="resto">
+            <placeName>известный ресторан на Невском проспекте</placeName>
+         </place>
+         <place type="dining" xml:id="trak">
+            <placeName>трактир недалеко от Семеновского моста</placeName>
+         </place>
+         <place type="dining" xml:id="kofdom">
+            <placeName>кофейный дом</placeName>
+         </place>
+         <place type="dining" xml:id="kof">
+            <placeName>кофейная</placeName>
+         </place>
+         <place type="commercial" xml:id="ellav">
+            <placeName>лавка Елисеева</placeName>
+         </place>
+         <place type="commercial" xml:id="millav">
+            <placeName>лавка Милютиных</placeName>
+         </place>
+         <place type="residence" xml:id="afkva">
+            <placeName>квартира Андрея Филипповича</placeName>
+         </place>
+         <place type="city" xml:id="tamb">
+            <placeName>Тамбов</placeName>
+         </place>
+         <place type="residence" xml:id="kikva">
+            <placeName>квартира Каролины Ивановны</placeName>
+         </place>
+         <place type="residence" xml:id="nikva">
+            <placeName>квартира Нестора Игнатьевича Вахрамеева</placeName>
+         </place>
+         <place type="city" xml:id="babylon">
+            <placeName>Вавилон</placeName>
+         </place>
+         <place type="region" xml:id="malrs">
+            <placeName>Малороссия</placeName>
+         </place>
+      </listPlace>
+   </standOff>
 </TEI>
