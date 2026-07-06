@@ -15,9 +15,9 @@
             This is meant to be run as a single, identity transformation (rather than 
             via a collection).</xd:p>
         </xd:desc>
-        <xd:param name="schemaURI">URI for the schema</xd:param>
+        <xd:param name="schemaURI">URI for the schema (relative to the files)</xd:param>
     </xd:doc>
-    <xsl:param name="schemaURI" as="xs:string">https://raw.githubusercontent.com/Digital-Dostoevsky/dostoevschema/refs/heads/main/dostoevschema.rng</xsl:param>
+    <xsl:param name="schemaURI" as="xs:string">../../schema/dostoevschema.rng</xsl:param>
     
     <xd:doc>
         <xd:desc>The identity transformation</xd:desc>
@@ -28,6 +28,27 @@
         <xd:desc>Add formatting, but exclude most of the text itself</xd:desc>
     </xd:doc>
     <xsl:output method="xml" indent="yes" suppress-indentation="text body said"/>
+    
+    <xsl:variable name="docs" select="collection('../texts?select=*.xml;recurse=yes')" as="document-node()+"/>
+    
+    <xd:doc>
+        <xd:desc>Driver template: process all of the documents</xd:desc>
+    </xd:doc>
+    <xsl:template name="go">
+        <xsl:apply-templates select="$docs"/>
+    </xsl:template>
+    
+    <xd:doc>
+        <xd:desc>Root template: Create output document in
+        a tmp directory.</xd:desc>
+    </xd:doc>
+    <xsl:template match="/">
+        <xsl:result-document href="{replace(document-uri(),'/texts/','/tmp/')}">
+            <xsl:message select="'Creating ' || current-output-uri()"/>
+            <xsl:apply-templates/>
+        </xsl:result-document>
+    </xsl:template>
+    
 
     <xd:doc>
         <xd:desc>Remove the schema processing instructions</xd:desc>
@@ -44,8 +65,21 @@
         <!--And now point to the same schema, but use the embedded schematron-->
         <xsl:processing-instruction name="xml-model">href="{$schemaURI}" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
         <xsl:copy>
-            <!--We should add an @xml:lang, if not present already-->
-            <xsl:apply-templates select="@*|node()"/>
+            <xsl:apply-templates select="@*"/>
+            <xsl:attribute name="xml:lang">ru</xsl:attribute>
+            <xsl:apply-templates select="node()"/>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xd:doc>
+        <xd:desc>Add xml:lang to the header (which is mostly
+        in English)</xd:desc>
+    </xd:doc>
+    <xsl:template match="teiHeader">
+        <xsl:copy>
+            <xsl:apply-templates select="@*"/>
+            <xsl:attribute name="xml:lang">en</xsl:attribute>
+            <xsl:apply-templates select="node()"/>
         </xsl:copy>
     </xsl:template>
     
@@ -55,7 +89,6 @@
     </xd:doc>
     <xsl:template match="text">
         <xsl:copy>
-            <!--We should add an @xml:lang here too-->
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
         <xsl:where-populated>
@@ -64,14 +97,33 @@
             </standOff>
         </xsl:where-populated>
     </xsl:template>
-
+    
+    <xd:doc>
+        <xd:desc>Re-order revisionDesc to put these in reverse chronological order</xd:desc>
+    </xd:doc>
+    <xsl:template match="revisionDesc">
+        <xsl:copy>
+            <xsl:apply-templates select="@*"/>
+            <xsl:apply-templates select="change">
+                <xsl:sort select="xs:date(@when)" order="descending"/>
+            </xsl:apply-templates>
+        </xsl:copy>
+    </xsl:template>
+    
     <xd:doc>
         <xd:desc>Remove numbered divs</xd:desc>
     </xd:doc>
     <xsl:template match="div1 | div2 | div3 | div4 | div5 | div6">
-        <div>
-            <xsl:apply-templates select="@*|node()"/>
-        </div>
+        <xsl:choose>
+            <xsl:when test="not(@type)">
+                <xsl:apply-templates select="node()"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <div>
+                    <xsl:apply-templates select="@*|node()"/>
+                </div>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
     <xd:doc>
