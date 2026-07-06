@@ -1833,7 +1833,8 @@
 	</person>
 	<person xml:id="imko" sex="female">
 		<persName>imagined Клара Олсуфьевна</persName>
-		<state type="imagined"></state>
+		<!--Commented out per BB for now-->
+		<!--<state type="imagined"></state>-->
 	</person>
 	<person xml:id="aa" sex="male">
 		<persName>Антон Антонович Сеточкин</persName>

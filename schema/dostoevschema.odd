@@ -99,7 +99,7 @@
         <moduleRef key="core"
           include="addrLine address author biblStruct date editor emph
           foreign head hi imprint item l lb lg list milestone
-          monogr name note p pubPlace publisher q quote resp
+          monogr name note p ptr pubPlace publisher q quote resp
           respStmt rs said title"/>
 
         
