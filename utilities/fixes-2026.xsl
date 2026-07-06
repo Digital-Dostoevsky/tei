@@ -29,6 +29,9 @@
     </xd:doc>
     <xsl:output method="xml" indent="yes" suppress-indentation="text body said"/>
     
+    <xd:doc>
+        <xd:desc>Collect all of the documents we want to transform</xd:desc>
+    </xd:doc>
     <xsl:variable name="docs" select="collection('../texts?select=*.xml;recurse=yes')" as="document-node()+"/>
     
     <xd:doc>
