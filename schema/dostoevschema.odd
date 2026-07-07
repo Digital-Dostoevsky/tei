@@ -2,6 +2,18 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- TODO List
+     1) Update metadata about project in the `<teiHeader>` and
+     `<text>` elements.
+     
+     2) Make the `@sex` attribute required for `<persName>` once
+     all errors are fixed.
+     
+     3) Make `@type` required and closed once all `<addName>`
+     errors are fixed
+     -->
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" 
   xmlns:sch="http://purl.oclc.org/dsdl/schematron">
   <teiHeader>
@@ -14,7 +26,7 @@
         <author>Braxton Boyer</author>
       </titleStmt>
       
-      <!-- Change the publicationStmt and sourceDesc -->
+      <!-- Update this to be current -->
       <publicationStmt xml:id="dd-pubStmt">
         <publisher>Digital Dostoevsky</publisher>
         <pubPlace>Toronto, Ontario</pubPlace>
@@ -33,8 +45,9 @@
       </sourceDesc>
     </fileDesc>
   </teiHeader>
-  <!-- Not sure what a lot of this stuff in <front> and <body> is. 
-    Could this information be moved up to the <fileDesc> somewhere? The title information, <docAuthor>, General Overview, History of the Project, etc. Also, does <schemaSpec> need to go in <body>? -->
+  
+  <!-- Fill in project documentation here. A lot of the stuff
+       from the README files can actually be put here instead. -->
   <text>
     <front>
       <titlePage>
@@ -102,10 +115,6 @@
           monogr name note p ptr pubPlace publisher q quote resp
           respStmt rs said title"/>
 
-        
-        <!--TODO:
-            Constrain addName to a small subset of types (closed list)
-            and probably remove the @ref attribute to avoid confusion -->
         
         <!--*************************************
             MODULE: header
@@ -178,8 +187,7 @@
           </attList>
         </elementSpec>
         
-        <!-- Constrains `<addName>` to a closed list of `@type` values.
-        Would it be better to do a `<constraintSpec>` for this?-->
+        <!-- Constrains `<addName>` to a closed list of `@type` values.-->
         <elementSpec ident="addName" mode="change" module="namesdates">
           <attList>
             <attDef ident="type" mode="change">
@@ -206,23 +214,7 @@
             </attDef>
           </attList>
         </elementSpec>
-        
-        
-<!--       A possible `<constraintSpec>` for `<addName>` if this would be better?
-          
-          <constraintSpec mode="add" scheme="schematron" ident="addName.certainTypesOnly">
-          <desc>Constrain addName/@type to enforce proper encoding of names</desc>
-          <constraint>
-            <sch:rule context="tei:addName">
-              <sch:assert test="@type = ('patronymic','diminutive','nickname', 'epithet')">
-                ERROR: The @type attribute on addName must be one of: patronymic, diminutive, nickname, or epithet.
-              </sch:assert>
-            </sch:rule>
-          </constraint>
-        </constraintSpec>-->
-        
-
-          
+           
         
         <!--*************************************
             MODULE: spoken
