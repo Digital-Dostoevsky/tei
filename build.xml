@@ -19,6 +19,18 @@
         <include name="**/*.xml"/>
     </fileset>
     
+    <!--Clean up old products and make the output dir-->
+    <target name="init">
+        <description>
+            target: init
+            
+            Deletes any existing products and creates
+            the outputDir.
+        </description>
+        <delete dir="${outputDir}"/>
+        <mkdir dir="${outputDir}"/>
+    </target>
+    
     <!--Validate all of the files-->
     <target name="validate.rng">
         <description>
@@ -91,7 +103,7 @@
     
     
     
-    <target name="all" depends="validate, diagnostics, allData"/>
+    <target name="all" depends="init, validate, diagnostics, allData"/>
     
     
     
