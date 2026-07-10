@@ -213,6 +213,14 @@
               </valList>
             </attDef>
           </attList>
+          <exemplum>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              Пред ним опять стояла <persName ref="#vps"><forename>Варвара</forename> <addName type="patronymic">Петровна</addName></persName>
+            </egXML>
+          </exemplum>
+          <remarks>
+            <p>In this project, <gi>addName</gi> is used only for references to names in the text; we do not include it within the structured data of a <gi>person</gi> element.</p>
+          </remarks>
         </elementSpec>
            
         
@@ -235,7 +243,7 @@
             MODULE: textstructure
             *************************************-->
         <moduleRef key="textstructure"
-          include="TEI back body div div1 div2 div3 epigraph front text"/>
+          include="TEI body div epigraph front text"/>
         
         <elementSpec ident="div" module="textstructure" mode="change">
           <constraintSpec mode="add" scheme="schematron" ident="div.nestTypesProperly">

@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2026-07-06T19:10:50Z. . 
+Schema generated from ODD source 2026-07-10T17:13:44Z. . 
 TEI Edition: P5 Version 4.9.0. Last updated on 24th January 2025, revision f73186978 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0/ 
   
@@ -2590,21 +2590,6 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
       <notAllowed/>
    </define>
    <define name="tei_model.div1Like">
-      <choice>
-         <ref name="tei_div1"/>
-      </choice>
-   </define>
-   <define name="tei_model.div2Like">
-      <choice>
-         <ref name="tei_div2"/>
-      </choice>
-   </define>
-   <define name="tei_model.div3Like">
-      <choice>
-         <ref name="tei_div3"/>
-      </choice>
-   </define>
-   <define name="tei_model.div4Like">
       <notAllowed/>
    </define>
    <define name="tei_model.annotationLike">
@@ -4856,17 +4841,9 @@ Suggested values include: 1] tempo; 2] loud; 3] pitch; 4] tension; 5] rhythm; 6]
             <choice>
                <ref name="tei_body"/>
             </choice>
-            <zeroOrMore>
-               <ref name="tei_model.global"/>
-            </zeroOrMore>
-            <rng:optional xmlns:rng="http://relaxng.org/ns/structure/1.0">
-               <rng:group>
-                  <rng:ref name="tei_back"/>
-                  <rng:zeroOrMore>
-                     <rng:ref name="tei_model.global"/>
-                  </rng:zeroOrMore>
-               </rng:group>
-            </rng:optional>
+            <rng:zeroOrMore xmlns:rng="http://relaxng.org/ns/structure/1.0">
+               <rng:ref name="tei_model.global"/>
+            </rng:zeroOrMore>
          </group>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
@@ -5075,174 +5052,6 @@ Suggested values include: 1] tempo; 2] loud; 3] pitch; 4] tension; 5] rhythm; 6]
          <empty/>
       </element>
    </define>
-   <define name="tei_div1">
-      <element name="div1">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(level-1 text division) contains a first-level subdivision of the front, body, or back of a text. [4.1.2. Numbered Divisions]</a:documentation>
-         <group>
-            <zeroOrMore>
-               <choice>
-                  <ref name="tei_model.divTop"/>
-                  <ref name="tei_model.global"/>
-               </choice>
-            </zeroOrMore>
-            <rng:optional xmlns:rng="http://relaxng.org/ns/structure/1.0">
-               <rng:group>
-                  <rng:choice>
-                     <oneOrMore>
-                        <rng:choice>
-                           <rng:ref name="tei_model.div2Like"/>
-                           <rng:ref name="tei_model.divGenLike"/>
-                        </rng:choice>
-                        <rng:zeroOrMore>
-                           <rng:ref name="tei_model.global"/>
-                        </rng:zeroOrMore>
-                     </oneOrMore>
-                     <group>
-                        <oneOrMore>
-                           <rng:ref name="tei_model.common"/>
-                           <rng:zeroOrMore>
-                              <rng:ref name="tei_model.global"/>
-                           </rng:zeroOrMore>
-                        </oneOrMore>
-                        <rng:zeroOrMore>
-                           <rng:choice>
-                              <rng:ref name="tei_model.div2Like"/>
-                              <rng:ref name="tei_model.divGenLike"/>
-                           </rng:choice>
-                           <rng:zeroOrMore>
-                              <rng:ref name="tei_model.global"/>
-                           </rng:zeroOrMore>
-                        </rng:zeroOrMore>
-                     </group>
-                  </rng:choice>
-                  <rng:zeroOrMore>
-                     <rng:ref name="tei_model.divBottom"/>
-                     <rng:zeroOrMore>
-                        <rng:ref name="tei_model.global"/>
-                     </rng:zeroOrMore>
-                  </rng:zeroOrMore>
-               </rng:group>
-            </rng:optional>
-         </group>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.declaring.attributes"/>
-         <ref name="tei_att.divLike.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_div2">
-      <element name="div2">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(level-2 text division) contains a second-level subdivision of the front, body, or back of a text. [4.1.2. Numbered Divisions]</a:documentation>
-         <group>
-            <zeroOrMore>
-               <choice>
-                  <ref name="tei_model.divTop"/>
-                  <ref name="tei_model.global"/>
-               </choice>
-            </zeroOrMore>
-            <rng:optional xmlns:rng="http://relaxng.org/ns/structure/1.0">
-               <rng:group>
-                  <rng:choice>
-                     <oneOrMore>
-                        <rng:choice>
-                           <rng:ref name="tei_model.div3Like"/>
-                           <rng:ref name="tei_model.divGenLike"/>
-                        </rng:choice>
-                        <rng:zeroOrMore>
-                           <rng:ref name="tei_model.global"/>
-                        </rng:zeroOrMore>
-                     </oneOrMore>
-                     <group>
-                        <oneOrMore>
-                           <rng:ref name="tei_model.common"/>
-                           <rng:zeroOrMore>
-                              <rng:ref name="tei_model.global"/>
-                           </rng:zeroOrMore>
-                        </oneOrMore>
-                        <rng:zeroOrMore>
-                           <rng:choice>
-                              <rng:ref name="tei_model.div3Like"/>
-                              <rng:ref name="tei_model.divGenLike"/>
-                           </rng:choice>
-                           <rng:zeroOrMore>
-                              <rng:ref name="tei_model.global"/>
-                           </rng:zeroOrMore>
-                        </rng:zeroOrMore>
-                     </group>
-                  </rng:choice>
-                  <rng:zeroOrMore>
-                     <rng:ref name="tei_model.divBottom"/>
-                     <rng:zeroOrMore>
-                        <rng:ref name="tei_model.global"/>
-                     </rng:zeroOrMore>
-                  </rng:zeroOrMore>
-               </rng:group>
-            </rng:optional>
-         </group>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.declaring.attributes"/>
-         <ref name="tei_att.divLike.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_div3">
-      <element name="div3">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(level-3 text division) contains a third-level subdivision of the front, body, or back of a text. [4.1.2. Numbered Divisions]</a:documentation>
-         <group>
-            <zeroOrMore>
-               <choice>
-                  <ref name="tei_model.divTop"/>
-                  <ref name="tei_model.global"/>
-               </choice>
-            </zeroOrMore>
-            <rng:optional xmlns:rng="http://relaxng.org/ns/structure/1.0">
-               <rng:group>
-                  <rng:choice>
-                     <oneOrMore>
-                        <rng:choice>
-                           <rng:ref name="tei_model.div4Like"/>
-                           <rng:ref name="tei_model.divGenLike"/>
-                        </rng:choice>
-                        <rng:zeroOrMore>
-                           <rng:ref name="tei_model.global"/>
-                        </rng:zeroOrMore>
-                     </oneOrMore>
-                     <group>
-                        <oneOrMore>
-                           <rng:ref name="tei_model.common"/>
-                           <rng:zeroOrMore>
-                              <rng:ref name="tei_model.global"/>
-                           </rng:zeroOrMore>
-                        </oneOrMore>
-                        <rng:zeroOrMore>
-                           <rng:choice>
-                              <rng:ref name="tei_model.div4Like"/>
-                              <rng:ref name="tei_model.divGenLike"/>
-                           </rng:choice>
-                           <rng:zeroOrMore>
-                              <rng:ref name="tei_model.global"/>
-                           </rng:zeroOrMore>
-                        </rng:zeroOrMore>
-                     </group>
-                  </rng:choice>
-                  <rng:zeroOrMore>
-                     <rng:ref name="tei_model.divBottom"/>
-                     <rng:zeroOrMore>
-                        <rng:ref name="tei_model.global"/>
-                     </rng:zeroOrMore>
-                  </rng:zeroOrMore>
-               </rng:group>
-            </rng:optional>
-         </group>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.declaring.attributes"/>
-         <ref name="tei_att.divLike.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
-         <empty/>
-      </element>
-   </define>
    <define name="tei_epigraph">
       <element name="epigraph">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(epigraph) contains a quotation, anonymous or attributed, appearing at the start or end of a section or on a title page. [4.2.3. Arguments, Epigraphs, and Postscripts 4.2. Elements Common to All Divisions 4.6. Title Pages]</a:documentation>
@@ -5302,60 +5111,6 @@ Suggested values include: 1] tempo; 2] loud; 3] pitch; 4] tension; 5] rhythm; 6]
                         </rng:choice>
                      </rng:zeroOrMore>
                   </optional>
-               </rng:group>
-            </rng:optional>
-         </group>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.declaring.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_back">
-      <element name="back">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(back matter) contains any appendixes, etc. following the main part of a text. [4.7. Back Matter 4. Default Text Structure]</a:documentation>
-         <group>
-            <zeroOrMore>
-               <choice>
-                  <ref name="tei_model.frontPart"/>
-                  <ref name="tei_model.pLike.front"/>
-                  <ref name="tei_model.pLike"/>
-                  <ref name="tei_model.listLike"/>
-                  <ref name="tei_model.global"/>
-               </choice>
-            </zeroOrMore>
-            <optional>
-               <choice>
-                  <group>
-                     <ref name="tei_model.div1Like"/>
-                     <zeroOrMore>
-                        <choice>
-                           <ref name="tei_model.frontPart"/>
-                           <ref name="tei_model.div1Like"/>
-                           <ref name="tei_model.global"/>
-                        </choice>
-                     </zeroOrMore>
-                  </group>
-                  <group>
-                     <ref name="tei_model.divLike"/>
-                     <zeroOrMore>
-                        <choice>
-                           <ref name="tei_model.frontPart"/>
-                           <ref name="tei_model.divLike"/>
-                           <ref name="tei_model.global"/>
-                        </choice>
-                     </zeroOrMore>
-                  </group>
-               </choice>
-            </optional>
-            <rng:optional xmlns:rng="http://relaxng.org/ns/structure/1.0">
-               <rng:group>
-                  <rng:ref name="tei_model.divBottomPart"/>
-                  <rng:zeroOrMore>
-                     <rng:choice>
-                        <rng:ref name="tei_model.divBottomPart"/>
-                        <rng:ref name="tei_model.global"/>
-                     </rng:choice>
-                  </rng:zeroOrMore>
                </rng:group>
             </rng:optional>
          </group>
