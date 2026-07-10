@@ -161,7 +161,7 @@
             MODULE: linking
             *************************************-->
         
-        <moduleRef key="linking" include="seg standOff"/>
+        <moduleRef key="linking" include="anchor seg standOff timeline when"/>
         
         
         <!--*************************************
