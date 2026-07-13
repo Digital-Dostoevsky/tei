@@ -4668,7 +4668,7 @@
          </person>
         <person xml:id="dergpeasant" sex="male">
           <persName>мужчина из крестьян у Дергачева</persName>
-          <persName>Man from the people at Dergachev's</persName>
+          <persName xml:lang="en">Man from the people at Dergachev's</persName>
         </person>
          <person xml:id="derga" sex="female">
             <persName>госпожа Дергачева</persName>
