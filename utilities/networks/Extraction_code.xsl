@@ -281,7 +281,7 @@
             <!-- If a novel has more than one part, create the smaller subset documents
                 below. If it does not have more than one part (for example, Dvoinik), then
                 just use the edges and nodes code above.-->
-            <xsl:if test="count(//div1[@type='part']) gt 1">
+            <xsl:if test="count(//div[@type='part']) gt 1">
                 <xsl:for-each-group select="$gephiSubsetData" group-by=".?Part">
                     <xsl:message select="'Part ' || current-grouping-key() || ' contains ' || count(current-group()) || ' saids'"/>
                     
