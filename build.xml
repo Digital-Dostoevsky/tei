@@ -10,11 +10,13 @@
     
     <property name="outputDir" value="${projectDir}/_public"/>
     <property name="saxon.jar" value="${libDir}/saxon/saxon-he-12.9.jar"/>
-    
-    <!--Currently set as TEI All, but should use project
-        schema once possible-->
-    <property name="schema.rng" value="${schemaDir}/tei_all.rng"/>
-    
+    <property name="schema.basename" value="dostoevschema"/>
+    <property name="schema.odd" value="${schemaDir}/${schema.basename}.odd"/>
+    <property name="schema.processedodd" value="${schemaDir}/${schema.basename}.processed.odd"/>
+    <property name="schema.lite" value="${schemaDir}/${schema.basename}.lite.odd"/>
+    <property name="schema.html" value="${outputDir}/${schema.basename}.html"/>
+    <property name="schema.rng" value="${schemaDir}/${schema.basename}.rng"/>
+                                    
     <fileset id="texts" dir="${textsDir}">
         <include name="**/*.xml"/>
     </fileset>
@@ -75,6 +77,34 @@
         </java>
     </target>
     
+    <target name="docs" depends="odd.processed, odd.lite, odd.html">
+        <description>Building html documentation</description>   
+    </target>
+    
+    <target name="odd.processed">
+        <java jar="${saxon.jar}" fork="true">
+            <arg line="-s:${schema.odd}"/>
+            <arg line="-o:${schema.processed.odd}"/>
+            <arg line="-xsl:${utilitiesDir}/lib/tei-stylesheets/odds/odd2odd.xsl"/>
+        </java> 
+    </target>
+    
+    <target name="odd.lite">
+        <java jar="${saxon.jar}" fork="true">
+            <arg line="-s:${schema.processed.odd}"/>
+            <arg line="-o:${schema.lite}"/>
+            <arg line="-xsl:${utilitiesDir}/lib/tei-stylesheets/odds/odd2lite.xsl"/>
+        </java> 
+    </target>
+    
+    <target name="odd.html">
+        <java jar="${saxon.jar}" fork="true">
+            <arg line="-s:${schema.lite}"/>
+            <arg line="-o:${schema.html}"/>
+            <arg line="-xsl:${utilitiesDir}/lib/tei-stylesheets/html/html.xsl"/>
+        </java> 
+    </target>
+    
 <!--    <target name="networks">
         <java jar="${saxon.jar}" fork="true">
             <arg line="-xsl:${utilitiesDir}/networks/Extraction_code.xsl"/>
@@ -103,7 +133,7 @@
     
     
     
-    <target name="all" depends="init, validate, diagnostics, allData"/>
+    <target name="all" depends="init, validate, diagnostics, allData, docs"/>
     
     
     
