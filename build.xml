@@ -105,6 +105,11 @@
         </java> 
     </target>
     
+    <target name="clean">
+        <delete file="${schema.processed.odd}"/>
+        <delete file="${schema.lite}"/>
+    </target>
+    
 <!--    <target name="networks">
         <java jar="${saxon.jar}" fork="true">
             <arg line="-xsl:${utilitiesDir}/networks/Extraction_code.xsl"/>
@@ -133,7 +138,7 @@
     
     
     
-    <target name="all" depends="init, validate, diagnostics, allData, docs"/>
+    <target name="all" depends="init, validate, diagnostics, allData, docs, clean"/>
     
     
     
