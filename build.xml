@@ -77,10 +77,6 @@
         </java>
     </target>
     
-    <target name="docs" depends="odd.processed, odd.lite, odd.html">
-        <description>Building html documentation</description>   
-    </target>
-    
     <target name="odd.processed">
         <java jar="${saxon.jar}" fork="true">
             <arg line="-s:${schema.odd}"/>
@@ -136,6 +132,9 @@
 
     <target name="validate" depends="validate.rng, validate.sch"/>
     
+    <target name="docs" depends="odd.processed, odd.lite, odd.html">
+        <description>Building html documentation</description>   
+    </target>
     
     
     <target name="all" depends="init, validate, diagnostics, allData, docs, clean"/>
