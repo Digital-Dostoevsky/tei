@@ -77,6 +77,8 @@
         </java>
     </target>
     
+    <!-- The following thre targets (odd.processed, odd.lite, odd.html)
+    are all used for creating HTML documentation of the project ODD file -->
     <target name="odd.processed">
         <java jar="${saxon.jar}" fork="true">
             <arg line="-s:${schema.odd}"/>
@@ -101,6 +103,8 @@
         </java> 
     </target>
     
+    <!-- This removes the intermediate files created when producing
+    HTML documentation of the project ODD file-->
     <target name="clean">
         <delete file="${schema.processed.odd}"/>
         <delete file="${schema.lite}"/>
@@ -130,14 +134,18 @@
         </java>
     </target>-->
 
-    <target name="validate" depends="validate.rng, validate.sch"/>
+    <!-- Different targets that can be run -->
+    <target name="validate" depends="validate.rng, validate.sch">
+        <description>Validates the entire corpus</description>
+    </target>
     
     <target name="docs" depends="odd.processed, odd.lite, odd.html">
         <description>Building html documentation</description>   
     </target>
     
-    
-    <target name="all" depends="init, validate, diagnostics, allData, docs, clean"/>
+    <target name="all" depends="init, validate, diagnostics, allData, docs, clean">
+        <description>Runs everything in this build file</description>
+    </target>
     
     
     
