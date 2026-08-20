@@ -193,7 +193,7 @@
             <attDef ident="type" mode="change">
               <!--TODO: Update type to be closed
               once all errors resolved-->
-              <valList mode="replace" type="semi">
+              <valList mode="replace" type="closed">
                 <valItem ident="patronymic">
                   <gloss>patronymic</gloss>
                   <desc>the patronymic of a character's name</desc>
