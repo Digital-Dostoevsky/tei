@@ -196,7 +196,7 @@
               <valList mode="replace" type="closed">
                 <valItem ident="patronymic">
                   <gloss>patronymic</gloss>
-                  <desc>the patronymic of a character's name</desc>
+                  <desc>a person's patronymic, for example "Fyodorovich."</desc>
                 </valItem>
                 <valItem ident="diminutive">
                   <gloss>diminutive</gloss>
@@ -209,6 +209,10 @@
                 <valItem ident="epithet">
                   <gloss>epithet</gloss>
                   <desc>a name given to a character by the narrator, for example "our hero" for Golyadkin in The Double</desc>
+                </valItem>
+                <valItem ident="pseudonym">
+                  <gloss>pseudonym</gloss>
+                  <desc>a character's or historical figure's pseudonym, for example "Voltaire."</desc>
                 </valItem>
               </valList>
             </attDef>
