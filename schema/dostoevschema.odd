@@ -5,106 +5,110 @@
 
 <!-- TODO List
      1) Update metadata about project in the `<teiHeader>` and
-     `<text>` elements.
+     `<body>` elements.
      
-     2) Make the `@sex` attribute required for `<persName>` once
-     all errors are fixed.
-     
-     3) Make `@type` required and closed once all `<addName>`
-     errors are fixed
+     2) Write the schema specification.
+          2a) Make the `@sex` attribute required for `<persName>` once
+          all errors are fixed.
      -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" 
   xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+  
+  <!-- Kate and Katia to input information about funders. I guess
+  if there is more than one funder, than create a new funder tag
+  for each one?-->
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Dostoevschema, the ODD for Computational Dostoevsky</title>
-        <author>Katherine Bowers</author>
-        <author>Kate Holland</author>
-        <author>Joey Takeda</author>
-        <author>Braxton Boyer</author>
+        <funder>ADD FUNDER HERE</funder>
+        <author xml:id="KH">Dr. Kate Holland</author>
+        <author xml:id="KB">Dr. Katherine Bowers</author>
+        <author xml:id="BB">Dr. Braxton Boyer</author>
+        <author xml:id="JT">Joey Takeda</author>
       </titleStmt>
       
-      <!-- Update this to be current -->
+      <!-- Kate and Katia to update information in the `<publicationStmt>`.
+        Note that this is the place just for information about the ODD!-->
       <publicationStmt xml:id="dd-pubStmt">
-        <publisher>Digital Dostoevsky</publisher>
+        <publisher>Computational Dostoevsky</publisher>
         <pubPlace>Toronto, Ontario</pubPlace>
         <address>
           <addrLine>Department of Slavic Languages and Literatures</addrLine>
           <addrLine>University of Toronto</addrLine>
         </address>
-        <availability status="free">
-          <!--TODO: Update with whatever license is correct-->
-          <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed under a Creative Commons
-            Attribution-ShareAlike 3.0 Unported License </licence>
+        <pubPlace>Vancouver, British Columbia</pubPlace>
+        <address>
+          <addrLine>Department of Central, Eastern, and Northern European Studies</addrLine>
+          <addrLine>University of British Columbia</addrLine>
+        </address>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 1.0 Universal</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <p>Born digital; created by Computational Dostoevsky team.</p>
+        <p>Born digital, created by the Computational Dostoevsky team with the help of Joey Takeda.</p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2026-08-27" who="#BB">Re-organizing the ODD to make it easier to read and update. 
+          Note that myself and Joey Takeda first began this ODD in April 2026 but did not include commentary 
+          about changes at that time.</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   
-  <!-- Fill in project documentation here. A lot of the stuff
-       from the README files can actually be put here instead. -->
+  <!-- Fill in project documentation here within the `<body>` tag. -->
   <text>
-    <front>
-      <titlePage>
-        <docTitle>
-          <titlePart type="main">Dostoevschema</titlePart>
-          <titlePart type="sub">Schema and guidelines for Computational Dostoevsky</titlePart>
-        </docTitle>
-        <docAuthor></docAuthor>
-      </titlePage>
-      <p>This documentation describes the schema and encoding guidelines (<soCalled>Dostoevschema</soCalled>) for the Computational Dostoevsky project.</p>
-      <divGen type="toc"/>
-    </front>
     <body>
-      <head>Dostoevschema</head>
       
-      <div>
-        <head>General Overview</head>
+      <!-- Braxton to fill in the introduction. Use as many
+      paragraphs as needed.-->
+      <div xml:id="introduction">
+        <head>Introduction</head>
+        <p>This is the technical documentation and guidelines for the Computational Dostoevsky project...</p>
       </div>
       
-      <div>
+      <!-- Kate and Katia to write the history of the project below.
+        Can really include whatever you want!  Use as many paragraphs as needed.-->
+      <div xml:id="projectHistory">
         <head>History of the Project</head>
-        <p></p>
+        <p>Text here...</p>
       </div>
       
-      <div>
+      <!-- Braxton to write first draft of encoding practices.
+      Kate and Katia to add/edit after. Use as many
+      paragraphs as needed.-->
+      <div xml:id="encodingPractices">
         <head>Encoding Practices</head>
-        <div>
-          <head>Automated Tagging</head>
-          <p>Primarily automated tagging dealt with structural elements:
-            <specList>
-              <specDesc key="div1"/>
-              <specDesc key="div2"/>
-              <specDesc key="div3"/>
-            </specList>
-          
-          </p>
-        </div>
-        <div>
-          <head>Speech</head>
-          <p>Speech is encoded using the <gi>said</gi> element:
-            <specList>
-              <specDesc key="said" atts="who toWhom aloud direct"/>
-            </specList>
-          
-          </p>
-          
-         </div>
+          <p>Text here...</p>
       </div>
       
     </body>
     <back>
-      <!--NOTE (JT, 2026-06-29): There is currently a bug with
+      
+      <!-- Braxton to write the schema specification below -->
+      <div xml:id="schema">
+        <head>Schema Specification</head>
+        <!--NOTE (JT, 2026-06-29): There is currently a bug with
           TEI >= 4.10.0 where a schematron abstract pattern is not
           included and thus breaks the output schema, which is why
           we specify 4.9.0 as the base schema for now. -->
       <schemaSpec ident="dostoevschema" start="TEI" prefix="tei_" targetLang="en" docLang="en"
         source="tei:4.9.0">
+        
+        
+        <!--*************************************
+            MODULE: tei
+            
+            Include everything from the TEI module,
+            including attribute classes, model classes,
+            datatypes, and macros
+            *************************************-->
+        <moduleRef key="tei"/>
+        
         
         <!--*************************************
             MODULE: core
@@ -114,7 +118,7 @@
           foreign head hi imprint item l lb lg list milestone
           monogr name note p ptr pubPlace publisher q quote resp
           respStmt rs said title"/>
-
+        
         
         <!--*************************************
             MODULE: header
@@ -157,10 +161,54 @@
           </attList>
         </elementSpec>
         
+        
+        <!--*************************************
+            MODULE: textstructure
+            *************************************-->
+        <moduleRef key="textstructure"
+          include="TEI body div epigraph front text"/>
+        
+        <elementSpec ident="div" module="textstructure" mode="change">
+          <constraintSpec mode="add" scheme="schematron" ident="div.nestTypesProperly">
+            <desc>Constrain div/@type to enforce the proper hierarchy (parts, then chapters, then sections).</desc>
+            <constraint>
+              
+              <sch:rule context="tei:div[@type][ancestor::tei:div[@type]]">
+                <sch:let name="allTypes" value="('part','chapter','section')"/>
+                <sch:let name="currType" value="@type"/>
+                <sch:let name="ancestorDivType"
+                  value="ancestor::tei:div[@type][1]/@type"/>
+                <sch:let name="currIdx" 
+                  value="index-of($allTypes, $currType)"/>
+                <sch:let name="ancestorIdx" 
+                  value="index-of($allTypes, $ancestorDivType)"/>
+                <sch:assert test="$ancestorIdx lt $currIdx">ERROR: Types of divisions must nest properly (<sch:value-of select="string-join($allTypes,', ')"/>).</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="type" mode="change" usage="req">
+              <valList mode="add" type="closed">
+                <valItem ident="part" mode="add">
+                  <gloss>part</gloss>
+                  <desc>The larger section, usually containing chapters (formerly <gi>div1</gi>).</desc>
+                </valItem>
+                <valItem ident="chapter" mode="add">
+                  <gloss>chapter</gloss>
+                  <desc>The chapter, usually containing sections (formerly <gi>div2</gi>)</desc>
+                </valItem>
+                <valItem ident="section" mode="add">
+                  <gloss>section, formerly <gi>div3</gi></gloss>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        
         <!--*************************************
             MODULE: linking
             *************************************-->
-        
         <moduleRef key="linking" include="anchor seg standOff timeline when"/>
         
         
@@ -226,73 +274,21 @@
             <p>In this project, <gi>addName</gi> is used only for references to names in the text; we do not include it within the structured data of a <gi>person</gi> element.</p>
           </remarks>
         </elementSpec>
-           
+        
         
         <!--*************************************
             MODULE: spoken
             *************************************-->
         <moduleRef key="spoken" include="shift writing"/>
         
-        <!--*************************************
-            MODULE: tei
-            
-            Include everything from the TEI module,
-            including attribute classes, model classes,
-            datatypes, and macros
-            *************************************-->
-        <moduleRef key="tei"/>
-        
-        
-        <!--*************************************
-            MODULE: textstructure
-            *************************************-->
-        <moduleRef key="textstructure"
-          include="TEI body div epigraph front text"/>
-        
-        <elementSpec ident="div" module="textstructure" mode="change">
-          <constraintSpec mode="add" scheme="schematron" ident="div.nestTypesProperly">
-            <desc>Constrain div/@type to enforce the proper hierarchy (parts, then chapters, then sections).</desc>
-            <constraint>
-              
-              <sch:rule context="tei:div[@type][ancestor::tei:div[@type]]">
-                <sch:let name="allTypes" value="('part','chapter','section')"/>
-                <sch:let name="currType" value="@type"/>
-                <sch:let name="ancestorDivType"
-                  value="ancestor::tei:div[@type][1]/@type"/>
-                <sch:let name="currIdx" 
-                  value="index-of($allTypes, $currType)"/>
-                <sch:let name="ancestorIdx" 
-                  value="index-of($allTypes, $ancestorDivType)"/>
-                <sch:assert test="$ancestorIdx lt $currIdx">ERROR: Types of divisions must nest properly (<sch:value-of select="string-join($allTypes,', ')"/>).</sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <attList>
-            <attDef ident="type" mode="change" usage="req">
-              <valList mode="add" type="closed">
-                <valItem ident="part" mode="add">
-                  <gloss>part</gloss>
-                  <desc>The larger section, usually containing chapters (formerly <gi>div1</gi>).</desc>
-                </valItem>
-                <valItem ident="chapter" mode="add">
-                  <gloss>chapter</gloss>
-                  <desc>The chapter, usually containing sections (formerly <gi>div2</gi>)</desc>
-                </valItem>
-                <valItem ident="section" mode="add">
-                  <gloss>section, formerly <gi>div3</gi></gloss>
-                </valItem>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
         
         <!--*************************************
             MODULE: verse
             *************************************-->
         <moduleRef key="verse" include="att.metrical"/>
         
-     
       </schemaSpec>
+      </div>
     </back>
   </text>
 </TEI>
