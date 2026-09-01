@@ -20,8 +20,4 @@
     </xd:doc>
     <xsl:mode on-no-match="shallow-copy"/>
     
-    
-    
-    
-    
 </xsl:stylesheet>
