@@ -132,7 +132,7 @@
                                 count($toWhomTokens) = 1 and 
                                 $whoTokens = $toWhomTokens"/>
                     
-                    <!--Meainingful speech is aloud, direct, and not to self-->
+                    <!--Meaningful speech is aloud, direct, and not to self-->
                     <xsl:variable name="isMeaningfulSpeech"
                         select="$aloud = 'true' and 
                                 $direct = 'true' and
@@ -340,7 +340,7 @@
     
     
     <xd:doc>
-        <xd:desc>Function to retrieve the `@sex` value from an person pointer.</xd:desc>
+        <xd:desc>Function to retrieve the `@sex` value from a person pointer.</xd:desc>
         <xd:param name="ptr">The ptr value (e.g. #rrr) for the person</xd:param>
         <xd:param name="people">The declared people (e.g. person OR personGrp) in this file.</xd:param>
         <xd:return>A string value as encoded in the person
@@ -370,7 +370,7 @@
     
     
     <xd:doc>
-        <xd:desc>Function to retrieve the `persName` value from an person pointer.</xd:desc>
+        <xd:desc>Function to retrieve the `persName` value from a person pointer.</xd:desc>
         <xd:param name="ptr">The ptr value (e.g. #rrr) for the person</xd:param>
         <xd:param name="people">The declared people (e.g. person OR personGrp) in this file.</xd:param>
         <xd:return><!--BB to fill in--></xd:return>
