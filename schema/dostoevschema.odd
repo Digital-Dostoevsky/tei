@@ -128,14 +128,14 @@
           language principal profileDesc publicationStmt revisionDesc
           sourceDesc teiHeader titleStmt"/>
         
-        <elementSpec ident="revisionDesc" mode="change" module="header">
+        <elementSpec ident="revisionDesc" module="header" mode="change">
           <content>
             <elementRef key="change" minOccurs="1" maxOccurs="unbounded"/>
           </content>
         </elementSpec>
         
         
-        <elementSpec ident="change" mode="change" module="header">
+        <elementSpec ident="change" module="header" mode="change">
           <classes mode="change">
             <memberOf key="att.global" mode="delete"/>
             <memberOf key="att.docStatus" mode="delete"/>
@@ -220,7 +220,7 @@
           object objectIdentifier objectName orgName persName
           person personGrp place placeName roleName state surname"/>
         
-        <elementSpec ident="person" mode="change" module="namesdates">
+        <elementSpec ident="person" module="namesdates" mode="change">
           <content>
             <sequence>
               <elementRef key="persName" minOccurs="1" maxOccurs="unbounded"/>
@@ -236,11 +236,9 @@
         </elementSpec>
         
         <!-- Constrains `<addName>` to a closed list of `@type` values.-->
-        <elementSpec ident="addName" mode="change" module="namesdates">
+        <elementSpec ident="addName" module="namesdates" mode="change">
           <attList>
             <attDef ident="type" mode="change">
-              <!--TODO: Update type to be closed
-              once all errors resolved-->
               <valList mode="replace" type="closed">
                 <valItem ident="patronymic">
                   <gloss>patronymic</gloss>
