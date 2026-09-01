@@ -22,7 +22,7 @@
     <fileDesc>
       <titleStmt>
         <title>Dostoevschema, the ODD for Computational Dostoevsky</title>
-        <funder>ADD FUNDER HERE</funder>
+        <funder>Social Sciences and Humanities Research Council</funder>
         <author xml:id="KH">Dr. Kate Holland</author>
         <author xml:id="KB">Dr. Katherine Bowers</author>
         <author xml:id="BB">Dr. Braxton Boyer</author>
@@ -33,14 +33,9 @@
         Note that this is the place just for information about the ODD!-->
       <publicationStmt xml:id="dd-pubStmt">
         <publisher>Computational Dostoevsky</publisher>
-        <pubPlace>Toronto, Ontario</pubPlace>
-        <address>
-          <addrLine>Department of Slavic Languages and Literatures</addrLine>
-          <addrLine>University of Toronto</addrLine>
-        </address>
         <pubPlace>Vancouver, British Columbia</pubPlace>
         <address>
-          <addrLine>Department of Central, Eastern, and Northern European Studies</addrLine>
+          <addrLine>Department of Central, Eastern and Northern European Studies</addrLine>
           <addrLine>University of British Columbia</addrLine>
         </address>
         <availability>
@@ -75,7 +70,10 @@
         Can really include whatever you want!  Use as many paragraphs as needed.-->
       <div xml:id="projectHistory">
         <head>History of the Project</head>
-        <p>Text here...</p>
+        <p>This project began as "Digital Dostoevsky" based at the University of Toronto in 2019, led by PI Kate Holland and co-PI Katherine Bowers (UBC). It aimed to create a corpus of 7 novels by Fedor Dostoevskii, encode them using TEI-XML, and then use a variety of computational text analysis methods to examine the encoded corpus. "Digital Dostoevsky" was funded by an Insight Grant from the Social Sciences and Humanities Research Council of Canada. From 2019-2025, the project employed 10 undergraduate and graduate student Research Assistants. Library and university staff provided significant advising and support, including Eka Grgurić (UBC), Quinn Daedal (Stanford), Andy Janco (Princeton), Ksenya Kiebuzinski (Toronto), and Simon Wiles (Stanford).</p>
+        <p>The texts used for encoding were extracted from the Soviet Academy of Sciences complete collected works of Fedor Dostoevskii, published from 1972-1990. Graduate RAs Braxton Boyer and Lena Vasileva digitized the texts, removed any frontmatter and notes, and checked the plain text files for errors. Holland, Bowers, Boyer, and Vasileva encoded the first novel, Dvoinik (The Double), after which the team developed and led a research workshop for undergraduate students funded by the Jackman Humanities Institute Scholars in Residence program. This May 2022 workshop trained six University of Toronto undergraduate students in TEI-XML and supported their encoding work on the project. The following students were a part of this workshop: Anastasiya Gordiychuk, Dmytro Ishchenko, Nadia Ivanova, Elijah Sciborowski, Veronika Sizova, and Eden Zorne. Their work was expedited by a tagger tool created by Wiles. His tagger, designed specifically for this project, adds blank XML tags around elements including character names, locations, and speech. These elements could then be filled in manually by students. Following the workshop, several students continued on as project RAs (Ishchenko, Ivanova, Sciborowski, Sizova, and Zorne). They were joined by two other University of Toronto graduate students, Liza Shershneva and Sydney Vermeersch. By the fall of 2024, the corpus had been completely encoded with a first pass. 2024-25 was spent checking and editing the encoding.</p>
+        <p>In 2025, PI Bowers and co-PI Holland received a new SSHRC Insight Grant for the second phase of the project, "Computational Dostoevsky." This grant moved the project from the University of Toronto to the University of British Columbia. It allowed Bowers to hire a postdoctoral research fellow to support data management for the project. Dr Braxton Boyer joined Bowers in this role at UBC in February 2026. "Computational Dostoevsky" also has received significant advising and support from library and university staff, including Eka Grgurić (UBC) and Joey Takeda (Simon Fraser). Takeda's participation was made possible by a memorandum of understanding between UBC Library and the SFU Digital Humanities Innovation Lab; this memorandum was facilitated by the Digital Scholarship in Arts program at UBC directed by Christine D'Onofrio. "Computational Dostoevsky" aims to publish the finalized TEI edition of 7 Dostoevskii novels and also support Bowers and Holland's authorship of a monograph.</p>
+        <p>Both "Digital Dostoevsky" and "Computational Dostoevsky" have been enhanced by training team members undertook through the UBC Library's Research Commons and the Digital Humanities Summer Institute over the years. The team wishes to thank its instructors including Elisa Beshero-Bondar, Jacek Bankowski, David Birnbaum, Marie-Hélène Burle, Joanna Byszuk, Constance Crompton, Randa El-Khatib, Grace Fishbein, Emily Murphy, Jessica Otis, Lydia Vermeyden, David Wrisley, and Lee Zickel. The project has also been grateful for the advice and support of the members of the Data-Sitters Club over the years: Lee Skallerup Bessette, Maria Sachiko Cecire, Quinn Daedal, Anouk Lang, and Roopika Risam.</p>
       </div>
       
       <!-- Braxton to write first draft of encoding practices.
