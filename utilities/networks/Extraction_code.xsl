@@ -165,7 +165,6 @@
                                 'unknown'" as="xs:string"/>
                         <xsl:for-each select="$toWhomTokens">
                             <xsl:variable name="currToWhomPtr" select="." as="xs:string"/>
-                            <xsl:if test="$currWhoPtr != $currToWhomPtr">
                                 <xsl:variable name="toWhomSex" select="
                                         if ($currToWhomPtr != 'unknown')
                                         then
@@ -196,7 +195,6 @@
                                 <xsl:map-entry key="'toWhomSex'" select="$toWhomSex"/>
                                 <xsl:map-entry key="'text'" select="$spContents"/>
                             </xsl:map>
-                            </xsl:if>
                         </xsl:for-each>
                     </xsl:for-each>
                 </xsl:for-each>
@@ -232,7 +230,7 @@
                 above for how "isMeaningfulSpeech" works in detail, but in short it 
                 means speech that is direct, aloud, and not to oneself.-->
             <xsl:variable name="gephiSubsetData"
-                select="$data[.?isMeaningfulSpeech]" as="map(*)+"/>
+                select="$data[.?isMeaningfulSpeech and .?who != .?toWhom]" as="map(*)+"/>
             
             <!--Result Document 2: Edges files for all novels in full -->
             <xsl:result-document href="{$outputDir}/{$docId}/{$docId}_all_edges.tsv" method="text">
