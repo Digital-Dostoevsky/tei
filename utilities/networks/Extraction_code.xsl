@@ -165,18 +165,19 @@
                                 'unknown'" as="xs:string"/>
                         <xsl:for-each select="$toWhomTokens">
                             <xsl:variable name="currToWhomPtr" select="." as="xs:string"/>
-                            <xsl:variable name="toWhomSex" select="
+                            <xsl:if test="$currWhoPtr != $currToWhomPtr">
+                                <xsl:variable name="toWhomSex" select="
+                                        if ($currToWhomPtr != 'unknown')
+                                        then
+                                            dd:getSexVal($currToWhomPtr, $people)
+                                        else
+                                            'unknown'" as="xs:string"/>
+                                <xsl:variable name="toWhomName" select="
                                     if ($currToWhomPtr != 'unknown')
                                     then
-                                        dd:getSexVal($currToWhomPtr, $people)
+                                        dd:getName($currToWhomPtr, $people)
                                     else
                                         'unknown'" as="xs:string"/>
-                            <xsl:variable name="toWhomName" select="
-                                if ($currToWhomPtr != 'unknown')
-                                then
-                                    dd:getName($currToWhomPtr, $people)
-                                else
-                                    'unknown'" as="xs:string"/>
                             
                             <xsl:map>
                                 <xsl:map-entry key="'Part'" select="$part"/>
@@ -195,6 +196,7 @@
                                 <xsl:map-entry key="'toWhomSex'" select="$toWhomSex"/>
                                 <xsl:map-entry key="'text'" select="$spContents"/>
                             </xsl:map>
+                            </xsl:if>
                         </xsl:for-each>
                     </xsl:for-each>
                 </xsl:for-each>
@@ -217,7 +219,7 @@
                     <xsl:for-each select="$data">
                         <xsl:variable name="dataToUse" 
                             select=".?Part, .?Chapter, .?Section, .?saidID, .?aloud, .?direct, xs:string(.?isSelfTalk),
-                            xs:string(.?isMeaningfulSpeech), .?who, .?whoName, .?whoSex, .?toWhom, ?toWhomName, .?toWhomSex, .?text" as="xs:string+"/>
+                            xs:string(.?isMeaningfulSpeech), .?who, .?whoName, .?whoSex, .?toWhom, .?toWhomName, .?toWhomSex, .?text" as="xs:string+"/>
                         <xsl:variable name="row" select="string-join($dataToUse, $TAB)" as="xs:string"/>
                         <xsl:sequence select="$row"/>
                     </xsl:for-each>
