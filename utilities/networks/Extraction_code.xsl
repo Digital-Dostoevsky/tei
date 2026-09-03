@@ -391,7 +391,10 @@
             <xsl:message>WARNING: Cannot find corresponding entity for <xsl:value-of select="$ptr"/></xsl:message>
         </xsl:if>
         <xsl:choose>
-            <xsl:when test="$person/persName[@xml:lang = 'en']">
+            <xsl:when test="count($person/persName[@xml:lang = 'en']) gt 1">
+                <xsl:value-of select="string($person/persName[@xml:lang = 'en'][2])"/>
+            </xsl:when>
+            <xsl:when test="count($person/persName[@xml:lang = 'en']) eq 1">
                 <xsl:value-of select="string($person/persName[@xml:lang = 'en'])"/>
             </xsl:when>
             <xsl:otherwise>
