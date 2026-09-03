@@ -4453,7 +4453,7 @@
            <persName xml:lang="en">Arkadii</persName>
          </person>
          <person xml:id="md" sex="male">
-            <persName>Макар Иванов Долгорукий</persName>
+            <persName>Макар Иванович Долгорукий</persName>
             <persName>Макар Иваныч Долгорукий</persName>
             <persName>Макар Долгорукий</persName>
             <persName>Макар Иванович</persName>
@@ -4462,7 +4462,8 @@
             <persName>Макарушка</persName>
             <persName>голубчик</persName>
             <persName>старик</persName>
-           <persName xml:lang="en">Makar Ivanov Dolgorukii</persName>
+           <persName xml:lang="en">Makar Ivanovich Dolgorukii</persName>
+           <persName xml:lang="en">Makar</persName>
          </person>
          <person xml:id="ver" sex="male">
             <persName>Андрей Петрович Версилов</persName>
@@ -4480,6 +4481,7 @@
             <persName>голубчик Андрей Петрович</persName>
             <persName>милый</persName>
             <persName xml:lang="en">Andrei Petrovich Versilov</persName>
+           <persName xml:lang="en">Versilov</persName>
          </person>
          <personGrp xml:id="grpver">
             <persName>господа Версиловы</persName>
@@ -4500,7 +4502,8 @@
             <persName>Соня</persName>
             <persName>Софья</persName>
             <persName>Софи</persName>
-           <persName xml:lang="en">Sof'ia Andreevna Dolgorukaya</persName>
+           <persName xml:lang="en">Sof'ia Andreevna Dolgorukaia</persName>
+           <persName xml:lang="en">Sof'ia Andreevna</persName>
          </person>
          <person xml:id="lmd" sex="female">
             <persName>Елизавета Макаровна Долгорукая</persName>
@@ -4511,6 +4514,7 @@
             <persName>Лизок</persName>
             <persName>голубчик</persName>
            <persName xml:lang="en">Elizaveta Makarovna Dolgorukaya</persName>
+           <persName xml:lang="en">Liza</persName>
          </person>
          <person xml:id="sok" sex="male">
             <persName>Князь Сокольский</persName>
@@ -4525,6 +4529,7 @@
             <persName>князь Николай Иванович Ахмаков</persName>
             <persName>голубчик</persName>
            <persName xml:lang="en">Prince Nikolai Ivanovich Sokol'skii</persName>
+           <persName xml:lang="en">Old Prince Sokol'skii</persName>
          </person>
          <person xml:id="knpet" sex="male">
             <persName>князь Петр Сокольский</persName>
@@ -4548,6 +4553,7 @@
             <persName>cette dame, la générale</persName>
             <persName>барыня</persName>
            <persName xml:lang="en">Katerina Nikolaevna Akhmakova</persName>
+           <persName xml:lang="en">Katerina Nikolaevna</persName>
          </person>
          <personGrp xml:id="grpahm">
             <persName>Ахмаковы</persName>
@@ -4558,6 +4564,7 @@
             <persName>Татьяна</persName>
             <persName>барыня</persName>
            <persName xml:lang="en">Tat'iana Pavlovna Prutkova</persName>
+           <persName xml:lang="en">Tat'iana Pavlovna</persName>
          </person>
          <person xml:id="aav" sex="female">
             <persName>Анна Андреевна Версилова</persName>
@@ -4570,6 +4577,7 @@
             <persName>chère enfant</persName>
             <persName>Анна</persName>
            <persName xml:lang="en">Anna Andreevna Versilova</persName>
+           <persName xml:lang="en">Anna Andreevna</persName>
          </person>
          <person xml:id="verjr" sex="male">
             <persName>господин Версилов</persName>
@@ -4580,6 +4588,7 @@
             <persName>Андроников</persName>
             <persName>покойный же отец ее</persName>
            <persName xml:lang="en">Aleksei Nikanorovich Andronikov</persName>
+           <persName xml:lang="en">Andronikov</persName>
          </person>
          <personGrp xml:id="grpand">
             <persName>Андрониковы</persName>
@@ -4598,7 +4607,7 @@
          <person xml:id="chino" sex="male">
             <persName>чиновник у Князя Сокольского</persName>
             <persName>Кильян</persName>
-           <persName xml:lang="en">Clerk at Prince Sokol'skii's</persName>
+           <persName xml:lang="en">Clerk at Old Prince Sokol'skii's</persName>
          </person>
          <person xml:id="tush" sex="male">
             <persName>Тушар</persName>
@@ -4634,10 +4643,11 @@
             <persName>князёк</persName>
             <persName>сударь</persName>
            <persName xml:lang="en">Prince Sergei Petrovich Sokol'skii</persName>
+           <persName xml:lang="en">Young Prince Sokol'skii</persName>
          </person>
         <person xml:id="knserdriver" sex="male">
           <persName>кучер Сергея Сокольского</persName>
-          <persName xml:lang="en">Prince Sergei Sokol'skii's driver</persName>
+          <persName xml:lang="en">Young Prince Sokol'skii's driver</persName>
         </person>
         <person xml:id="lebr" sex="female">
             <persName>г-жа Лебрехт</persName>
@@ -4648,6 +4658,7 @@
             <persName>Ефим</persName>
             <persName>Зверев</persName>
            <persName xml:lang="en">Efim Zverev</persName>
+           <persName xml:lang="en">Zverev</persName>
          </person>
          <person xml:id="kra" sex="male">
             <persName>Крафт</persName>
@@ -4687,6 +4698,7 @@
             <persName>Васин</persName>
             <persName>Гриша</persName>
            <persName xml:lang="en">Grigorii Vasin</persName>
+           <persName xml:lang="en">Vasin</persName>
          </person>
          <person xml:id="tiho" sex="male">
             <persName>Тихомиров</persName>
@@ -4822,10 +4834,12 @@
          <person xml:id="avda" sex="male">
             <persName>Алексей Владимирович Дарзан</persName>
            <persName xml:lang="en">Aleksei Vladimirovich Darzan</persName>
+           <persName xml:lang="en">Darzan</persName>
          </person>
          <person xml:id="ian" sex="male">
             <persName>Ипполит Александрович Нащокин</persName>
            <persName xml:lang="en">Ippolit Aleksandrovich Nashchokin</persName>
+           <persName xml:lang="en">Nashchokin</persName>
          </person>
          <person xml:id="grver" sex="female">
             <persName>графиня Веригина</persName>
@@ -4922,6 +4936,7 @@
             <persName>камер-юнкер Версилов</persName>
             <persName>господин</persName>
            <persName xml:lang="en">Andrei Andreevich Versilov</persName>
+           <persName xml:lang="en">Andrei Andreevich</persName>
          </person>
          <person xml:id="stepp" sex="male">
             <persName>Степанов</persName>
@@ -4939,7 +4954,7 @@
          </personGrp>
          <person xml:id="petrk" sex="male">
             <persName>Петр</persName>
-           <persName xml:lang="en">Prince Sergei Sokol'skii's servant</persName>
+           <persName xml:lang="en">Young Prince Sokol'skii's servant</persName>
          </person>
          <person xml:id="antv" sex="female">
             <persName>Антонина Васильевна</persName>
@@ -5036,6 +5051,7 @@
             <persName>dadais</persName>
             <persName>le grand dadais</persName>
            <persName xml:lang="en">Nikolai Semenovich Andreev</persName>
+           <persName xml:lang="en">Andreev</persName>
          </person>
          <person xml:id="trish" sex="male">
             <persName>Петя Тришатов</persName>
@@ -5043,6 +5059,7 @@
             <persName>Петя</persName>
             <persName>le petit vilain</persName>
            <persName xml:lang="en">Petia Trishatov</persName>
+           <persName xml:lang="en">Trishatov</persName>
          </person>
          <person xml:id="ryab" sex="male">
             <persName>рябой</persName>
