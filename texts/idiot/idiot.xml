@@ -4886,10 +4886,14 @@
             <persName>Евгений Павлович Радомский</persName>
             <persName>Евгений Павлович Р.</persName>
             <persName>Радомский</persName>
+            <persName xml:lang="en">Evgenii Pavlovich Radomskii</persName>
+            <persName xml:lang="en">Evgenii Pavlovich</persName>
          </person>
          <person xml:id="ippol" sex="male">
             <persName>Ипполит Терентьев</persName>
             <persName>Ипполит</persName>
+            <persName xml:lang="en">Ippolit Terent'iev</persName>
+            <persName xml:lang="en">Ippolit</persName>
          </person>
          <person xml:id="zahar" sex="male">
             <persName>Петр Захарыч</persName>
@@ -4900,13 +4904,16 @@
             <persName>капитанша</persName>
          </person>
          <person xml:id="vera" sex="female">
-            <persName>дочь Лебедева, Вера</persName>
+            <persName>Вера Лебедева</persName>
+            <persName xml:lang="en">Vera Lebedeva</persName>
          </person>
          <person xml:id="luba" sex="female">
-            <persName>дочь Лебедева, Люба</persName>
+            <persName>Люба Лебедева</persName>
+            <persName xml:lang="en">Liuba Lebedeva</persName>
          </person>
          <person xml:id="lebedson" sex="male">
             <persName>сын Лебедева</persName>
+            <persName xml:lang="en">Lebedev's son</persName>
          </person>
          <person xml:id="mihal" sex="female">
             <persName>Александра Михайловна</persName>
@@ -4919,12 +4926,15 @@
          </person>
          <person xml:id="antip" sex="male">
             <persName>Антип Бурдовский</persName>
+            <persName xml:lang="en">Antip Burdovskii</persName>
+            <persName xml:lang="en">Burdovskii</persName>
          </person>
          <person xml:id="nelat" sex="male">
             <persName>Нелатон</persName>
          </person>
          <person xml:id="shch" sex="male">
             <persName>князь Щ.</persName>
+            <persName xml:lang="en">Prince Shch.</persName>
          </person>
          <personGrp xml:id="grshch">
             <persName> князи Щ.</persName>
@@ -4949,13 +4959,16 @@
             <persName>Колпаков</persName>
          </person>
          <person xml:id="kolya" sex="male">
-            <persName>Коля</persName>
+            <persName>Коля Иволгин</persName>
+            <persName xml:lang="en">Kolya Ivolgin</persName>
+            <persName xml:lang="en">Kolya</persName>
          </person>
          <person xml:id="erop" sex="male">
             <persName>капитан Еропегов</persName>
          </person>
          <person xml:id="keller" sex="male">
             <persName>Келлер</persName>
+            <persName xml:lang="en">Keller</persName>
          </person>
          <person xml:id="zarn" sex="male">
             <persName>Зарницын</persName>
@@ -4976,13 +4989,16 @@
             <persName>Петя Ворховской</persName>
          </person>
          <person xml:id="ptiz" sex="male">
-            <persName>Птицын Иван Петрович</persName>
+            <persName>Иван Петрович Птицын</persName>
+            <persName xml:lang="en">Ivan Petrovich Ptitsyn</persName>
+            <persName xml:lang="en">Ptitsyn</persName>
          </person>
          <person xml:id="phil" sex="male">
             <persName>Филипп Александрович Барашков</persName>
          </person>
          <person xml:id="varv" sex="female">
             <persName>Варвара Ардалионовна</persName>
+            <persName xml:lang="en">Varvara Ardalionovna</persName>
          </person>
          <person xml:id="govK" sex="female">
             <persName>горничная Катя</persName>
@@ -4993,6 +5009,7 @@
          <person xml:id="ferd" sex="male">
             <persName>Фердыщенко</persName>
             <persName>господин Фердыщенко</persName>
+            <persName xml:lang="en">Ferdyshchenko</persName>
          </person>
          <person xml:id="salaz" sex="male">
             <persName>Салазкин</persName>

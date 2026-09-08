@@ -5723,6 +5723,8 @@
       <listPerson type="fictional">
          <person xml:id="stv" sex="male">
             <persName>Степан Трофимович Верховенский</persName>
+           <persName xml:lang="en">Stepan Trofimovich Verkhovenskii</persName>
+           <persName xml:lang="en">Stepan Trofimovich</persName>
          </person>
          <person xml:id="mcvk" sex="male">
             <persName>Молодой человек</persName>
@@ -5732,18 +5734,26 @@
          </person>
          <person xml:id="vps" sex="female">
             <persName>Варвара Петровна Ставрогина</persName>
+           <persName xml:lang="en">Varvara Petrovna Stavrogina</persName>
+           <persName xml:lang="en">Varvara Petrovna</persName>
          </person>
          <person xml:id="vns" sex="male">
             <persName>Всеволод Николаевич Ставрогин</persName>
+           <persName xml:lang="en">Vsevolod Nikolaevich Stavrogin</persName>
+           <persName xml:lang="en">Vsevolod Nikolaevich</persName>
          </person>
          <person xml:id="nvs" sex="male">
             <persName>Николай Всеволодович Ставрогин</persName>
+           <persName xml:lang="en">Nikolai Vsevolodovich Stavrogin</persName>
+           <persName xml:lang="en">Stavrogin</persName>
          </person>
          <person xml:id="fwif" sex="female">
             <persName>Первая жена Степана Трофимовича</persName>
          </person>
          <person xml:id="psv" sex="male">
             <persName>Петр Степанович Верховенский</persName>
+           <persName xml:lang="en">Pyotr Stepanovich Verkhovenskii</persName>
+           <persName xml:lang="en">Verkhovenskii</persName>
          </person>
          <person xml:id="alg" sex="male">
             <persName>Антон Лаврентьевич Г–в</persName>

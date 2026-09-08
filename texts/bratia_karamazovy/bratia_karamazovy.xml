@@ -6066,24 +6066,29 @@
          <person xml:id="afk" sex="male">
             <persName>Алексей Федорович Карамазов</persName>
             <persName xml:lang="en">Aleksei Fyodorovich Karamazov</persName>
+            <persName xml:lang="en">Alyosha</persName>
          </person>
          <person xml:id="fpk" sex="male">
             <persName>Федор Павлович Карамазов</persName>
             <persName xml:lang="en">Fyodor Pavlovich Karamazov</persName>
+            <persName xml:lang="en">Fyodor Pavlovich</persName>
          </person>
          <person xml:id="dfk" sex="male">
             <persName>Дмитрий Федорович Карамазов</persName>
             <persName xml:lang="en">Dmitri Fyodorovich Karamazov</persName>
+            <persName xml:lang="en">Mitia</persName>
          </person>
          <person xml:id="ifk" sex="male">
             <persName>Иван Федорович Карамазов</persName>
             <persName xml:lang="en">Ivan Fyodorovich Karamazov</persName>
+            <persName xml:lang="en">Ivan Fyodorovich</persName>
          </person>
          <personGrp xml:id="kar">
             <persName>Карамазовы</persName>
          </personGrp>
          <person xml:id="aas" sex="female">
             <persName>Агафена Александровна Светлова (Грушенька)</persName>
+            <persName xml:lang="en">Agafena Aleksandrovna Svetlova</persName>
             <persName xml:lang="en">Grushen'ka</persName>
          </person>
          <person xml:id="matr" sex="female">
@@ -6102,6 +6107,7 @@
          <person xml:id="pam" sex="male">
             <persName>Петр Александрович Миусов</persName>
             <persName xml:lang="en">Pyotr Aleksandrovich Miusov</persName>
+            <persName xml:lang="en">Miusov</persName>
          </person>
          <person xml:id="mfm" sex="female">
             <persName>Мавра Фоминишна Миусова</persName>
@@ -6122,10 +6128,12 @@
          <person xml:id="gvk" sex="male">
             <persName>Григорий Васильевич Кутузов</persName>
             <persName xml:lang="en">Grigory Vasil'evich Kutuzov</persName>
+            <persName xml:lang="en">Grigory</persName>
          </person>
          <person xml:id="mik" sex="female">
             <persName>Марфа Игнатьевна Кутузова (жена)</persName>
             <persName xml:lang="en">Marfa Ignat'evna Kutuzova</persName>
+            <persName xml:lang="en">Marfa</persName>
          </person>
          <person xml:id="zos" sex="male">
             <persName>Старец Зосима</persName>
@@ -6134,6 +6142,7 @@
          <person xml:id="pfk" sex="male">
             <persName>Петр Фомич Калганов</persName>
             <persName xml:lang="en">Pyotr Fomich Kalganov</persName>
+            <persName xml:lang="en">Kalganov</persName>
          </person>
          <person xml:id="mks" sex="male">
             <persName>Максимов</persName>
@@ -6153,6 +6162,7 @@
          <person xml:id="kiv" sex="female">
             <persName>Катерина Ивановна Верховцева</persName>
             <persName xml:lang="en">Katerina Ivanovna Verkhovtseva</persName>
+            <persName xml:lang="en">Katerina Ivanovna</persName>
          </person>
          <person xml:id="aiv" sex="female">
             <persName>Агафья Ивановна Верховцева</persName>
@@ -6174,7 +6184,8 @@
          </person>
          <person xml:id="pfs" sex="male">
             <persName>Павел Федорович Смердяков</persName>
-            <persName xml:lang="en">Pavel Fyodorovich Smerdyakov</persName>
+            <persName xml:lang="en">Pavel Fyodorovich Smerdiakov</persName>
+            <persName xml:lang="en">Smerdiakov</persName>
          </person>
          <person xml:id="lis" sex="female">
             <persName>Лизавета Смердящая</persName>
@@ -6217,6 +6228,7 @@
          <person xml:id="rak" sex="male">
             <persName>Михаил Иванович Ракитин</persName>
             <persName xml:lang="en">Mikhail Ivanovich Rakitin</persName>
+            <persName xml:lang="en">Rakitin</persName>
          </person>
          <person xml:id="nastas" sex="female">
             <persName>женщина в монастыре с мертвым ребенком (Настасьюшка)</persName>
@@ -6332,7 +6344,8 @@
          </person>
          <person xml:id="ins" sex="male">
             <persName>Илюша Снегирев</persName>
-            <persName xml:lang="en">Ilyusha Snegiryov</persName>
+            <persName xml:lang="en">Iliusha Snegirev</persName>
+            <persName xml:lang="en">Iliusha</persName>
          </person>
          <person xml:id="nis" sex="male">
             <persName>Николай Ильич Снегирев</persName>
@@ -6475,6 +6488,7 @@
          <person xml:id="kks" sex="male">
             <persName>Кузьма Кузьмич Самсонов</persName>
             <persName xml:lang="en">Kuz'ma Kuz'mich Samsonov</persName>
+            <persName xml:lang="en">Samsonov</persName>
          </person>
          <person xml:id="tim" sex="male">
             <persName>Тимофей (ямщик)</persName>
@@ -6490,7 +6504,7 @@
          </person>
          <person xml:id="agaf" sex="female">
             <persName>Агафья (служанка Анны Федоровны)</persName>
-            <persName xml:lang="en">Agafia</persName>
+            <persName xml:lang="en">Agaf'ia</persName>
          </person>
          <person xml:id="bkc4" sex="female">
             <persName>Настя</persName>
@@ -6559,6 +6573,7 @@
          <person xml:id="pip" sex="male">
             <persName>Петр Ильич Перхотин</persName>
             <persName xml:lang="en">Pyotr Il'ich Perkhotin</persName>
+            <persName xml:lang="en">Perkhotin</persName>
          </person>
          <person xml:id="niv" sex="male">
             <persName>Назар Иванович (дворник)</persName>
@@ -6589,7 +6604,7 @@
          </person>
          <person xml:id="drvr" sex="male">
             <persName>врач Варвинский</persName>
-            <persName xml:lang="en">Doctor Varvinsky</persName>
+            <persName xml:lang="en">Doctor Varvinskii</persName>
          </person>
          <person xml:id="misha" sex="male">
             <persName>Миша (слуга Петра Ильича Перхотина)</persName>
@@ -6629,7 +6644,7 @@
          </person>
          <person xml:id="mmsch" sex="male">
             <persName>Маврикий Маврикиевич Шмерцов</persName>
-            <persName xml:lang="en">Mavriky Mavrikievich Shmertsov</persName>
+            <persName xml:lang="en">Mavrikii Mavrikievich Shmertsov</persName>
          </person>
          <person xml:id="ipk" sex="male">
             <persName>Ипполит Кириллович (прокурор)</persName>
