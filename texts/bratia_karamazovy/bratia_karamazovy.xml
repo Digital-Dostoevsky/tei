@@ -2448,7 +2448,7 @@
             <head>II</head>
             <head>ТАКАЯ МИНУТКА</head>
             <p>ТАКАЯ МИНУТКА</p>
-            <p><persName ref="#pais"><roleName>Отец</roleName> <forename>Паисий</forename></persName>, конечно, не ошибся, решив, что его <q who="#pais">«милый мальчик»</q> снова воротится, и даже, может быть (хотя и не вполне, но всё же прозорливо), проник в истинный смысл душевного настроения <persName ref="#afk"><addName type="diminutive">Алеши</addName></persName>. Тем не менее признаюсь откровенно, что самому <persName ref="#bknar">мне</persName> очень было бы трудно теперь передать ясно точный смысл этой странной и неопределенной минуты в жизни столь излюбленного мною и столь еще юного <persName ref="#afk"><addName type="epithet">героя</addName></persName> моего рассказа. На горестный вопрос <persName ref="#pais"><roleName>отца</roleName> <forename>Паисия</forename></persName>, устремленный к <persName ref="#afk"><addName type="diminutive">Алеше</addName></persName>: <q who="#pais">«Или и ты с маловерными?»</q> — <persName ref="#bknar">я</persName>, конечно, мог бы с твердостью ответить за <persName ref="#afk"><addName type="diminutive">Алешу</addName></persName>: <seg type="conditional"><said aloud="true" direct="true" who="#bknar" toWhom="#pais">«Нет, он не с маловерными»</said></seg>. Мало того, тут было даже совсем противоположное: всё смущение его произошло именно оттого, что он много веровал. Но смущение всё же было, всё же произошло и было столь мучительно, что даже и потом, уже долго спустя, <persName ref="#afk"><addName type="diminutive">Алеша</addName></persName> считал этот горестный день одним из самых тягостных и роковых дней своей жизни. <seg type="conditional">Если же спросят прямо: <said aloud="true" direct="true" who="#imint" toWhom="#bknar">«Неужели же вся эта тоска и такая тревога могли в нем произойти лишь потому, что тело его <persName ref="#zos"><roleName>старца</roleName></persName>, вместо того чтобы немедленно начать производить исцеления, подверглось, напротив того, раннему тлению»</said>, то отвечу на это не обинуясь: <said aloud="true" direct="true" who="#bknar" toWhom="#imint">«Да, действительно было так»</said></seg>. Попросил бы только <persName ref="#bkread">читателя</persName> не спешить еще слишком смеяться над чистым сердцем <persName ref="#afk"><addName type="epithet">моего юноши</addName></persName>. Сам же <persName ref="#bknar">я</persName> не только не намерен просить за него прощенья или извинять и оправдывать простодушную его веру его юным возрастом, например, или малыми успехами в пройденных им прежде науках и проч., и проч., но сделаю даже напротив и твердо заявлю, что чувствую искреннее уважение к природе сердца его. Без сомнения, иной юноша, принимающий впечатления сердечные осторожно, уже умеющий любить не горячо, а лишь тепло, с умом хотя и верным, но слишком уж, судя по возрасту, рассудительным (а потому дешевым), такой юноша, говорю <persName ref="#bknar">я</persName>, избег бы того, что случилось с <persName ref="#afk"><addName type="epithet">моим юношей</addName></persName>, но в иных случаях, право, почтеннее поддаться иному увлечению, хотя бы и неразумному, но всё же от великой любви происшедшему, чем вовсе не поддаться ему. А в юности тем паче, ибо неблагонадежен слишком уж постоянно рассудительный юноша и дешева цена ему — вот <persName ref="#bknar">мое</persName> мнение! <seg type="conditional"><said aloud="true" direct="true" who="#imint" toWhom="#bknar">«Но</said>, — воскликнут тут, пожалуй, разумные люди, — <said aloud="true" direct="true" who="#imint" toWhom="#bknar">нельзя же всякому юноше веровать в такой предрассудок, и ваш юноша не указ остальным»</said>. На это <persName ref="#bknar">я</persName> отвечу опять-таки: да, <persName ref="#afk"><addName type="epithet">мой юноша</addName></persName> веровал, веровал свято и нерушимо, но <persName ref="#bknar">я</persName> все-таки не прошу за него прощения.</seg></p>
+            <p><persName ref="#pais"><roleName>Отец</roleName> <forename>Паисий</forename></persName>, конечно, не ошибся, решив, что его <q who="#pais">«милый мальчик»</q> снова воротится, и даже, может быть (хотя и не вполне, но всё же прозорливо), проник в истинный смысл душевного настроения <persName ref="#afk"><addName type="diminutive">Алеши</addName></persName>. Тем не менее признаюсь откровенно, что самому <persName ref="#bknar">мне</persName> очень было бы трудно теперь передать ясно точный смысл этой странной и неопределенной минуты в жизни столь излюбленного мною и столь еще юного <persName ref="#afk"><addName type="epithet">героя</addName></persName> моего рассказа. На горестный вопрос <persName ref="#pais"><roleName>отца</roleName> <forename>Паисия</forename></persName>, устремленный к <persName ref="#afk"><addName type="diminutive">Алеше</addName></persName>: <q who="#pais">«Или и ты с маловерными?»</q> — <persName ref="#bknar">я</persName>, конечно, мог бы с твердостью ответить за <persName ref="#afk"><addName type="diminutive">Алешу</addName></persName>: <q>«Нет, он не с маловерными»</q>. Мало того, тут было даже совсем противоположное: всё смущение его произошло именно оттого, что он много веровал. Но смущение всё же было, всё же произошло и было столь мучительно, что даже и потом, уже долго спустя, <persName ref="#afk"><addName type="diminutive">Алеша</addName></persName> считал этот горестный день одним из самых тягостных и роковых дней своей жизни. Если же спросят прямо: <q>«Неужели же вся эта тоска и такая тревога могли в нем произойти лишь потому, что тело его <persName ref="#zos"><roleName>старца</roleName></persName>, вместо того чтобы немедленно начать производить исцеления, подверглось, напротив того, раннему тлению»</q>, то отвечу на это не обинуясь: <q>«Да, действительно было так»</q>. Попросил бы только <persName ref="#bkread">читателя</persName> не спешить еще слишком смеяться над чистым сердцем <persName ref="#afk"><addName type="epithet">моего юноши</addName></persName>. Сам же <persName ref="#bknar">я</persName> не только не намерен просить за него прощенья или извинять и оправдывать простодушную его веру его юным возрастом, например, или малыми успехами в пройденных им прежде науках и проч., и проч., но сделаю даже напротив и твердо заявлю, что чувствую искреннее уважение к природе сердца его. Без сомнения, иной юноша, принимающий впечатления сердечные осторожно, уже умеющий любить не горячо, а лишь тепло, с умом хотя и верным, но слишком уж, судя по возрасту, рассудительным (а потому дешевым), такой юноша, говорю <persName ref="#bknar">я</persName>, избег бы того, что случилось с <persName ref="#afk"><addName type="epithet">моим юношей</addName></persName>, но в иных случаях, право, почтеннее поддаться иному увлечению, хотя бы и неразумному, но всё же от великой любви происшедшему, чем вовсе не поддаться ему. А в юности тем паче, ибо неблагонадежен слишком уж постоянно рассудительный юноша и дешева цена ему — вот <persName ref="#bknar">мое</persName> мнение! <seg type="conditional"><said aloud="true" direct="true" who="#imint" toWhom="#bknar">«Но</said>, — воскликнут тут, пожалуй, разумные люди, — <said aloud="true" direct="true" who="#imint" toWhom="#bknar">нельзя же всякому юноше веровать в такой предрассудок, и ваш юноша не указ остальным»</said>. На это <persName ref="#bknar">я</persName> отвечу опять-таки: да, <persName ref="#afk"><addName type="epithet">мой юноша</addName></persName> веровал, веровал свято и нерушимо, но <persName ref="#bknar">я</persName> все-таки не прошу за него прощения.</seg></p>
             <p>Видите ли: хоть <persName ref="#bknar">я</persName> и заявил выше (и, может быть, слишком поспешно), что объясняться, извиняться и оправдывать <persName ref="#afk"><addName type="diminutive">героя моего</addName></persName> не стану, но вижу, что нечто всё же необходимо уяснить для дальнейшего понимания рассказа. Вот что скажу: тут не то чтобы чудеса. Не легкомысленное в своем нетерпении было тут ожидание чудес. И не для торжества убеждений каких-либо понадобились тогда чудеса <persName ref="#afk"><addName type="diminutive">Алеше</addName></persName> (это-то уже вовсе нет), не для идеи какой-либо прежней, предвзятой, которая бы восторжествовала поскорей над другою, — о нет, совсем нет: тут во всем этом и прежде всего, на первом месте, стояло пред ним лицо, и только лицо, — лицо возлюбленного <persName ref="#zos"><roleName>старца</roleName></persName> его, лицо того праведника, которого он до такого обожания чтил. То-то и есть, что вся любовь, таившаяся в молодом и чистом сердце его ко <q>«всем и вся»</q>, в то время и во весь предшествовавший тому год, как бы вся временами сосредоточивалась, и может быть даже неправильно, лишь на одном существе преимущественно, по крайней мере в сильнейших порывах сердца его, — на возлюбленном <persName ref="#zos"><roleName>старце</roleName></persName> его, теперь почившем. Правда, это существо столь долго стояло пред ним как идеал бесспорный, что все юные силы его и всё стремление их и не могли уже не направиться к этому идеалу исключительно, а минутами так даже и до забвения <q>«всех и вся»</q>. (Он вспоминал потом сам, что в тяжелый день этот забыл совсем о брате <persName ref="#dfk"><forename>Дмитрии</forename></persName>, о котором так заботился и тосковал накануне; забыл тоже снести <persName ref="#nis">отцу Илюшечки</persName> двести рублей, что с таким жаром намеревался исполнить тоже накануне.) Но не чудес опять-таки ему нужно было, а лишь <q>«высшей справедливости»</q>, которая была, по верованию его, нарушена и чем так жестоко и внезапно было поранено сердце его. И что в том, что <q>«справедливость»</q> эта, в ожиданиях <persName ref="#afk"><addName type="diminutive">Алеши</addName></persName>, самим даже ходом дела, приняла форму чудес, немедленно ожидаемых от праха обожаемого им бывшего руководителя его? Но ведь так мыслили и ожидали и все в <placeName ref="#localmnst">монастыре</placeName>, те даже, пред умом которых преклонялся <persName ref="#afk"><addName type="diminutive">Алеша</addName></persName>, сам <persName ref="#pais"><roleName>отец</roleName> <forename>Паисий</forename></persName> например, и вот <persName ref="#afk"><addName type="diminutive">Алеша</addName></persName>, не тревожа себя никакими сомнениями, облек и свои мечты в ту же форму, в какую и все облекли. Да и давно уже это так устроилось в сердце его, целым годом монастырской жизни его, и сердце его взяло уже привычку так ожидать. Но справедливости жаждал, справедливости, а не токмо лишь чудес! И вот тот, который должен бы был, по упованиям его, быть вознесен превыше всех в целом мире, — тот самый вместо славы, ему подобавшей, вдруг низвержен и опозорен! За что? Кто судил? Кто мог так рассудить? — вот вопросы, которые тотчас же измучили неопытное и девственное сердце его. Не мог он вынести без оскорбления, без озлобления даже сердечного, что праведнейший из праведных предан на такое насмешливое и злобное глумление столь легкомысленной и столь ниже его стоявшей толпе. Ну и пусть бы не было чудес вовсе, пусть бы ничего не объявилось чудного и не оправдалось немедленно ожидаемое, но зачем же объявилось бесславие, зачем попустился позор, зачем это поспешное тление, <q who="#localmonks">«предупредившее естество»</q>, как говорили злобные <persName ref="#localmonks">монахи</persName>? Зачем это <q>«указание»</q>, которое они с таким торжеством выводят теперь вместе с <persName ref="#fer"><roleName>отцом</roleName> <forename>Ферапонтом</forename></persName>, и зачем они верят, что получили даже право так выводить? Где же провидение и перст его? К чему сокрыло оно свой перст <q who="#afk">«в самую нужную минуту»</q> (думал <persName ref="#afk"><addName type="diminutive">Алеша</addName></persName>) и как бы само захотело подчинить себя слепым, немым, безжалостным законам естественным?</p>
             <p>Вот отчего точилось кровью сердце <persName ref="#afk"><addName type="diminutive">Алеши</addName></persName>, и уж конечно, как <persName ref="#bknar">я</persName> сказал уже, прежде всего тут стояло лицо, возлюбленное им более всего в мире и оно же <q>«опозоренное»</q>, оно же и <q>«обесславленное»</q>! Пусть этот ропот <persName ref="#afk"><addName type="epithet">юноши моего</addName></persName> был легкомыслен и безрассуден, но опять-таки, в третий раз повторяю (и согласен вперед, что, может быть, тоже с легкомыслием): <persName ref="#bknar">я</persName> рад, что <persName ref="#afk"><addName type="epithet">мой юноша</addName></persName> оказался не столь рассудительным в такую минуту, ибо рассудку всегда придет время у человека неглупого, а если уж и в такую исключительную минуту не окажется любви в сердце юноши, то когда же придет она? Не захочу, однако же, умолчать при сем случае и о некотором странном явлении, хотя и мгновенно, но всё же обнаружившемся в эту роковую и сбивчивую для <persName ref="#afk"><addName type="diminutive">Алеши</addName></persName> минуту в уме его. Это новое объявившееся и мелькнувшее нечто состояло в некотором мучительном впечатлении от неустанно припоминавшегося теперь <persName ref="#afk"><addName type="diminutive">Алешей</addName></persName> вчерашнего его разговора с братом <persName ref="#ifk"><forename>Иваном</forename></persName>. Именно теперь. О, не то чтобы что-нибудь было поколеблено в душе его из основных, стихийных, так сказать, ее верований. <persName ref="#god">Бога</persName> своего он любил и веровал в него незыблемо, хотя и возроптал было на него внезапно. Но всё же какое-то смутное, но мучительное и злое впечатление от припоминания вчерашнего разговора с братом <persName ref="#ifk">Иваном</persName> вдруг теперь снова зашевелилось в душе его и всё более и более просилось выйти на верх ее. Когда уже стало сильно смеркаться, проходивший сосновою рощей <placeName ref="#skit">из скита</placeName> к <placeName ref="#localmnst">монастырю</placeName> <persName ref="#rak"><surname>Ракитин</surname></persName> вдруг заметил <persName ref="#afk"><addName type="diminutive">Алешу</addName></persName>, лежавшего под деревом лицом к земле, недвижимого и как бы спящего. Он подошел и окликнул его.</p>
             <p>— <said aloud="true" direct="true" who="#rak" toWhom="#afk">Ты здесь, <persName ref="#afk">Алексей</persName>? Да неужто же ты...</said> — произнес было он, удивленный, но, не докончив, остановился. Он хотел сказать: <seg type="conditional"><said aloud="true" direct="true" who="#rak" toWhom="#afk">«Неужто же ты до того дошел?»</said></seg> <persName ref="#afk"><addName type="diminutive">Алеша</addName></persName> не взглянул на него, но по некоторому движению его <persName ref="#rak"><surname>Ракитин</surname></persName> сейчас догадался, что он его слышит и понимает.</p>
@@ -6008,7 +6008,7 @@
             <p>— <said aloud="true" direct="true" who="#nis" toWhom="#afk"><persName ref="#ins"><addName type="diminutive">Илюшечка</addName></persName> велел, <persName ref="#ins"><addName type="diminutive">Илюшечка</addName></persName></said>, — пояснил он тотчас <persName ref="#afk"><addName type="diminutive">Алеше</addName></persName>, — <said aloud="true" direct="true" who="#nis" toWhom="#afk">лежал он ночью, а я подле сидел, и вдруг приказал: <q who="#ins" toWhom="#nis">«Папочка, когда засыплют мою могилку, покроши на ней корочку хлебца, чтоб воробушки прилетали, я услышу, что они прилетели, и мне весело будет, что я не один лежу»</q>. </said></p>
             <p>— <said aloud="true" direct="true" who="#afk" toWhom="#nis">Это очень хорошо</said>, — сказал <persName ref="#afk"><addName type="diminutive">Алеша</addName></persName>,— <said aloud="true" direct="true" who="#afk" toWhom="#nis">надо чаще носить</said>. </p>
           <p>— <said aloud="true" direct="true" who="#nis" toWhom="#afk">Каждый день, каждый день!</said> — залепетал <persName ref="#nis"><roleName>штабс-капитан</roleName></persName>, как бы весь оживившись. </p>
-              <p>Прибыли наконец <placeName ref="#stonechurch">в церковь</placeName> и поставили посреди ее гроб. Все мальчики обступили его кругом и чинно простояли так всю службу. <placeName ref="#stonechurch">Церковь</placeName> была древняя и довольно бедная, много икон стояло совсем без окладов, но в таких церквах как-то лучше молишься. За обедней <persName ref="#nis"><surname>Снегирев</surname></persName> как бы несколько попритих, хотя временами все-таки прорывалась в нем та же бессознательная и как бы сбитая с толку озабоченность: то он подходил к гробу оправлять покров, венчик, то, когда упала одна свечка из подсвечника, вдруг бросился вставлять ее и ужасно долго с ней провозился. Затем уже успокоился и стал смирно у изголовья с тупо-озабоченным и как бы недоумевающим лицом. После Апостола он вдруг шепнул стоявшему подле его <persName ref="#afk"><addName type="diminutive">Алеше</addName></persName>, что Апостола не так прочитали, но мысли своей, однако, не разъяснил. За Херувимской принялся было подпевать, но не докончил и, опустившись на колена, прильнул лбом к каменному церковному полу и пролежал так довольно долго. Наконец приступили к отпеванию, роздали свечи. Обезумевший отец засуетился было опять, но умилительное, потрясающее надгробное пение пробудило и сотрясло его душу. Он как-то вдруг весь съежился и начал часто, укороченно рыдать, сначала тая голос, а под конец громко всхлипывая. Когда же стали прощаться и накрывать гроб, он обхватил его руками, как бы не давая накрыть <persName ref="#ins"><addName type="diminutive">Илюшечку</addName></persName>, и начал часто, жадно, не отрываясь целовать в уста своего мертвого мальчика. Его наконец уговорили и уже свели было со ступеньки, но он вдруг стремительно протянул руку и захватил из гробика несколько цветков. Он смотрел на них, и как бы новая какая идея осенила его, так что о главном он словно забыл на минуту. Мало-помалу он как бы впал в задумчивость и уже не сопротивлялся, когда подняли и понесли гроб к <placeName ref="#insmg">могилке</placeName>. Она была недалеко, в ограде, у самой церкви, дорогая; заплатила за нее <persName ref="#kiv"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName>. После обычного обряда могильщики гроб опустили. <persName ref="#nis"><surname>Снегирев</surname></persName> до того нагнулся, с своими цветочками в руках, над открытою <placeName ref="#insmg">могилой</placeName>, что мальчики, в испуге, уцепились за его пальто и стали тянуть его назад. Но он как бы уже не понимал хорошо, что совершается. Когда стали засыпать <placeName ref="#insmg">могилу</placeName>, он вдруг озабоченно стал указывать на валившуюся землю и начинал даже что-то говорить, но разобрать никто ничего не мог, да и он сам вдруг утих. Тут напомнили ему, что надо покрошить корочку, и он ужасно заволновался, выхватил корку и начал щипать ее, разбрасывая по <placeName ref="#insmg">могилке</placeName> кусочки: <said aloud="true" direct="true" who="#nis" toWhom="#insmgbirds">«Вот и прилетайте, птички, вот и прилетайте, воробушки!»</said> — бормотал он озабоченно. Кто-то из мальчиков заметил было ему, что с цветами в руках ему неловко щипать и чтоб он на время дал их кому подержать. Но он не дал, даже вдруг испугался за свои цветы, точно их хотели у него совсем отнять, и, поглядев на <placeName ref="#insmg">могилку</placeName> и как бы удостоверившись, что всё уже сделано, кусочки покрошены, вдруг неожиданно и совсем даже спокойно повернулся и побрел <placeName ref="#shs">домой</placeName>. Шаг его, однако, становился всё чаще и уторопленнее, он спешил, чуть не бежал. Мальчики и <persName ref="#afk"><addName type="diminutive">Алеша</addName></persName> от него не отставали. </p>
+              <p>Прибыли наконец <placeName ref="#stonechurch">в церковь</placeName> и поставили посреди ее гроб. Все мальчики обступили его кругом и чинно простояли так всю службу. <placeName ref="#stonechurch">Церковь</placeName> была древняя и довольно бедная, много икон стояло совсем без окладов, но в таких церквах как-то лучше молишься. За обедней <persName ref="#nis"><surname>Снегирев</surname></persName> как бы несколько попритих, хотя временами все-таки прорывалась в нем та же бессознательная и как бы сбитая с толку озабоченность: то он подходил к гробу оправлять покров, венчик, то, когда упала одна свечка из подсвечника, вдруг бросился вставлять ее и ужасно долго с ней провозился. Затем уже успокоился и стал смирно у изголовья с тупо-озабоченным и как бы недоумевающим лицом. После Апостола он вдруг шепнул стоявшему подле его <persName ref="#afk"><addName type="diminutive">Алеше</addName></persName>, что Апостола не так прочитали, но мысли своей, однако, не разъяснил. За Херувимской принялся было подпевать, но не докончил и, опустившись на колена, прильнул лбом к каменному церковному полу и пролежал так довольно долго. Наконец приступили к отпеванию, роздали свечи. Обезумевший отец засуетился было опять, но умилительное, потрясающее надгробное пение пробудило и сотрясло его душу. Он как-то вдруг весь съежился и начал часто, укороченно рыдать, сначала тая голос, а под конец громко всхлипывая. Когда же стали прощаться и накрывать гроб, он обхватил его руками, как бы не давая накрыть <persName ref="#ins"><addName type="diminutive">Илюшечку</addName></persName>, и начал часто, жадно, не отрываясь целовать в уста своего мертвого мальчика. Его наконец уговорили и уже свели было со ступеньки, но он вдруг стремительно протянул руку и захватил из гробика несколько цветков. Он смотрел на них, и как бы новая какая идея осенила его, так что о главном он словно забыл на минуту. Мало-помалу он как бы впал в задумчивость и уже не сопротивлялся, когда подняли и понесли гроб к <placeName ref="#insmg">могилке</placeName>. Она была недалеко, в ограде, у самой церкви, дорогая; заплатила за нее <persName ref="#kiv"><forename>Катерина</forename> <addName type="patronymic">Ивановна</addName></persName>. После обычного обряда могильщики гроб опустили. <persName ref="#nis"><surname>Снегирев</surname></persName> до того нагнулся, с своими цветочками в руках, над открытою <placeName ref="#insmg">могилой</placeName>, что мальчики, в испуге, уцепились за его пальто и стали тянуть его назад. Но он как бы уже не понимал хорошо, что совершается. Когда стали засыпать <placeName ref="#insmg">могилу</placeName>, он вдруг озабоченно стал указывать на валившуюся землю и начинал даже что-то говорить, но разобрать никто ничего не мог, да и он сам вдруг утих. Тут напомнили ему, что надо покрошить корочку, и он ужасно заволновался, выхватил корку и начал щипать ее, разбрасывая по <placeName ref="#insmg">могилке</placeName> кусочки: <said aloud="true" direct="true" who="#nis" toWhom="#nis">«Вот и прилетайте, птички, вот и прилетайте, воробушки!»</said> — бормотал он озабоченно. Кто-то из мальчиков заметил было ему, что с цветами в руках ему неловко щипать и чтоб он на время дал их кому подержать. Но он не дал, даже вдруг испугался за свои цветы, точно их хотели у него совсем отнять, и, поглядев на <placeName ref="#insmg">могилку</placeName> и как бы удостоверившись, что всё уже сделано, кусочки покрошены, вдруг неожиданно и совсем даже спокойно повернулся и побрел <placeName ref="#shs">домой</placeName>. Шаг его, однако, становился всё чаще и уторопленнее, он спешил, чуть не бежал. Мальчики и <persName ref="#afk"><addName type="diminutive">Алеша</addName></persName> от него не отставали. </p>
               <p>— <said aloud="true" direct="true" who="#nis" toWhom="#nis">Мамочке цветочков, мамочке цветочков! Обидели мамочку</said>, — начал он вдруг восклицать. Кто-то крикнул ему, чтоб он надел шляпу, а то теперь холодно, но, услышав, он как бы в злобе шваркнул шляпу на снег и стал приговаривать: <said aloud="true" direct="true" who="#nis" toWhom="#schoolboys #krs #smr #kart #afk">«Не хочу шляпу, не хочу шляпу!»</said> Мальчик <persName ref="#smr"><surname>Смуров</surname></persName> поднял ее и понес за ним. Все мальчики до единого плакали, а пуще всех <persName ref="#krs"><addName type="diminutive">Коля</addName></persName> и <persName ref="#kart">мальчик, открывший <placeName ref="#troy">Трою</placeName></persName>, и хоть <persName ref="#smr"><surname>Смуров</surname></persName>, с капитанскою шляпой в руках, тоже ужасно как плакал, но успел-таки, чуть не на бегу, захватить обломок кирпичика, красневший на снегу дорожки, чтоб метнуть им в быстро пролетевшую стаю воробушков. Конечно, не попал и продолжал бежать плача. На половине дороги <persName ref="#nis"><surname>Снегирев</surname></persName> внезапно остановился, постоял с полминуты как бы чем-то пораженный и вдруг, поворотив назад <placeName ref="#stonechurch">к церкви</placeName>, пустился бегом к оставленной <placeName ref="#insmg">могилке</placeName>. Но мальчики мигом догнали его и уцепились за него со всех сторон. Тут он, как в бессилии, как сраженный, пал на снег и, биясь, вопия и рыдая, начал выкрикивать: <said aloud="true" direct="true" who="#nis" toWhom="#ins">«Батюшка, <persName ref="#ins"><addName type="diminutive">Илюшечка</addName></persName>, милый батюшка!»</said> <persName ref="#afk"><addName type="diminutive">Алеша</addName></persName> и <persName ref="#krs"><addName type="diminutive">Коля</addName></persName> стали поднимать его, упрашивать и уговаривать. </p>
             <p>— <said aloud="true" direct="true" who="#krs" toWhom="#nis">Капитан, полноте, мужественный человек обязан переносить</said>,— бормотал <persName ref="#krs"><addName type="diminutive">Коля</addName></persName>. </p>
             <p>— <said aloud="true" direct="true" who="#afk" toWhom="#nis">Цветы-то вы испортите</said>, — проговорил и <persName ref="#afk"><addName type="diminutive">Алеша</addName></persName>, — <said aloud="true" direct="true" who="#afk" toWhom="#nis">а <q>«мамочка»</q> ждет их, она сидит плачет, что вы давеча ей не дали цветов от <persName ref="#ins"><addName type="diminutive">Илюшечки</addName></persName>. Там постелька <persName ref="#ins"><addName type="diminutive">Илюшина</addName></persName> еще лежит... </said></p>
@@ -6062,26 +6062,27 @@
          <personGrp xml:id="bkread">
             <persName>читатели</persName>
             <persName>читатель</persName>
+            <persName xml:lang="en">Reader</persName>
          </personGrp>
          <person xml:id="afk" sex="male">
             <persName>Алексей Федорович Карамазов</persName>
-            <persName xml:lang="en">Aleksei Fyodorovich Karamazov</persName>
-            <persName xml:lang="en">Alyosha</persName>
+            <persName xml:lang="en">Aleksei Fёdorovich Karamazov</persName>
+            <persName xml:lang="en">Alësha</persName>
          </person>
          <person xml:id="fpk" sex="male">
             <persName>Федор Павлович Карамазов</persName>
-            <persName xml:lang="en">Fyodor Pavlovich Karamazov</persName>
-            <persName xml:lang="en">Fyodor Pavlovich</persName>
+            <persName xml:lang="en">Fëdor Pavlovich Karamazov</persName>
+            <persName xml:lang="en">Fëdor Pavlovich</persName>
          </person>
          <person xml:id="dfk" sex="male">
             <persName>Дмитрий Федорович Карамазов</persName>
-            <persName xml:lang="en">Dmitri Fyodorovich Karamazov</persName>
-            <persName xml:lang="en">Mitia</persName>
+            <persName xml:lang="en">Dmitri Fëdorovich Karamazov</persName>
+            <persName xml:lang="en">Dmitri</persName>
          </person>
          <person xml:id="ifk" sex="male">
             <persName>Иван Федорович Карамазов</persName>
-            <persName xml:lang="en">Ivan Fyodorovich Karamazov</persName>
-            <persName xml:lang="en">Ivan Fyodorovich</persName>
+            <persName xml:lang="en">Ivan Fëdorovich Karamazov</persName>
+            <persName xml:lang="en">Ivan</persName>
          </person>
          <personGrp xml:id="kar">
             <persName>Карамазовы</persName>
@@ -6093,30 +6094,36 @@
          </person>
          <person xml:id="matr" sex="female">
             <persName>Матрена (старая служанка Грушеньки)</persName>
+            <persName xml:lang="en">Matrëna</persName>
          </person>
          <person xml:id="fenya" sex="female">
             <persName>Феня (молодая служанка Грушеньки)</persName>
-            <persName xml:lang="en">Fenya</persName>
+            <persName xml:lang="en">Fenia</persName>
          </person>
          <person xml:id="aim" sex="female">
             <persName>Аделаида Ивановна Миусова</persName>
+            <persName xml:lang="en">Adelaida Ivanovna Miusova</persName>
          </person>
          <person xml:id="am" sex="male">
             <persName>Александр Миусов (отец Петра Миусова)</persName>
+            <persName xml:lang="en">Aleksandr Miusov</persName>
          </person>
          <person xml:id="pam" sex="male">
             <persName>Петр Александрович Миусов</persName>
-            <persName xml:lang="en">Pyotr Aleksandrovich Miusov</persName>
+            <persName xml:lang="en">Pëtr Aleksandrovich Miusov</persName>
             <persName xml:lang="en">Miusov</persName>
          </person>
          <person xml:id="mfm" sex="female">
             <persName>Мавра Фоминишна Миусова</persName>
+            <persName xml:lang="en">Mavra Fominishna Miusov</persName>
          </person>
          <personGrp xml:id="mius">
             <persName>Миусовы</persName>
+            <persName xml:lang="en">Miusovs</persName>
          </personGrp>
          <person xml:id="si" sex="female">
             <persName>Софья Ивановна (жена Федора Карамазова)</persName>
+            <persName xml:lang="en">Sof'ia Ivanovna</persName>
          </person>
          <person xml:id="genV" sex="female">
             <persName>генеральша Ворохова</persName>
@@ -6124,11 +6131,12 @@
          </person>
          <person xml:id="epp" sex="male">
             <persName>Ефим Петрович Поленов</persName>
+            <persName xml:lang="en">Efim Petrovich Polenov</persName>
          </person>
          <person xml:id="gvk" sex="male">
             <persName>Григорий Васильевич Кутузов</persName>
-            <persName xml:lang="en">Grigory Vasil'evich Kutuzov</persName>
-            <persName xml:lang="en">Grigory</persName>
+            <persName xml:lang="en">Grigorii Vasil'evich Kutuzov</persName>
+            <persName xml:lang="en">Grigorii</persName>
          </person>
          <person xml:id="mik" sex="female">
             <persName>Марфа Игнатьевна Кутузова (жена)</persName>
@@ -6138,10 +6146,11 @@
          <person xml:id="zos" sex="male">
             <persName>Старец Зосима</persName>
             <persName xml:lang="en">Elder Zosima</persName>
+            <persName xml:lang="en">Zosima</persName>
          </person>
          <person xml:id="pfk" sex="male">
             <persName>Петр Фомич Калганов</persName>
-            <persName xml:lang="en">Pyotr Fomich Kalganov</persName>
+            <persName xml:lang="en">Pëtr Fomich Kalganov</persName>
             <persName xml:lang="en">Kalganov</persName>
          </person>
          <person xml:id="mks" sex="male">
@@ -6155,9 +6164,11 @@
          <person xml:id="bklh" sex="female">
             <persName>Лиза Хохлакова</persName>
             <persName xml:lang="en">Liza Khokhlakova</persName>
+            <persName xml:lang="en">Liza</persName>
          </person>
          <personGrp xml:id="hoh">
             <persName>Хохлаковы</persName>
+            <persName xml:lang="en">Khokhlakovas</persName>
          </personGrp>
          <person xml:id="kiv" sex="female">
             <persName>Катерина Ивановна Верховцева</persName>
@@ -6166,9 +6177,11 @@
          </person>
          <person xml:id="aiv" sex="female">
             <persName>Агафья Ивановна Верховцева</persName>
+            <persName xml:lang="en">Agaf'ia Ivanovna Verkhovtseva</persName>
          </person>
          <person xml:id="verh" sex="male">
             <persName>подполковник Верховцев</persName>
+            <persName xml:lang="en">Lieutenant Verkhovtseva</persName>
          </person>
          <person xml:id="kit1" sex="female">
             <persName>тетка Катерины Ивановны</persName>
@@ -6180,29 +6193,32 @@
          </person>
          <person xml:id="drgr" sex="male">
             <persName>доктор Герценштубе</persName>
-            <persName xml:lang="en">Doctor Herzenstube</persName>
+            <persName xml:lang="en">Doctor Gertsenshtube</persName>
          </person>
          <person xml:id="pfs" sex="male">
             <persName>Павел Федорович Смердяков</persName>
-            <persName xml:lang="en">Pavel Fyodorovich Smerdiakov</persName>
+            <persName xml:lang="en">Pavel Fëdorovich Smerdiakov</persName>
             <persName xml:lang="en">Smerdiakov</persName>
          </person>
          <person xml:id="lis" sex="female">
             <persName>Лизавета Смердящая</persName>
+            <persName xml:lang="en">Lizaveta Smerdiashchaia</persName>
          </person>
          <person xml:id="flis" sex="male">
             <persName>отец Лизаветы Смердящей (Илья)</persName>
+            <persName xml:lang="en">Il'ia (Lizaveta Smerdiashchaia's father)</persName>
          </person>
          <person xml:id="mlis" sex="female">
             <persName>мать Лизаветы Смердящей</persName>
+            <persName xml:lang="en">Lizaveta Smerdiashchaia's mother</persName>
          </person>
          <person xml:id="panm" sex="male">
             <persName>Пан Муссялович</persName>
-            <persName xml:lang="en">Mussyalovich</persName>
+            <persName xml:lang="en">Mussialovich</persName>
          </person>
          <person xml:id="panv" sex="male">
             <persName>Пан Врублевский</persName>
-            <persName xml:lang="en">Vrublevsky</persName>
+            <persName xml:lang="en">Vrublëvskii</persName>
          </person>
          <person xml:id="kkssr" sex="female">
             <persName>старая служанка Самсонова</persName>
@@ -6210,20 +6226,23 @@
          </person>
          <person xml:id="gorst" sex="male">
             <persName>Горсткин (Лягавый)</persName>
-            <persName xml:lang="en">Gorstkin (Lyagavy)</persName>
+            <persName xml:lang="en">Gorstkin (Liagavyi)</persName>
          </person>
          <person xml:id="bkp1" sex="male">
             <persName>исправник</persName>
+            <persName xml:lang="en">District police officer</persName>
          </person>
          <person xml:id="bkp2" sex="male">
             <persName>влиятельное лицо</persName>
+            <persName xml:lang="en">Influential personage</persName>
          </person>
          <person xml:id="bkp3" sex="male">
             <persName>французский чиновник</persName>
+            <persName xml:lang="en">French official</persName>
          </person>
          <person xml:id="townfunctionary" sex="male">
             <persName>городской чиновник</persName>
-            <persName xml:lang="en">Town functionary</persName>
+            <persName xml:lang="en">Town official</persName>
          </person>
          <person xml:id="rak" sex="male">
             <persName>Михаил Иванович Ракитин</persName>
@@ -6231,25 +6250,28 @@
             <persName xml:lang="en">Rakitin</persName>
          </person>
          <person xml:id="nastas" sex="female">
-            <persName>женщина в монастыре с мертвым ребенком (Настасьюшка)</persName>
-            <persName xml:lang="en">Nastas'ushka</persName>
+            <persName>Настасьюшка</persName>
+            <persName xml:lang="en">Nastas'iushka</persName>
          </person>
          <person xml:id="nikit" sex="male">
-            <persName>муж женщины в монастыре с мертвым ребенком (Никитушка)</persName>
+            <persName>Никитушка</persName>
             <persName xml:lang="en">Nikitushka</persName>
          </person>
          <person xml:id="bkc1" sex="male">
             <persName>мертвый ребенок</persName>
+            <persName xml:lang="en">Dead infant</persName>
          </person>
          <person xml:id="prokhorovna" sex="female">
-            <persName>женщина в монастыре с сыном-солдатом (Прохоровна)</persName>
+            <persName>Прохоровна</persName>
             <persName xml:lang="en">Prokhorovna</persName>
          </person>
          <person xml:id="bkc2" sex="male">
-            <persName>сын-солдат (Васенька)</persName>
+            <persName>Васенька</persName>
+            <persName xml:lang="en">Vasen'ka</persName>
          </person>
          <person xml:id="stb" sex="female">
             <persName>Степанида Ильинишна Бедрягина</persName>
+            <persName xml:lang="en">Stepanida Il'inishna</persName>
          </person>
          <person xml:id="mnstpeasantwoman" sex="female">
             <persName>крестьянка в монастыре</persName>
@@ -6261,17 +6283,19 @@
          </person>
          <person xml:id="bar1" sex="male">
             <persName>барчонок из клуба в переулке</persName>
+            <persName xml:lang="en">Young sir</persName>
          </person>
          <person xml:id="vars" sex="male">
             <persName>старец Варсонофий</persName>
+            <persName xml:lang="en">Elder Varsonofii</persName>
          </person>
          <person xml:id="pais" sex="male">
             <persName>отец Паисий</persName>
-            <persName xml:lang="en">Father Paissy</persName>
+            <persName xml:lang="en">Father Paissii</persName>
          </person>
          <person xml:id="porf" sex="male">
             <persName>послушник Порфирий</persName>
-            <persName xml:lang="en">Porfiry</persName>
+            <persName xml:lang="en">Porfirii</persName>
          </person>
          <personGrp xml:id="localmonks" sex="male">
             <persName>монахи Скотопригоньевска</persName>
@@ -6279,6 +6303,7 @@
          </personGrp>
          <personGrp xml:id="localstar" sex="male">
             <persName>старцы Скотопригоньевска</persName>
+            <persName xml:lang="en">Local elders</persName>
          </personGrp>
          <personGrp xml:id="zosfuneralgroup">
             <persName>толпа при гробе Зосимы</persName>
@@ -6302,6 +6327,7 @@
          </person>
          <person xml:id="localmonk5" sex="male">
             <persName>монах с нечистой силой</persName>
+            <persName xml:lang="en">Monk with an unclean spirit</persName>
          </person>
          <person xml:id="localigum" sex="male">
             <persName>отец игумен в монастыре</persName>
@@ -6312,10 +6338,12 @@
             <persName xml:lang="en">Priest</persName>
          </person>
          <person xml:id="trif" sex="male">
-            <persName>купец бравший деньги у Верховцева (Трифонов)</persName>
+            <persName>Трифонов</persName>
+            <persName xml:lang="en">Trifonov</persName>
          </person>
          <person xml:id="dem" sex="male">
-            <persName>купец из истории Федора Павловича про старца Зосиму (Демидов)</persName>
+            <persName>Демидов</persName>
+            <persName xml:lang="en">Demidov</persName>
          </person>
          <person xml:id="fer" sex="male">
             <persName>отец Ферапонт</persName>
@@ -6326,10 +6354,12 @@
             <persName xml:lang="en">Father Iosif</persName>
          </person>
          <person xml:id="abbot" sex="male">
-            <persName>отец настоятель (Михаил)</persName>
+            <persName>отец Михаил</persName>
+            <persName xml:lang="en">Father Mikhail</persName>
          </person>
          <person xml:id="anf" sex="male">
             <persName>брат Анфим</persName>
+            <persName xml:lang="en">Brother Anfim</persName>
          </person>
          <personGrp xml:id="schoolboys" sex="male">
             <persName>школьники (Красоткин, Смуров и т.д.)</persName>
@@ -6337,31 +6367,36 @@
          </personGrp>
          <personGrp xml:id="sneg">
             <persName>семья Снегиревых</persName>
+            <persName xml:lang="en">Snegirëv family</persName>
          </personGrp>
          <person xml:id="hozsneg" sex="female">
             <persName>хозяйка дома Снегиревых</persName>
-            <persName xml:lang="en">Snegiryov landlady</persName>
+            <persName xml:lang="en">Snegirëv landlady</persName>
          </person>
          <person xml:id="ins" sex="male">
             <persName>Илюша Снегирев</persName>
-            <persName xml:lang="en">Iliusha Snegirev</persName>
+            <persName xml:lang="en">Iliusha Snegirëv</persName>
             <persName xml:lang="en">Iliusha</persName>
          </person>
          <person xml:id="nis" sex="male">
             <persName>Николай Ильич Снегирев</persName>
-            <persName xml:lang="en">Nikolai Il'ich Snegiryov</persName>
+            <persName xml:lang="en">Nikolai Il'ich Snegirëv</persName>
+            <persName xml:lang="en">Nikolai Snegirëv</persName>
          </person>
          <person xml:id="vns" sex="female">
             <persName>Варвара Николаевна Снегирева</persName>
-            <persName xml:lang="en">Varvara Nikolaevna Snegiryova</persName>
+            <persName xml:lang="en">Varvara Nikolaevna Snegirëva</persName>
+            <persName xml:lang="en">Varvara Snegirëva</persName>
          </person>
          <person xml:id="nns" sex="female">
             <persName>Нина Николаевна Снегирева</persName>
-            <persName xml:lang="en">Nina Nikolaevna Snegiryova</persName>
+            <persName xml:lang="en">Nina Nikolaevna Snegirëva</persName>
+            <persName xml:lang="en">Nina Snegirëva</persName>
          </person>
          <person xml:id="aps" sex="female">
             <persName>Арина Петровна Снегирева</persName>
-            <persName xml:lang="en">Arina Petrovna Snegiryova</persName>
+            <persName xml:lang="en">Arina Petrovna Snegirëva</persName>
+            <persName xml:lang="en">Arina Snegirëva</persName>
          </person>
          <person xml:id="smr" sex="male">
             <persName>Смуров (школьник)</persName>
@@ -6409,10 +6444,11 @@
          </person>
          <person xml:id="krs" sex="male">
             <persName>Коля Красоткин</persName>
-            <persName xml:lang="en">Kolya Krasotkin</persName>
+            <persName xml:lang="en">Kolia Krasotkin</persName>
          </person>
          <person xml:id="imaginedschoolboys" sex="male">
-            <persName>школьник а речи Алеши</persName>
+            <persName>школьник в речи Алеши</persName>
+            <persName xml:lang="en">Imagined schoolboys in Alësha's speech</persName>
          </person>
          <person xml:id="bkjl" sex="female">
             <persName>Юлия (горничная Хохлаковых)</persName>
@@ -6424,54 +6460,66 @@
          </person>
          <person xml:id="bkmk" sex="female">
             <persName>Марья Кондратьевна (дочь хозяйки дома Д.Ф. Карамазова)</persName>
-            <persName xml:lang="en">Maria Kondrat'evna</persName>
+            <persName xml:lang="en">Mar'ia Kondrat'evna</persName>
          </person>
          <person xml:id="femdiak" sex="female">
             <persName>дьяконица в рассказе Арины Петровны</persName>
+            <persName xml:lang="en">Woman deacon in Arina Petrovna's tale</persName>
          </person>
          <person xml:id="bkgen" sex="male">
             <persName>генерал в рассказе Арины Петровны</persName>
+            <persName xml:lang="en">general in Arina Petrovna's tale</persName>
          </person>
          <person xml:id="ilbat" sex="male">
             <persName>Ильинский батюшка</persName>
-            <persName xml:lang="en">Il'insky priest</persName>
+            <persName xml:lang="en">Il'inskii priest</persName>
          </person>
          <person xml:id="grst" sex="male">
             <persName>купец Горсткин (Лягавый)</persName>
          </person>
          <person xml:id="volovyacoachman" sex="male">
             <persName>ямщик на Воловьей станции</persName>
-            <persName xml:lang="en">Volovya coachman</persName>
+            <persName xml:lang="en">Volovia coachman</persName>
          </person>
          <person xml:id="volovyamitri" sex="male">
             <persName>ямщик Митрий</persName>
+            <persName xml:lang="en">Coachman Mitrii</persName>
          </person>
          <person xml:id="mrk" sex="male">
             <persName>Маркел (брат Зосимы)</persName>
+            <persName xml:lang="en">Markel</persName>
          </person>
          <person xml:id="zosm" sex="female">
             <persName>мать Зосимы</persName>
+            <persName xml:lang="en">Zosima's mother</persName>
          </person>
          <person xml:id="bkw6" sex="female">
             <persName>служанка в доме Зосимы</persName>
+            <persName xml:lang="en">Servant in Zosima's home</persName>
          </person>
          <person xml:id="dresht" sex="male">
             <persName>доктор Эйзеншмидт</persName>
+            <persName xml:lang="en">Doctor Ėizenshmidt</persName>
          </person>
          <person xml:id="bkm8" sex="male">
             <persName>мальчик-птицелов</persName>
+            <persName xml:lang="en">Bird-catcher</persName>
          </person>
          <person xml:id="bkaf" sex="male">
             <persName>Афанасий (слуга Зосимы)</persName>
+            <persName xml:lang="en">Afanasii</persName>
          </person>
          <person xml:id="bkm9" sex="male">
             <persName>друг-секундант Зосимы</persName>
+            <persName xml:lang="en">Zosima's friend and second</persName>
          </person>
          <person xml:id="bkw7" sex="female">
             <persName>возлюбленная Зосимы</persName>
+            <persName xml:lang="en">Zosima's beloved</persName>
          </person>
          <person xml:id="bkm10" sex="male">
             <persName>муж возлюбленной Зосимы</persName>
+            <persName xml:lang="en">The husband of Zosima's beloved</persName>
          </person>
          <person xml:id="bkw8" sex="female">
             <persName>хозяйка на приеме</persName>
