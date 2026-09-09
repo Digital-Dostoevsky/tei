@@ -6479,7 +6479,7 @@
          </person>
          <person xml:id="volovyacoachman" sex="male">
             <persName>ямщик на Воловьей станции</persName>
-            <persName xml:lang="en">Volovia coachman</persName>
+            <persName xml:lang="en">Volov'ia coachman</persName>
          </person>
          <person xml:id="volovyamitri" sex="male">
             <persName>ямщик Митрий</persName>
@@ -6499,7 +6499,7 @@
          </person>
          <person xml:id="dresht" sex="male">
             <persName>доктор Эйзеншмидт</persName>
-            <persName xml:lang="en">Doctor Ėizenshmidt</persName>
+            <persName xml:lang="en">Doctor Eizenshmidt</persName>
          </person>
          <person xml:id="bkm8" sex="male">
             <persName>мальчик-птицелов</persName>
@@ -6523,15 +6523,19 @@
          </person>
          <person xml:id="bkw8" sex="female">
             <persName>хозяйка на приеме</persName>
+            <persName xml:lang="en">Landlady in Zosima's story</persName>
          </person>
          <person xml:id="mikh" sex="male">
             <persName>таинственный посетитель Зосимы (Михаил)</persName>
+            <persName xml:lang="en">Mikhail (Zosima's story)</persName>
          </person>
          <person xml:id="mikhw" sex="female">
             <persName>жена Михаила</persName>
+            <persName xml:lang="en">Mikhail's wife</persName>
          </person>
          <person xml:id="mzva" sex="female">
             <persName>купеческая вдова Морозова</persName>
+            <persName xml:lang="en">Morozova</persName>
          </person>
          <person xml:id="kks" sex="male">
             <persName>Кузьма Кузьмич Самсонов</persName>
@@ -6540,15 +6544,19 @@
          </person>
          <person xml:id="tim" sex="male">
             <persName>Тимофей (ямщик)</persName>
+            <persName xml:lang="en">Timofei</persName>
          </person>
          <person xml:id="ppk" sex="male">
             <persName>Павел Павлович Корнеплодов (адвокат)</persName>
+            <persName xml:lang="en">Pavel Pavlovich Korneplodov</persName>
          </person>
          <person xml:id="dar" sex="male">
             <persName>учитель Дарданелов</persName>
+            <persName xml:lang="en">Dardanelov the teacher</persName>
          </person>
          <person xml:id="akrs" sex="female">
             <persName>Анна Федоровна Красоткина (мать Коли)</persName>
+            <persName xml:lang="en">Anna Fëdorovna Krasotkina</persName>
          </person>
          <person xml:id="agaf" sex="female">
             <persName>Агафья (служанка Анны Федоровны)</persName>
@@ -6556,11 +6564,11 @@
          </person>
          <person xml:id="bkc4" sex="female">
             <persName>Настя</persName>
-            <persName xml:lang="en">Nastya</persName>
+            <persName xml:lang="en">Nastia</persName>
          </person>
          <person xml:id="bkc5" sex="male">
             <persName>Костя</persName>
-            <persName xml:lang="en">Kostya</persName>
+            <persName xml:lang="en">Kostia</persName>
          </person>
          <person xml:id="bkm11" sex="male">
             <persName>мужик Матвей</persName>
@@ -6568,7 +6576,7 @@
          </person>
          <person xml:id="bb1" sex="female">
             <persName>торговка Марья</persName>
-            <persName xml:lang="en">Market woman Maria</persName>
+            <persName xml:lang="en">Market woman Mar'ia</persName>
          </person>
          <person xml:id="bb2" sex="female">
             <persName>другая торговка</persName>
@@ -6595,7 +6603,8 @@
             <persName xml:lang="en">Market peasant</persName>
          </person>
          <person xml:id="vish" sex="male">
-            <persName>местный парень Вишняков</persName>
+            <persName>Вишняков</persName>
+            <persName xml:lang="en">Vishniakov</persName>
          </person>
          <person xml:id="drmsk" sex="male">
             <persName>московский доктор</persName>
@@ -6603,6 +6612,7 @@
          </person>
          <person xml:id="nef" sex="male">
             <persName>мировой Нефедов</persName>
+            <persName xml:lang="en">Nefedov</persName>
          </person>
          <person xml:id="kart" sex="male">
             <persName>школьник Карташов</persName>
@@ -6610,9 +6620,11 @@
          </person>
          <person xml:id="mzv" sex="male">
             <persName>чиновник Морозов</persName>
+            <persName xml:lang="en">Morozov</persName>
          </person>
          <personGrp xml:id="khzdfk">
             <persName>хозяева Дмитрия</persName>
+            <persName xml:lang="en">Dmitri's landlords</persName>
          </personGrp>
          <person xml:id="forester" sex="male">
             <persName>лесник</persName>
@@ -6625,6 +6637,7 @@
          </person>
          <person xml:id="niv" sex="male">
             <persName>Назар Иванович (дворник)</persName>
+            <persName xml:lang="en">Nazar Ivanovich</persName>
          </person>
          <person xml:id="prokhor" sex="male">
             <persName>Прохор (племянник Назара)</persName>
@@ -6648,7 +6661,7 @@
          </person>
          <person xml:id="fet" sex="male">
             <persName>адвокат Фетюкович</persName>
-            <persName xml:lang="en">Fetyukovich</persName>
+            <persName xml:lang="en">Fetiukovich</persName>
          </person>
          <person xml:id="drvr" sex="male">
             <persName>врач Варвинский</persName>
@@ -6660,9 +6673,11 @@
          </person>
          <person xml:id="varvara" sex="female">
             <persName>Варвара Алексеевна (хозяйка)</persName>
+            <persName xml:lang="en">Varvara Alekseevna</persName>
          </person>
          <personGrp xml:id="listeners">
             <persName>слушатели в трактире</persName>
+            <persName xml:lang="en">Listeners in the traktir</persName>
          </personGrp>
          <person xml:id="tfb" sex="male">
             <persName>Трифон Борисович</persName>
@@ -6670,21 +6685,24 @@
          </person>
          <personGrp xml:id="mokrjews">
             <persName>евреи в Мокром</persName>
+            <persName xml:lang="en">Jews (Mokroe)</persName>
          </personGrp>
          <person xml:id="mokrmary" sex="female">
             <persName>Марья (Мокрое)</persName>
-            <persName xml:lang="en">Maria at Mokroye</persName>
+            <persName xml:lang="en">Mar'ia (Mokroe)</persName>
          </person>
          <person xml:id="mokrstep" sex="female">
             <persName>Степанида (Мокрое)</persName>
-            <persName xml:lang="en">Stepanida</persName>
+            <persName xml:lang="en">Stepanida (Mokroe)</persName>
          </person>
          <person xml:id="mokrarina" sex="female">
             <persName>Арина (Мокрое)</persName>
+            <persName xml:lang="en">Arina (Mokroe)</persName>
          </person>
          <person xml:id="npn" sex="male">
             <persName>Николай Парфенович Нелюдов (судебный следователь)</persName>
-            <persName xml:lang="en">Nikolai Parfyonovic Neliudov</persName>
+            <persName xml:lang="en">Nikolai Parfënovich Neliudov</persName>
+            <persName xml:lang="en">Nikolai Parfënovich</persName>
          </person>
          <person xml:id="mokrchoir">
             <persName>Хор в Мокром</persName>
@@ -6693,6 +6711,7 @@
          <person xml:id="mmsch" sex="male">
             <persName>Маврикий Маврикиевич Шмерцов</persName>
             <persName xml:lang="en">Mavrikii Mavrikievich Shmertsov</persName>
+            <persName xml:lang="en">Mavrikii Mavrikievich</persName>
          </person>
          <person xml:id="ipk" sex="male">
             <persName>Ипполит Кириллович (прокурор)</persName>
@@ -6700,21 +6719,23 @@
          </person>
          <person xml:id="eohdvor" sex="male">
             <persName>дворник госпожи Хохлаковой</persName>
-            <persName xml:lang="en">Khokhlakova's yardman</persName>
+            <persName xml:lang="en">Madame Khokhlakova's yardman</persName>
          </person>
          <person xml:id="eohmaid" sex="female">
             <persName>девушка госпожи Хохлаковой</persName>
-            <persName xml:lang="en">Khokhlakova's maid</persName>
+            <persName xml:lang="en">Madame Khokhlakova's maid</persName>
          </person>
          <person xml:id="eohlackey" sex="male">
             <persName>лакей госпожи Хохлаковой</persName>
+            <persName xml:lang="en">Madame Khokhlakova's lackey</persName>
          </person>
          <person xml:id="olgm" sex="female">
             <persName>Ольга Михайловна (дочь Михаила Макарова</persName>
+            <persName xml:lang="en">Ol'ga Mikhailovna</persName>
          </person>
          <person xml:id="presidingjudge" sex="male">
             <persName>председатель суда</persName>
-            <persName xml:lang="en">Presiding judge</persName>
+            <persName xml:lang="en">Presiding judge at Dmitri's trial</persName>
          </person>
          <person xml:id="bailiff" sex="male">
             <persName>судебный пристав</persName>
@@ -6722,6 +6743,7 @@
          </person>
          <person xml:id="prst2" sex="male">
             <persName>помощник городового пристава</persName>
+            <persName xml:lang="en">Assistant to the bailiff</persName>
          </person>
          <personGrp xml:id="jury">
             <persName>присяжные</persName>
@@ -6805,7 +6827,7 @@
          </person>
          <personGrp xml:id="fetgroup">
             <persName>группа вокруг Фета</persName>
-            <persName xml:lang="en">Fetyukovich's supporters</persName>
+            <persName xml:lang="en">Fetiukovich's supporters</persName>
          </personGrp>
          <personGrp xml:id="gentlemengroup">
             <persName>группа разговаривавших господ</persName>
@@ -6817,9 +6839,11 @@
          </personGrp>
          <personGrp xml:id="devilgroup">
             <persName>еще другая группа</persName>
+            <persName xml:lang="en">Another group at Dmitri's trial</persName>
          </personGrp>
          <personGrp xml:id="porchgroup">
             <persName>группа на крыльце</persName>
+            <persName xml:lang="en">Group on the porch at Dmitri's trial</persName>
          </personGrp>
          <person xml:id="frowningman" sex="male">
             <persName>нахмуренный, толстый и рябой господин</persName>
@@ -6835,7 +6859,7 @@
          </person>
          <person xml:id="mikhails" sex="male">
             <persName>Михаил Семеныч</persName>
-            <persName xml:lang="en">Mikhail Semyonich</persName>
+            <persName xml:lang="en">Mikhail Semënych</persName>
          </person>
          <person xml:id="thirdlittlevoice">
             <persName>третий голосок</persName>
@@ -6847,6 +6871,7 @@
          </person>
          <personGrp xml:id="mbl">
             <persName> божьи люди в Мокром</persName>
+            <persName xml:lang="en">Godly people at Mokroe</persName>
          </personGrp>
          <person xml:id="beggaratmonastery" sex="female">
             <persName>баба у монастыря</persName>
@@ -6854,10 +6879,11 @@
          </person>
          <person xml:id="novice" sex="male">
             <persName>послушник</persName>
+            <persName xml:lang="en">Monastery novice</persName>
          </person>
          <person xml:id="fpkdriver" sex="male">
             <persName>кучер</persName>
-            <persName xml:lang="en">Fyodor Pavlovich's coachman</persName>
+            <persName xml:lang="en">Fëdor Pavlovich's coachman</persName>
          </person>
       </listPerson>
       <listPerson type="fictionalnonDostoevsky">
