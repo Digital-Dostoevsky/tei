@@ -50,11 +50,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>utilities/schema/build.xml</String>
+                                    <String>build.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Build Schema</String>
+                                        <String>build_Comp_Dostoevsky</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -70,11 +70,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>build.xml</String>
+                                    <String>utilities/schema/build.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>build_Comp_Dostoevsky</String>
+                                        <String>Build Schema</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
