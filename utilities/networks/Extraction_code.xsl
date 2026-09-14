@@ -397,6 +397,9 @@
             <xsl:when test="count($person/persName[@xml:lang = 'en']) eq 1">
                 <xsl:value-of select="string($person/persName[@xml:lang = 'en'])"/>
             </xsl:when>
+            <xsl:when test="$person/persName[@xml:lang = 'fr']">
+                <xsl:value-of select="string($person/persName)"/>
+            </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="string($person/persName[1])"/>
             </xsl:otherwise>

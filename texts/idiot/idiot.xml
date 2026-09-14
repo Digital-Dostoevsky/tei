@@ -4871,14 +4871,17 @@
       <listPerson type="fictional">
          <person xml:id="daria" sex="female">
             <persName>Дарья Алексеевна</persName>
+            <persName xml:lang="en">Dar'ia Alekseevna</persName>
          </person>
          <person xml:id="starik" sex="male">
             <persName>старик</persName>
             <persName>старичок</persName>
             <persName>старичок генерал</persName>
+            <persName xml:lang="en">Old general</persName>
          </person>
          <person xml:id="lench" sex="female">
             <persName>Леночка</persName>
+            <persName xml:lang="en">Lenochka</persName>
          </person>
          <person xml:id="evgen" sex="male">
             <persName>Евгений Павлович</persName>
@@ -4897,11 +4900,13 @@
          </person>
          <person xml:id="zahar" sex="male">
             <persName>Петр Захарыч</persName>
+            <persName xml:lang="en">Pëtr Zakharych</persName>
          </person>
          <person xml:id="marfa" sex="female">
-            <persName>Терентьева Марфа Борисовна</persName>
+            <persName>Марфа Борисовна Терентьева</persName>
             <persName>Марфа Борисовна</persName>
             <persName>капитанша</persName>
+            <persName xml:lang="en">Marfa Borisovna</persName>
          </person>
          <person xml:id="vera" sex="female">
             <persName>Вера Лебедева</persName>
@@ -4917,12 +4922,15 @@
          </person>
          <person xml:id="mihal" sex="female">
             <persName>Александра Михайловна</persName>
+            <persName xml:lang="en">Aleksandra Mikhailovna</persName>
          </person>
          <person xml:id="nikif" sex="male">
             <persName>Никифор</persName>
+            <persName xml:lang="en">Nikifor</persName>
          </person>
          <person xml:id="kulak" sex="male">
             <persName>Кулаков</persName>
+            <persName xml:lang="en">Kulakov</persName>
          </person>
          <person xml:id="antip" sex="male">
             <persName>Антип Бурдовский</persName>
@@ -4931,6 +4939,7 @@
          </person>
          <person xml:id="nelat" sex="male">
             <persName>Нелатон</persName>
+            <persName xml:lang="en">Nelaton</persName>
          </person>
          <person xml:id="shch" sex="male">
             <persName>князь Щ.</persName>
@@ -4938,33 +4947,41 @@
          </person>
          <personGrp xml:id="grshch">
             <persName> князи Щ.</persName>
+            <persName xml:lang="en">Princes Shch.</persName>
          </personGrp>
          <person xml:id="sokol" sex="male">
             <persName>Соколович</persName>
+            <persName xml:lang="en">Sokolovich</persName>
          </person>
          <person xml:id="bisk" sex="male">
             <persName>Бискуп</persName>
+            <persName xml:lang="en">Biskup</persName>
          </person>
          <person xml:id="norm" sex="dog">
             <persName>Норма</persName>
+            <persName xml:lang="en">Norma</persName>
          </person>
          <person xml:id="platon" sex="male">
             <persName>Платон Ордынцев</persName>
+            <persName xml:lang="en">Platon Ordyntsev</persName>
          </person>
          <person xml:id="belk" sex="female">
             <persName>княгиня Белоконская</persName>
             <persName>старуха Белоконская</persName>
+            <persName xml:lang="en">Princess Belokonskaia</persName>
          </person>
          <person xml:id="kolp" sex="male">
             <persName>Колпаков</persName>
+            <persName xml:lang="en">Kolpakov</persName>
          </person>
          <person xml:id="kolya" sex="male">
             <persName>Коля Иволгин</persName>
-            <persName xml:lang="en">Kolya Ivolgin</persName>
-            <persName xml:lang="en">Kolya</persName>
+            <persName xml:lang="en">Kolia Ivolgin</persName>
+            <persName xml:lang="en">Kolia</persName>
          </person>
          <person xml:id="erop" sex="male">
             <persName>капитан Еропегов</persName>
+            <persName xml:lang="en">Captain Eropegov</persName>
          </person>
          <person xml:id="keller" sex="male">
             <persName>Келлер</persName>
@@ -4972,21 +4989,28 @@
          </person>
          <person xml:id="zarn" sex="male">
             <persName>Зарницын</persName>
+            <persName xml:lang="en">Zarnitsyn</persName>
          </person>
          <person xml:id="ivolg" sex="male">
             <persName>Ардалион Александрович Иволгин</persName>
+            <persName xml:lang="en">Ardalion Aleksandrovich Ivolgin</persName>
+            <persName xml:lang="en">General Ivolgin</persName>
          </person>
          <person xml:id="anfisa" sex="female">
             <persName>Анфиса Алексеевна</persName>
+            <persName xml:lang="en">Anfisa Alekseevna</persName>
          </person>
          <person xml:id="mari" sex="female">
             <persName>Мари</persName>
+            <persName xml:lang="en">Marie</persName>
          </person>
          <person xml:id="zhul" sex="male">
             <persName>Жюль Тибо</persName>
+            <persName xml:lang="fr">Jules Thibauld</persName>
          </person>
          <person xml:id="petya" sex="male">
             <persName>Петя Ворховской</persName>
+            <persName xml:lang="en">Petia Vorkhovskoi</persName>
          </person>
          <person xml:id="ptiz" sex="male">
             <persName>Иван Петрович Птицын</persName>
@@ -4995,6 +5019,7 @@
          </person>
          <person xml:id="phil" sex="male">
             <persName>Филипп Александрович Барашков</persName>
+            <persName xml:lang="en">Filipp Aleksandrovich Barashkov</persName>
          </person>
          <person xml:id="varv" sex="female">
             <persName>Варвара Ардалионовна</persName>
@@ -5002,9 +5027,11 @@
          </person>
          <person xml:id="govK" sex="female">
             <persName>горничная Катя</persName>
+            <persName xml:lang="en">Katia (housemaid)</persName>
          </person>
          <person xml:id="govP" sex="male">
             <persName>горничный Паша</persName>
+            <persName xml:lang="en">Pasha (housekeeper)</persName>
          </person>
          <person xml:id="ferd" sex="male">
             <persName>Фердыщенко</persName>
@@ -5013,112 +5040,154 @@
          </person>
          <person xml:id="salaz" sex="male">
             <persName>Салазкин</persName>
+            <persName xml:lang="en">Salazkin</persName>
          </person>
          <person xml:id="nina" sex="female">
             <persName>Нина Александровна</persName>
+            <persName xml:lang="en">Nina Aleksandrovna</persName>
          </person>
          <person xml:id="legro" sex="male">
             <persName>Легро</persName>
+            <persName xml:lang="fr">Legros</persName>
          </person>
          <person xml:id="bahm" sex="male">
             <persName>Бахмутов</persName>
+            <persName xml:lang="en">Bakhmutov</persName>
          </person>
          <person xml:id="vilk" sex="male">
             <persName>Вилкин</persName>
+            <persName xml:lang="en">Vilkin</persName>
          </person>
          <person xml:id="shned" sex="male">
             <persName>Шнейдер</persName>
+            <persName xml:lang="en">Shneider</persName>
          </person>
          <person xml:id="zemt" sex="male">
             <persName>Земтюжников</persName>
+            <persName xml:lang="en">Zemtiuzhnikov</persName>
          </person>
          <person xml:id="gavr" sex="male">
-            <persName>Гаврила Ардалионыч</persName>
+            <persName>Гаврила Ардалионович Иволгин</persName>
+            <persName xml:lang="en">Gavrila Ardalionovich Ivolgin</persName>
+            <persName xml:lang="en">Gania</persName>
          </person>
          <person xml:id="sluga" sex="male">
             <persName>кабинетный прислужник</persName>
+            <persName xml:lang="en">Epanchin attendant</persName>
          </person>
          <person xml:id="aleksa" sex="female">
-            <persName>Александра Епанчина</persName>
+            <persName>Александра Ивановна Епанчина</persName>
+            <persName xml:lang="en">Aleksandra Ivanovna Epanchina</persName>
+            <persName xml:lang="en">Aleksandra</persName>
          </person>
          <person xml:id="dubari" sex="female">
             <persName>графиня Дюбарри</persName>
+            <persName xml:lang="en">Countess Dewberry</persName>
          </person>
          <person xml:id="adel" sex="female">
-            <persName>Аделаида Епанчина</persName>
+            <persName>Аделаида Ивановна Епанчина</persName>
+            <persName xml:lang="en">Adelaida Ivanovna Epanchina</persName>
+            <persName xml:lang="en">Adelaida</persName>
          </person>
          <person xml:id="agla" sex="female">
-            <persName>Аглая Епанчина</persName>
+            <persName>Аглая Ивановна Епанчина</persName>
             <persName>Глаша</persName>
+            <persName xml:lang="en">Aglaia Ivanovna Epanchina</persName>
+            <persName xml:lang="en">Aglaia</persName>
          </person>
          <person xml:id="prot" sex="male">
             <persName>Сережка Протушин</persName>
+            <persName xml:lang="en">Serëzhka Protushin</persName>
          </person>
          <person xml:id="med" sex="male">
             <persName>медик</persName>
+            <persName xml:lang="en">Medic</persName>
          </person>
          <person xml:id="medz" sex="female">
             <persName>жена медика</persName>
+            <persName xml:lang="en">Medic's wife</persName>
          </person>
          <person xml:id="pazk" sex="female">
             <persName>княгиня Пацкая</persName>
+            <persName xml:lang="en">Princess Patskaia</persName>
          </person>
          <person xml:id="koral" sex="female">
             <persName>Коралия</persName>
+            <persName xml:lang="en">Koralia</persName>
          </person>
          <personGrp xml:id="andri">
             <persName>Андреевы</persName>
+            <persName xml:lang="en">Andreevs</persName>
          </personGrp>
          <person xml:id="zal" sex="male">
             <persName>Залёжев</persName>
+            <persName xml:lang="en">Zalëzhev</persName>
          </person>
          <person xml:id="guro" sex="male">
             <persName>Гуро</persName>
+            <persName xml:lang="fr">Gouraud</persName>
          </person>
          <person xml:id="surik" sex="male">
             <persName>Иван Фомич Суриков</persName>
+            <persName xml:lang="en">Ivan Fomich Surikov</persName>
          </person>
          <person xml:id="lihac" sex="male">
-            <persName>Лихачев Александр</persName>
+            <persName>Александр Лихачев</persName>
+            <persName xml:lang="en">Aleksandr Likhachëv</persName>
          </person>
          <person xml:id="tozk" sex="male">
             <persName>Афанасий Иванович Тоцкий</persName>
+            <persName xml:lang="en">Afanasii Ivanovich Totskii</persName>
+            <persName xml:lang="en">Totskii</persName>
          </person>
          <person xml:id="nasta" sex="female">
             <persName>Настасья Филипповна Барашкова</persName>
+            <persName xml:lang="en">Nastas'ia Filippovna Barashkova</persName>
+            <persName xml:lang="en">Nastas'ia Filippovna</persName>
          </person>
          <person xml:id="konev" sex="male">
             <persName>Василий Васильич Конев</persName>
+            <persName xml:lang="en">Vasilii Vasil'ich Konev</persName>
          </person>
          <person xml:id="eldrg" sex="male">
             <persName>Семен Парфенович Рогожин</persName>
+            <persName xml:lang="en">Semën Parfënovich Rogozhin</persName>
          </person>
          <person xml:id="brozh" sex="male">
             <persName>Семен Семенович Рогожин</persName>
+            <persName xml:lang="en">Semën Semënovich Rogozhin</persName>
          </person>
          <personGrp xml:id="rgzni">
             <persName>Рогожины</persName>
+            <persName xml:lang="en">Rogozhins</persName>
          </personGrp>
          <personGrp xml:id="ptizi">
             <persName>Птицыны</persName>
+            <persName xml:lang="en">Ptitsyns</persName>
          </personGrp>
          <personGrp xml:id="epnini">
             <persName>Епанчины</persName>
+            <persName xml:lang="en">Epanchins</persName>
          </personGrp>
          <personGrp xml:id="mskni">
             <persName>Мышкины</persName>
+            <persName xml:lang="en">Myshkins</persName>
          </personGrp>
          <person xml:id="epanc" sex="male">
             <persName>Иван Федорович Епанчин</persName>
             <persName>Иван Федорович</persName>
             <persName>Епанчин</persName>
             <persName>генерал</persName>
+            <persName xml:lang="en">Ivan Fëdorovich Epanchin</persName>
+            <persName xml:lang="en">General Epanchin</persName>
          </person>
          <person xml:id="eep" sex="female">
-            <persName>Епанчина Елизавета Прокофьевна</persName>
+            <persName>Елизавета Прокофьевна Епанчина</persName>
             <persName>Лизавета Прокофьевна</persName>
             <persName>Лизавета</persName>
             <persName>Генеральша</persName>
+            <persName xml:lang="en">Elizaveta Prokof'evna Epanchina</persName>
+            <persName xml:lang="en">Elizaveta Prokof'evna</persName>
          </person>
          <person xml:id="pav" sex="male">
             <persName>господин Павлищев</persName>
