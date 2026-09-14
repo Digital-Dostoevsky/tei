@@ -5193,6 +5193,7 @@
             <persName>господин Павлищев</persName>
             <persName>Павлищев</persName>
             <persName>П.</persName>
+            <persName xml:lang="en">Pavlishchev</persName>
          </person>
          <person xml:id="mysh" sex="male">
             <persName>Князь Лев Николаевич Мышкин</persName>
@@ -5202,96 +5203,124 @@
             <persName>Лева</persName>
             <persName>Leon</persName>
             <persName>идиот</persName>
+            <persName xml:lang="en">Prince Lev Nikolaevich Myshkin</persName>
+            <persName xml:lang="en">Myshkin</persName>
          </person>
          <person xml:id="dokt" sex="male">
             <persName>Докторенко</persName>
+            <persName xml:lang="en">Doktorenko</persName>
          </person>
          <person xml:id="rogozh" sex="male">
             <persName>Парфен Семенович Рогожин</persName>
             <persName>Рогожин</persName>
             <persName>господин Рогожин</persName>
+            <persName xml:lang="en">Parfën Semënovich Rogozhin</persName>
+            <persName xml:lang="en">Rogozhin</persName>
          </person>
          <personGrp xml:id="rogozhunnamedfriends"/>
          <person xml:id="lebed" sex="male">
             <persName>Лукьян Тимофеевич Лебедев</persName>
             <persName>Лебедев</persName>
             <persName>господин Лебедев</persName>
+            <persName xml:lang="en">Luk'ian Timofeevich Lebedev</persName>
+            <persName xml:lang="en">Lebedev</persName>
          </person>
          <person xml:id="koleb" sex="male">
             <persName>Костя Лебедев</persName>
+            <persName xml:lang="en">Kostia Lebedev</persName>
+            <persName xml:lang="en">Kostia</persName>
          </person>
          <person xml:id="bahunc" sex="male">
             <persName>Петр Матвеевич Бахмутов</persName>
+            <persName xml:lang="en">Pëtr Matveevich Bakhmutov</persName>
          </person>
          <person xml:id="ofid" sex="male">
             <persName>офицер</persName>
             <persName>поручик Моловцов</persName>
             <persName>Курмышев</persName>
+            <persName xml:lang="en">Lieutenant Molovtsov</persName>
          </person>
          <person xml:id="capiton" sex="male">
             <persName>Капитон Алексеич</persName>
             <persName>Капитон</persName>
+            <persName xml:lang="en">Kapiton Alekseich</persName>
          </person>
-         <personGrp xml:id="mguest">
-            <persName>гости князя Мышкина</persName>
-         </personGrp>
          <person xml:id="burmi" sex="male">
             <persName>Григорий Семенович Бурмистров</persName>
+            <persName xml:lang="en">Grigory Semënovich Burmistrov</persName>
          </person>
          <person xml:id="kisl" sex="male">
             <persName>Кислородов</persName>
+            <persName xml:lang="en">Kislorodov</persName>
          </person>
          <person xml:id="matr" sex="female">
             <persName>Матрена</persName>
+            <persName xml:lang="en">Matrëna</persName>
          </person>
          <person xml:id="tere" sex="male">
             <persName>Терентьич</persName>
+            <persName xml:lang="en">Terent'ich</persName>
          </person>
          <person xml:id="ivpet" sex="male">
             <persName>Иван Петрович</persName>
+            <persName xml:lang="en">Ivan Petrovich</persName>
          </person>
          <person xml:id="nmarf" sex="female">
             <persName>Марфа Никитишна</persName>
+            <persName xml:lang="en">Marfa Nikitishna</persName>
          </person>
          <person xml:id="natal" sex="female">
             <persName>Наталья Никитишна</persName>
+            <persName xml:lang="en">Natal'ia Nikitishna</persName>
          </person>
          <person xml:id="sanov" sex="male">
             <persName>сановник</persName>
+            <persName xml:lang="en">Old dignitary</persName>
          </person>
          <person xml:id="strog" sex="female">
             <persName>старушка Рогожина</persName>
+            <persName xml:lang="en">Rogozhin's mother</persName>
          </person>
          <person xml:id="sluzh" sex="female">
             <persName>служанка</persName>
             <persName>Пафнутьевна</persName>
+            <persName xml:lang="en">Pafnut'ievna</persName>
          </person>
          <person xml:id="krest1" sex="male">
             <persName>крестьянин</persName>
+            <persName xml:lang="en">A peasant</persName>
          </person>
          <person xml:id="filis" sex="female">
             <persName>Филисова</persName>
+            <persName xml:lang="en">Filisova</persName>
          </person>
          <person xml:id="cheb" sex="male">
             <persName>Чебаров</persName>
+            <persName xml:lang="en">Chebarov</persName>
          </person>
          <person xml:id="youngman">
             <persName>какой-то неизвестный и очень молодой человек</persName>
+            <persName xml:lang="en">Young man at party</persName>
          </person>
          <person xml:id="silentlady">
             <persName>чрезвычайно красивая, чрезвычайно хорошо и богато одетая и необыкновенно неразговорчивая молодая дама</persName>
+            <persName xml:lang="en">Young lady at party</persName>
          </person>
          <person xml:id="prisonfriends">
             <persName>приятели генерала Иволгина в доме Тарасова</persName>
+            <persName xml:lang="en">General Ivolgin's friends in prison</persName>
          </person>
          <person xml:id="ikants">
             <persName>какой-то канцелярист в толпе</persName>
+            <persName xml:lang="en">Clerk in the crowd</persName>
          </person>
          <person xml:id="mantillagirl">
             <persName>девушка в старенькой, но приличной темной мантильке</persName>
+            <persName xml:lang="en">Little girl in a mantilla</persName>
          </person>
          <person xml:id="savely">
             <persName>Савелий-кучер</persName>
+            <persName xml:lang="en">Savelii</persName>
          </person>
       </listPerson>
       <listPerson type="fictionalnonDostoevsky">
