@@ -6753,7 +6753,7 @@
             <persName>письмоводитель Нелюдова</persName>
             <persName xml:lang="en">Neliudov's clerk</persName>
          </person>
-         <personGrp xml:id="judges">
+         <personGrp xml:id="judges" sex="male">
             <persName>члены суда</persName>
             <persName xml:lang="en">Judges at Dmitri's trial</persName>
          </personGrp>
@@ -6765,11 +6765,11 @@
             <persName>секретарь суда</persName>
             <persName xml:lang="en">Clerk at Dmitri's trial</persName>
          </person>
-         <personGrp xml:id="trialwomen">
+         <personGrp xml:id="trialwomen" sex="female">
             <persName>дамы</persName>
             <persName xml:lang="en">Women at Dmitri's trial</persName>
          </personGrp>
-         <personGrp xml:id="lawyers">
+         <personGrp xml:id="lawyers" sex="male">
             <persName>юристы в суде</persName>
             <persName xml:lang="en">Lawyers at Dmitri's trial</persName>
          </personGrp>
@@ -6829,7 +6829,7 @@
             <persName>группа вокруг Фета</persName>
             <persName xml:lang="en">Fetiukovich's supporters</persName>
          </personGrp>
-         <personGrp xml:id="gentlemengroup">
+         <personGrp xml:id="gentlemengroup" sex="male">
             <persName>группа разговаривавших господ</persName>
             <persName xml:lang="en">Group of gentlemen at Dmitri's trial</persName>
          </personGrp>
@@ -6861,11 +6861,11 @@
             <persName>Михаил Семеныч</persName>
             <persName xml:lang="en">Mikhail Semënych</persName>
          </person>
-         <person xml:id="thirdlittlevoice">
+         <person xml:id="thirdlittlevoice" sex="male">
             <persName>третий голосок</persName>
             <persName xml:lang="en">Third little voice at Dmitri's trial</persName>
          </person>
-         <person xml:id="resolutevoice">
+         <person xml:id="resolutevoice" sex="male">
             <persName>решительный голос</persName>
             <persName xml:lang="en">Resolute voice at Dmitri's trial</persName>
          </person>
@@ -7171,14 +7171,17 @@
          <personGrp xml:id="demons">
             <persName>черти</persName>
          </personGrp>
-         <person xml:id="legstar1">
+         <person xml:id="legstar1" sex="male">
             <persName>старец в легенде</persName>
+            <persName xml:lang="en">Father 1 in monastery legend</persName>
          </person>
-         <person xml:id="legstar2">
+         <person xml:id="legstar2" sex="male">
             <persName>старец в легенде</persName>
+            <persName xml:lang="en">Father 2 in monastery legend</persName>
          </person>
-         <person xml:id="legmonk">
+         <person xml:id="legmonk" sex="male">
             <persName>монах в легенде</persName>
+            <persName xml:lang="en">Monk in monastery legend</persName>
          </person>
          <person xml:id="dev1">
             <persName>дьявол Федора Павловича</persName>
@@ -7186,7 +7189,7 @@
          <person xml:id="dev2">
             <persName>дьявол Дмитрия Федоровича</persName>
          </person>
-         <person xml:id="dev3">
+         <person xml:id="dev3" sex="male">
             <persName>демон Ивана Федоровича</persName>
             <persName xml:lang="en">Ivan's devil</persName>
          </person>
@@ -7229,8 +7232,9 @@
          <person xml:id="bkw5">
             <persName>мать девочки в Севилье</persName>
          </person>
-         <person xml:id="legmonk2">
+         <person xml:id="legmonk2" sex="male">
             <persName>святой в рассказе Зосимы птицелову</persName>
+            <persName xml:lang="en">Saint in Zosima's story</persName>
          </person>
          <person xml:id="onionbaba">
             <persName> баба в рассказе Грушеньки</persName>
@@ -7247,8 +7251,9 @@
          <personGrp xml:id="oniondemons">
             <persName>черти в рассказе Грушеньки</persName>
          </personGrp>
-         <person xml:id="andreichrist">
+         <person xml:id="andreichrist" sex="male">
             <persName>Иисус Христос (в легенде ямщика Андрея)</persName>
+            <persName xml:lang="en">Jesus Christ (in the driver Andrei's legend)</persName>
          </person>
          <person xml:id="bkm14">
             <persName>философ отвергающий веру в рассказе демона Ивана</persName>
@@ -7283,7 +7288,7 @@
             <persName>бог</persName>
             <persName xml:lang="en">God</persName>
          </person>
-         <person xml:id="christ">
+         <person xml:id="christ" sex="male">
             <persName>Иисус Христос</persName>
             <persName xml:lang="en">Jesus Christ</persName>
          </person>
@@ -7293,7 +7298,7 @@
          <person xml:id="mfst" sex="male">
             <persName>Мефистофель</persName>
          </person>
-         <person xml:id="satan">
+         <person xml:id="satan" sex="male">
             <persName>Сатана</persName>
             <persName xml:lang="en">Satan</persName>
          </person>
@@ -7405,12 +7410,24 @@
          </personGrp>
          <person xml:id="imint">
             <persName>imagined слушатели/гипотетические собеседники автора</persName>
+            <persName xml:lang="en">Imagined interlocutors of narrator</persName>
          </person>
-         <person xml:id="imaas">
+         <person xml:id="imaas" sex="female">
             <persName>imagined Агафена Александровна Светлова (Грушенька)</persName>
+            <persName xml:lang="en">Imagined Grushen'ka</persName>
          </person>
-         <person xml:id="imdfk">
+         <person xml:id="imdfk" sex="male">
             <persName>imagined Дмитрий Федорович Карамазов</persName>
+            <persName xml:lang="en">Imagined Dmitri</persName>
+         </person>
+         <person xml:id="dreamdfk" sex="male">
+            <persName xml:lang="en">Dmitri in his Mokroe dream</persName>
+         </person>
+         <person xml:id="dreamaas" sex="female">
+            <persName xml:lang="en">Grushen'ka in Dmitri's Mokroe dream</persName>
+         </person>
+         <person xml:id="dreamcoach" sex="male">
+            <persName xml:lang="en">Coachman in Dmitri's Mokroe dream</persName>
          </person>
          <person xml:id="imifk">
             <persName>imagined Иван Федорович Карамазов</persName>
@@ -7421,7 +7438,7 @@
          <person xml:id="imfpk">
             <persName>imagined Федор Павлович Карамазов</persName>
          </person>
-         <person xml:id="imkiv">
+         <person xml:id="imkiv" sex="female">
             <persName>imagined Катерина Ивановна Верховцева</persName>
          </person>
          <person xml:id="imzos">
