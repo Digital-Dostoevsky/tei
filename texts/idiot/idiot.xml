@@ -5300,11 +5300,11 @@
             <persName>Чебаров</persName>
             <persName xml:lang="en">Chebarov</persName>
          </person>
-         <person xml:id="youngman">
+         <person xml:id="youngman" sex="male">
             <persName>молодой человек</persName>
             <persName xml:lang="en">Young man at NF's party</persName>
          </person>
-         <person xml:id="younglady">
+         <person xml:id="younglady" sex="female">
             <persName>молодая дама</persName>
             <persName xml:lang="en">Young lady at NF's party</persName>
          </person>
@@ -5312,27 +5312,27 @@
             <persName>приятели генерала Иволгина в доме Тарасова</persName>
             <persName xml:lang="en">General Ivolgin's friends in prison</persName>
          </person>
-         <person xml:id="ikants">
+         <person xml:id="ikants" sex="male">
             <persName>какой-то канцелярист в толпе</persName>
             <persName xml:lang="en">Clerk in the crowd</persName>
          </person>
-         <person xml:id="mantillagirl">
+         <person xml:id="mantillagirl" sex="female">
             <persName>девушка в старенькой, но приличной темной мантильке</persName>
             <persName xml:lang="en">Little girl in a mantilla</persName>
          </person>
-         <person xml:id="savely">
+         <person xml:id="savely" sex="male">
             <persName>Савелий-кучер</persName>
             <persName xml:lang="en">Savelii</persName>
          </person>
-         <person xml:id="trep">
+         <person xml:id="trep" sex="male">
             <persName>Трепалов (в рассказе Тоцкого)</persName>
             <persName xml:lang="en">Trepalov (in Totskii's story</persName>
          </person>
-         <person xml:id="dvor">
+         <person xml:id="dvor" sex="male">
             <persName>Дворник у Рогожина</persName>
             <persName xml:lang="en">Rogozhin's porter</persName>
          </person>
-         <person xml:id="driver">
+         <person xml:id="driver" sex="male">
             <persName>Кучер</persName>
             <persName xml:lang="en">A driver</persName>
          </person>
