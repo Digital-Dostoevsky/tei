@@ -45,12 +45,12 @@
      who engages in direct speech, whether speaking (`who`) or spoken to (`toWhom`).
  
      The resulting csv files should be structured by the following columns:
-     ID, LABEL.
+     ID, LABEL, Sex.
      
      "ID" is the distinct `xml:id` of anyone who either speaks or is spoken to.
      
      "LABEL" is the actual name of the character that corresponds to a given `xml:id.`
-     Names should be taken from the `back`, preferably from the English language
+     Names should be taken from the `standoff`, preferably from the English language
      text in `<persName xml:lang="en">...</persName> if there is an English equivalent
      given. If there is not, revert to whatever the Cyrillic is in
      `<persName>...</persName>
@@ -97,7 +97,6 @@
                     <xsl:variable name="part" select="string(ancestor::div[@type='part']/@n)" as="xs:string"/>
                     <xsl:variable name="chapter" select="string(ancestor::div[@type='chapter']/@n)" as="xs:string"/>
                     <xsl:variable name="section" select="string(ancestor::div[@type='section']/@n)" as="xs:string"/>
-                    <xsl:variable name="saidId" select="generate-id(.)" as="xs:string"/>
                     <xsl:variable name="aloud" select="
                             if (@aloud) then
                                 string(@aloud)
@@ -182,7 +181,6 @@
                                 <xsl:map-entry key="'Part'" select="$part"/>
                                 <xsl:map-entry key="'Chapter'" select="$chapter"/>
                                 <xsl:map-entry key="'Section'" select="$section"/>
-                                <xsl:map-entry key="'saidID'" select="$saidId"/>
                                 <xsl:map-entry key="'aloud'" select="$aloud"/>
                                 <xsl:map-entry key="'direct'" select="$direct"/>
                                 <xsl:map-entry key="'isSelfTalk'" select="$isSelfTalk"/>
@@ -210,13 +208,13 @@
                     and use its header values)-->
                 <xsl:message select="'Creating ' || current-output-uri()"/>
                 <xsl:variable name="headerValues" select="
-                    'Part', 'Chapter', 'Section', 'ID', 'aloud', 'direct', 'isSelfTalk','isMeaningfulSpeech',
+                    'Part', 'Chapter', 'Section', 'aloud', 'direct', 'isSelfTalk','isMeaningfulSpeech',
                     'who', 'whoName', 'whoSex', 'toWhom', 'toWhomName', 'toWhomSex', 'Text'"/>
                 <xsl:variable name="headerRow" select="string-join($headerValues, $TAB)"/>
                 <xsl:variable name="dataRows" as="xs:string+">
                     <xsl:for-each select="$data">
                         <xsl:variable name="dataToUse" 
-                            select=".?Part, .?Chapter, .?Section, .?saidID, .?aloud, .?direct, xs:string(.?isSelfTalk),
+                            select=".?Part, .?Chapter, .?Section, .?aloud, .?direct, xs:string(.?isSelfTalk),
                             xs:string(.?isMeaningfulSpeech), .?who, .?whoName, .?whoSex, .?toWhom, .?toWhomName, .?toWhomSex, .?text" as="xs:string+"/>
                         <xsl:variable name="row" select="string-join($dataToUse, $TAB)" as="xs:string"/>
                         <xsl:sequence select="$row"/>
@@ -236,8 +234,7 @@
             <xsl:result-document href="{$outputDir}/{$docId}/{$docId}_all_edges.tsv" method="text">
                 <xsl:message select="'Creating ' || current-output-uri()"/>
                 <xsl:variable name="headerValues" select="
-                    'Location', 'ID',
-                    'source', 'whoSex', 'target', 'toWhomSex'"/>
+                    'Location', 'source', 'whoSex', 'target', 'toWhomSex'"/>
                 <xsl:variable name="headerRow" select="string-join($headerValues, $TAB)"/>
                 <xsl:variable name="dataRows" as="xs:string+">
                     <xsl:for-each select="$gephiSubsetData">
@@ -257,7 +254,7 @@
             <xsl:result-document href="{$outputDir}/{$docId}/{$docId}_all_nodes.tsv" method="text">
                 <xsl:message select="'Creating ' || current-output-uri()"/>
                 <xsl:variable name="headerValues" select="
-                    'Id', 'Label'"/>
+                    'Id', 'Label', 'Sex'"/>
                 <xsl:variable name="headerRow" select="string-join($headerValues, $TAB)"/>
                 <xsl:variable name="dataRows" as="xs:string+">
                     <xsl:variable name="allWhoValues" 
@@ -271,7 +268,7 @@
                         as="xs:string+"/>
                     <xsl:variable name="row" 
                         select="for $id in $distinctIds return 
-                        string-join(($id, dd:getName($id, $people)), $TAB)"/>
+                        string-join(($id, dd:getName($id, $people), dd:getSexVal($id, $people)), $TAB)"/>
                     <xsl:sequence select="$row"/>
                 </xsl:variable>
                 <xsl:sequence select="string-join(($headerRow, $dataRows), $NEWLINE)"/>
@@ -291,13 +288,12 @@
                     <xsl:result-document href="{$outputDir}/{$docId}/{$docId}_{current-grouping-key()}_edges.tsv" method="text">
                         <xsl:message select="'Creating ' || current-output-uri()"/>
                         <xsl:variable name="headerValues" select="
-                            'Location', 'ID',
-                            'source', 'whoSex', 'target', 'toWhomSex'"/>
+                            'Location', 'source', 'whoSex', 'target', 'toWhomSex'"/>
                         <xsl:variable name="headerRow" select="string-join($headerValues, $TAB)"/>
                         <xsl:variable name="dataRows" as="xs:string+">
                             <xsl:for-each select="current-group()">
                                 <xsl:variable name="dataToUse" 
-                                    select="string-join((.?Part, .?Chapter, .?Section),'.'), .?saidID,
+                                    select="string-join((.?Part, .?Chapter, .?Section),'.'),
                                     .?who, .?whoSex, .?toWhom, .?toWhomSex" as="xs:string+"/>
                                 <xsl:variable name="row" select="string-join($dataToUse, $TAB)" as="xs:string"/>
                                 <xsl:sequence select="$row"/>
@@ -312,7 +308,7 @@
                     <xsl:result-document href="{$outputDir}/{$docId}/{$docId}_{current-grouping-key()}_nodes.tsv" method="text">
                         <xsl:message select="'Creating ' || current-output-uri()"/>
                         <xsl:variable name="headerValues" select="
-                            'Id', 'Label'"/>
+                            'Id', 'Label', 'Sex'"/>
                         <xsl:variable name="headerRow" select="string-join($headerValues, $TAB)"/>
                         <xsl:variable name="dataRows" as="xs:string+">
                             <xsl:variable name="allWhoValues" 
@@ -326,7 +322,7 @@
                                 as="xs:string+"/>
                             <xsl:variable name="row" 
                                 select="for $id in $distinctIds return 
-                                string-join(($id, dd:getName($id, $people)), $TAB)"/>
+                                string-join(($id, dd:getName($id, $people), dd:getSexVal($id, $people)), $TAB)"/>
                             <xsl:sequence select="$row"/>
                         </xsl:variable>
                         <xsl:sequence select="string-join(($headerRow, $dataRows), $NEWLINE)"/>
@@ -398,7 +394,7 @@
                 <xsl:value-of select="string($person/persName[@xml:lang = 'en'])"/>
             </xsl:when>
             <xsl:when test="$person/persName[@xml:lang = 'fr']">
-                <xsl:value-of select="string($person/persName)"/>
+                <xsl:value-of select="string($person/persName[@xml:lang = 'fr'])"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="string($person/persName[1])"/>
