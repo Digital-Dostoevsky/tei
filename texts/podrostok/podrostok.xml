@@ -4796,7 +4796,7 @@
             <persName>Марья</persName>
            <persName xml:lang="en">Tat'iana Pavlovna's cook</persName>
          </person>
-         <person xml:id="izvp1">
+         <person xml:id="izvp1" sex="male">
             <persName>извозчик 1</persName>
            <persName xml:lang="en">Driver 1</persName>
          </person>
@@ -4804,11 +4804,11 @@
           <persName>извозчик 2</persName>
           <persName xml:lang="en">Driver 2</persName>
         </person>
-         <person xml:id="kupp">
+         <person xml:id="kupp" sex="male">
             <persName>купец</persName>
            <persName xml:lang="en">A merchant</persName>
          </person>
-         <person xml:id="advop">
+         <person xml:id="advop" sex="male">
             <persName>адвокат</persName>
            <persName xml:lang="en">Famous lawyer in Makar's story</persName>
          </person>
