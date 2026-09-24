@@ -77,6 +77,16 @@
         </java>
     </target>
     
+    <!--  Extracts character mentions from within speech.
+        See "Character_mentions.xsl for details. -->
+    <target name="characterMentions">
+        <java jar="${saxon.jar}" fork="true">
+            <arg line="-xsl:${utilitiesDir}/speech-features/Character_mentions.xsl"/>
+            <arg line="-it:characterMentions"/>
+            <arg line="outputDir=${outputDir}"/>
+        </java>
+    </target>
+    
     <!-- The following thre targets (odd.processed, odd.lite, odd.html)
     are all used for creating HTML documentation of the project ODD file -->
     <target name="odd.processed">
@@ -147,7 +157,11 @@
         <description>Runs network extraction</description>
     </target>
     
-    <target name="all" depends="init, validate, diagnostics, allData, docs, clean">
+    <target name="mentions" depends="characterMentions">
+        <description>Runs character mentions</description>
+    </target>
+    
+    <target name="all" depends="init, validate, diagnostics, allData, docs, clean, characterMentions">
         <description>Runs everything in this build file</description>
     </target>
     
