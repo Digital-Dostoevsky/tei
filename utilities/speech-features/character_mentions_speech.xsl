@@ -33,11 +33,14 @@
      
      .tsv files will be created for the full novel as a whole, and for any/all of its parts.
      
-     .tsv files will be put in the `_public` folder in the subdirectory `character_mentions`
+     .tsv files will be put in the `_public` folder in the subdirectory `character_mentions_speech`
      within the directory for their respective novels. They will be named for the character
      being mentioned. An example file (with the filepath) for a novel's first part would be:
-     `tei/_public/bratia_karamazovy/character_mentions/bratia_karamazovy_1_mentions_afk.tsv`
-     
+     `tei/_public/bratia_karamazovy/character_mentions_speech/bratia_karamazovy_1_mentions_afk.tsv`
+          NOTE: Because of the way the `build.xml` file is structured, any time you run it as a whole
+     (i.e. target `all`) it will delete any previous character mention files. This is not necessarily
+     a problem, though, since it is trivial to just re-run the process again for whatever
+     character you need.
      The stylesheet will also produce a simple .txt file with a count of all mentions of the specified
      character within instances of `<said>` for the whole novel and for each part. It will
      also be placed in the `_public` folder along with the .tsv files.
@@ -145,7 +148,7 @@
             <xsl:variable name="headerRow" select="string-join($headerValues, $TAB)"/>
             
             <!--Whole-novel file-->
-            <xsl:result-document href="{$outputDir}/{$docId}/character_mentions/{$docId}_full_novel_mentions_{$targetId}.tsv" method="text">
+            <xsl:result-document href="{$outputDir}/{$docId}/character_mentions_speech/{$docId}_full_novel_mentions_{$targetId}.tsv" method="text">
                 <xsl:message select="'Creating ' || current-output-uri()"/>
                 <xsl:variable name="dataRows" as="xs:string*">
                     <xsl:for-each select="$mentionData">
@@ -160,7 +163,7 @@
             <!--Per-part files, only if the novel actually has more than one part-->
             <xsl:if test="count(//div[@type='part']) gt 1">
                 <xsl:for-each-group select="$mentionData" group-by=".?Part">
-                    <xsl:result-document href="{$outputDir}/{$docId}/character_mentions/{$docId}_{current-grouping-key()}_mentions_{$targetId}.tsv" method="text">
+                    <xsl:result-document href="{$outputDir}/{$docId}/character_mentions_speech/{$docId}_{current-grouping-key()}_mentions_{$targetId}.tsv" method="text">
                         <xsl:message select="'Creating ' || current-output-uri()"/>
                         <xsl:variable name="dataRows" as="xs:string*">
                             <xsl:for-each select="current-group()">
@@ -175,7 +178,7 @@
             </xsl:if>
             
             <!--Simple summary file: total mention counts, novel-wide and per part-->
-            <xsl:result-document href="{$outputDir}/{$docId}/character_mentions/{$docId}_mentions_{$targetId}_summary.txt" method="text">
+            <xsl:result-document href="{$outputDir}/{$docId}/character_mentions_speech/{$docId}_mentions_{$targetId}_summary.txt" method="text">
                 <xsl:message select="'Creating ' || current-output-uri()"/>
                 
                 <xsl:variable name="totalMentions" 
