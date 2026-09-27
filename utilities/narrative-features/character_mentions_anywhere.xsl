@@ -71,7 +71,7 @@
             per part if the novel has more than one part. Also writes a 
             plain-text summary of total mention counts.</xd:desc>
     </xd:doc>
-    <xsl:template name="characterMentionsAnywhere">
+    <xsl:template name="characterMentionsNotSpeech">
         <xsl:if test="$targetId = ''">
             <xsl:message terminate="yes">ERROR: You must supply a targetId parameter, e.g. targetId=abc</xsl:message>
         </xsl:if>

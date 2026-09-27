@@ -89,7 +89,7 @@
     
     <!--  Extracts character mentions from anywhere in the novel.
         See "character_mentions_anywhere.xsl for details. -->
-    <target name="characterMentionsAnywhere">
+    <target name="characterMentionsNotSpeech">
         <java jar="${saxon.jar}" fork="true">
             <arg line="-xsl:${utilitiesDir}/narrative-features/character_mentions.xsl"/>
             <arg line="-it:characterMentionsAnywhere"/>
@@ -143,11 +143,11 @@
         <description>Runs network extraction</description>
     </target>
     
-    <target name="mentions" depends="characterMentionsSpeech, characterMentionsAnywhere">
+    <target name="mentions" depends="characterMentionsSpeech, characterMentionsNotSpeech">
         <description>Runs character mentions within speech and anywhere</description>
     </target>
     
-    <target name="all" depends="init, validate, diagnostics, allData, docs, clean, characterMentionsSpeech, characterMentionsAnywhere">
+    <target name="all" depends="init, validate, diagnostics, allData, docs, clean, characterMentionsSpeech, characterMentionsNotSpeech">
         <description>Runs everything in this build file</description>
     </target>
     
