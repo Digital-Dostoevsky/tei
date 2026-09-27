@@ -35,6 +35,11 @@
      within the directory for its respective novel. It will be named for the character
      being mentioned. An example file (with the filepath) would be:
      `tei/_public/bratia_karamazovy/character_mentions/bratia_karamazovy_mentions_afk.tsv`
+     
+     NOTE: Because of the way the `build.xml` file is structured, any time you run it as a whole
+     (i.e. target `all`) it will delete any previous character mention files. This is not necessarily
+     a problem, though, since it is trivial to just re-run the process again for whatever
+     character you need.
 -->
     
     <!-- Specifies the output format as text--> 
