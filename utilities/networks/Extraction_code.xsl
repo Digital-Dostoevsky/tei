@@ -202,7 +202,7 @@
             
             <!--Result Document 1: All instances of `<said>`, regardless of the values of any of the attributes. 
                 Useful for diagnostics, getting a sense of all speech, etc.-->
-            <xsl:result-document href="{$outputDir}/{$docId}/{$docId}_Master_Network_Data.tsv" method="text">
+            <xsl:result-document href="{$outputDir}/{$docId}/network_analysis/{$docId}_Master_Network_Data.tsv" method="text">
                 <!--For each document, we have 1 map per spreadsheet row, but we want to just extract
                     the header values (which are the same as the keys), so we can just take the first map
                     and use its header values)-->
@@ -231,7 +231,7 @@
                 select="$data[.?isMeaningfulSpeech and .?who != .?toWhom]" as="map(*)+"/>
             
             <!--Result Document 2: Edges files for all novels in full -->
-            <xsl:result-document href="{$outputDir}/{$docId}/{$docId}_all_edges.tsv" method="text">
+            <xsl:result-document href="{$outputDir}/{$docId}/network_analysis/{$docId}_all_edges.tsv" method="text">
                 <xsl:message select="'Creating ' || current-output-uri()"/>
                 <xsl:variable name="headerValues" select="
                     'Location', 'source', 'whoSex', 'target', 'toWhomSex'"/>
@@ -251,7 +251,7 @@
             
             <!--Result Document 3: Nodes files for all novels in full
             REMOVE HASH FROM ID WHEN PROCESSING-->
-            <xsl:result-document href="{$outputDir}/{$docId}/{$docId}_all_nodes.tsv" method="text">
+            <xsl:result-document href="{$outputDir}/{$docId}/network_analysis/{$docId}_all_nodes.tsv" method="text">
                 <xsl:message select="'Creating ' || current-output-uri()"/>
                 <xsl:variable name="headerValues" select="
                     'Id', 'Label', 'Sex'"/>
@@ -285,7 +285,7 @@
                     
                     <!--Result Document 4: Edges files for each part of each novel, if the novel
                         has more than one part-->
-                    <xsl:result-document href="{$outputDir}/{$docId}/{$docId}_{current-grouping-key()}_edges.tsv" method="text">
+                    <xsl:result-document href="{$outputDir}/{$docId}/network_analysis/{$docId}_{current-grouping-key()}_edges.tsv" method="text">
                         <xsl:message select="'Creating ' || current-output-uri()"/>
                         <xsl:variable name="headerValues" select="
                             'Location', 'source', 'whoSex', 'target', 'toWhomSex'"/>
@@ -305,7 +305,7 @@
                     
                     <!--Result Document 5: Nodes files for each part of each novel, if the novel
                     has more than one part.-->
-                    <xsl:result-document href="{$outputDir}/{$docId}/{$docId}_{current-grouping-key()}_nodes.tsv" method="text">
+                    <xsl:result-document href="{$outputDir}/{$docId}/network_analysis/{$docId}_{current-grouping-key()}_nodes.tsv" method="text">
                         <xsl:message select="'Creating ' || current-output-uri()"/>
                         <xsl:variable name="headerValues" select="
                             'Id', 'Label', 'Sex'"/>

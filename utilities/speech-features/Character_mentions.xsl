@@ -43,14 +43,14 @@
     <xsl:variable name="TAB" select="codepoints-to-string(9)"/>
     <xsl:variable name="NEWLINE" select="codepoints-to-string(10)"/>
     <xsl:param name="outputDir" select="'.'"/>
-    <xsl:param name="targetId" select="'afk'"/>
+    <xsl:param name="targetId" select="'dfk'"/>
     <xsl:param name="novelId" select="'bratia_karamazovy'"/>
     
     <xd:doc>
         <xd:desc>For a single specified novel, finds every `said` element that 
             mentions the character identified by $targetId (via a `persName` 
             reference somewhere in its content), and writes the speaker, 
-            addressee, and raw text to a tsv.</xd:desc>
+            addressee, and raw text to a TSV.</xd:desc>
     </xd:doc>
     <xsl:template name="characterMentions">
         <xsl:if test="$targetId = ''">
@@ -60,7 +60,7 @@
             <xsl:message terminate="yes">ERROR: You must supply a novelId parameter, e.g. novelId=besy</xsl:message>
         </xsl:if>
         
-        <xsl:variable name="novel" select="doc('../../texts/' || $novelId || '.xml')" as="document-node()"/>
+        <xsl:variable name="novel" select="doc('../../texts/' || $novelId || '/' || $novelId || '.xml')" as="document-node()"/>
         
         <xsl:for-each select="$novel">
             <xsl:variable name="docId" select="//TEI/@xml:id" as="xs:string"/>
@@ -68,7 +68,7 @@
             <xsl:variable name="people" select="(//person[@xml:id], //personGrp[@xml:id])"
                 as="element()+"/>
             
-            <xsl:result-document href="{$outputDir}/{$docId}/{$docId}_mentions_{$targetId}.tsv" method="text">
+            <xsl:result-document href="{$outputDir}/{$docId}/character_mentions/{$docId}_mentions_{$targetId}.tsv" method="text">
                 <xsl:message select="'Creating ' || current-output-uri()"/>
                 
                 <xsl:variable name="headerValues" select="
