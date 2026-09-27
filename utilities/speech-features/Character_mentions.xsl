@@ -31,9 +31,10 @@
      The stylesheet will create a tsv with the following information (as column headers):
      location, who, whoName, toWhom, toWhomName, text
      
-     The tsv will be put in the `_public` folder for its respective novel and will be named
-     for the character being mentioned. An example file (with the filepath) would be:
-     `tei/_public/bratia_karamazovy/bratia_karamazovy_mentions_afk.tsv`
+     The tsv will be put in the `_public` folder in the subdirectory `character_mentions`
+     within the directory for its respective novel. It will be named for the character
+     being mentioned. An example file (with the filepath) would be:
+     `tei/_public/bratia_karamazovy/character_mentions/bratia_karamazovy_mentions_afk.tsv`
 -->
     
     <!-- Specifies the output format as text--> 

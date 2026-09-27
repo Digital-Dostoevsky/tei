@@ -64,6 +64,10 @@
  Should be called "[novel]_[part]_nodes".
  
      Same parameters as the nodes files above, just broken down into parts.
+     
+ All files will be placed in the `_public` folder in the subdirectory `network_analysis`
+ within the directory for their respective novels. An example file (with the filepath) would be:
+ `/tei/_public/bratia_karamazovy/network_analysis/bratia_karamazovy_all_nodes.tsv`
 
 -->
      
