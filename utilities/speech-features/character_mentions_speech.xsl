@@ -58,8 +58,8 @@
     <xsl:variable name="TAB" select="codepoints-to-string(9)"/>
     <xsl:variable name="NEWLINE" select="codepoints-to-string(10)"/>
     <xsl:param name="outputDir" select="'.'"/>
-    <xsl:param name="targetId" select="'afk'"/>
-    <xsl:param name="novelId" select="'bratia_karamazovy'"/>
+    <xsl:param name="targetId" select="'nasta'"/>
+    <xsl:param name="novelId" select="'idiot'"/>
     
     <xd:doc>
         <xd:desc>For a single specified novel, finds every `said` element that 
