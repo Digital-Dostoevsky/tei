@@ -56,16 +56,30 @@
      `<persName>...</persName>
  
  4) tsv edges files for direct speech in each part of each novel in the corpus.
- Should be called "[novel]_[part]_edges." 
+ Should be called "[novel]_part_[number]_edges." 
 
      Same parameters as the edges files above, just broken down into parts.
      
  5) tsv nodes files for direct speech in each part of each novel in the corpus.
- Should be called "[novel]_[part]_nodes".
+ Should be called "[novel]_part_[number]_nodes".
  
      Same parameters as the nodes files above, just broken down into parts.
-     
- All files will be placed in the `_public` folder in the subdirectory `network_analysis`
+ 
+ 6) tsv edges files for direct speech in each chapter of each novel in the corpus
+ that has more than one chapter. Should be called "[novel]_part_[number]_chapter_[number]_edges".
+ If a novel has no parts but has chapters,
+ the output will be named "[novel]_chapter_[number]_edges".
+ 
+    Same parameters as the edges files above, just broken down into chapters.
+        
+7) tsv nodes files for direct speech in each chapter of each novel in the corpus
+ that has more than one chapter. Should be called "[novel]_part_[number]_chapter_[number]_nodes."
+ If a novel has no parts but has chapters (theoretically possible - defensive programming),
+ the output will be named "[novel]_chapter_[number]_nodes".
+ 
+    Same parameters as the nodes files above, just broken down into chapters.
+    
+All files will be placed in the `_public` folder in the subdirectory `network_analysis`
  within the directory for their respective novels. An example file (with the filepath) would be:
  `/tei/_public/bratia_karamazovy/network_analysis/bratia_karamazovy_all_nodes.tsv`
 
@@ -243,7 +257,7 @@
                 <xsl:variable name="dataRows" as="xs:string+">
                     <xsl:for-each select="$gephiSubsetData">
                         <xsl:variable name="dataToUse" 
-                            select="string-join((.?Part, .?Chapter, .?Section),'.'), .?saidID,
+                            select="string-join((.?Part, .?Chapter, .?Section),'.'),
                             .?who, .?whoSex, .?toWhom, .?toWhomSex" as="xs:string+"/>
                         <xsl:variable name="row" select="string-join($dataToUse, $TAB)" as="xs:string"/>
                         <xsl:sequence select="$row"/>
@@ -289,7 +303,7 @@
                     
                     <!--Result Document 4: Edges files for each part of each novel, if the novel
                         has more than one part-->
-                    <xsl:result-document href="{$outputDir}/{$docId}/network_analysis/{$docId}_{current-grouping-key()}_edges.tsv" method="text">
+                    <xsl:result-document href="{$outputDir}/{$docId}/network_analysis/{$docId}_part_{current-grouping-key()}_edges.tsv" method="text">
                         <xsl:message select="'Creating ' || current-output-uri()"/>
                         <xsl:variable name="headerValues" select="
                             'Location', 'source', 'whoSex', 'target', 'toWhomSex'"/>
@@ -309,6 +323,70 @@
                     
                     <!--Result Document 5: Nodes files for each part of each novel, if the novel
                     has more than one part.-->
+                    <xsl:result-document href="{$outputDir}/{$docId}/network_analysis/{$docId}_part_{current-grouping-key()}_nodes.tsv" method="text">
+                        <xsl:message select="'Creating ' || current-output-uri()"/>
+                        <xsl:variable name="headerValues" select="
+                            'Id', 'Label', 'Sex'"/>
+                        <xsl:variable name="headerRow" select="string-join($headerValues, $TAB)"/>
+                        <xsl:variable name="dataRows" as="xs:string+">
+                            <xsl:variable name="allWhoValues" 
+                                select="for $row in current-group() return $row?who"
+                                as="xs:string+"/>
+                            <xsl:variable name="allToWhomValues" 
+                                select="for $row in current-group() return $row?toWhom" 
+                                as="xs:string+"/>
+                            <xsl:variable name="distinctIds" 
+                                select="distinct-values(($allWhoValues, $allToWhomValues))"
+                                as="xs:string+"/>
+                            <xsl:variable name="row" 
+                                select="for $id in $distinctIds return 
+                                string-join(($id, dd:getName($id, $people), dd:getSexVal($id, $people)), $TAB)"/>
+                            <xsl:sequence select="$row"/>
+                        </xsl:variable>
+                        <xsl:sequence select="string-join(($headerRow, $dataRows), $NEWLINE)"/>
+                    </xsl:result-document>
+                </xsl:for-each-group>
+            </xsl:if>
+            
+            
+            <!-- If a novel has more than one chapter, create edges and nodes files for each
+                chapter. This includes novels that have chapters but no parts.
+                
+                If there is ever speech in a novel with chapters that appears outside
+                a chapter, the code below will skip such speech. That speech will still appear in
+                the all-novel and per-part files above.-->
+            <xsl:if test="count(//div[@type='chapter']) gt 1">
+                <xsl:for-each-group select="$gephiSubsetData[.?Chapter ne '']" 
+                    group-by="string-join((
+                    if (.?Part ne '') 
+                    then 'part_' || .?Part 
+                    else (),
+                    'chapter_' || .?Chapter), '_')">
+                    <xsl:message select="current-grouping-key() || ' contains ' || count(current-group()) || ' saids'"/>
+                    
+                    
+                    <!--Result Document 6: Edges files for each chapter of each novel, if the novel
+                        has more than one chapter-->
+                    <xsl:result-document href="{$outputDir}/{$docId}/network_analysis/{$docId}_{current-grouping-key()}_edges.tsv" method="text">
+                        <xsl:message select="'Creating ' || current-output-uri()"/>
+                        <xsl:variable name="headerValues" select="
+                            'Location', 'source', 'whoSex', 'target', 'toWhomSex'"/>
+                        <xsl:variable name="headerRow" select="string-join($headerValues, $TAB)"/>
+                        <xsl:variable name="dataRows" as="xs:string+">
+                            <xsl:for-each select="current-group()">
+                                <xsl:variable name="dataToUse" 
+                                    select="string-join((.?Part, .?Chapter, .?Section),'.'),
+                                    .?who, .?whoSex, .?toWhom, .?toWhomSex" as="xs:string+"/>
+                                <xsl:variable name="row" select="string-join($dataToUse, $TAB)" as="xs:string"/>
+                                <xsl:sequence select="$row"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:sequence select="string-join(($headerRow, $dataRows), $NEWLINE)"/>
+                    </xsl:result-document>
+                    
+                    
+                    <!--Result Document 7: Nodes files for each chapter of each novel, if the novel
+                        has more than one chapter.-->
                     <xsl:result-document href="{$outputDir}/{$docId}/network_analysis/{$docId}_{current-grouping-key()}_nodes.tsv" method="text">
                         <xsl:message select="'Creating ' || current-output-uri()"/>
                         <xsl:variable name="headerValues" select="
@@ -333,6 +411,8 @@
                     </xsl:result-document>
                 </xsl:for-each-group>
             </xsl:if>
+            
+            
         </xsl:for-each>
  
     </xsl:template>
