@@ -15,9 +15,6 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" 
   xmlns:sch="http://purl.oclc.org/dsdl/schematron">
   
-  <!-- Kate and Katia to input information about funders. I guess
-  if there is more than one funder, than create a new funder tag
-  for each one?-->
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,8 +26,6 @@
         <author xml:id="JT">Joey Takeda</author>
       </titleStmt>
       
-      <!-- Kate and Katia to update information in the `<publicationStmt>`.
-        Note that this is the place just for information about the ODD!-->
       <publicationStmt xml:id="dd-pubStmt">
         <publisher>Computational Dostoevsky</publisher>
         <pubPlace>Vancouver, British Columbia</pubPlace>
@@ -65,9 +60,7 @@
         <head>Introduction</head>
         <p>This is the technical documentation and guidelines for the Computational Dostoevsky project...</p>
       </div>
-      
-      <!-- Kate and Katia to write the history of the project below.
-        Can really include whatever you want!  Use as many paragraphs as needed.-->
+
       <div xml:id="projectHistory">
         <head>History of the Project</head>
         <p>This project began as "Digital Dostoevsky" based at the University of Toronto in 2019, led by PI Kate Holland and co-PI Katherine Bowers (UBC). It aimed to create a corpus of 7 novels by Fedor Dostoevskii, encode them using TEI-XML, and then use a variety of computational text analysis methods to examine the encoded corpus. "Digital Dostoevsky" was funded by an Insight Grant from the Social Sciences and Humanities Research Council of Canada. From 2019-2025, the project employed 10 undergraduate and graduate student Research Assistants. Library and university staff provided significant advising and support, including Eka Grgurić (UBC), Quinn Daedal (Stanford), Andy Janco (Princeton), Ksenya Kiebuzinski (Toronto), and Simon Wiles (Stanford).</p>
@@ -208,6 +201,49 @@
             MODULE: linking
             *************************************-->
         <moduleRef key="linking" include="anchor seg standOff timeline when"/>
+        
+        <elementSpec ident="liminal" mode="add" ns="http://www.ubc.ca/computationaldostoevsky/ns/1.0">
+          <desc>Identifies a liminal space in the text</desc>
+          <classes>
+            <memberOf key="model.segLike"/>
+            <memberOf key="att.global"/>
+          </classes>
+          <content>
+            <macroRef key="macro.paraContent"/>
+          </content>
+          <attList>
+            <attDef ident="type" mode="add" usage="req">
+              <desc>Characterizes the type of liminality</desc>
+              <datatype><dataRef key="teidata.enumerated"/></datatype>
+              <valList type="closed">
+                <valItem ident="state">
+                  <desc>a liminal condition in a character's internal state</desc>
+                </valItem>
+                <valItem ident="spatial">
+                  <desc>a liminal space</desc>
+                </valItem>
+                <valItem ident="temporal">
+                  <desc>liminal time</desc>
+                </valItem>
+                <valItem ident="atmosphere">
+                  <desc>liminal state in the weather</desc>
+                </valItem>
+                <valItem ident="motion">
+                  <desc>liminal movement of some kind</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="subtype" mode="add" usage="opt">
+              <desc>Provides a location for the moment of liminality, formed from a location's xml:id</desc>
+              <datatype><dataRef key="teidata.enumerated"/></datatype>
+            </attDef>
+          </attList>
+          <exemplum>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              В справедливом негодовании вошел он в <liminal type="spatial" subtype="golkva">переднюю, состоявшую из маленького коридора, в конце которого находилась дверь в сени, крошечку приотворил эту дверь</liminal> и увидел своего служителя, окруженного порядочной кучкой всякого лакейского, домашнего и случайного сброда.
+            </egXML>
+          </exemplum>
+        </elementSpec>
         
         
         <!--*************************************
