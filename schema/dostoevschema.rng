@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2026-09-02T18:19:36Z. . 
+Schema generated from ODD source 2026-11-17T23:10:05Z. . 
 TEI Edition: P5 Version 4.9.0. Last updated on 24th January 2025, revision f73186978 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0/ 
   
@@ -1310,29 +1310,41 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    <define name="tei_model.segLike">
       <choice>
          <ref name="tei_seg"/>
+         <ref name="tei_liminal"/>
       </choice>
    </define>
    <define name="tei_model.segLike_alternation">
       <choice>
          <ref name="tei_seg"/>
+         <ref name="tei_liminal"/>
       </choice>
    </define>
    <define name="tei_model.segLike_sequence">
       <ref name="tei_seg"/>
+      <ref name="tei_liminal"/>
    </define>
    <define name="tei_model.segLike_sequenceOptional">
       <optional>
          <ref name="tei_seg"/>
+      </optional>
+      <optional>
+         <ref name="tei_liminal"/>
       </optional>
    </define>
    <define name="tei_model.segLike_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="tei_seg"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_liminal"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.segLike_sequenceRepeatable">
       <oneOrMore>
          <ref name="tei_seg"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_liminal"/>
       </oneOrMore>
    </define>
    <define name="tei_model.hiLike">
@@ -5316,6 +5328,37 @@ Sample values include: 1] no; 2] yes; 3] weak; 4] strong</a:documentation>
             </data>
          </attribute>
       </optional>
+   </define>
+   <define name="tei_liminal">
+      <element name="liminal" ns="http://www.ubc.ca/computationaldostoevsky/ns/1.0">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Identifies a liminal space in the text</a:documentation>
+         <ref name="tei_macro.paraContent"/>
+         <ref name="tei_att.global.attributes"/>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Characterizes the type of liminality</a:documentation>
+            <choice>
+               <value>state</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a liminal condition in a character's internal state</a:documentation>
+               <value>spatial</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a liminal space</a:documentation>
+               <value>temporal</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">liminal time</a:documentation>
+               <value>atmosphere</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">liminal state in the weather</a:documentation>
+               <value>motion</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">liminal movement of some kind</a:documentation>
+            </choice>
+         </attribute>
+         <optional>
+            <attribute name="subtype">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Provides a location for the moment of liminality, formed from a location's xml:id</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
    </define>
    <start>
       <choice>
