@@ -2,7 +2,7 @@
 <?xml-model href="../../schema/dostoevschema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../schema/dostoevschema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dvoinik" xml:lang="ru"
-	xmlns:dost="http://www.ubc.ca/computationaldostoevsky/ns/1.0">
+	xmlns:dost="https://github.com/Digital-Dostoevsky/tei/ns/1.0">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -251,7 +251,7 @@
 <p><said aloud="false" who="#gol" direct="true"> «Черти бы взяли! </said>
 	— подумал <persName ref="#gol"><roleName>господин</roleName> <surname>Голядкин</surname></persName>.
 — <said aloud="false" who="#gol" direct="true">Эта ленивая бестия может, наконец, вывесть человека из последних границ; где он шатается?» </said>
-	В справедливом негодовании вошел он в <dost:liminal type="spatial" subtype="golkva">переднюю, состоявшую из маленького коридора, в конце которого находилась дверь в сени, крошечку приотворил эту дверь</dost:liminal> и увидел своего служителя, окруженного порядочной кучкой всякого лакейского, домашнего и случайного сброда. <persName ref="#pet"><addName type="diminutive">Петрушка</addName></persName> что-то рассказывал, прочие слушали. По-видимому, ни тема разговора, ни самый разговор не понравились <persName ref="#gol"><roleName>господину</roleName> <surname>Голядкину</surname></persName>. Он немедленно кликнул <persName ref="#pet"><addName type="diminutive">Петрушку</addName></persName> и возвратился в комнату совсем недовольный, даже расстроенный.
+	В справедливом негодовании вошел он в <dost:liminal type="spatial" where="#golkva">переднюю, состоявшую из маленького коридора, в конце которого находилась дверь в сени, крошечку приотворил эту дверь</dost:liminal> и увидел своего служителя, окруженного порядочной кучкой всякого лакейского, домашнего и случайного сброда. <persName ref="#pet"><addName type="diminutive">Петрушка</addName></persName> что-то рассказывал, прочие слушали. По-видимому, ни тема разговора, ни самый разговор не понравились <persName ref="#gol"><roleName>господину</roleName> <surname>Голядкину</surname></persName>. Он немедленно кликнул <persName ref="#pet"><addName type="diminutive">Петрушку</addName></persName> и возвратился в комнату совсем недовольный, даже расстроенный.
 <said aloud="false" who="#gol" direct="true">«Эта бестия ни за грош готова продать человека, а тем более барина,</said>
 — подумал он про себя,—
 <said aloud="false" who="#gol" direct="true"> и продал, непременно продал, пари готов держать, что ни за копейку продал. Ну, что?..» </said></p>
