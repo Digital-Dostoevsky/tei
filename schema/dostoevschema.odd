@@ -280,6 +280,10 @@
         <!--*************************************
             NEW ELEMENTS
             *************************************-->    
+        <!-- A new <liminal> element. Uses `@type` to identify the specific
+        kind of liminality, and uses `@where` with an `@xml:id` to specify
+        the location of the liminal occurrence. See the example at the bottom
+        of this `<elementSpec>` to see how it's used.-->
         <elementSpec ident="liminal" mode="add" ns="https://github.com/Digital-Dostoevsky/tei/ns/1.0">
           <desc>Identifies liminality in the text</desc>
           <classes>
