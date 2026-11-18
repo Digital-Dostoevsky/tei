@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2026-11-17T23:10:05Z. . 
+Schema generated from ODD source 2026-11-18T18:16:51Z. . 
 TEI Edition: P5 Version 4.9.0. Last updated on 24th January 2025, revision f73186978 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0/ 
   
@@ -2650,6 +2650,24 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
          <ref name="tei_model.annotationLike"/>
          <ref name="tei_seg"/>
       </choice>
+   </define>
+   <define name="tei_att.locatable.attributes">
+      <ref name="tei_att.locatable.attribute.where"/>
+   </define>
+   <define name="tei_att.locatable.attribute.where">
+      <optional>
+         <attribute name="where">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates one or more locations by pointing to a <code xmlns="http://www.w3.org/1999/xhtml"
+                     xmlns:rng="http://relaxng.org/ns/structure/1.0">&lt;place&gt;</code> element or other canonical description.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI">
+                     <param name="pattern">\S+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
    </define>
    <define name="tei_model.resource">
       <choice>
@@ -5330,10 +5348,11 @@ Sample values include: 1] no; 2] yes; 3] weak; 4] strong</a:documentation>
       </optional>
    </define>
    <define name="tei_liminal">
-      <element name="liminal" ns="http://www.ubc.ca/computationaldostoevsky/ns/1.0">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Identifies a liminal space in the text</a:documentation>
+      <element name="liminal" ns="https://github.com/Digital-Dostoevsky/tei/ns/1.0">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Identifies liminality in the text</a:documentation>
          <ref name="tei_macro.paraContent"/>
          <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.locatable.attributes"/>
          <attribute name="type">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Characterizes the type of liminality</a:documentation>
             <choice>
@@ -5349,14 +5368,6 @@ Sample values include: 1] no; 2] yes; 3] weak; 4] strong</a:documentation>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">liminal movement of some kind</a:documentation>
             </choice>
          </attribute>
-         <optional>
-            <attribute name="subtype">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Provides a location for the moment of liminality, formed from a location's xml:id</a:documentation>
-               <data type="token">
-                  <param name="pattern">[^\p{C}\p{Z}]+</param>
-               </data>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
