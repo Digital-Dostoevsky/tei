@@ -286,15 +286,15 @@
             <memberOf key="model.segLike"/>
             <memberOf key="att.global"/>
             <memberOf key="att.locatable"/>
+            <memberOf key="att.typed"/>
           </classes>
           <content>
             <macroRef key="macro.paraContent"/>
           </content>
           <attList>
-            <attDef ident="type" mode="add" usage="req">
+            <attDef ident="type" mode="change" usage="req">
               <desc>Characterizes the type of liminality</desc>
-              <datatype><dataRef key="teidata.enumerated"/></datatype>
-              <valList type="closed">
+              <valList mode="add" type="closed">
                 <valItem ident="state">
                   <desc>a liminal condition in a character's internal state</desc>
                 </valItem>
@@ -312,6 +312,7 @@
                 </valItem>
               </valList>
             </attDef>
+            <attDef ident="subtype" mode="delete"/>
           </attList>
           <exemplum>
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
