@@ -74,8 +74,7 @@
         
 7) tsv nodes files for direct speech in each chapter of each novel in the corpus
  that has more than one chapter. Should be called "[novel]_part_[number]_chapter_[number]_nodes."
- If a novel has no parts but has chapters (theoretically possible - defensive programming),
- the output will be named "[novel]_chapter_[number]_nodes".
+ If a novel has no parts but has chapters, the output will be named "[novel]_chapter_[number]_nodes".
  
     Same parameters as the nodes files above, just broken down into chapters.
     
