@@ -12,10 +12,12 @@
     <property name="saxon.jar" value="${libDir}/saxon/saxon-he-12.9.jar"/>
     <property name="schema.basename" value="dostoevschema"/>
     <property name="schema.odd" value="${schemaDir}/${schema.basename}.odd"/>
-    <property name="schema.processedodd" value="${schemaDir}/${schema.basename}.processed.odd"/>
+    <property name="schema.processed.odd" value="${schemaDir}/${schema.basename}.processed.odd"/>
     <property name="schema.lite" value="${schemaDir}/${schema.basename}.lite.odd"/>
     <property name="schema.html" value="${outputDir}/${schema.basename}.html"/>
     <property name="schema.rng" value="${schemaDir}/${schema.basename}.rng"/>
+    <makeurl property="textsDir.uri" file="${textsDir}"/>
+    <makeurl property="outputDir.uri" file="${outputDir}"/>
                                     
     <fileset id="texts" dir="${textsDir}">
         <include name="**/*.xml"/>
@@ -53,7 +55,7 @@
             <arg line="-xsl:${libDir}/xsl-schematron/validate.xsl"/>
             <arg line="-s:${libDir}/xsl-schematron/validate.xsl"/>
             <arg line="rng=${schema.rng}"/>
-            <arg line="dir=${textsDir}"/>
+            <arg value="dir=${textsDir.uri}"/>
         </java>
     </target>
     
@@ -63,7 +65,7 @@
         <java jar="${saxon.jar}" fork="true">
             <arg line="-xsl:${utilitiesDir}/diagnostics.xsl"/>
             <arg line="-it:go"/>
-            <arg line="outputDir=${outputDir}"/>
+            <arg value="outputDir=${outputDir.uri}"/>
         </java>
     </target>
     
@@ -73,7 +75,7 @@
         <java jar="${saxon.jar}" fork="true">
             <arg line="-xsl:${utilitiesDir}/networks/Extraction_code.xsl"/>
             <arg line="-it:allData"/>
-            <arg line="outputDir=${outputDir}"/>
+            <arg value="outputDir=${outputDir.uri}"/>
         </java>
     </target>
     
@@ -83,7 +85,7 @@
         <java jar="${saxon.jar}" fork="true">
             <arg line="-xsl:${utilitiesDir}/speech-features/character_mentions_speech.xsl"/>
             <arg line="-it:characterMentionsSpeech"/>
-            <arg line="outputDir=${outputDir}"/>
+            <arg value="outputDir=${outputDir.uri}"/>
         </java>
     </target>
     
@@ -93,7 +95,7 @@
         <java jar="${saxon.jar}" fork="true">
             <arg line="-xsl:${utilitiesDir}/narrative-features/character_mentions_not_speech.xsl"/>
             <arg line="-it:characterMentionsNotSpeech"/>
-            <arg line="outputDir=${outputDir}"/>
+            <arg value="outputDir=${outputDir.uri}"/>
         </java>
     </target>
     
