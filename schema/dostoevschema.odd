@@ -110,6 +110,31 @@
           monogr name note p ptr pubPlace publisher q quote resp
           respStmt rs said title"/>
         
+ <!--    Restricts the following attributes from appearing 
+   as children of `<q>`: `@who`, `@toWhom`, `@source`, 
+   `@type`, `@subtype`...
+         
+         This is because we don't currently want any speech 
+         within a `<q>` being attributed to anyone, or being
+         categorized in any way.
+         
+        Currently commented out because it breaks our corpus. A
+        good working method might be to activate it (toggle comment
+        off) when cleaning up instances of `<q>` so you can see all
+        the errors, and then deactivate it (toggle comment on) when
+        done for that session.
+          
+          <elementSpec ident="q" module="core" mode="change">
+            <classes mode="change">
+              <memberOf key="att.ascribed.directed" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <attList>
+              <attDef  ident="type" mode="delete"/>
+              <attDef ident="source" mode="delete"/>
+            </attList>
+          </elementSpec>-->
+        
         
         <!--*************************************
             MODULE: header
